@@ -4,7 +4,7 @@ move:karate-chop,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused
 move:double-slap,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:comet-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:mega-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:pay-day,CREDIT TOSS,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:pay-day,CREDIT TOSS,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:fire-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:ice-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:thunder-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -13,7 +13,7 @@ move:vice-grip,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:guillotine,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:razor-wind,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:swords-dance,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:cut,VIBROBLADE,HOTSWAP,DRAFT,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
+move:cut,VIBROBLADE,HOTSWAP,DONE,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
 move:gust,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:wing-attack,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:whirlwind,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -47,7 +47,7 @@ move:growl,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:roar,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:sing,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:supersonic,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:sonic-boom,SONIC BLAST,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:sonic-boom,SONIC BLAST,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:disable,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:acid,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:ember,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -58,10 +58,10 @@ move:hydro-pump,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:surf,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:ice-beam,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:blizzard,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:psybeam,FORCE WAVE,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:psybeam,FORCE WAVE,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:bubble-beam,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:aurora-beam,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:hyper-beam,TURBOLASER,HOTSWAP,DRAFT,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
+move:hyper-beam,TURBOLASER,HOTSWAP,DONE,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
 move:peck,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:drill-peck,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:submission,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -91,8 +91,8 @@ move:earthquake,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:fissure,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:dig,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:toxic,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:confusion,MIND TRICK,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
-move:psychic,FORCE PUSH,HOTSWAP,DRAFT,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
+move:confusion,MIND TRICK,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:psychic,FORCE PUSH,HOTSWAP,DONE,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
 move:hypnosis,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:meditate,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:agility,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -119,7 +119,7 @@ move:bide,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:metronome,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:mirror-move,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:self-destruct,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:egg-bomb,SEED BOMB,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:egg-bomb,SEED BOMB,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:lick,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:smog,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:sludge,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -132,8 +132,8 @@ move:skull-bash,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:spike-cannon,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:constrict,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:amnesia,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:kinesis,TELEKINESIS,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
-move:soft-boiled,SELF REPAIR,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:kinesis,TELEKINESIS,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:soft-boiled,SELF REPAIR,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:hi-jump-kick,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:glare,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:dream-eater,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -147,11 +147,11 @@ move:bubble,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:dizzy-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:spore,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:flash,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:psywave,FORCE PULSE,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:psywave,FORCE PULSE,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:splash,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:acid-armor,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:crabhammer,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:explosion,DETONATE,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:explosion,DETONATE,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:fury-swipes,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:bonemerang,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:rest,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -190,14 +190,14 @@ move:sludge-bomb,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused
 move:mud-slap,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:octazooka,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:spikes,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:zap-cannon,ION CANNON,HOTSWAP,DRAFT,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
+move:zap-cannon,ION CANNON,HOTSWAP,DONE,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
 move:foresight,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:destiny-bond,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:perish-song,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:icy-wind,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:detect,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:bone-rush,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:lock-on,TARGET LOCK,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:lock-on,TARGET LOCK,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:outrage,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:sandstorm,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:giga-drain,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -242,11 +242,11 @@ move:rain-dance,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:sunny-day,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:crunch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:mirror-coat,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:psych-up,FORCE FOCUS,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:psych-up,FORCE FOCUS,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:extreme-speed,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:ancient-power,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:shadow-ball,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:future-sight,FORCE VISION,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:future-sight,FORCE VISION,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:rock-smash,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:whirlpool,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:beat-up,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -293,8 +293,8 @@ move:dive,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:arm-thrust,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:camouflage,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:tail-glow,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:luster-purge,BOGAN PURGE,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
-move:mist-ball,ASHLA MIST,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:luster-purge,BOGAN PURGE,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:mist-ball,ASHLA MIST,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:feather-dance,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:teeter-dance,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:blaze-kick,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -324,7 +324,7 @@ move:cosmic-power,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reuse
 move:water-spout,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:signal-beam,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:shadow-punch,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:extrasensory,FORCE SENSE,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:extrasensory,FORCE SENSE,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
 move:sky-uppercut,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:sand-tomb,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:sheer-cold,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
@@ -349,7 +349,7 @@ move:calm-mind,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:leaf-blade,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:dragon-dance,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
 move:rock-blast,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:shock-wave,FORCE BOLT,HOTSWAP,DRAFT,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
+move:shock-wave,FORCE BOLT,HOTSWAP,DONE,PENDING_ART,,,"Same stats, type and effect; rename only. Wants a new Star Wars VFX."
 move:water-pulse,,KEEP,DONE,KEEP_ANIM,,,Generic move name kept; animation reused.
-move:doom-desire,WHILL'S DOOM,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
-move:psycho-boost,FORCE STORM,HOTSWAP,DRAFT,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:doom-desire,WHILL'S DOOM,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."
+move:psycho-boost,FORCE STORM,HOTSWAP,DONE,KEEP_ANIM,,,"Same stats, type and effect; rename only. Reuses the existing animation."

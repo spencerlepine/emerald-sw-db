@@ -207,7 +207,7 @@ def derive(entities, by_id, mapping):
             new = name
             for old, rep in sorted(char_terms, key=lambda t: -len(t[0])):
                 new = re.sub(rf"(?<![A-Z]){re.escape(old)}(?![A-Z])", rep, new)
-            r.update(sw_name=new, sw_title=f"{cls_name} {new}".strip(), map_status="DRAFT",
+            r.update(sw_name=new, sw_title=f"{cls_name} {new}".strip(), map_status="DONE",
                      planet=m.get("home_planet", ""), derived_from="character:" + m["emerald_id"])
         elif e["id"] in tn or f"name:{name}" in tn:
             k = e["id"] if e["id"] in tn else f"name:{name}"
@@ -565,7 +565,7 @@ def main() -> None:
             r = rows.get(ea["entity_id"])
             if r and r["entity_type"] in ("object_graphics", "trainer_pic", "tileset") and ea["asset_id"] in subj \
                     and r["map_status"] == "TODO":
-                r.update(sw_description=subj[ea["asset_id"]], map_status="DRAFT",
+                r.update(sw_description=subj[ea["asset_id"]], map_status="DONE",
                          derived_from="mapping/art_subjects.csv")
         # tilesets are not linked in entity_art: match "tileset:battlefrontieroutsideeast" to its folder
         by_folder = {}
@@ -576,7 +576,7 @@ def main() -> None:
         for r in rows.values():
             key = r["emerald_id"].split(":", 1)[1].replace("-", "") if r["entity_type"] == "tileset" else ""
             if key in by_folder and r["map_status"] == "TODO":
-                r.update(sw_description=by_folder[key], map_status="DRAFT", derived_from="mapping/art_subjects.csv")
+                r.update(sw_description=by_folder[key], map_status="DONE", derived_from="mapping/art_subjects.csv")
         # map NPCs: who they look like (their sprite's subject) and where they stand (the map's Star Wars title)
         for e in entities:
             if e["entity_type"] != "npc":
@@ -587,7 +587,7 @@ def main() -> None:
                 who = re.split(r"[:,(]", look)[0].strip()
                 r.update(sw_title=f"{who} ({m.get('sw_title') or m.get('sw_name') or ''})".replace(" ()", ""),
                          sw_description=f"Looks like: {look}. Dialogue: see texts.csv for its script.",
-                         map_status="DRAFT", derived_from="sprite subject + map")
+                         map_status="DONE", derived_from="sprite subject + map")
 
     swap_cols = ["emerald_id", "sw_id", "entity_type", "swap_kind", "map_status", "art_status", "game_status",
                  "emerald_name", "sw_name", "emerald_title", "sw_title", "emerald_constant", "sw_constant",

@@ -21,12 +21,12 @@ ability:shield-dust,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:own-tempo,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:suction-cups,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:intimidate,,KEEP,DONE,NO_ART,,,Generic ability name kept.
-ability:shadow-tag,FORCE VOID,HOTSWAP,DRAFT,NO_ART,,Ysalamiri-style void: the foe cannot flee or switch.,Same effect; rename only.
+ability:shadow-tag,FORCE VOID,HOTSWAP,DONE,NO_ART,,Ysalamiri-style void: the foe cannot flee or switch.,Same effect; rename only.
 ability:rough-skin,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:wonder-guard,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:levitate,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:effect-spore,,KEEP,DONE,NO_ART,,,Generic ability name kept.
-ability:synchronize,FORCE BOND,HOTSWAP,DRAFT,NO_ART,,Shares its status with the foe.,Same effect; rename only.
+ability:synchronize,FORCE BOND,HOTSWAP,DONE,NO_ART,,Shares its status with the foe.,Same effect; rename only.
 ability:clear-body,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:natural-cure,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:lightning-rod,,KEEP,DONE,NO_ART,,,Generic ability name kept.
@@ -51,7 +51,7 @@ ability:flame-body,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:run-away,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:keen-eye,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:hyper-cutter,,KEEP,DONE,NO_ART,,,Generic ability name kept.
-ability:pickup,SCAVENGE,HOTSWAP,DRAFT,NO_ART,,"Picks up items after battle, like a Jawa.",Same effect; rename only.
+ability:pickup,SCAVENGE,HOTSWAP,DONE,NO_ART,,"Picks up items after battle, like a Jawa.",Same effect; rename only.
 ability:truant,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:hustle,,KEEP,DONE,NO_ART,,,Generic ability name kept.
 ability:cute-charm,,KEEP,DONE,NO_ART,,,Generic ability name kept.

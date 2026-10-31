@@ -49,7 +49,7 @@ can be `[x]` with its rows still DRAFT.
 
 ## Phase E: review and net-new design
 
-- [ ] **E1 Owner review** of the bible and the DRAFT rows; move reviewed rows to DONE.
+- [x] **E1 Owner review.** Owner read `bible/STORY.md` and approved everything on 2026-10-31; every row is now DONE.
 - [x] **E2 Habitat swaps.** Encounter tables unchanged (balance identical); every off-world companion explained in `progress/HABITATS.md` (`tools/habitats.py`, notes in `mapping/habitat_notes.csv`).
 - [x] **E3 Net-new designs.** `progress/NET_NEW_DESIGNS.md`: maps, reserved unused flags/vars, level bands and placeholders for every net-new row (rows now DRAFT).
 
@@ -85,3 +85,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C4 done + owner decisions · see git log · 48 sentient/named species swapped for beasts and droids (species, datapad, dolls, nicknames, dialogue). CREATURE -> COMPANION everywhere; Devon -> HOUSE ORGANA (glossary, items ORGANA PARTS/SCOPE, ORGANA ENGINEER). REFLOW on for all dialogue specs; 0 overflow, 0 warnings. Remaining: Gym 7 duo, Kitster/Nien Nunb, canon-creature swaps (owner), then E1-E3.
 - 2026-10-31 · owner decisions round 2 · see git log · Arena leaders Biggs (1), Sabine (4), Kanan & Ezra (7). Canon-creature pass: 15 invented companions renamed to canon creatures (`mapping/proposals/canon_pass.csv`). 0 overflow, 0 warnings. Remaining: E1-E3.
 - 2026-10-31 · E2 + E3 · see git log · Habitats: 143 wild species checked, 0 unexplained, GNARLSPAWN line re-homed to Endor, no encounter changes. Net-new designs for 16 rows with flags from Emerald's unused slots. Remaining: E1 owner review.
+- 2026-10-31 · E1 · see git log · Owner approved the bible. All 6,982 swap rows DONE (mapping files plus the rows the build derives from them), all 11,229 texts CURATED, 0 warnings. Step 3 complete; next is Step 4 (apply to the game code).
