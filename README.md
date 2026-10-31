@@ -18,6 +18,7 @@ coverage: [`progress/COVERAGE.md`](progress/COVERAGE.md).
 # emerald-db and starwars-db cloned next to this repo
 python3 tools/build.py      # regenerate database/
 python3 tools/coverage.py   # refresh progress/COVERAGE.md
+python3 tools/habitats.py   # refresh progress/HABITATS.md (wild companions vs. home planets)
 python3 wiki/server.py      # browse at http://127.0.0.1:8000
 ```
 

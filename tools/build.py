@@ -257,7 +257,7 @@ def derive(entities, by_id, mapping):
             suffix = suffix[len(emer_loc):].lstrip(" ·")
         r.update(sw_name=(base + (" · " + suffix if suffix else "")) if base else "",
                  sw_title=(base + (" · " + suffix if suffix else "")) if base else "",
-                 planet=loc.get("planet", ""), map_status=loc.get("map_status", "TODO") if base else "TODO",
+                 planet=loc.get("planet", ""), map_status=loc.get("map_status", "TODO") if base else ("DONE" if loc.get("swap_kind") == "KEEP" else "TODO"),
                  swap_kind=loc.get("swap_kind", "HOTSWAP"),
                  derived_from="location:" + e["location"])
 

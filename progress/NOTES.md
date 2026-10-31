@@ -109,3 +109,8 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 - 15 invented companions were renamed to canon Star Wars creatures where one fits the type and role: `mapping/proposals/canon_pass.csv` lists each change with its new datapad entry. Types, stats, abilities and evolutions are unchanged.
 - Lines: Hawk-bat (TAILLOW, SWELLOW), Shyyyo bird (WINGULL, PELIPPER), Bogling (LOTAD), Oggdo (WOOPER, QUAGSIRE), Rawka (MURKROW), Ikopi (STANTLER), Puffer pig (SPOINK, GRUMPIG), Thala-siren (SEEL, DEWGONG), Mogu (MAKUHITA, HARIYAMA).
 - The other invented names stay because no canon creature fits without breaking a line or a type (most canon creatures are already used). Nicknames, dolls and dialogue follow `species.csv` automatically.
+
+## Habitats and net-new (E2, E3)
+
+- Wild encounter tables stay exactly as in Emerald. `tools/habitats.py` explains every companion found off its home world (migrant, reserve, widespread, sea, story); `species.habitat_note` is superseded by it.
+- Net-new content designs live in `progress/NET_NEW_DESIGNS.md`. New flags/vars use only Emerald's unused slots (`flag:unused-0x020`-`0x025`, `var:unused-0x404e`, `0x4083`, `0x408b`).
