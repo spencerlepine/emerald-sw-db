@@ -9,7 +9,7 @@
 - **Plurals.** Emerald's POKéMON is singular and plural; COMPANION isn't. The build fixes the obvious cases ("COMPANIONS are", "all your COMPANIONS"); the rest is curated text work (C3).
 - **Every image is PENDING_ART** because Step 5 redraws everything. Move animations default to KEEP_ANIM; only the renamed moves that want a Star Wars VFX are PENDING_ART.
 - **Named characters are people, never creatures.** The player is one fixed character chosen at the start; there is no party member that is a story character. (Owner, 2026-10-31.)
-- **Timeline frame: ~2 BBY**, starting on Tatooine (owner's primer). Dead-by-2-BBY prequel figures appear only as visions (the Four Trials), as Order 66 survivors (Vos & Aayla), or in lore.
+- **Timeline frame: ~2 BBY**, starting on Tatooine (owner's primer). Dead-by-2-BBY prequel figures appear only as visions (the Four Trials), as Order 66 survivors (Kanan Jarrus, Obi-Wan), or in lore.
 
 ## Gotchas
 
@@ -22,8 +22,7 @@
 
 - **Decided 2026-10-31:** COMPANION is the word for Pokémon (was CREATURE). Devon is HOUSE ORGANA, Alderaan's royal house; Bail Organa (Mr. Stone) heads it, its engineers make the COMLINK, ORGANA SCOPE and ORGANA PARTS.
 - **Decided 2026-10-31 (decision card): swap for beasts.** All 48 sentient or named species slots now hold beasts or droids (applied from `mapping/proposals/sentient_swap.csv`). Jawas, Wookiees, Ewoks and the rest appear only as people.
-- Gym 7: Quinlan Vos & Aayla Secura (Order 66 survivors) vs. another duo.
-- Arena leader 1 (Kitster) and 4 (Nien Nunb) are the weakest fits.
+- **Decided 2026-10-31 (decision cards):** Gym 7 is Kanan Jarrus & Ezra Bridger (master and Padawan, both alive in 2 BBY). Arena leader 1 is Biggs Darklighter (Rock, Bestine), arena leader 4 is Sabine Wren (Fire, Pirin). The owner also asked for a canon-creature pass on invented species names.
 - Many national-dex creatures are `original` names; happy to swap any for canon creatures you prefer.
 
 ## Text drafting: control codes
@@ -71,7 +70,7 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 
 ## Sullust and Mustafar (C3c)
 
-- Nien Nunb (PIRIN ARENA, Lavaridge) is male; Flannery's grandfather becomes his uncle, a former keeper of the TRIALS OF ILUM.
+- Sabine Wren (PIRIN ARENA, Lavaridge) is female like Flannery; Flannery's grandfather stays her grandfather, a former keeper of the TRIALS OF ILUM.
 - Vader's lines use his canon voice: "Impressive… Most impressive." on defeat; he withdraws saying the Force is strong with the player and names the BLUE KYBER as the next goal (Vader takes the BLUE KYBER at Jedha, Jabba the RED).
 - Mt. Chimney's hot springs are "lava springs" on the peak; Lavaridge keeps hot springs (Sullust).
 - Leia's Meteor Falls line: Emerald's source says SOOTOPOLIS SPACE CENTER (a typo in the original); written as the YAVIN 4 LAUNCH TOWER.

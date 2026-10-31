@@ -7,7 +7,7 @@ MossdeepCity_Text_MossdeepTargetedByMagma,"I heard from a PILOT buddy that\nthe 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers,Wouldn't it be nice?\pIf the whole galaxy was covered in\njungle and flowers like this moon?$,
 MossdeepCity_Text_SurfExhilarating,"A voyage on a ship is fine.\pBut crossing the sea with COMPANIONS\nusing SURF…\pNow that's an exhilarating trip!\nWouldn't you agree, youngster?$",
 MossdeepCity_Text_CitySign,YAVIN 4\n“The jungle moon. Cherish COMPANIONS!”$,
-MossdeepCity_Text_GymSign,"MASSASSI TEMPLE ARENA\nLEADERS: VOS & AAYLA\p“Master and apprentice, one in\nthe Force!”$",
+MossdeepCity_Text_GymSign,"MASSASSI TEMPLE ARENA\nLEADERS: KANAN & EZRA\p“Master and apprentice, one in\nthe Force!”$",
 MossdeepCity_Text_SootopolisNewGymLeader,"Ahh… It feels great letting the waves\nwash over my feet…\pSpeaking of water, you know that\nswamp world DAGOBAH?\pI think the ARENA there had a new\nLEADER come in.\pPeople tell me the new LEADER once\nmentored OBI-WAN.$",
 MossdeepCity_Text_ScottSomethingWrongWithTown,"LANDO: {PLAYER}{KUN}, feeling good?\nI'm doing great!\pI'd heard YAVIN 4's ARENA LEADER is\npretty strong, so I decided to come\ltake a look-see for myself.\pBut there's something wrong about\nthis place.\pPeople are going on about a warning\nletter and the LAUNCH TOWER…\pI don't think it concerns me in any\nway, though.$",
 MossdeepCity_Gym_Text_GymGuideAdvice,"Yo, how's it going, ILUM-bound\n{PLAYER}?\pThe ARENA LEADERS here use\nFORCE-type COMPANIONS.\pIf you go up against them with\nFIGHTING- or POISON-type COMPANIONS,\lthey'll inflict horrible damage!\pPlus, they'll come at you with\noutstanding combination attacks.\pIf you want to win, show them how\ntight you are with your COMPANIONS.\lGo for it!$",
@@ -15,14 +15,14 @@ MossdeepCity_Gym_Text_VirgilPostBattle,"If there are prodigies in the galaxy,\nt
 MossdeepCity_Gym_Text_BlakeIntro,"Fufufufu… Watch me levitate a CAPTURE\nPOD with the Force!\pWrooooooooaaaar!\n… … … … … … …\pSometimes, I'm out of sync…$",
 MossdeepCity_Gym_Text_BlakePostBattle,"A CAPTURE POD was too heavy to lift\nwith the Force. But this dust bunny…\pWhoooooooooooooooh!\n… … … … … …\pNo, I'm not cheating!\nI didn't blow on it! Honestly!$",
 MossdeepCity_Gym_Text_NicholasIntro,Wroooar! Have a taste of my super\nCOMPANIONS hard-battling power!$,
-MossdeepCity_Gym_Text_TateAndLizaIntro,"VOS: Hehehe… Were you surprised?\pAAYLA: Fufufu… Were you surprised?\pVOS: That there are two LEADERS?\nAAYLA: That there are two LEADERS?\pVOS: I was her master!\nAAYLA: I was his PADAWAN!\pVOS: We don't need to talk because…\nAAYLA: Through the Force, we sense…\pVOS: What the other is thinking…\nAAYLA: All in our minds!\pVOS: This combination of ours…\nAAYLA: Can you beat it?$",Vos & Aayla are master and former Padawan (Emerald's twins)
-MossdeepCity_Gym_Text_ExplainCalmMind,VOS: That TM04 contains…\nAAYLA: CALM MIND!\pVOS: It raises SP. ATK and…\nAAYLA: It raises SP. DEF!\pVOS: It's a move that's perfect…\nAAYLA: For FORCE-type COMPANIONS!\p… … … … … …$,
-MossdeepCity_Gym_Text_TateAndLizaPostBattle,"VOS: Looks like the bond between you\nand your COMPANIONS is stronger than\lthe bond of master and apprentice.\pAAYLA: You will become even stronger!\nWe've battled you, so we know.$",
-MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons,"VOS: Hehehe… Were you surprised?\pAAYLA: That there are two LEADERS?\pVOS: Oops, you have only one…\nAAYLA: COMPANION that can battle.\pVOS: We can't battle that way!\pAAYLA: If you want to challenge us,\nbring some more COMPANIONS.$",
+MossdeepCity_Gym_Text_TateAndLizaIntro,"KANAN: Hehehe… Were you surprised?\pEZRA: Fufufu… Were you surprised?\pKANAN: That there are two LEADERS?\nEZRA: That there are two LEADERS?\pKANAN: I am his master!\nEZRA: I am his PADAWAN!\pKANAN: We don't need to talk because…\nEZRA: Through the Force, we sense…\pKANAN: What the other is thinking…\nEZRA: All in our minds!\pKANAN: This combination of ours…\nEZRA: Can you beat it?$",Kanan & Ezra are master and Padawan (Emerald's twins)
+MossdeepCity_Gym_Text_ExplainCalmMind,KANAN: That TM04 contains…\nEZRA: CALM MIND!\pKANAN: It raises SP. ATK and…\nEZRA: It raises SP. DEF!\pKANAN: It's a move that's perfect…\nEZRA: For FORCE-type COMPANIONS!\p… … … … … …$,
+MossdeepCity_Gym_Text_TateAndLizaPostBattle,"KANAN: Looks like the bond between you\nand your COMPANIONS is stronger than\lthe bond of master and apprentice.\pEZRA: You will become even stronger!\nWe've battled you, so we know.$",
+MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons,"KANAN: Hehehe… Were you surprised?\pEZRA: That there are two LEADERS?\pKANAN: Oops, you have only one…\nEZRA: COMPANION that can battle.\pKANAN: We can't battle that way!\pEZRA: If you want to challenge us,\nbring some more COMPANIONS.$",
 MossdeepCity_Gym_Text_GymStatue,MASSASSI TEMPLE ARENA$,
-MossdeepCity_Gym_Text_GymStatueCertified,MASSASSI TEMPLE ARENA\pAAYLA AND VOS'S CERTIFIED TRAINERS:\n{PLAYER}$,
-MossdeepCity_Gym_Text_TateAndLizaPreRematch,VOS: COMPANIONS…\nAAYLA: COMPANIONS…\pVOS: By changing the party's mix…\nAAYLA: The battle style changes.\pVOS: But me…\nAAYLA: But me…\pVOS: I'll always be with AAYLA!\nAAYLA: I'll always be with VOS!\pVOS: Our combination…\nAAYLA: We'll show you again and again!$,
-MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons,VOS: You're back again…\nAAYLA: You're back again…\pVOS: To give us a rematch.\nAAYLA: To give us a rematch.\pVOS: But…\nAAYLA: For our match…\pVOS: You brought just one COMPANION!\nAAYLA: You brought just one COMPANION!\pVOS: We need you to bring at least…\nAAYLA: Two COMPANIONS next time.$,
+MossdeepCity_Gym_Text_GymStatueCertified,MASSASSI TEMPLE ARENA\pEZRA AND KANAN'S CERTIFIED TRAINERS:\n{PLAYER}$,
+MossdeepCity_Gym_Text_TateAndLizaPreRematch,KANAN: COMPANIONS…\nEZRA: COMPANIONS…\pKANAN: By changing the party's mix…\nEZRA: The battle style changes.\pKANAN: But me…\nEZRA: But me…\pKANAN: I'll always be with EZRA!\nEZRA: I'll always be with KANAN!\pKANAN: Our combination…\nEZRA: We'll show you again and again!$,
+MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons,KANAN: You're back again…\nEZRA: You're back again…\pKANAN: To give us a rematch.\nEZRA: To give us a rematch.\pKANAN: But…\nEZRA: For our match…\pKANAN: You brought just one COMPANION!\nEZRA: You brought just one COMPANION!\pKANAN: We need you to bring at least…\nEZRA: Two COMPANIONS next time.$,
 MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree,My little sister exchanges MAIL with\nher boyfriend on ENDOR.\pI don't envy her one bit at all.$,
 MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth,"Even though I can't see my friend\non ENDOR, my COMPANION carries MAIL\lback and forth for us.\pI'm not lonesome, even though we're\napart.$",
 MossdeepCity_House3_Text_GoAfterSeafloorPokemon,Go after the seafloor COMPANIONS with\nyour SUPER ROD.$,
@@ -124,12 +124,12 @@ MossdeepCity_Gym_Text_MaceyDefeat,How could you be so ludicrously\nstrong?$,"rev
 MossdeepCity_Gym_Text_MaceyPostBattle,"Humph! You may be strong, but you're\nnot suitable for the FORCE type!\pThe way you battle is somehow brutal!$",reviewed AUTO draft
 MossdeepCity_Gym_Text_NicholasDefeat,Oh!\nDone in!$,"reviewed, no change needed"
 MossdeepCity_Gym_Text_NicholasPostBattle,All right! I think I'll develop a special\ninvincible COMPANION power next.$,reviewed AUTO draft
-MossdeepCity_Gym_Text_TateAndLizaDefeat,"VOS: What?! Our combination…\nAAYLA: Was shattered!\pVOS: It can't be helped. You've won…\nAAYLA: So, in recognition, take this.$",reviewed AUTO draft
-MossdeepCity_Gym_Text_ReceivedMindBadge,{PLAYER} received the FORCE SHARD\nfrom VOS and AAYLA.$,reviewed AUTO draft
-MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis,"VOS: The FORCE SHARD enhances the\nSP. ATK and SP. DEF of COMPANIONS.\pAAYLA: It also lets you use the HM move\nDIVE outside of battle.\pVOS: You should also take this, too.$",reviewed AUTO draft
-MossdeepCity_Gym_Text_RegisteredTateAndLiza,Registered ARENA LEADERS VOS & AAYLA\nin the COMLINK.$,reviewed AUTO draft
-MossdeepCity_Gym_Text_TateAndLizaRematchDefeat,VOS: You and your COMPANION…\nAAYLA: It's as if you were siblings!$,reviewed AUTO draft
-MossdeepCity_Gym_Text_TateAndLizaPostRematch,"VOS: You can knock us down,\nbut we'll never stay down!\pAAYLA: Because the two of us,\nwe always support each other!$",reviewed AUTO draft
+MossdeepCity_Gym_Text_TateAndLizaDefeat,"KANAN: What?! Our combination…\nEZRA: Was shattered!\pKANAN: It can't be helped. You've won…\nEZRA: So, in recognition, take this.$",reviewed AUTO draft
+MossdeepCity_Gym_Text_ReceivedMindBadge,{PLAYER} received the FORCE SHARD\nfrom KANAN and EZRA.$,reviewed AUTO draft
+MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis,"KANAN: The FORCE SHARD enhances the\nSP. ATK and SP. DEF of COMPANIONS.\pEZRA: It also lets you use the HM move\nDIVE outside of battle.\pKANAN: You should also take this, too.$",reviewed AUTO draft
+MossdeepCity_Gym_Text_RegisteredTateAndLiza,Registered ARENA LEADERS KANAN & EZRA\nin the COMLINK.$,reviewed AUTO draft
+MossdeepCity_Gym_Text_TateAndLizaRematchDefeat,KANAN: You and your COMPANION…\nEZRA: It's as if you were siblings!$,reviewed AUTO draft
+MossdeepCity_Gym_Text_TateAndLizaPostRematch,"KANAN: You can knock us down,\nbut we'll never stay down!\pEZRA: Because the two of us,\nwe always support each other!$",reviewed AUTO draft
 MossdeepCity_House1_Text_HmmYourPokemon,Hmm!\nYour {STR_VAR_1}…$,"reviewed, no change needed"
 MossdeepCity_House1_Text_ItLikesXPokeblocks,"It likes {STR_VAR_1}S,\ndoesn't it?\pNo, I'm positive of it! It definitely\nlikes {STR_VAR_1}S!$","reviewed, no change needed"
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks,It doesn't appear to like or dislike\nany {POKEBLOCK}S.$,"reviewed, no change needed"

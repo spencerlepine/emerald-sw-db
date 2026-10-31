@@ -35,12 +35,12 @@ girl_1|Moisture-farm girl in a desert dress
 girl_2|Spaceport girl with braids and a jacket
 girl_3|Market-town girl with a basket
 brawly|TARFFUL: Wookiee chieftain with a bandolier
-flannery|NIEN NUNB: Sullustan pilot in a flight suit
+flannery|SABINE WREN: Mandalorian girl in painted armor with dyed hair
 juan|YODA: small green Jedi Master with a gimer stick
-liza|AAYLA SECURA: blue Twi'lek Jedi in brown leathers
+liza|EZRA BRIDGER: teenage Padawan in an orange jacket
 norman|DORAN: the player's father, Mos Entha arena leader, rugged pilot coat
-roxanne|KITSTER: young arena leader with a datapad
-tate|QUINLAN VOS: Kiffar Jedi with dreadlocks and a yellow face stripe
+roxanne|BIGGS DARKLIGHTER: young pilot in a flight jacket with a datapad
+tate|KANAN JARRUS: bearded Jedi with a ponytail and green armor plates
 wattson|WATTO: winged Toydarian junk dealer
 winona|CHIRPA: elder Ewok chief with a staff
 hex_maniac|Nightsister in red robes

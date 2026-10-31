@@ -1,5 +1,5 @@
 # Yavin 4 (Mossdeep): the hidden Rebel base, the LAUNCH TOWER (Space Center), Leia's house, the Massassi Temple
-# arena of Quinlan Vos & Aayla Secura (Tate & Liza: master and former Padawan, not twins), Routes 124-125 (sea),
+# arena of Kanan Jarrus & Ezra Bridger (Tate & Liza: master and Padawan, not twins), Routes 124-125 (sea),
 # and Hoth's WAMPA CAVE (Shoal Cave; Emerald's tides become meltwater).
 # Vader's raid on the tower: he would rather wreck Mustafar than leave it to anyone; after losing he doubts
 # himself for a moment (the conflict in him).
@@ -26,23 +26,23 @@ M+"MossdeepTargetedByMagma": r"I heard from a PILOT buddy that\nthe CARTEL set u
 M+"NiceIfWorldCoveredByFlowers": r"Wouldn't it be nice?\pIf the whole galaxy was covered in\njungle and flowers like this moon?$",
 M+"SurfExhilarating": pl("crossing the sea with COMPANION"),
 M+"CitySign": r"YAVIN 4\n“The jungle moon. Cherish COMPANIONS!”$",
-M+"GymSign": r"MASSASSI TEMPLE ARENA\nLEADERS: VOS & AAYLA\p“Master and apprentice, one in\nthe Force!”$",
+M+"GymSign": r"MASSASSI TEMPLE ARENA\nLEADERS: KANAN & EZRA\p“Master and apprentice, one in\nthe Force!”$",
 M+"SootopolisNewGymLeader": r"Ahh… It feels great letting the waves\nwash over my feet…\pSpeaking of water, you know that\nswamp world DAGOBAH?\pI think the ARENA there had a new\nLEADER come in.\pPeople tell me the new LEADER once\nmentored OBI-WAN.$",
 M+"ScottSomethingWrongWithTown": [("this town.", "this place.")],
-# --- Massassi Temple arena (Vos & Aayla) ---
+# --- Massassi Temple arena (Kanan & Ezra) ---
 G+"GymGuideAdvice": r"Yo, how's it going, ILUM-bound\n{PLAYER}?\pThe ARENA LEADERS here use\nFORCE-type COMPANIONS.\pIf you go up against them with\nFIGHTING- or POISON-type COMPANIONS,\lthey'll inflict horrible damage!\pPlus, they'll come at you with\noutstanding combination attacks.\pIf you want to win, show them how\ntight you are with your COMPANIONS.\lGo for it!$",
 G+"VirgilPostBattle": [("If there are prodigies in the world,", "If there are prodigies in the galaxy,")],
 G+"BlakeIntro": r"Fufufufu… Watch me levitate a CAPTURE\nPOD with the Force!\pWrooooooooaaaar!\n… … … … … … …\pSometimes, I'm out of sync…$",
 G+"BlakePostBattle": [("too heavy to lift\npsychically.", "too heavy to lift\nwith the Force.")],
 G+"NicholasIntro": pl("my super\nCOMPANION hard"),
-G+"TateAndLizaIntro": r"VOS: Hehehe… Were you surprised?\pAAYLA: Fufufu… Were you surprised?\pVOS: That there are two LEADERS?\nAAYLA: That there are two LEADERS?\pVOS: I was her master!\nAAYLA: I was his PADAWAN!\pVOS: We don't need to talk because…\nAAYLA: Through the Force, we sense…\pVOS: What the other is thinking…\nAAYLA: All in our minds!\pVOS: This combination of ours…\nAAYLA: Can you beat it?$",
-G+"ExplainCalmMind": [("AAYLA: For FORCE PUSH COMPANION!", "AAYLA: For FORCE-type COMPANIONS!")],
-G+"TateAndLizaPostBattle": r"VOS: Looks like the bond between you\nand your COMPANIONS is stronger than\lthe bond of master and apprentice.\pAAYLA: You will become even stronger!\nWe've battled you, so we know.$",
-G+"TateAndLizaNeedTwoMons": [("AAYLA: That there are two ARENA LEADERS?", "AAYLA: That there are two LEADERS?")],
+G+"TateAndLizaIntro": r"KANAN: Hehehe… Were you surprised?\pEZRA: Fufufu… Were you surprised?\pKANAN: That there are two LEADERS?\nEZRA: That there are two LEADERS?\pKANAN: I am his master!\nEZRA: I am his PADAWAN!\pKANAN: We don't need to talk because…\nEZRA: Through the Force, we sense…\pKANAN: What the other is thinking…\nEZRA: All in our minds!\pKANAN: This combination of ours…\nEZRA: Can you beat it?$",
+G+"ExplainCalmMind": [("EZRA: For FORCE PUSH COMPANION!", "EZRA: For FORCE-type COMPANIONS!")],
+G+"TateAndLizaPostBattle": r"KANAN: Looks like the bond between you\nand your COMPANIONS is stronger than\lthe bond of master and apprentice.\pEZRA: You will become even stronger!\nWe've battled you, so we know.$",
+G+"TateAndLizaNeedTwoMons": [("EZRA: That there are two ARENA LEADERS?", "EZRA: That there are two LEADERS?")],
 G+"GymStatue": r"MASSASSI TEMPLE ARENA$",
-G+"GymStatueCertified": r"MASSASSI TEMPLE ARENA\pAAYLA AND VOS'S CERTIFIED TRAINERS:\n{PLAYER}$",
-G+"TateAndLizaPreRematch": [("VOS: COMPANION…\nAAYLA: COMPANION…", "VOS: COMPANIONS…\nAAYLA: COMPANIONS…")],
-G+"TateAndLizaRematchNeedTwoMons": [("AAYLA: Two COMPANION when you come back.", "AAYLA: Two COMPANIONS next time.")],
+G+"GymStatueCertified": r"MASSASSI TEMPLE ARENA\pEZRA AND KANAN'S CERTIFIED TRAINERS:\n{PLAYER}$",
+G+"TateAndLizaPreRematch": [("KANAN: COMPANION…\nEZRA: COMPANION…", "KANAN: COMPANIONS…\nEZRA: COMPANIONS…")],
+G+"TateAndLizaRematchNeedTwoMons": [("EZRA: Two COMPANION when you come back.", "EZRA: Two COMPANIONS next time.")],
 # --- Houses, mart ---
 "MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree": [("her boyfriend in BRIGHT TREE.", "her boyfriend on ENDOR.")],
 "MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth": [("Even though I can't see my friend in\nBRIGHT TREE,", "Even though I can't see my friend\non ENDOR,")],
@@ -101,7 +101,7 @@ GC+"ShortJumpingPokemonAllowed": pl("is open to COMPANION\naround"),
 "ShoalCave_LowTideLowerRoom_Text_CanOvercomeColdWithFocus": [("The penetrating cold around these\nparts", "The penetrating cold of\nHOTH")],
 }
 NOTES = {
-G+"TateAndLizaIntro": "Vos & Aayla are master and former Padawan (Emerald's twins)",
+G+"TateAndLizaIntro": "Kanan & Ezra are master and Padawan (Emerald's twins)",
 SH+"LetterFromSteven": "Leia's surname: ORGANA (Steven Stone); R1 UNIT (Beldum) is a droid",
 SC2+"MaxieWeFailedIsAquaAlsoMisguided": "Vader's doubt mirrors Maxie's; Jabba's drowned-worlds plan",
 "Route125_Text_ErnestPostBattle": "Shoal Cave tides = Hoth meltwater (same timer)",

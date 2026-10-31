@@ -35,3 +35,7 @@ FIX = {
 NOTES = {
 "MatchCall_Text_May1": "Han (Briney) is a retired smuggler; Chewie (Peeko) is his co-pilot, not a pet",
 }
+
+# --- Biggs Darklighter replaces Roxanne (he/him) ---
+FIX["MatchCall_PersonalizedText25"] = [("I don't dislike her or anything.", "I don't dislike him or anything.")]
+FIX["MatchCall_PersonalizedText26"] = [("battle with her\nyesterday.", "battle with him\nyesterday."), ("let me challenge her!", "let me challenge him!"), ("more I admire her!", "more I admire him!")]

@@ -1,7 +1,7 @@
 # Sullust and Mustafar: Inyusu Tor (Fallarbor), Starfall Cavern (Meteor Falls), Mustafar Peak (Mt. Chimney),
-# Ashen Pass (Jagged Pass), Fiery Path, Pirin (Lavaridge, Nien Nunb's arena).
+# Ashen Pass (Jagged Pass), Fiery Path, Pirin (Lavaridge, Sabine's arena).
 # Vader's motive mirrors Jabba's: Jabba wants every world drowned into Hutt swamps; Vader wants land, order and
-# industry he can control. Nien Nunb is male; his uncle was a keeper of the TRIALS OF ILUM.
+# industry he can control. Sabine Wren is female like Flannery; her grandfather was a keeper of the TRIALS OF ILUM.
 KEEP_REST_MAPS = ("map:fallarbor", "map:meteor-falls", "map:mt-chimney", "map:jagged-pass", "map:fiery-path",
                   "map:lavaridge")
 F = "FallarborTown_"
@@ -13,7 +13,7 @@ L = "LavaridgeTown_"
 LG = "LavaridgeTown_Gym_1F_Text_"
 FIX = {
 # --- Inyusu Tor ---
-F+"Text_HaveYouChallengedFlannery": r"Have you already challenged NIEN NUNB,\nthe LEADER of PIRIN ARENA?\pHis uncle was famous.\nHe was one of the FOUR TRIALS in the\lILUM TEMPLE at one point.\pI wouldn't be surprised if NIEN NUNB\nbecame a great TRAINER in his\lown right.$",
+F+"Text_HaveYouChallengedFlannery": r"Have you already challenged SABINE,\nthe LEADER of PIRIN ARENA?\pHer grandfather was famous.\nHe was one of the FOUR TRIALS in the\lILUM TEMPLE at one point.\pI wouldn't be surprised if SABINE\nbecame a great TRAINER in her\lown right.$",
 F+"Text_TownSign": r"INYUSU TOR\n“A farming town in the ashfall.”$",
 F+"Text_MoveTutorSign": [("“New moves taught to COMPANION.”", "“New moves taught to COMPANIONS.”")],
 F+"ContestHall_Text_MonAllTheseRibbons": [("Have your COMPANION earned any RIBBONS?", "Have yours earned any RIBBONS?")],
@@ -82,10 +82,10 @@ L+"Text_BatheInHotSpringsEveryDay": [("a beautiful and strong\nARENA LEADER", "a
 L+"Text_IfPokemonInHotSprings": [("If people put COMPANION in hot springs,", "If people put COMPANIONS in hot springs,")],
 L+"Text_TownSign": r"PIRIN\p“HOT SPRINGS OF SULLUST\nAn excellent place for relaxing!”$",
 L+"Text_HerbShopSign": r"PIRIN HERB SHOP\n“Bitter taste--better cure!”$",
-L+"Gym_1F_Text_GymGuideAdvice": r"Hey, how's it going, ILUM-bound\n{PLAYER}?\pPIRIN's ARENA LEADER NIEN NUNB\nuses FIRE-type COMPANIONS.\pHis passion for COMPANIONS burns\nhotter than a volcano.\pDon't get too close to him--you'll burn!\nHose him down with water and then\lgo for it!$",
+L+"Gym_1F_Text_GymGuideAdvice": r"Hey, how's it going, ILUM-bound\n{PLAYER}?\pPIRIN's ARENA LEADER SABINE\nuses FIRE-type COMPANIONS.\pHer passion for COMPANIONS burns\nhotter than a volcano.\pDon't get too close to her--you'll burn!\nHose her down with water and then\lgo for it!$",
 LG+"GeraldIntro": [("Can your COMPANION withstand", "Can your COMPANIONS withstand")],
 LG+"DaniellePostBattle": [("a pretty and strong\nTRAINER", "a quick and strong\nTRAINER")],
-LG+"FlanneryIntro": r"Welcome… No, wait.\pPuny TRAINER, how good to see you've\nmade it here!\pI have been entrusted with the…\nNo, wait.\pI am NIEN NUNB, and I'm the ARENA\nLEADER here!\pUh…\nDare not underestimate me, though\lI have been LEADER only a short time!\pWith skills inherited from my uncle,\nI shall, uh…demonstrate the hot\lmoves we have honed on SULLUST!$",
+LG+"FlanneryIntro": r"Welcome… No, wait.\pPuny TRAINER, how good to see you've\nmade it here!\pI have been entrusted with the…\nNo, wait.\pI am SABINE, and I'm the ARENA\nLEADER here!\pUh…\nDare not underestimate me, though\lI have been LEADER only a short time!\pWith skills inherited from my grandfather,\nI shall, uh…demonstrate the hot\lmoves we have honed on SULLUST!$",
 LG+"FlanneryDefeat": [("my COMPANION will be confused.", "my COMPANIONS will be confused.")],
 LG+"ExplainOverheat": [("That move inflicts serious damage", "That move inflicts serious damage")],
 LG+"FlanneryPreRematch": [("I love COMPANION.", "I love COMPANIONS.")],
@@ -95,7 +95,7 @@ L+"PokemonCenter_1F_Text_HotSpringCanInvigorate": [("I wish I could let my COMPA
 }
 NOTES = {
 MC+"MaxieIntro": "Vader's motive mirrors Jabba's: land and order vs swamps (bible/STORY.md)",
-F+"Text_HaveYouChallengedFlannery": "Nien Nunb is male; uncle replaces grandfather",
+F+"Text_HaveYouChallengedFlannery": "Sabine Wren keeps Flannery's grandfather",
 "MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst": "Emerald text says SOOTOPOLIS SPACE CENTER (source typo); the space center is on MOSSDEEP = YAVIN 4",
 }
 

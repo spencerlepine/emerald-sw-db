@@ -48,11 +48,11 @@ kindler|LAVA MINER in a heat suit
 lady|ARISTOCRAT
 lass|Young woman in a Naboo dress
 leader_brawly|TARFFUL, KACHIRHO ARENA leader
-leader_flannery|NIEN NUNB, PIRIN ARENA leader
+leader_flannery|SABINE WREN, PIRIN ARENA leader
 leader_juan|YODA, DAGOBAH ARENA leader
 leader_norman|DORAN, MOS ENTHA ARENA leader
-leader_roxanne|KITSTER, BESTINE ARENA leader
-leader_tate_and_liza|QUINLAN VOS and AAYLA SECURA, MASSASSI TEMPLE leaders
+leader_roxanne|BIGGS DARKLIGHTER, BESTINE ARENA leader
+leader_tate_and_liza|KANAN JARRUS and EZRA BRIDGER, MASSASSI TEMPLE leaders
 leader_wattson|WATTO, MOS ESPA ARENA leader
 leader_winona|CHIRPA, BRIGHT TREE ARENA leader
 leaf|LEAF (FireRed leftover, kept)

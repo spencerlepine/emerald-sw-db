@@ -1,5 +1,5 @@
 text_id,sw_text_raw,notes
-FallarborTown_Text_HaveYouChallengedFlannery,"Have you already challenged NIEN NUNB,\nthe LEADER of PIRIN ARENA?\pHis uncle was famous.\nHe was one of the FOUR TRIALS in the\lILUM TEMPLE at one point.\pI wouldn't be surprised if NIEN NUNB\nbecame a great TRAINER in his\lown right.$",Nien Nunb is male; uncle replaces grandfather
+FallarborTown_Text_HaveYouChallengedFlannery,"Have you already challenged SABINE,\nthe LEADER of PIRIN ARENA?\pHer grandfather was famous.\nHe was one of the FOUR TRIALS in the\lILUM TEMPLE at one point.\pI wouldn't be surprised if SABINE\nbecame a great TRAINER in her\lown right.$",Sabine Wren keeps Flannery's grandfather
 FallarborTown_Text_TownSign,INYUSU TOR\n“A farming town in the ashfall.”$,
 FallarborTown_Text_MoveTutorSign,MOVE TUTOR'S HOUSE\n“New moves taught to COMPANIONS.”$,
 FallarborTown_ContestHall_Text_MonAllTheseRibbons,See!\nMy COMPANION won all these RIBBONS!\pHave yours earned any RIBBONS?\nYou can check them on your COMLINK.$,
@@ -60,18 +60,18 @@ JaggedPass_Text_JulioPostBattle,"My bike bounced around so much,\nmy rear end's 
 JaggedPass_Text_DianaRematchIntro,Picnics are fun wherever you go.\nJust like COMPANIONS!$,
 LavaridgeTown_Text_MayNiceBadgesTakeThis,"MIRA: {PLAYER}{KUN}! Long time no see!\pOh? While I visited the hot springs,\nyou got the PIRIN ARENA SHARD.\pYou must have collected\ngood COMPANIONS…\lNo, I believe you raised some.\pI guess it would be okay for you to\nhave this.$",
 LavaridgeTown_Text_HaveEggWillYouTakeIt,"I have here an EGG.\pI'd hoped to hatch it by covering it in\nhot sand by the hot springs.\lBut that doesn't seem to be enough…\pI've heard it would be best if it were\nkept together with COMPANIONS and\lcarried about.\pYou are a TRAINER, yes?\nAnd your COMPANIONS radiate vitality.\pSo, what say you?\nWill you take this EGG to hatch?$",
-LavaridgeTown_Text_BatheInHotSpringsEveryDay,I bathe in the hot springs every day.\pI want to become a wise and strong\nARENA LEADER like NIEN NUNB.$,
+LavaridgeTown_Text_BatheInHotSpringsEveryDay,I bathe in the hot springs every day.\pI want to become a wise and strong\nARENA LEADER like SABINE.$,
 LavaridgeTown_Text_IfPokemonInHotSprings,"If people put COMPANIONS in hot\nsprings, it might be seriously strange.\pWhy, it might be an electric bath, or\na bubble bath, or even a lava bath…$",
 LavaridgeTown_Text_TownSign,PIRIN\p“HOT SPRINGS OF SULLUST\nAn excellent place for relaxing!”$,
 LavaridgeTown_Text_HerbShopSign,PIRIN HERB SHOP\n“Bitter taste--better cure!”$,
-LavaridgeTown_Gym_1F_Text_GymGuideAdvice,"Hey, how's it going, ILUM-bound\n{PLAYER}?\pPIRIN's ARENA LEADER NIEN NUNB\nuses FIRE-type COMPANIONS.\pHis passion for COMPANIONS burns\nhotter than a volcano.\pDon't get too close to him--you'll burn!\nHose him down with water and then\lgo for it!$",
+LavaridgeTown_Gym_1F_Text_GymGuideAdvice,"Hey, how's it going, ILUM-bound\n{PLAYER}?\pPIRIN's ARENA LEADER SABINE\nuses FIRE-type COMPANIONS.\pHer passion for COMPANIONS burns\nhotter than a volcano.\pDon't get too close to her--you'll burn!\nHose her down with water and then\lgo for it!$",
 LavaridgeTown_Gym_1F_Text_GeraldIntro,Can your COMPANIONS withstand\n392-degree heat?$,
-LavaridgeTown_Gym_1F_Text_DaniellePostBattle,I'm going to be a quick and strong\nTRAINER just like NIEN NUNB.$,
-LavaridgeTown_Gym_1F_Text_FlanneryIntro,"Welcome… No, wait.\pPuny TRAINER, how good to see you've\nmade it here!\pI have been entrusted with the…\nNo, wait.\pI am NIEN NUNB, and I'm the ARENA\nLEADER here!\pUh…\nDare not underestimate me, though\lI have been LEADER only a short time!\pWith skills inherited from my uncle,\nI shall, uh…demonstrate the hot\lmoves we have honed on SULLUST!$",
+LavaridgeTown_Gym_1F_Text_DaniellePostBattle,I'm going to be a quick and strong\nTRAINER just like SABINE.$,
+LavaridgeTown_Gym_1F_Text_FlanneryIntro,"Welcome… No, wait.\pPuny TRAINER, how good to see you've\nmade it here!\pI have been entrusted with the…\nNo, wait.\pI am SABINE, and I'm the ARENA\nLEADER here!\pUh…\nDare not underestimate me, though\lI have been LEADER only a short time!\pWith skills inherited from my\ngrandfather, I shall, uh…demonstrate\lthe hot moves we have honed on\lSULLUST!$",
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat,"Oh…\nI guess I was trying too hard…\pI… I've only recently become\nan ARENA LEADER.\pI tried too hard to be someone\nI'm not.\pI have to do things my natural way. If\nI don't, my COMPANIONS will be confused.\pThanks for teaching me that.\nFor that, you deserve this.$",
 LavaridgeTown_Gym_1F_Text_ExplainOverheat,That TM50 contains OVERHEAT.\pThat move inflicts serious damage on\nthe opponent.\pBut it also sharply cuts the SP. ATK\nof the COMPANION using it. It might not\lbe suitable for longer battles.$,
-LavaridgeTown_Gym_1F_Text_FlanneryPreRematch,NIEN NUNB: Losing a battle isn't going\nto deflate me.\pI love COMPANIONS.\nI love to battle.\lAnd… I love this ARENA!\pLet's exchange superhot moves\nin another battle!$,
-LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons,"NIEN NUNB: Losing a battle isn't going\nto deflate me.\pI love COMPANIONS.\nI love to battle.\lAnd… I love this ARENA!\pLet's exchange superhot moves\nin another battle!\pOh, wait. Do you only have one\nCOMPANION that can battle?\pI hate to say this, but when you come\nsee me, bring at least two COMPANIONS.$",
+LavaridgeTown_Gym_1F_Text_FlanneryPreRematch,SABINE: Losing a battle isn't going\nto deflate me.\pI love COMPANIONS.\nI love to battle.\lAnd… I love this ARENA!\pLet's exchange superhot moves\nin another battle!$,
+LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons,"SABINE: Losing a battle isn't going\nto deflate me.\pI love COMPANIONS.\nI love to battle.\lAnd… I love this ARENA!\pLet's exchange superhot moves\nin another battle!\pOh, wait. Do you only have one\nCOMPANION that can battle?\pI hate to say this, but when you come\nsee me, bring at least two COMPANIONS.$",
 LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike,Herbal medicine works impressively well.\nBut your COMPANIONS will dislike you.\lIt must be horribly bitter!$,
 LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate,"It's sort of magical how just sitting\nin a hot-spring pool can invigorate.\pI wish I could let my COMPANIONS\nsoak, too.$",
 FallarborTown_Text_ShadyCharactersCozmosHome,"Something's happening,\nand I don't like it!\pI've seen shady characters wandering\nin and out of DR. TIEN's home…$",reviewed AUTO draft
@@ -138,17 +138,17 @@ LavaridgeTown_Text_HotSpringsNeverRunDry,"We draw as much hot water as we need,\
 LavaridgeTown_Text_PokemonNippedBackside,Being buried in this hot sand is…\nSigh…\pSo warm and heavenly…\pEh? Gyaah! Ouch!\pA COMPANION nipped my backside!$,reviewed AUTO draft
 LavaridgeTown_Text_OhYouLikeHotSprings,"Oh, you like hot springs, do you?\pThat's surprising for one as young\nas you.$","reviewed, no change needed"
 LavaridgeTown_Text_HotSpringsClaims,"They're claiming that these hot springs\nare good for calming nervous tension,\lrelieving aching muscles, solving\lromantic problems, and attracting\lmoney…$","reviewed, no change needed"
-LavaridgeTown_Text_GymSign,PIRIN ARENA\nLEADER: NIEN NUNB\l“One with a fiery passion that burns!”$,reviewed AUTO draft
+LavaridgeTown_Text_GymSign,PIRIN ARENA\nLEADER: SABINE\l“One with a fiery passion that burns!”$,reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory,Yow! That was a scorching-hot battle!$,"reviewed, no change needed"
 LavaridgeTown_Gym_1F_Text_ColeIntro,"Owowowowow!\nYikes, it's hot!$","reviewed, no change needed"
 LavaridgeTown_Gym_1F_Text_ColeDefeat,I'm blinded by sweat in my eyes…$,"reviewed, no change needed"
 LavaridgeTown_Gym_1F_Text_ColePostBattle,Being buried in hot sand promotes\ncirculation.\pIt's effective for healing pain in\nyour joints.$,"reviewed, no change needed"
 LavaridgeTown_Gym_1F_Text_AxleIntro,I'm trying to relieve my stress.\nDon't come along and stress me out!$,"reviewed, no change needed"
-LavaridgeTown_Gym_1F_Text_AxleDefeat,I hope NIEN NUNB flames you good!$,reviewed AUTO draft
+LavaridgeTown_Gym_1F_Text_AxleDefeat,I hope SABINE flames you good!$,reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_AxlePostBattle,"Haaah… Whew…\pIf you spend too much time buried in\nhot sand, it tuckers you out…$","reviewed, no change needed"
 LavaridgeTown_Gym_B1F_Text_KeeganIntro,"You must be getting tired by now.\nYou'd like to rest in the hot sand,\lwouldn't you?\pBut you should know that maintaining\nyour willpower is an important ability\lfor all TRAINERS.$","reviewed, no change needed"
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat,"Play with fire, and be burned…$","reviewed, no change needed"
-LavaridgeTown_Gym_B1F_Text_KeeganPostBattle,"Your skill is real…\nBut our LEADER NIEN NUNB is strong.\pIf you don't watch yourself, you'll be\nburned seriously.$",reviewed AUTO draft
+LavaridgeTown_Gym_B1F_Text_KeeganPostBattle,"Your skill is real…\nBut our LEADER SABINE is strong.\pIf you don't watch yourself, you'll be\nburned seriously.$",reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_GeraldDefeat,It didn't burn hotly enough…$,"reviewed, no change needed"
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle,"The temperature of magma is\n392 degrees.\pYour COMPANION beat me, so they should\neasily survive in magma.$",reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_DanielleIntro,"Um…\nOkay, I'll battle with you.$","reviewed, no change needed"
@@ -161,14 +161,14 @@ LavaridgeTown_Gym_B1F_Text_JeffDefeat,Something didn't go right.$,"reviewed, no 
 LavaridgeTown_Gym_B1F_Text_JeffPostBattle,"Well, so what? I say so what?\nI can walk on hot coals barefoot!\p…Don't even think about trying it!$","reviewed, no change needed"
 LavaridgeTown_Gym_B1F_Text_EliIntro,"As much as I love mountains,\nI especially love volcanoes.$","reviewed, no change needed"
 LavaridgeTown_Gym_B1F_Text_EliDefeat,"Well, it seems to me I lost without\never being in control.$","reviewed, no change needed"
-LavaridgeTown_Gym_B1F_Text_EliPostBattle,I stay here because I became a fan\nof NIEN NUNB's power.\pHehehehe.$,reviewed AUTO draft
-LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the MAGMA SHARD\nfrom NIEN NUNB.$,reviewed AUTO draft
-LavaridgeTown_Gym_1F_Text_RegisteredFlannery,Registered ARENA LEADER NIEN NUNB\nin the COMLINK.$,reviewed AUTO draft
+LavaridgeTown_Gym_B1F_Text_EliPostBattle,I stay here because I became a fan\nof SABINE's power.\pHehehehe.$,reviewed AUTO draft
+LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge,{PLAYER} received the MAGMA SHARD\nfrom SABINE.$,reviewed AUTO draft
+LavaridgeTown_Gym_1F_Text_RegisteredFlannery,Registered ARENA LEADER SABINE\nin the COMLINK.$,reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle,"Your power reminds me of someone…\pOh! I know! You battle like DORAN,\nthe ARENA LEADER of MOS ENTHA.$",reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_GymStatue,PIRIN ARENA$,reviewed AUTO draft
-LavaridgeTown_Gym_1F_Text_GymStatueCertified,PIRIN ARENA\pNIEN NUNB'S CERTIFIED TRAINERS:\n{PLAYER}$,reviewed AUTO draft
+LavaridgeTown_Gym_1F_Text_GymStatueCertified,PIRIN ARENA\pSABINE'S CERTIFIED TRAINERS:\n{PLAYER}$,reviewed AUTO draft
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat,Whew!\nOn the verge of eruption!$,"reviewed, no change needed"
-LavaridgeTown_Gym_1F_Text_FlanneryPostRematch,"NIEN NUNB: I lost the match,\nbut I'm completely satisfied.\pIt's not often I get to enjoy a battle\nthis heated.\pLet's have another one like this\nagain sometime!$",reviewed AUTO draft
+LavaridgeTown_Gym_1F_Text_FlanneryPostRematch,"SABINE: I lost the match,\nbut I'm completely satisfied.\pIt's not often I get to enjoy a battle\nthis heated.\pLet's have another one like this\nagain sometime!$",reviewed AUTO draft
 LavaridgeTown_HerbShop_Text_WelcomeToHerbShop,"Welcome to the HERB SHOP, home of\neffective and inexpensive medicine!$","reviewed, no change needed"
 LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine,You've come to look at herbal medicine\nin PIRIN?\pThat's rather commendable.\pI like you! Take this!$,reviewed AUTO draft
 LavaridgeTown_HerbShop_Text_ExplainCharcoal,"That CHARCOAL I gave you, it's used\nfor making herbal medicine.\pIt also does wonders when held by\na COMPANION.\pIt intensifies the power of FIRE-type\nmoves.$",reviewed AUTO draft
