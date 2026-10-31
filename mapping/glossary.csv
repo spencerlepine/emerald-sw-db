@@ -49,3 +49,5 @@ PSYCHIC type,FORCE type,text,
 GHOST-type,SPIRIT-type,text,
 GHOST type,SPIRIT type,text,
 POKéMON GYM,ARENA,text,
+BERRIES,FRUIT,text,Berries are Star Wars fruits (B4b)
+BERRY,FRUIT,text,"Covers BERRY BLENDER, BERRY MASTER, BERRY POUCH in dialogue"

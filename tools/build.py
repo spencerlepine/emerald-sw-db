@@ -315,7 +315,7 @@ def visible_len(line: str) -> int:
 
 def draft_texts(terms: dict[str, str]):
     keys = sorted(terms, key=lambda k: (-len(k), k))
-    pattern = re.compile(r"(?<![A-Za-z0-9é])(" + "|".join(re.escape(k) for k in keys) + r")(?![A-Za-z0-9é])")
+    pattern = re.compile(r"(?:(?<=\\[nlp])|(?<![A-Za-z0-9é]))(" + "|".join(re.escape(k) for k in keys) + r")(?![A-Za-z0-9é])")
     curated = {}
     tdir = MAPPING / "texts"
     if tdir.exists():

@@ -25,3 +25,11 @@
 - Gym 7: Quinlan Vos & Aayla Secura (Order 66 survivors) vs. another duo.
 - Arena leader 1 (Kitster) and 4 (Nien Nunb) are the weakest fits.
 - Many national-dex creatures are `original` names; happy to swap any for canon creatures you prefer.
+
+## Text drafting: control codes
+
+`build.py` matches terms whole-word. Emerald's `\n`, `\l`, `\p` put a letter right before the next word, so the lookbehind also accepts a preceding control code. Before this fix about 190 texts silently kept Pokémon terms.
+
+## Berries
+
+All berries are `<NAME> FRUIT` (max 14 chars). Canon where Star Wars has a fruit (jogan, muja, pallie, shuura, blba, hubba), original names otherwise. Dialogue uses FRUIT for BERRY and BERRIES (FRUIT BLENDER, FRUIT MASTER). Effects unchanged.

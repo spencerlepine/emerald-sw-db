@@ -18,15 +18,15 @@ can be `[x]` with its rows still DRAFT.
 - [x] **B1 Creatures.** `mapping/species.csv`: all 386 species with name, basis, planet, concept, habitat notes. Starters WOOKLET / TUSKLING / GUNGLET; legendaries GREATKRAYT / SANDO / EXOGORTH.
 - [x] **B2 Characters & organizations.** `mapping/characters.csv`: 59 characters + 25 organizations, with text terms for dialogue.
 - [x] **B3 Trainer classes, shards, types, abilities.** 66 classes, 8 badges → kyber shards, PSYCHIC/GHOST → FORCE/SPIRIT, 3 ability renames.
-- [~] **B4 Items.** Balls → capture pods, medicine → bacta, key items, held items done; **43 berries still TODO** (→ Star Wars fruits, see B4b).
-  - [ ] B4b Berries → Star Wars fruit names (meiloorun, jogan, muja, pallie, shuura…), max 14 chars incl. " BERRY" or a new suffix.
+- [x] **B4 Items.** Balls → capture pods, medicine → bacta, key items, held items, berries (B4b).
+  - [x] B4b Berries → Star Wars fruit names (meiloorun, jogan, muja, pallie, shuura…), max 14 chars incl. " BERRY" or a new suffix.
 - [x] **B5 Moves.** 22 renames (FORCE PUSH, ION CANNON, TURBOLASER, VIBROBLADE…), rest KEEP.
 - [x] **B6 Locations.** 213 region-map sections → planet + name; 518 map titles derived.
 - [x] **B7 Glossary & net-new seed.** `mapping/glossary.csv`, `mapping/net_new.csv` (planet borders, Boba Fett hunt, droid slicing, Death Star site, new moves).
 
 ## Phase C: story and text
 
-- [ ] **C1 Timeline.** `mapping/timeline.csv`: rewrite all 45 Emerald timeline events (title, tagline, description, lore, planet).
+- [x] **C1 Timeline.** `mapping/timeline.csv`: rewrite all 45 Emerald timeline events (title, tagline, description, lore, planet).
 - [ ] **C2 Trainer names.** 755 generic trainers keep Emerald names (CALVIN, JOEY…). Give them Star Wars-style names (max 10 chars), mapped by trainer id in a new `mapping/trainers.csv`.
 - [ ] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
   - [ ] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon)
@@ -58,3 +58,4 @@ can be `[x]` with its rows still DRAFT.
 Append one line per working session: date · chunk(s) · commit · notes.
 
 - 2026-10-31 · A1, A2, B1–B3, B4 (no berries), B5–B7 · see git log · first full DRAFT pass; 0 build warnings; 3,351 texts auto-drafted, 449 flagged for overflow.
+- 2026-10-31 · C1, B4b · see git log · 45 timeline events DRAFT; 43 berries → `<NAME> FRUIT` (glossary BERRY/BERRIES → FRUIT); fixed auto-draft bug where a term right after `\n`/`\l`/`\p` was skipped (+189 AUTO texts).

@@ -134,7 +134,7 @@ item:yellow-flute,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn
 item:red-flute,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
 item:black-flute,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
 item:white-flute,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
-item:berry-juice,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
+item:berry-juice,FRUIT JUICE,HOTSWAP,DRAFT,PENDING_ART,original,Fruit juice. Same effect as Berry Juice.,
 item:shoal-salt,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
 item:shoal-shell,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
 item:red-shard,RED CRYSTAL,HOTSWAP,DRAFT,PENDING_ART,original,Crystal fragment traded for evolution stones.,Renamed so it never clashes with arena SHARDS (badges).
@@ -172,3 +172,46 @@ item:shell-bell,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn i
 item:sea-incense,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
 item:lax-incense,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
 item:metal-powder,,KEEP,DONE,PENDING_ART,,,Generic name kept; icon still redrawn in Step 5.
+item:cheri-berry,JOGAN FRUIT,HOTSWAP,DRAFT,PENDING_ART,canon:Jogan fruit,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:chesto-berry,MUJA FRUIT,HOTSWAP,DRAFT,PENDING_ART,canon:Muja fruit,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:pecha-berry,PALLIE FRUIT,HOTSWAP,DRAFT,PENDING_ART,canon:Pallie fruit,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:rawst-berry,SHUURA FRUIT,HOTSWAP,DRAFT,PENDING_ART,canon:Shuura fruit,Fruit from Naboo. Same effect as the Emerald berry.,
+item:aspear-berry,BLBA FRUIT,HOTSWAP,DRAFT,PENDING_ART,canon:Blba tree,Fruit from Dantooine. Same effect as the Emerald berry.,
+item:leppa-berry,WROSHYR FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Kashyyyk (wroshyr seed pod). Same effect as the Emerald berry.,
+item:oran-berry,HUBBA FRUIT,HOTSWAP,DRAFT,PENDING_ART,canon:Hubba gourd,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:persim-berry,SAPIR FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Endor. Same effect as the Emerald berry.,
+item:lum-berry,ILUM FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Ilum (frost fruit that grows near kyber). Same effect as the Emerald berry.,
+item:sitrus-berry,JUMBA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Felucia. Same effect as the Emerald berry.,
+item:figy-berry,SUNRED FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:wiki-berry,KASHA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Kashyyyk. Same effect as the Emerald berry.,
+item:mago-berry,MOSSRA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Dagobah. Same effect as the Emerald berry.,
+item:aguav-berry,AGARA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Yavin 4. Same effect as the Emerald berry.,
+item:iapapa-berry,PAPAWA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Kamino. Same effect as the Emerald berry.,
+item:razz-berry,RAZAK FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Endor. Same effect as the Emerald berry.,
+item:bluk-berry,BLUSK FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Dagobah. Same effect as the Emerald berry.,
+item:nanab-berry,NANAKA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Felucia. Same effect as the Emerald berry.,
+item:wepear-berry,WEPA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Endor. Same effect as the Emerald berry.,
+item:pinap-berry,PINJA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Yavin 4. Same effect as the Emerald berry.,
+item:pomeg-berry,POMOGO FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Sullust. Same effect as the Emerald berry.,
+item:kelpsy-berry,KELPA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Kamino. Same effect as the Emerald berry.,
+item:qualot-berry,QUALA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Kashyyyk. Same effect as the Emerald berry.,
+item:hondew-berry,DEWMELON FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:grepa-berry,GRAVA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Bespin. Same effect as the Emerald berry.,
+item:tamato-berry,TAMATA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Sullust. Same effect as the Emerald berry.,
+item:cornn-berry,CORNA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:magost-berry,MAGOSA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Jedha. Same effect as the Emerald berry.,
+item:rabuta-berry,RABUTO FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Endor. Same effect as the Emerald berry.,
+item:nomel-berry,NOMELA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Hoth. Same effect as the Emerald berry.,
+item:spelon-berry,SPELNA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Mustafar. Same effect as the Emerald berry.,
+item:pamtre-berry,PAMTRA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Felucia. Same effect as the Emerald berry.,
+item:watmel-berry,DUNEMEL FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Tatooine. Same effect as the Emerald berry.,
+item:durin-berry,DURA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Sullust. Same effect as the Emerald berry.,
+item:belue-berry,BELUA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Kamino. Same effect as the Emerald berry.,
+item:liechi-berry,LIESHA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Dagobah. Same effect as the Emerald berry.,
+item:ganlon-berry,GANLO FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Jedha. Same effect as the Emerald berry.,
+item:salac-berry,SALAKA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Felucia. Same effect as the Emerald berry.,
+item:petaya-berry,PETAJA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Yavin 4. Same effect as the Emerald berry.,
+item:apicot-berry,APIKA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Hoth. Same effect as the Emerald berry.,
+item:lansat-berry,LANSA FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Ilum. Same effect as the Emerald berry.,
+item:starf-berry,STARFALL FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from Sullust (grows where meteorites land). Same effect as the Emerald berry.,
+item:enigma-berry,WHILLS FRUIT,HOTSWAP,DRAFT,PENDING_ART,original,Fruit from unknown (event fruit). Same effect as the Emerald berry.,
