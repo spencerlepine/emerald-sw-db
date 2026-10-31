@@ -1,0 +1,158 @@
+text_id,sw_text_raw,notes
+Route111_Text_ToughToKeepWinningUpTheRanks,"If you don't raise your CREATURES some\nmore, it could be tough to keep winning\lup through the ranks.\pI've heard the ILUM TEMPLE's\nFOUR TRIALS are far stronger than\lany ARENA LEADER.$",
+Route111_Text_ShouldBeMirageTowerAroundHere,"There should be a giant SANDCRAWLER\naround here somewhere.\pBut for some reason, you can see it\nsometimes, and sometimes not.\pThe JAWAS keep driving it around,\nI guess.$",Mirage Tower = a JAWA SANDCRAWLER that appears and vanishes
+Route111_Text_MirageTowerClearlyVisible,"I see it!\nThe SANDCRAWLER!\pThe one they said was a mirage\nis clearly visible!\pBut it looks so rusty…\nIt could fall apart anytime…\pI want to go inside it, but I can't\nget my courage up for it…$",
+Route111_Text_ThatWasShockingSandRainedDown,Whoa…\nThat was shocking.\pThe SANDCRAWLER just fell apart all\nof a sudden.\pWhat was it like inside?\nWere there JAWAS and such?$,
+Route111_Text_MirageTowerHasntBeenSeenSince,"Since I spoke to you, the SANDCRAWLER\nhasn't been seen.\pPerhaps the JAWAS sold it for\nparts…$",
+Route111_OldLadysRestStop_Text_RestUpHere,"Oh, dear, dear.\nAren't your CREATURES exhausted?\pIf you'd like, rest up here.\nThat's a fine idea! You should do that.$",
+Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest,"Oh, dear, dear.\nAre your CREATURES still tired?\pYou should take another rest here.\nThat's a fine idea. You should do that.$",
+Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou,"You're the first TRAINER I've seen who\ndeploys CREATURES so masterfully.\pBut, I should tell you--my son is\nstronger than you.\pHe even took the ILUM TEMPLE\nchallenge, I'll have you know.$",
+Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace,"We use this MACHO BRACE to more\neffectively strengthen our CREATURES\lin training.\pSince you've beaten all of us here,\nI don't know if you need it, but we\lwould like you to have our MACHO BRACE.$",
+Route111_WinstrateFamilysHouse_Text_GrandsonStrong,"There's no question that you're strong.\pBut if you were to battle my grandson,\nyou'd end up crying in frustration.\pHe's much stronger than any TRAINER\nour family knows.\pHe must be taking the TRIALS OF\nILUM by now.\pKnowing my grandson, he could have\npassed them already!$",
+Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort,"My grandson must be taking the\nTRIALS OF ILUM by now.\pKnowing my grandson, he could have\npassed them already!$",
+Route112_Text_LeaderGoingToAwakenThing,"Hey, is LORD VADER really going\nto awaken that thing?$",
+Route112_Text_YeahWeNeedMeteorite,Those are our orders. But I heard\nwe need a METEORITE to do it.$,
+Route113_Text_FunWalkingThroughAsh,It's fun walking through the volcano's\nashes on the ground and scrub.\pYou can see where you walked--it's\nreally neat!$,
+Route114_Text_AllMyMonDoesIsRoarTakeThis,"All my CREATURE does is ROAR…\nNo one dares to come near me…\pSigh… If you would, please take\nthis TM away…$",
+Route114_Text_ExplainRoar,TM05 contains ROAR.\nA ROAR sends CREATURES scurrying.$,
+Route114_Text_Poochyena,Grrrarf! Rrarf!$,
+Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils,"You found a FOSSIL, didn't you?\nThat's so nice… It's so dreamy…\pWhat are you going to do with that\nFOSSIL?\pFrom what I've heard, INCOM is doing\nresearch on reviving CREATURES from\lFOSSILS…\pI love my FOSSILS, so I would never\ndo anything like that…$",
+Route114_LanettesHouse_Text_ResearchNotesPage1,It's TESS's research notes.\nThere's information about BOXES.\pBOXES should hold 30 CREATURES each.\pEach TRAINER should be able to store\n420 CREATURES on the system.\pKeep reading?$,
+Route114_LanettesHouse_Text_ResearchNotesPage2,A marking system should be added to\nmake CREATURES easier to organize.\pThe name and wallpaper design of each\nBOX will be made changeable to please\lthe stored CREATURES.\pKeep reading?$,
+Route114_LanettesHouse_Text_EmailFromBill,"There's a message from someone on\nthe terminal.\p“… … … … … … …\p“Your Storage System offers more\nconvenience than mine.\p“It has a lot of user-friendly features\nthat make it fun and useful, too.\p“It makes me proud that I played\na part in its development.\p“Here's hoping that you'll continue\nresearch in Storage Systems.\p“From LOBOT, CLOUD CITY\n… … … … … … … …”$",BILL (Kanto) -> LOBOT of Cloud City
+Route117_Text_DayCareSign,CREATURE NURSERY\n“Let us raise your CREATURES.”$,
+VerdanturfTown_Text_ManTryingToDigTunnel,My papa told me.\pHe says this tunnel is full of\ntimid CREATURES.\pThey get all scared of loud noise and\nmake a big uproar.\pSo they had to stop the big tunnel\nproject.\pBut there's one man. He's trying to dig\nthe tunnel by himself!$,
+VerdanturfTown_Text_AirCleanHere,"The way the winds blow, sandstorms\nnever reach this far.\pThe air is clean and fresh here.\nLiving here should do wonders for\lanyone stuck on a moisture farm.$",
+VerdanturfTown_Text_TownSign,ANCHORHEAD\p“The windswept town where moisture\nfarmers meet.”$,
+VerdanturfTown_ContestHall_Text_RaisedMonToBeCute,I raised my CREATURE to be cute.\pI found out you can put CREATURES in\na SHOWCASE for cuteness!\pI'm so glad I raised my CREATURE with\nloving care…$,
+VerdanturfTown_Mart_Text_NestBallOnWeakenedPokemon,The NEST POD works better on\nweakened CREATURES.\pANCHORHEAD is the only place you can\nbuy it.$,
+VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon,You can't consider yourself a real\nTRAINER if you don't have faith\lin your CREATURES.\pOnly those people who can believe\nin their battling CREATURES can win\lthrough to the very end.$,
+VerdanturfTown_House_Text_TrainersGatherAtPokemonLeague,"Far away, on the ice world ILUM,\nis the ILUM TEMPLE.\pThe TRAINERS who gather there are\nall frighteningly well skilled.$",
+VerdanturfTown_WandasHouse_Text_WallysNextDoor,"UNCLE: Oh! {PLAYER}{KUN}!\nLUKE's next door.\pBut, boy, there's something I have to\ntell you.\pGetting off the farm is doing\nwonders for LUKE's spirits.\pMaybe it's not just the environment.\nIt could be CREATURES that are giving\lthe boy hope.$",
+VerdanturfTown_WandasHouse_Text_WallyGoneThatFar,"UNCLE: Is that right?\nLUKE's gone away that far all by\lhimself…\pWell, I have to give him credit--he\nhas his father's restless blood.$",
+VerdanturfTown_WandasHouse_Text_MeetWanda,"CAMIE: You are?\nOh, right, I get it!\pYou're the {PLAYER} who LUKE was\ntelling me about.\pI've known LUKE since we were kids.\nGlad to meet you!\pI think LUKE's grown a lot more\nconfident since he came here.$",
+VerdanturfTown_WandasHouse_Text_DontWorryAboutWally,"CAMIE: Don't worry about LUKE.\nHe'll be just fine.\pI know LUKE, and he has\nCREATURES with him, too.$",
+VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally,"If anything were to happen to LUKE,\nI would never be able to look OWEN\land BERU in the eye…$",
+VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande,LUKE was on ILUM?\pOWEN and BERU would be astonished\nto hear that!$,
+DesertUnderpass_Text_FoundRootFossil,{PLAYER} found the FROND FOSSIL.$,reviewed AUTO draft
+DesertUnderpass_Text_FoundClawFossil,{PLAYER} found the CLAW FOSSIL.$,"reviewed, no change needed"
+MirageTower_4F_Text_TakeRootFossil,"You found the FROND FOSSIL.\pIf this FOSSIL is taken, the ground\naround it will likely crumble away…\pTake the FROND FOSSIL anyway?$",reviewed AUTO draft
+MirageTower_4F_Text_LeftRootFossilAlone,{PLAYER} left the FROND FOSSIL alone.$,reviewed AUTO draft
+MirageTower_4F_Text_TakeClawFossil,"You found the CLAW FOSSIL.\pIf this FOSSIL is taken, the ground\naround it will likely crumble away…\pTake the CLAW FOSSIL anyway?$","reviewed, no change needed"
+MirageTower_4F_Text_LeaveClawFossilAlone,{PLAYER} left the CLAW FOSSIL alone.$,"reviewed, no change needed"
+Route111_Text_BattleOurFamily,Hello! I take it you're a traveler.\pHow's this? What do you say to taking\non our family of four in a series of\lCREATURE battles?$,reviewed AUTO draft
+Route111_Text_IsThatSo,"Is that so?\nDrop in, if you change your mind!$","reviewed, no change needed"
+Route111_Text_VictorIntro,That's the spirit! I like you!$,"reviewed, no change needed"
+Route111_Text_VictorDefeat,Aiyah!\nYou're a lot tougher than I expected!$,"reviewed, no change needed"
+Route111_Text_VictorPostBattle,"Hey, all!\nI've found a pretty strong TRAINER!$","reviewed, no change needed"
+Route111_Text_VictoriaIntro,"Oh, my goodness! Aren't you young?\pYou must be quite the TRAINER to beat\nmy husband, though.\pIt's my turn to battle now!$","reviewed, no change needed"
+Route111_Text_VictoriaDefeat,"Oh, gosh!\nI can't get over how strong you are!$","reviewed, no change needed"
+Route111_Text_VictoriaPostBattle,There's a strong TRAINER here!\nThis one's really strong!$,"reviewed, no change needed"
+Route111_Text_ViviIntro,"You're stronger than Mommy? Wow!\pBut I'm strong, too!\nReally! Honestly!$","reviewed, no change needed"
+Route111_Text_ViviDefeat,Huh? Did I just lose?$,"reviewed, no change needed"
+Route111_Text_ViviPostBattle,This stinks…\p…Snivel… Grandma!$,"reviewed, no change needed"
+Route111_Text_VickyIntro,"How dare you make my granddaughter\ncry!\pFor that, I'm going to smack you!\nPrepare to lose!$","reviewed, no change needed"
+Route111_Text_VickyDefeat,Kwah! You are strong…\nMy granddaughter was right…$,"reviewed, no change needed"
+Route111_Text_VickyPostBattle,"If you're not in any hurry,\nvisit with us awhile.$","reviewed, no change needed"
+Route111_Text_WinstrateFamilyDestroyedMe,"I challenged the WINSTRATE family,\nbut four matches in a row is tough\lgoing… They destroyed me.$","reviewed, no change needed"
+Route111_Text_RouteSignMauville,ROUTE 111\n{DOWN_ARROW} MOS ESPA$,reviewed AUTO draft
+Route111_Text_WinstrateHouseSign,“Our family's hearts beat as one!”\nTHE WINSTRATE'S HOUSE$,"reviewed, no change needed"
+Route111_Text_RouteSign112,ROUTE 111\n{LEFT_ARROW} ROUTE 112$,"reviewed, no change needed"
+Route111_Text_RouteSign113,ROUTE 111\n{LEFT_ARROW} ROUTE 113$,"reviewed, no change needed"
+Route111_Text_OldLadysRestStopSign,OLD LADY'S REST STOP\n“Come in and rest your tired bones.”$,"reviewed, no change needed"
+Route111_Text_TrainerTipsSpAtkSpDef,"TRAINER TIPS\pOne of the indicators of a CREATURE's\npowerfulness is SP. ATK. It stands for\l“SPECIAL ATTACK.”\pLikewise, SP. DEF stands for “SPECIAL\nDEFENSE.”$",reviewed AUTO draft
+Route111_Text_ClawFossilDisappeared,The CLAW FOSSIL disappeared into\nthe sand…$,"reviewed, no change needed"
+Route111_Text_RootFossilDisappeared,The FROND FOSSIL disappeared into\nthe sand…$,reviewed AUTO draft
+Route111_Text_MauvilleUncleToldMeToTakeRockSmash,"Oh, no!\pMy uncle in MOS ESPA told me to take\nROCK SMASH with me if I was going to\lROUTE 111!\pMy uncle? He lives across from\nthe bike shop in MOS ESPA.$",reviewed AUTO draft
+Route111_Text_TrainerHillSign,"{RIGHT_ARROW} TRIAL SPIRE ENTRANCE\p“Scale the heights, you hot-blooded\nTRAINERS!”$",reviewed AUTO draft
+Route111_OldLadysRestStop_Text_TakeYourTimeRestUp,That's right.\nTake your time and rest up!$,"reviewed, no change needed"
+Route111_OldLadysRestStop_Text_DontNeedToBeShy,Is that so?\nYou don't need to be shy about it.$,"reviewed, no change needed"
+Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles,"When it comes to CREATURE battles,\nwe tend to be pretty passionate.$",reviewed AUTO draft
+Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers,Mommy is stronger than Daddy.\pI'm stronger than Mommy.\pAnd Grandma's stronger than me!\pBut my big brother is even stronger\nthan Grandma.$,"reviewed, no change needed"
+Route112_Text_OhThatsWhyCrewWentToFallarbor,"Oh, I get it now. That's why the rest\nof the crew went out to INYUSU TOR.$",reviewed AUTO draft
+Route112_Text_CantLetAnyonePassUntilTheyreBack,"You got it. And until they come back,\nwe're not to let anyone pass, right.$","reviewed, no change needed"
+Route112_Text_NotEasyToGetBackToLavaridge,"Eh, I'd like to get to MOS ESPA, but if\nI went down these ledges, it'd be no\leasy matter to get back to PIRIN.$",reviewed AUTO draft
+Route112_Text_MtChimneyCableCarSign,MUSTAFAR PEAK SHUTTLE\n“A short walk {UP_ARROW} way!”$,reviewed AUTO draft
+Route112_Text_MtChimneySign,"MUSTAFAR PEAK\p“For PIRIN or the summit,\nplease take the SHUTTLE.”$",reviewed AUTO draft
+Route112_Text_RouteSignLavaridge,ROUTE 112\n{LEFT_ARROW} PIRIN$,reviewed AUTO draft
+Route112_CableCarStation_Text_CableCarReadyGetOn,The SHUTTLE is ready to go up.\nWould you like to be on it?$,reviewed AUTO draft
+Route112_CableCarStation_Text_StepThisWay,Please step this way.$,"reviewed, no change needed"
+Route112_CableCarStation_Text_RideAnotherTime,Please ride with us another time.$,"reviewed, no change needed"
+Route113_Text_AshCanBeFashionedIntoGlass,Wahahaha! Today's technology is a\nwondrous thing!\pTake this volcanic ash here.\nIt can be fashioned into glass.$,"reviewed, no change needed"
+Route113_Text_RouteSign111,ROUTE 113\n{RIGHT_ARROW} ROUTE 111$,"reviewed, no change needed"
+Route113_Text_RouteSignFallarbor,ROUTE 113\n{LEFT_ARROW} INYUSU TOR$,reviewed AUTO draft
+Route113_Text_TrainerTipsRegisterKeyItems,TRAINER TIPS\pYou may register one of the KEY ITEMS\nin your BAG as SELECT.\pSimply press SELECT to use\nthe registered item conveniently.$,"reviewed, no change needed"
+Route113_Text_GlassWorkshopSign,GLASS WORKSHOP\n“Turning Volcanic Ash into Glass Items”$,"reviewed, no change needed"
+Route113_GlassWorkshop_Text_GoCollectAshWithThis,"This area is covered in volcanic ash,\nhuff-puff!\pI'm specially gifted, huff-puff.\pI make glass out of volcanic ash\nand make items, huff-puff.\pGo collect ashes with this, huff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_ExplainSootSack,"Just take that ASH SACK and walk\nthrough piles of ash, huff-puff.\pAnd it will fill up with the volcanic ash,\nhuff-puff.\pOnce you think you've collected a good\namount, come see me, huff-puff.$",reviewed AUTO draft
+Route113_GlassWorkshop_Text_LetsSeeCollectedAshes,"Have you collected ashes, huff-puff?\nLet me see, huff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_NotEnoughAshNeedX,"Hmmm…\nThere's not enough ash here, huff-puff.\lI can't make glass with this, huff-puff.\pLet's see… {STR_VAR_1} is the number of steps\nyou'll need to walk for me to make you\la BLUE FLUTE, huff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_WhichGlassItemWoudYouLike,"Oh!\nYou've got a lot of ashes, huff-puff!\pI'll make you a glass item, huff-puff!\nWhich one would you like, huff-puff?$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_IsThatTheItemForYou,"A {STR_VAR_1}, huff-puff?\nIs that the one for you, huff-puff?$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_WhichWouldYouLike,"Which one would you like, huff-puff?$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_IllMakeItemForYou,"A {STR_VAR_1} it is, then, huff-puff!\pOkay! I'll make it for you, huff-puff.\nJust wait a little while, huff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_NotEnoughAshToMakeItem,"A {STR_VAR_1}, huff-puff?\pThere's not enough ash here to make\nthat, though, huff-puff.\pLet's see… {STR_VAR_2} is the number of steps\nyou'll need to walk through volcanic ash\lfor me to make that item, huff-puff.\pWhich item would you rather have me\nmake instead, huff-puff?$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_AllThatAshButDontWantAnything,"You've collected all that ash, but you\ndon't want anything, huff-puff?$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_IveFinishedGlassItem,"Ah, I've finished your {STR_VAR_1}.\nTake it, huff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_NoRoomInBag,"Oh?\nYou've no room in your BAG, huff-puff.\pI'll hold on to it, so come back later,\nhuff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_NoRoomInPC,"Oh?\nYou've no room in your PC, huff-puff?\pI'll hold on to it, so come back later,\nhuff-puff.$","reviewed, no change needed"
+Route113_GlassWorkshop_Text_HaventGotYourSootSack,"Hah? You haven't got your ASH SACK\nwith you, huff-puff.\pYou have to keep it with you to collect\nvolcanic ash, huff-puff.$",reviewed AUTO draft
+Route113_GlassWorkshop_Text_FunToBlowGlassFlute,It's fun to blow a glass flute while\nmy boss is talking.\pHuff-huff! Puff-puff!$,"reviewed, no change needed"
+Route114_Text_MeteorFallsSign,STARFALL CAVERN\nBESTINE THROUGH HERE$,reviewed AUTO draft
+Route114_Text_FossilManiacsHouseSign,FOSSIL MANIAC'S HOUSE\n“Fossils gratefully accepted!”$,"reviewed, no change needed"
+Route114_Text_LanettesHouse,TESS'S HOUSE$,reviewed AUTO draft
+Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother,"My big brother's the FOSSIL MANIAC…\nHe's a nice guy who loves FOSSILS…\pHe loves digging holes, too…\nHe dug this hole by himself…\pYou can have this, so you can DIG\nholes just like my big brother…$","reviewed, no change needed"
+Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance,"If you make a CREATURE DIG inside a\ncave, you're returned to the entrance…$",reviewed AUTO draft
+Route114_FossilManiacsHouse_Text_RocksFillDisplayCase,Rocks in peculiar shapes fill\nthe display case…$,"reviewed, no change needed"
+Route114_FossilManiacsHouse_Text_CrammedWithBooks,"THE COMPOSITION OF STRATA…\nHOW RAIN SHAPES THE LAND…\lSTONES, SOIL, AND ROCK…\pIt's crammed with books.$","reviewed, no change needed"
+Route114_FossilManiacsTunnel_Text_LookInDesertForFossils,"I'm the FOSSIL MANIAC…\nI'm a nice guy who loves FOSSILS…\pDo you want a FOSSIL?\pBut the FOSSILS around these parts all\nbelong to me… None for you…\pIf you can't bear to go without\na FOSSIL, look in a desert where there\lare boulders and sand that may hide\lFOSSILS…$","reviewed, no change needed"
+Route114_FossilManiacsTunnel_Text_FossilsAreWonderful,FOSSILS are so… Wonderful…\nIt's so dreamy…$,"reviewed, no change needed"
+Route114_FossilManiacsTunnel_Text_NotSafeThatWay,"Oh…\nIt's not safe that way…\pI was digging away, you see…\nWhen the whole wall collapsed…\pI think there's a giant cavern\nunderneath now…\pBut I've left it alone because I don't\nthink there are any FOSSILS there…$","reviewed, no change needed"
+Route114_LanettesHouse_Text_EverythingClutteredKeepThis,"TESS: Oh! {PLAYER}{KUN}!\pI'm sorry everything is so cluttered…\nWhen I get engrossed in research,\lthings end up this way…\pThis is embarrassing… Please keep\nthis a secret in exchange for this.$",reviewed AUTO draft
+Route114_LanettesHouse_Text_OrganizeYourBoxes,May I offer advice about my CREATURE\nStorage System?\pYou should organize your BOXES so you\ncan tell which CREATURES are in them.$,reviewed AUTO draft
+Route114_LanettesHouse_Text_ResearchNotesPage3,"When storing a CREATURE, it should be\nsent to the BOX inspected last.\pIf that BOX is full, the received\nCREATURE is stored in the next BOX.\pIn other words, when a BOX is examined,\nit is automatically selected as the BOX\lto which CREATURES are sent.$",reviewed AUTO draft
+Route114_LanettesHouse_Text_ClosedTheNotebook,{PLAYER} closed the notebook.$,"reviewed, no change needed"
+Route115_Text_NeverKnowWhenCavePokemonWillAppear,Exploring a cave isn't like walking\non a road.\pYou never know when wild CREATURES will\nappear. It's full of suspense.$,reviewed AUTO draft
+Route115_Text_RouteSignRustboro,ROUTE 115\n{DOWN_ARROW} BESTINE$,reviewed AUTO draft
+Route115_Text_MeteorFallsSign,STARFALL CAVERN\nINYUSU TOR THROUGH HERE$,reviewed AUTO draft
+Route117_Text_DayCarePokemonHadNewMove,"I left my CREATURE at the NURSERY.\pWhen I got it back, it had a new move\nthat I didn't teach it.\lI was really, really surprised.$",reviewed AUTO draft
+Route117_Text_ArentTheseFlowersPretty,What do you think?\nAren't these flowers pretty?\pI planted them all!$,"reviewed, no change needed"
+Route117_Text_AirIsTastyHere,The air is tasty here!$,"reviewed, no change needed"
+Route117_Text_RouteSignVerdanturf,ROUTE 117\n{LEFT_ARROW} ANCHORHEAD$,reviewed AUTO draft
+Route117_Text_RouteSignMauville,ROUTE 117\n{RIGHT_ARROW} MOS ESPA$,reviewed AUTO draft
+VerdanturfTown_Text_ManDugTunnelForLove,"There was a man who dug a tunnel for\na lady he loved.\pI don't really get it, but hey!$","reviewed, no change needed"
+VerdanturfTown_Text_MakeBattleTentDebut,"My CREATURE and I, we've been riding\na hot winning streak.\pSo I decided to make my BATTLE TENT\ndebut in this town.$",reviewed AUTO draft
+VerdanturfTown_Text_GuyTryingToBustThroughCave,Did you see the cave next to the\nSUPPLY DEPOT?\pThere's a guy in there who's trying to\nbust up boulders so he can bust out\lthrough to the other side.\pIt'd be great if we could go through…\nIt'll make it easy to visit BESTINE.$,reviewed AUTO draft
+VerdanturfTown_Text_EasyToGetToRustboroNow,That cave next to the SUPPLY DEPOT\nis now a tunnel to the other side.\pIt's great--it's easy to go shop for\nnew INCOM products in BESTINE now.$,reviewed AUTO draft
+VerdanturfTown_Text_WandasHouse,CAMIE'S HOUSE$,reviewed AUTO draft
+VerdanturfTown_Text_BattleTentSign,BATTLE TENT ANCHORHEAD SITE\n“Feast Your Eyes on Battles!”$,reviewed AUTO draft
+VerdanturfTown_Text_RusturfTunnelSign,BEGGAR'S CANYON\n“Linking BESTINE and ANCHORHEAD\p“The tunnel project has been\ncanceled.”$,reviewed AUTO draft
+VerdanturfTown_ContestHall_Text_WhichContestYouEntering,"Which SHOWCASE are you entering?\nWant a piece of advice?\pIn any SHOWCASE, for example, a CUTE\nSHOWCASE, I don't think they judge you\lonly on cuteness in the first round.\pYou need to work out ways for raising\nCREATURES better.$",reviewed AUTO draft
+VerdanturfTown_ContestHall_Text_MyMonRules,"My CREATURE rules!\pIt's cool, tough yet beautiful, cute,\nand smart. It's complete!\pI may as well go for wins in every\nsingle SHOWCASE.$",reviewed AUTO draft
+VerdanturfTown_ContestHall_Text_NormalRankStage,SHOWCASES\nNORMAL RANK STAGE!$,reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_MonsReluctantToUseDislikedMoves,"If it doesn't like a certain move,\na CREATURE will be reluctant to use it.\pIt doesn't matter how strong it is,\neither.\pFor example, a CREATURE with a GENTLE\nnature probably won't enjoy hurting\lits opponents.\pIf it can't seem to live up to its\npotential, it's probably failing at\lusing a disliked move against its will.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_GentleMonsScaryIfAngry,"My big sister is gentle usually.\nBut when she gets angry,\lshe's really, really scary!\pI bet a gentle CREATURE will be scary\nif it gets angry!$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep,"My feelings toward my CREATURE…\nThe attraction runs deep…\pOh, hi, you didn't see that, did you?\nWell, it doesn't matter.\pHow would you like this TM for\nyour CREATURE?$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_AttractionMutual,My feelings toward my CREATURE…\nI'm sure the attraction is mutual!\pThey battle exactly the way I want\nthem to!$,reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves,What kind of moves have you taught\nyour CREATURE?\pI think you would give yourself\nan advantage if they knew how to\lheal or protect themselves.$,reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_ScottCanMeetToughTrainers,"LANDO: Hey there, {PLAYER}{KUN}!\nI thought I might see you here.\pA BATTLE TENT's a place where\nyou can meet tough TRAINERS.\pIt doesn't matter what the rules are,\nor how battles are waged, either.\p{PLAYER}{KUN}, I expect you to do\nthe best you can!$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_ScottVisitRegularly,LANDO: I visit here regularly in hopes\nof seeing tough TRAINERS in action\lin whatever the situation.$,reviewed AUTO draft
+VerdanturfTown_FriendshipRatersHouse_Text_SeeHowMuchPokemonLikesYou,Let me see your CREATURE.\nI'll check to see how much it likes you.\pOh.\nYour CREATURE…$,reviewed AUTO draft
+VerdanturfTown_FriendshipRatersHouse_Text_AdoresYou,It adores you.\nIt can't possibly love you any more.\lI even feel happy seeing it.$,"reviewed, no change needed"
+VerdanturfTown_FriendshipRatersHouse_Text_VeryHappy,It seems to be very happy.\nIt obviously likes you a whole lot.$,"reviewed, no change needed"
+VerdanturfTown_FriendshipRatersHouse_Text_LikesYouQuiteALot,It likes you quite a lot.\nIt seems to want to be babied a little.$,"reviewed, no change needed"
+VerdanturfTown_FriendshipRatersHouse_Text_GettingUsedToYou,It's getting used to you.\nIt seems to believe in you.$,"reviewed, no change needed"
+VerdanturfTown_FriendshipRatersHouse_Text_NotUsedToYou,It's not very used to you yet.\nIt neither loves nor hates you.$,"reviewed, no change needed"
+VerdanturfTown_FriendshipRatersHouse_Text_VeryWary,It's very wary.\nIt has scary viciousness in its eyes.\lIt doesn't like you much at all.$,"reviewed, no change needed"
+VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou,This is a little hard for me to say…\pYour CREATURE simply detests you.\nDoesn't that make you uncomfortable?$,reviewed AUTO draft
+VerdanturfTown_FriendshipRatersHouse_Text_Pikachu,IONRAT: Pika pika!$,reviewed AUTO draft
+VerdanturfTown_House_Text_DefeatEliteFourInARow,"In the ILUM TEMPLE, I think the\nrules say that you have to battle the\lFOUR TRIALS all in a row.\pIf you lose to any of them, you have\nto begin your challenge again from the\lfirst one.$",reviewed AUTO draft
+VerdanturfTown_Mart_Text_XSpecialIsCrucial,"For any CREATURE match, X SPECIAL\nis crucial.\pIt jacks up the power of some moves\neven though it's only for one battle.$",reviewed AUTO draft
+VerdanturfTown_Mart_Text_NoStrategyGuidesForBattleTent,They don't seem to sell any winning\nstrategy guides for the BATTLE TENT…\pIt seems one must rely on one's\nown wits after all…$,"reviewed, no change needed"
+VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent,The reason why anyone would visit\nANCHORHEAD…\pIt's the BATTLE TENT. It goes without\nsaying.\pOr is there somebody here that you\ncame to see?$,reviewed AUTO draft
+VerdanturfTown_WandasHouse_Text_StrongerSpeech,"LUKE: I lost to you, {PLAYER}, but I'm\nnot feeling down anymore.\pBecause I have a new purpose in life.\nTogether with my YODLING, I'm going\lto challenge ARENAS and become\la great TRAINER.\pPlease watch me, {PLAYER}.\nI'm going to be stronger than you.\pWhen I do, I'm going to challenge you\nto another battle.$",reviewed AUTO draft
+VerdanturfTown_WandasHouse_Text_StrongerSpeechShort,"LUKE: Please watch me, {PLAYER}.\nI'm going to get stronger than you.\pWhen I do, I'm going to challenge you\nto another battle.$",reviewed AUTO draft
+VerdanturfTown_WandasHouse_Text_WallySlippedOff,LUKE's gone away…\nHe slipped off on his own…$,reviewed AUTO draft
+VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay,"Thanks to you, I can see my girlfriend\nevery day.\lHappy? You bet I am!$","reviewed, no change needed"
+VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven,"My daughter's boyfriend is a very\ndriven and passionate sort of person.\pHe's been digging a tunnel nonstop\njust so he can see my daughter.\pMy daughter's a little concerned,\nso she goes out to the tunnel a lot.$","reviewed, no change needed"
+VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendWasDigging,It's amazing. My daughter's boyfriend\nwas digging the tunnel by hand!\pIt's so incredible!$,"reviewed, no change needed"
