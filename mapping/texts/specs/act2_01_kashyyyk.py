@@ -47,7 +47,7 @@ FIX = {
 "GraniteCave_1F_Text_GetsDarkAheadHereYouGo": [("He knew how to use FLASH, so he ought\nto be all right, but…", "She knew how to use FLASH, so she\nought to be all right, but…"), ("Well, for us HIKERS, helping out those\nthat we meet is our motto.", "For us PROSPECTORS, helping out\nthose we meet is our motto.")],
 "GraniteCave_StevensRoom_Text_ImStevenLetterForMe": r"My name is LEIA.\pI'm surveying rare crystals,\nso I travel here and there.\pOh?\nA MESSAGE DISC for me?$",
 "GraniteCave_StevensRoom_Text_ThankYouTakeThis": [("You went through all this trouble to\ndeliver that. I need to thank you.", "You went through all this trouble to\ndeliver that. My father thanks you, too.")],
-"GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister": [("If you keep training, you could even\nbecome the CHAMPION of the CREATURE\lLEAGUE one day. That's what I think.", "If you keep training, you could even\npass the TRIALS OF ILUM one day.\lThat's what I think.")],
+"GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister": [("If you keep training, you could even\nbecome the CHAMPION of the ILUM\lTEMPLE one day. That's what I think.", "If you keep training, you could even\npass the TRIALS OF ILUM one day.\lThat's what I think.")],
 "Route104_Text_DadPokenavCall": [("I just heard from INCOM's SEN. ORGANA\nabout your COMLINK,", "I just heard from SENATOR ORGANA\nabout your COMLINK,")],
 "Route106_Text_TrainerTips": [("Advice on catching CREATURES with a ROD:", "Catching CREATURES with a ROD:")],
 # Route 109 and the Seashore House

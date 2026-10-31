@@ -69,7 +69,7 @@ G+"JaredIntro": [],
 "Route119_Text_CatherinePostRematch": r"In the same way that you, as a TRAINER,\nrely on your CREATURES, your CREATURES\lrely on you.$",
 "Route119_Text_PhilIntro": pl("my BIRD CREATURE!"),
 "Route119_Text_HideoPostBattle": r"To hide a tree, use a forest!\nTo hide a CREATURE, use CREATURES!\pThere is no deep, hidden meaning\nto that.$",
-"Route119_House_Text_RumorAboutCaveOfOrigin": [("I heard about a cave called the CAVE\nOF ORIGIN.", "I heard about a place called the\nCAVE OF ORIGIN.")],
+"Route119_House_Text_RumorAboutCaveOfOrigin": [("I heard about a cave called the CAVE\nOF EVIL.", "I heard about a place called the\nCAVE OF EVIL.")],
 # --- Endor Station (cartel raid, Bossk) ---
 WI+"1F_Text_Grunt1Intro": r"JABBA got interested in the\nresearch they have going here,\lso he sent us out.\pYou quit meddling!$",
 WI+"1F_Text_Grunt1PostBattle": r"The mighty JABBA knows everything.\pBut I'm just a THUG. What would I know\nabout what he's thinking?$",

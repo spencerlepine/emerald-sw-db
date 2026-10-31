@@ -318,6 +318,23 @@ def build_terms(rows, by_id, char_terms):
             final[old] = next(iter(news))
         else:
             ambiguous[old] = sorted(news)
+    # Emerald breaks long names across lines ("GRANITE\nCAVE"): add a split variant for every space in a
+    # multi-word term. The break moves to the Star Wars name's space nearest the same relative spot. A one-word
+    # Star Wars name gets no split variant: the words are swapped one by one and the spec fixes the leftover.
+    for old, new in list(final.items()):
+        if " " not in old or " " not in new or "\\" in old:
+            continue
+        for i, ch in enumerate(old):
+            if ch != " ":
+                continue
+            spaces = [j for j, c in enumerate(new) if c == " "]
+            for sep in ("\\n", "\\l"):
+                split_old = old[:i] + sep + old[i + 1:]
+                if split_old in final or split_old in ambiguous:
+                    continue
+                j = min(spaces, key=lambda j: abs(j / len(new) - i / len(old)))
+                final[split_old] = new[:j] + sep + new[j + 1:]
+                sources.setdefault(split_old, sources.get(old, "split"))
     for old, news in sorted(ambiguous.items()):
         warn(f"ambiguous text term {old!r} -> {news}; left unchanged in auto drafts")
     return final, sources, ambiguous

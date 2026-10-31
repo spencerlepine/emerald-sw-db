@@ -18,7 +18,7 @@ B+"OutsideWest_Text_MayISeeYourTicket": r"Hello, are you here for the starliner?
 B+"OutsideWest_Text_MustHaveTicketToBoard": r"{PLAYER} doesn't have the STARLINER\nPASS…\pI'm terribly sorry.\pYou must have a PASS to board\nthe starliner.$",
 B+"OutsideWest_Text_PleaseBoardFerry": r"Please board the starliner and wait\nfor departure.$",
 B+"OutsideWest_Text_GotSeasickOnWayHere": [("I got seasick…", "I got space-sick…")],
-B+"OutsideEast_Text_ConquerLeagueAndFrontier": [("the GRAND ARENA and the CREATURE\lLEAGUE.", "the GRAND ARENA and the TRIALS\lof ILUM.")],
+B+"OutsideEast_Text_ConquerLeagueAndFrontier": [("the GRAND ARENA and the ILUM\lTEMPLE.", "the GRAND ARENA and the TRIALS\lof ILUM.")],
 # --- terminals (was PC) ---
 B+"BattleDomeLobby_Text_LastWinnerWasTough": [("the monitor beside the PC.", "the monitor beside the terminal.")],
 B+"ExchangeServiceCorner_Text_WellSendItToPC": r"Thank you!\nWe'll send it to your home terminal.$",

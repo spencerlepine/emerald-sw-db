@@ -90,7 +90,7 @@ FIX = {
 "RustboroCity_Gym_Text_GymGuideAdvice": [("Would you like to become the CHAMPION?", "Would you like to reach ILUM?"), ("We'll aim for the\nCREATURE CHAMPIONSHIP together!", "We'll aim for the\nTRIALS OF ILUM together!"), ("is a user\nof ROCK-type CREATURE.", "is a user\nof ROCK-type CREATURES.")],
 "RustboroCity_Gym_Text_GymGuidePostVictory": [("the stairs to the CHAMPIONSHIP!", "the road to ILUM!")],
 "RustboroCity_Gym_Text_MarcPostBattle": [("It took smarts and sense for her to\npick the ROCK type at her young age.", "It took smarts and sense for him to\npick the tough ROCK type.")],
-"RustboroCity_Gym_Text_RoxanneIntro": [("so that I might\napply what I learned at the CREATURE\lACADEMY in battle.", "so that I might\napply what I teach at the\lACADEMY in battle."), ("and with which CREATURE?", "and with which CREATURES?")],
+"RustboroCity_Gym_Text_RoxanneIntro": [("so that I might\napply what I learned at the BESTINE\lACADEMY in battle.", "so that I might\napply what I teach at the\lACADEMY in battle."), ("and with which CREATURE?", "and with which CREATURES?")],
 "RustboroCity_Gym_Text_RoxanneDefeat": [("Please accept the official CREATURE\nLEAGUE DUNE SHARD.", "Please accept the official ILUM\nTEMPLE DUNE SHARD.")],
 "RustboroCity_Gym_Text_StoneBadgeInfoTakeThis": [("power of your CREATURE.", "power of your CREATURES.")],
 "RustboroCity_Gym_Text_RoxannePostRematch": [("battling CREATURE.", "battling CREATURES.")],
@@ -131,5 +131,5 @@ FIX["Route104_Text_MayPostBattle"] = r"MIRA: I can tell you've gotten pretty\ngo
 FIX["RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter"] = [("SEN. ORGANA: You delivered my MESSAGE DISC?\nThank you kindly!", "SEN. ORGANA: You delivered my\nMESSAGE DISC? Thank you kindly!")]
 FIX["RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends"] = [("SEN. ORGANA: Since my youth, I've immersed\nmyself in work.", "SEN. ORGANA: Since my youth, I've\nimmersed myself in politics."), ("TRAINERS in the ILUM TEMPLE?", "TRAINERS at the ILUM TEMPLE?")]
 FIX["RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard"] = [("If you visit the SHIPYARD in MOS EISLEY,\nyou should go see RIC OLIé.", "At the SHIPYARD in MOS EISLEY,\nyou should go see RIC OLIé.")]
-FIX["RustboroCity_Gym_Text_RoxanneIntro"] = [("I became an ARENA LEADER so that I might\napply what I learned at the CREATURE\lACADEMY in battle.", "I became an ARENA LEADER so that I\ncould apply what I teach at the\lACADEMY in battle."), ("and with which CREATURE?", "and with which CREATURES?")]
+FIX["RustboroCity_Gym_Text_RoxanneIntro"] = [("I became an ARENA LEADER so that I might\napply what I learned at the BESTINE\lACADEMY in battle.", "I became an ARENA LEADER so that I\ncould apply what I teach at the\lACADEMY in battle."), ("and with which CREATURE?", "and with which CREATURES?")]
 FIX["RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut"] = [("CREATURE battle experts.", "CREATURE battle experts. Heh."), ("So, what brings you to this SCHOOL?", "So, what brings you to this ACADEMY?"), ("have a CREATURE learn the move VIBROBLADE.", "teach a CREATURE VIBROBLADE.")]

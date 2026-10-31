@@ -89,3 +89,13 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 - Cloud City floats over a sea of clouds: Emerald's "sea" in Lilycove is the cloud sea, Wailmer (AIWHALET) swim in it, sailors are cloud-car pilots, the harbor is the STAR TIDAL landing platform.
 - The Aqua Hideout is an old TIBANNA mine under the city. Boba Fett (Matt) guards it: short, professional lines, paid by Jabba.
 - GAME FREAK's motel room stays (developer in-joke); GAME BOY ADVANCE → HOLOGAME. Link-cable and "Game Pak" system strings are left for C3i.
+
+## Shared systems (C3i)
+
+- PC is a TERMINAL everywhere (SOMEONE'S TERMINAL, TESS'S TERMINAL, {PLAYER}'s TERMINAL). The PC menu sizes to its longest entry.
+- Wireless Adapter and Game Link cable are both the COMLINK.
+- The `{PKMN}` glyph token becomes the plain word CREATURE (glossary), since there is no CREATURE glyph.
+- ¥ stays as the money glyph; Step 5 can redraw it as a credits sign.
+- Captain Han (Briney) handles the event-pass voyages from Cloud City.
+- UI strings in fixed-size windows (menus, party, Datapad headers) are 6–48 px wider than the original in 68 cases (CREATURE is wider than {PKMN}; TERMINAL is wider than PC). The 208 px dialogue check does not catch these: they need a per-window check in C5 or a window resize in Step 5.
+- `tools/curate_texts.py` REFLOW re-wraps overflowing dialogue paragraphs only; UI specs leave it off, because UI windows do not scroll.
