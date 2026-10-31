@@ -34,7 +34,7 @@ can be `[x]` with its rows still DRAFT.
   - [x] C3c Mos Espa, Sullust, Mustafar (Act 3): `act3_01_mos_espa.csv` (Watto's arena, Wald's bikes, Sabacc Den), `act3_02_anchorhead_routes.csv` (Anchorhead, Routes 111–117, Sandcrawler), `act3_03_sullust_mustafar.csv` (Inyusu Tor, Starfall Cavern, Mustafar Peak, Ashen Pass, Pirin arena). Mos Entha was done in C3a.
   - [x] C3d Endor (Act 4): `act4_01_endor.csv` (Bright Tree Village, Chief Chirpa's arena, Endor Station raided by Bossk, Routes 118–121 and 123; Route 121 pier and Safari gate are shuttle pads to Jedha and Felucia).
   - [x] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5): `act5_01_jedha_fortress.csv` (Jedha Temple, Fortress Vader), `act5_02_cloud_city.csv` (Cloud City, Hutt Hideout, Boba Fett), `act5_03_yavin4_hoth.csv` (Yavin 4 base, Launch Tower raid, Massassi Temple arena of Vos & Aayla, Leia's house, Routes 124–125, Hoth's Wampa Cave).
-  - [ ] C3f Dagobah, Kamino, Asteroid Field (Act 6)
+  - [~] C3f Dagobah, Kamino, Asteroid Field (Act 6). Done: Dagobah, Cave of Evil, Drowned Cavern, Routes 126–130 (`act6_01_dagobah.csv`). Left: Kamino (Pacifidlog, Routes 131–134, Sealed Chamber), Asteroid Spire (Sky Pillar).
   - [ ] C3g Ilum (Act 7)
   - [ ] C3h Post-game (Grand Arena, islands)
   - [ ] C3i C-side strings (battle messages, menus, datapad UI, match call)
@@ -70,3 +70,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3e (part 1) · see git log · Jedha Temple and Fortress Vader (132 texts). Kyber fix: Vader takes the BLUE KYBER, Jabba the RED (Mustafar line corrected). Next: Bespin (Lilycove).
 - 2026-10-31 · C3e (part 2) · see git log · Cloud City and the Hutt Hideout (308 texts): cloud sea instead of sea, Tibanna mine hideout, starliner platform, Boba Fett's lines. Build: more plural triggers (type names, steal/trade/raise/catch). Total curated 2,269 (20%). Next: Yavin 4 (Mossdeep, Launch Tower, Routes 124–125), Hoth (Shoal Cave).
 - 2026-10-31 · C3e done · see git log · Yavin 4 and Hoth (195 texts). Vos & Aayla speak as master and Padawan; Leia ORGANA leaves the R1 UNIT; Shoal Cave tides are Hoth meltwater. Next: C3f Dagobah (Sootopolis, Cave of Origin, Seafloor Cavern, Routes 126–130), Kamino (Pacifidlog, 131–134), Asteroid Spire.
+- 2026-10-31 · C3f (part 1) · see git log · Dagobah (214 texts): Yoda speaks in his inverted style, Vader commands rather than begs, Jabba drowns the worlds. Glossary: EVER GRANDE, split POKéMON\nLEAGUE.
