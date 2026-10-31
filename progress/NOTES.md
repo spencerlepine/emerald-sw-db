@@ -55,3 +55,16 @@ POKéMON CENTERS, CONTESTS, GYMS, GYM LEADERS, POKéMON NEWS (HOLONET NEWS), POK
 CREATURES for plural POKéMON; tall grass → scrub or dunes on Tatooine; PC → terminal (storage is
 "over the HoloNet"); TV → HoloNet; clock → chrono; sea → water or stars on desert worlds. Luke is
 restless and reckless, not frail; Owen and Beru are his uncle and aunt.
+
+## Water on desert worlds (open question)
+
+Emerald's Tatooine maps (Mos Eisley, Routes 103/104/109/110) have sea tiles, and SURF works there.
+Curated text keeps it neutral ("the water", "deep-water expedition"). Option for Step 5: draw those
+tiles as the DUNE SEA and theme SURF on Tatooine as sand-skimming (art only; mechanics unchanged).
+Not decided; needs the owner.
+
+## Jabba's and Vader's motives
+
+Jabba (Archie) wants to drown the dry worlds into swamps "fit for a HUTT" (SANDO = sea titan).
+Vader (Maxie) should mirror it with land: an Imperial plan to dry out worlds for industry and
+garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.

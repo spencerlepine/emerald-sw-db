@@ -30,7 +30,7 @@ can be `[x]` with its rows still DRAFT.
 - [x] **C2 Trainer names.** 755 generic trainers keep Emerald names (CALVIN, JOEY…). Give them Star Wars-style names (max 10 chars), mapped by trainer id in a new `mapping/trainers.csv`.
 - [~] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
   - [x] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon). Done: intro speech, Mos Pelgo, Route 101 (`act1_01_mos_pelgo.csv`); Tosche Station, Routes 102–103, Mos Entha town + arena + Lars house (`act1_02_tosche_mos_entha.csv`). Route 104 + Han's pad, Jundland Wastes, Bestine (town, Incom, arena, academy, flats), Route 116, Beggar's Canyon (`act1_03_bestine_jundland.csv`). Next: C3b, Kashyyyk (Dewford, Granite Cave = Shadowlands, Routes 105–109) and Mos Eisley (Slateport, Route 109–110).
-  - [~] C3b Kashyyyk + Mos Eisley (Act 2). Done: Kachirho (town, arena, hall, houses), Shadowlands, Routes 105–109, Seashore House, all of Han's flight lines (`act2_01_kashyyyk.csv`). Next: Mos Eisley (Slateport city, museum, harbor, shipyard, fan club, battle tent, name rater), Route 110 + Trick House.
+  - [x] C3b Kashyyyk + Mos Eisley (Act 2): `act2_01_kashyyyk.csv`, `act2_02_mos_eisley.csv` (Spacer Museum re-themed to spacefaring, spaceport + STAR TIDAL starliner, BONGO EXPLORER sub, Jabba's swamp motive), `act2_03_route110.csv` (podrace track, Garindan's Trick House, QUIZ DROIDS).
   - [ ] C3c Mos Espa, Sullust, Mustafar, Mos Entha (Act 3)
   - [ ] C3d Endor (Act 4)
   - [ ] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5)
@@ -64,3 +64,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3a (part 2), C5 tooling · see git log · 106 more curated texts (Tosche Station, Routes 102–103, Mos Entha); glossary round 2 (plurals, an ARENA); pixel-based overflow check; `tools/curate_texts.py` helper.
 - 2026-10-31 · C3a done · see git log · 218 more curated texts (Bestine, Jundland Wastes, Route 104/116, Beggar's Canyon). Build: a/an article fix, more plural rules, item plurals (-ES). `tools/curate_texts.py` now rebuilds first and supports KEEP_REST_MAPS. Specs that produced each texts CSV are in `mapping/texts/specs/` (re-run them after glossary changes; MISS lines show pairs to update).
 - 2026-10-31 · C3b (part 1) · see git log · Kashyyyk dialogue (138 texts). `KEEP_REST_MAPS` now also marks UNCHANGED texts as reviewed. Money: `¥` written as "credits" in curated text; the glyph itself is an art item for Step 5.
+- 2026-10-31 · C3b done · see git log · Mos Eisley + Route 110 (417 texts). Decision: generic BIKE stays BIKE (hover-bike); MECHADOLL → QUIZ DROID. Total curated 1,091 (9%).
