@@ -47,7 +47,7 @@ CONSTANT_PREFIX = {"species": "SPECIES_", "move": "MOVE_", "item": "ITEM_", "abi
 # Entity types whose names are generic game mechanics and stay as they are unless mapped.
 KEEP_BY_DEFAULT = {"nature", "growth_rate", "ribbon"}
 MAPPING_FILES = ["species", "characters", "items", "moves", "types", "abilities", "badges",
-                 "trainer_classes", "locations"]
+                 "trainer_classes", "locations", "world_objects"]
 SWAP_KINDS = {"HOTSWAP", "NET_NEW", "KEEP", "CUT"}
 MAP_STATUSES = {"TODO", "DRAFT", "DONE", "IDEA"}
 ART_STATUSES = {"PENDING_ART", "NEEDS_PLACEHOLDER", "KEEP_ANIM", "KEEP_ART", "NO_ART"}
@@ -219,6 +219,25 @@ def derive(entities, by_id, mapping):
         else:
             r.update(sw_name=name, sw_title=f"{cls_name} {name}".strip(), map_status="TODO",
                      derived_from="trainer class; name not yet Star Wars-ified")
+    # Grand Arena / Battle Tent / Trial Spire trainers and Showcase rivals share the name table
+    for e in entities:
+        if e["entity_type"] not in ("facility_trainer", "contest_opponent"):
+            continue
+        r = rows[e["id"]]
+        k = "name:" + e.get("game_name", "")
+        if k not in tn:
+            continue
+        tn_used.add(k)
+        cls = rows.get(e.get("trainer_class", ""), {}).get("sw_name") or ""
+        r.update(sw_name=tn[k]["sw_name"], map_status=tn[k].get("map_status") or "DRAFT",
+                 sw_title=f"{cls} {tn[k]['sw_name']}".strip(), derived_from="mapping/trainers.csv")
+        if e["entity_type"] == "contest_opponent":
+            nk = "nick:" + e.get("nickname", "")
+            sp = rows.get(e.get("species", ""), {}).get("sw_name", "")
+            if nk in tn:
+                tn_used.add(nk)
+                cats = ", ".join(json.loads(e.get("contest_categories") or "[]"))
+                r["sw_description"] = f"Showcase rival with {tn[nk]['sw_name']} the {sp} ({cats})."
     for k in tn:
         if k not in tn_used:
             warn(f"mapping/trainers.csv: key {k} matches no generic trainer")
@@ -537,6 +556,38 @@ def main() -> None:
                 warn(f"net_new {n['id']}: unknown reference {ref}")
         if n["swap_kind"] != "NET_NEW":
             warn(f"net_new {n['id']}: swap_kind must be NET_NEW")
+
+    # sprite, trainer-picture and tileset rows take the Star Wars subject named for their art (D1/D2)
+    subjects_path = MAPPING / "art_subjects.csv"
+    if subjects_path.exists():
+        subj = {r["asset_id"]: r["sw_subject"] for r in read(subjects_path) if r["sw_subject"]}
+        for ea in read(EMERALD / "entity_art.csv"):
+            r = rows.get(ea["entity_id"])
+            if r and r["entity_type"] in ("object_graphics", "trainer_pic", "tileset") and ea["asset_id"] in subj \
+                    and r["map_status"] == "TODO":
+                r.update(sw_description=subj[ea["asset_id"]], map_status="DRAFT",
+                         derived_from="mapping/art_subjects.csv")
+        # tilesets are not linked in entity_art: match "tileset:battlefrontieroutsideeast" to its folder
+        by_folder = {}
+        for aid, text in subj.items():
+            m = re.match(r"data/tilesets/(?:primary|secondary)/(.+)/[^/]+$", aid)
+            if m and "/anim/" not in aid:
+                by_folder.setdefault(m.group(1).replace("_", "").replace("/", ""), text)
+        for r in rows.values():
+            key = r["emerald_id"].split(":", 1)[1].replace("-", "") if r["entity_type"] == "tileset" else ""
+            if key in by_folder and r["map_status"] == "TODO":
+                r.update(sw_description=by_folder[key], map_status="DRAFT", derived_from="mapping/art_subjects.csv")
+        # map NPCs: who they look like (their sprite's subject) and where they stand (the map's Star Wars title)
+        for e in entities:
+            if e["entity_type"] != "npc":
+                continue
+            r, g, m = rows[e["id"]], rows.get(e.get("graphics", ""), {}), rows.get(e.get("map", ""), {})
+            look = g.get("sw_description", "")
+            if r["map_status"] == "TODO" and look:
+                who = re.split(r"[:,(]", look)[0].strip()
+                r.update(sw_title=f"{who} ({m.get('sw_title') or m.get('sw_name') or ''})".replace(" ()", ""),
+                         sw_description=f"Looks like: {look}. Dialogue: see texts.csv for its script.",
+                         map_status="DRAFT", derived_from="sprite subject + map")
 
     swap_cols = ["emerald_id", "sw_id", "entity_type", "swap_kind", "map_status", "art_status", "game_status",
                  "emerald_name", "sw_name", "emerald_title", "sw_title", "emerald_constant", "sw_constant",

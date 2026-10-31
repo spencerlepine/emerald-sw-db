@@ -100,6 +100,32 @@ def main():
             sw, note = gen(name[0], g, key, used), ""
         assert len(sw) <= 10, sw
         rows[key] = {"key": key, "emerald_name": name, "sw_name": sw, "map_status": "DRAFT", "notes": note}
+    # Grand Arena / Battle Tent / Trial Spire trainers and Showcase rivals: same scheme, keyed by name so a
+    # name shared with a story trainer keeps one Star Wars name. Showcase rivals' creature nicknames get a
+    # "nick:" row built from the Star Wars species name (POOCHY the Poochyena -> MASSY the MASSIFF).
+    with (EMERALD / "entities.csv").open(encoding="utf-8", newline="") as f:
+        others = [e for e in csv.DictReader(f) if e["entity_type"] in ("facility_trainer", "contest_opponent")]
+    with (ROOT / "mapping" / "species.csv").open(encoding="utf-8", newline="") as f:
+        sw_species = {r["emerald_id"]: r["sw_name"] for r in csv.DictReader(f)}
+    FEMALE = ("lass", "beauty", "picnicker", "parasol", "aroma", "battle-girl", "lady", "-f", "girl", "woman",
+              "hex-maniac", "tuber-f", "swimmer-f", "twin", "nurse")
+    for e in sorted(others, key=lambda e: e["id"]):
+        name = e["game_name"]
+        look = (e.get("trainer_pic") or "") + " " + (e.get("sprite") or "") + " " + (e.get("trainer_class") or "")
+        g = "f" if any(k in look for k in FEMALE) else "m" if look.strip() else ("f" if name[-1] in "AEIY" else "m")
+        key = "name:" + name
+        if key not in rows:
+            rows[key] = {"key": key, "emerald_name": name, "sw_name": gen(name[0], g, key, used), "map_status": "DRAFT",
+                         "notes": e["entity_type"].replace("_", " ")}
+        nick = e.get("nickname")
+        if nick and "nick:" + nick not in rows:
+            base = re.sub(r"[^A-Z]", "", sw_species.get(e.get("species", ""), nick))[:4]
+            sw = base + ("Y" if base[-1] not in "AEIOUY" else "")
+            while sw in used:
+                sw = base[:3] + "IE" if not sw.endswith("IE") else base[:3] + "O"
+            used.add(sw)
+            rows["nick:" + nick] = {"key": "nick:" + nick, "emerald_name": nick, "sw_name": sw, "map_status": "DRAFT",
+                                    "notes": "Showcase rival's creature nickname"}
     with OUT.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["key", "emerald_name", "sw_name", "map_status", "notes"])
         w.writeheader()

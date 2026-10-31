@@ -1650,7 +1650,7 @@ graphics/object_events/pics/cushions/ball_cushion.png,object_events,pics,graphic
 graphics/object_events/pics/cushions/diamond_cushion.png,object_events,pics,graphics/object_events/pics/cushions/diamond_cushion.png,16,16,object-gfx:diamond-cushion:overworld_sprite,,Diamond-pattern cushion,,PENDING_ART,,
 graphics/object_events/pics/cushions/fire_cushion.png,object_events,pics,graphics/object_events/pics/cushions/fire_cushion.png,16,16,object-gfx:fire-cushion:overworld_sprite,,Flame-pattern cushion,,PENDING_ART,,
 graphics/object_events/pics/cushions/grass_cushion.png,object_events,pics,graphics/object_events/pics/cushions/grass_cushion.png,16,16,object-gfx:grass-cushion:overworld_sprite,,Leaf-pattern cushion,,PENDING_ART,,
-graphics/object_events/pics/cushions/kiss_cushion.png,object_events,pics,graphics/object_events/pics/cushions/kiss_cushion.png,16,16,object-gfx:kiss-cushion:overworld_sprite,,Heart cushion,,PENDING_ART,,
+graphics/object_events/pics/cushions/kiss_cushion.png,object_events,pics,graphics/object_events/pics/cushions/kiss_cushion.png,16,16,object-gfx:kiss-cushion:overworld_sprite,,KISS CUSHION (heart-shaped),,PENDING_ART,,
 graphics/object_events/pics/cushions/pika_cushion.png,object_events,pics,graphics/object_events/pics/cushions/pika_cushion.png,16,16,object-gfx:pika-cushion:overworld_sprite,,IONRAT cushion,,PENDING_ART,,
 graphics/object_events/pics/cushions/round_cushion.png,object_events,pics,graphics/object_events/pics/cushions/round_cushion.png,16,16,object-gfx:round-cushion:overworld_sprite,,Round cushion,,PENDING_ART,,
 graphics/object_events/pics/cushions/spin_cushion.png,object_events,pics,graphics/object_events/pics/cushions/spin_cushion.png,16,16,object-gfx:spin-cushion:overworld_sprite,,Spiral cushion,,PENDING_ART,,

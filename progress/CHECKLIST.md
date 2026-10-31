@@ -45,7 +45,7 @@ can be `[x]` with its rows still DRAFT.
 
 - [x] **D1 Overworld sprites** (253 files) and **trainer pics** (101): Star Wars subject for each in `mapping/art_subjects.csv` (sources in `mapping/art_subjects_src/`, generator `tools/make_art_subjects.py`), shown as `pending_art.sw_subject`.
 - [x] **D2 Tilesets** (75 tilesets, 226 files incl. animation frames): planet / biome for each (`art_subjects_src/tilesets.txt`).
-- [ ] **D3 Grand Arena** facility trainers (414), Battle Tent trainers, Showcase rivals (96), hideout decorations (120), storylines (22), facilities (7).
+- [x] **D3 Grand Arena** facility trainers (414, incl. Battle Tent and Trial Spire), Showcase rivals (96, with creature nicknames), hideout decorations (120), storylines (22), facilities (7): names in `mapping/trainers.csv` (generator extended) and `mapping/world_objects.csv`. Map NPCs (2,776) now get a title and look from their sprite subject and map.
 
 ## Phase E: review and net-new design
 
@@ -80,3 +80,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 
 - 2026-10-31 · C4 (part 1) · see git log · 338 datapad entries and categories; build wraps and checks them (0 warnings), coverage counts them. 48 sentient/named species held pending the owner's call on swapping them for beasts.
 - 2026-10-31 · D1, D2 · see git log · 580 art assets now name their Star Wars subject (people, player bike sprites: brown SWOOP BIKE / white SPEEDER BIKE, Frontier aces, gym leaders, creature dolls, fruit trees, every tileset by planet). Run `tools/make_art_subjects.py` after editing a source list, then build. Next: D3 (Grand Arena trainers, showcase rivals, decorations).
+- 2026-10-31 · D3 · see git log · Every Emerald row now has a Star Wars decision (coverage: 100% on every entity type). Facility trainers keep their Easy Chat speeches (fixed word list). Next: C5 UI window widths; the sentient-species swap waits on the owner.
