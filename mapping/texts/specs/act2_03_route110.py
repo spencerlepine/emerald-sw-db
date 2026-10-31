@@ -29,4 +29,8 @@ R+"TrickHousePuzzle5_Text_Mechadoll2Quiz3": [("Which of these CREATURES did THE 
 R+"TrickHousePuzzle5_Text_Mechadoll5Quiz3": [("how many\nTRIATHLETES were there?", "how many\nSWOOP RACERS were there?")],
 R+"TrickHousePuzzle6_Text_BennyIntro": [("my BIRD CREATURE\nto fly over the wall…", "my BIRD CREATURE\nto fly me over the wall…")],
 R+"TrickHousePuzzle8_Text_VincentPostBattle": [("You've beaten the ILUM TEMPLE\nCHAMPION? That's too much!", "You've passed the TRIALS OF\nILUM? That's too much!")],
+# --- overflow fixes (trainer lines) ---
+"Route110_Text_AnthonyPostBattle": r"Speed alone won't win me battles.\nI need to reconsider this…$",
+"Route110_Text_EdwinPostBattle": r"When I see a CREATURE I don't know,\nmy passion as a collector is ignited!$",
+"Route110_Text_TimmyIntro": r"I found some cool CREATURES in the\nscrub around here!$",
 }

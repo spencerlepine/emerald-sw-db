@@ -14,7 +14,7 @@ R1+"OldLadysRestStop_Text_RestUpHere": [("Aren't your CREATURE exhausted?", "Are
 R1+"OldLadysRestStop_Text_StillTiredTakeAnotherRest": [("Are your CREATURE still tired?", "Are your CREATURES still tired?")],
 R1+"WinstrateFamilysHouse_Text_MySonIsStrongerThanYou": [("deploys CREATURE so masterfully.", "deploys CREATURES so masterfully.")],
 R1+"WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace": [("strengthen our CREATURE\lin training.", "strengthen our CREATURES\lin training.")],
-R1+"WinstrateFamilysHouse_Text_GrandsonStrong": [("He must be challenging the CREATURE\nLEAGUE CHAMPION by now.\pKnowing my grandson, he could be the\nCHAMPION already!", "He must be taking the TRIALS OF\nILUM by now.\pKnowing my grandson, he could have\npassed them already!")],
+R1+"WinstrateFamilysHouse_Text_GrandsonStrong": [("He must be challenging the ILUM\nTEMPLE CHAMPION by now.\pKnowing my grandson, he could be the\nCHAMPION already!", "He must be taking the TRIALS OF\nILUM by now.\pKnowing my grandson, he could have\npassed them already!")],
 R1+"WinstrateFamilysHouse_Text_GrandsonStrongShort": r"My grandson must be taking the\nTRIALS OF ILUM by now.\pKnowing my grandson, he could have\npassed them already!$",
 "Route112_Text_LeaderGoingToAwakenThing": r"Hey, is LORD VADER really going\nto awaken that thing?$",
 "Route112_Text_YeahWeNeedMeteorite": [("Sounds like it, yeah.", "Those are our orders.")],
@@ -40,6 +40,11 @@ V+"WandasHouse_Text_MeetWanda": [("I'm LUKE's cousin.\nGlad to meet you!", "I've
 V+"WandasHouse_Text_DontWorryAboutWally": [("I know my little cousin, and he has\nCREATURE with him, too.", "I know LUKE, and he has\nCREATURES with him, too.")],
 V+"WandasHouse_Text_IfAnythingHappenedToWally": [("I would never be able to look his\lparents in MOS ENTHA in the eye…", "I would never be able to look OWEN\land BERU in the eye…")],
 V+"WandasHouse_Text_WallyWasInEverGrande": r"LUKE was on ILUM?\pOWEN and BERU would be astonished\nto hear that!$",
+# --- overflow fixes (trainer lines) ---
+"Route111_Text_DustyDefeat": r"While I have searched for ruins,\nI've not searched for strong\lCREATURES.$",
+"Route112_Text_BryantIntro": r"I caught hot CREATURES in the MAGMA\nTUNNELS! Take a look!$",
+"Route113_Text_WyattIntro": r"Y-you want to battle with me?\nEven though I just caught my\lCREATURE?$",
+"Route117_Text_MariaIntro": r"I do my triathlon training with my\nCREATURES, so I'm pretty confident\labout my speed.$",
 }
 NOTES = {R1+"Text_ShouldBeMirageTowerAroundHere": "Mirage Tower = a JAWA SANDCRAWLER that appears and vanishes",
          "Route114_LanettesHouse_Text_EmailFromBill": "BILL (Kanto) -> LOBOT of Cloud City"}

@@ -194,3 +194,78 @@ Route124_DivingTreasureHuntersHouse_Text_BagFull,"Whoops, your BAG's full.\nGet 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind,"No? That's a downer.\nWell, if you change your mind, come back.$","reviewed, no change needed"
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard,{CLEAR_TO 10}Wanted item{CLEAR_TO 124}Trade item\n{CLEAR_TO 15}RED CRYSTAL{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}FIRE STONE{CLEAR_TO 200}\p{CLEAR_TO 10}Wanted item{CLEAR_TO 124}Trade item\n{CLEAR_TO 6}YELLOW CRYSTAL{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 115}THUNDERSTONE{CLEAR_TO 200}\p{CLEAR_TO 10}Wanted item{CLEAR_TO 124}Trade item\n{CLEAR_TO 12}BLUE CRYSTAL{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 121}WATER STONE{CLEAR_TO 200}\p{CLEAR_TO 10}Wanted item{CLEAR_TO 124}Trade item\n{CLEAR_TO 8}GREEN CRYSTAL{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}LEAF STONE$,reviewed AUTO draft
 ShoalCave_LowTideLowerRoom_Text_EverythingStartsWithFocus,Everything starts with focus!$,"reviewed, no change needed"
+ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere,Are you planning on going deep\nin there?\pHow about bringing me back some\nSHOAL SALT and SHOAL SHELLS?\pI can make you something good if\nyou bring me the ingredients.$,"reviewed, no change needed"
+ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells,"If you bring me four each of the\nSHOAL SALT and SHOAL SHELLS,\lI can make you a SHELL BELL…\pYou can get those ingredients\nevery day.$","reviewed, no change needed"
+ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell,"Oh, hey! SHOAL SALT and SHOAL SHELLS!\nAnd enough of them, too!\pWould you like me to make you\na SHELL BELL with them?$","reviewed, no change needed"
+ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway,"All righty, then! I'll make you\na SHELL BELL right away.\p… … … … … … … …\n… … … … … … … …\pThere! Done!$","reviewed, no change needed"
+ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell,"Have a CREATURE hold on to that.\nIt'll love it, that's for certain.\pWhy, the SHELL BELL's chime…\nIt's simply sublime!\pYou can get its ingredients every day,\nso I can make you more.$",reviewed AUTO draft
+ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell,Oh… Is that so…\nI wanted to make a SHELL BELL…$,"reviewed, no change needed"
+ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag,You don't have space in your BAG\nif I were to make it for you.\pYou should make room and come back\nfor a SHELL BELL.$,"reviewed, no change needed"
+ShoalCave_Text_WasShoalSaltNowNothing,"There was some SHOAL SALT here.\nBut, there's nothing here now.$","reviewed, no change needed"
+ShoalCave_Text_WasShoallShellNowNothing,"There was a SHOAL SHELL here.\nBut, there's nothing here now.$","reviewed, no change needed"
+Route124_Text_SpencerIntro,"Hey, are you lost at sea?\pIf you can beat my CREATURE,\nI can serve as your pilot.$",reviewed AUTO draft
+Route124_Text_SpencerDefeat,I lost my bearings in battle!$,"reviewed, no change needed"
+Route124_Text_SpencerPostBattle,"Many people lose their bearings at sea.\pIf you're that sort, you should refer\nto the COMLINK's MAP.$",reviewed AUTO draft
+Route124_Text_RolandIntro,Hm! You're riding a CREATURE instead\nof swimming yourself…\pI am envious!$,reviewed AUTO draft
+Route124_Text_RolandDefeat,Oh!\nI can't…$,"reviewed, no change needed"
+Route124_Text_JennyIntro,"If you just float in the sea like\nthis, CREATURES come around to play.$",reviewed AUTO draft
+Route124_Text_JennyDefeat,"Oh, darn.\nI've gone and lost.$","reviewed, no change needed"
+Route124_Text_JennyPostBattle,"While swimming, I noticed that some\nCREATURES attack, and some just watch.\pI guess CREATURES have personalities\nof their own.$",reviewed AUTO draft
+Route124_Text_JennyRegister,"It's only on a whim, but maybe I'll get\nyou to register me in your COMLINK.$",reviewed AUTO draft
+Route124_Text_JennyRematchIntro,"If you just float in the sea like this,\nTRAINERS challenge you!$","reviewed, no change needed"
+Route124_Text_JennyRematchDefeat,That's strange…\nI lost again…$,"reviewed, no change needed"
+Route124_Text_JennyPostRematch,"This has nothing to do with anything,\nbut maybe I'll visit the TRICK HOUSE.$","reviewed, no change needed"
+Route124_Text_GraceIntro,I'm growing bored of swimming…\nHow about a battle?$,"reviewed, no change needed"
+Route124_Text_GraceDefeat,I had no idea that you were\nthis strong!$,"reviewed, no change needed"
+Route124_Text_GracePostBattle,All the effort you put in must have\nmade you this strong.$,"reviewed, no change needed"
+Route124_Text_ChadIntro,Fufufufu… I dive deep underwater\nto go deep under cover.\lPlumbing the depths is where I excel!$,"reviewed, no change needed"
+Route124_Text_ChadDefeat,"Glub, glub, glub…\nI'm sinking…$","reviewed, no change needed"
+Route124_Text_ChadPostBattle,I have it on good authority that\nthere's a DIVE spot around here.\pIt gives me the urge to go deep\nagain…$,"reviewed, no change needed"
+Route124_Text_LilaIntro,"LISS: Sigh…\pHere I am in the sea, but who's with me?\nMy little brother!\pLet's battle so I won't have to dwell\non that!$",reviewed AUTO draft
+Route124_Text_LilaDefeat,LISS: ROY! It's your fault we lost!\nYou're in for it later!$,reviewed AUTO draft
+Route124_Text_LilaPostBattle,"LISS: Sigh…\pIf only it wasn't my little brother\nnext to me, but a nice boyfriend…$",reviewed AUTO draft
+Route124_Text_LilaNotEnoughMons,LISS: You're planning to battle us?\nNot unless you have two CREATURES.$,reviewed AUTO draft
+Route124_Text_RoyIntro,RAN: My big sister is tough at CREATURE!\pDon't cry when you lose!$,reviewed AUTO draft
+Route124_Text_RoyDefeat,RAN: Uh-oh…\nMy big sister will chew me out…$,reviewed AUTO draft
+Route124_Text_RoyPostBattle,RAN: My big sister is really scary\nwhen she gets angry.\pThat's why she doesn't have a\nboyfriend.$,reviewed AUTO draft
+Route124_Text_LilaRoyRegister,"RAN: Will you battle with us again?\nBut take it easy next time, okay?$",reviewed AUTO draft
+Route124_Text_RoyNotEnoughMons,"RAN: Did you want to battle us?\nBring two CREATURES, then.$",reviewed AUTO draft
+Route124_Text_LilaRematchIntro,"LISS: Sigh…\pHere I am in the sea, but who's with me?\nMy little brother!\pOh, hi, it's been a while. Let's battle\nso I won't have to dwell on things!$",reviewed AUTO draft
+Route124_Text_LilaRematchDefeat,LISS: ROY!\nIt's your fault we lost again!\pWe're having a training session later!$,reviewed AUTO draft
+Route124_Text_LilaPostRematch,"LISS: Sigh…\pIf I had a nice boyfriend, we'd beat\nanyone with lovely combinations…$",reviewed AUTO draft
+Route124_Text_LilaRematchNotEnoughMons,LISS: You're planning to battle us?\nNot unless you have two CREATURES.$,reviewed AUTO draft
+Route124_Text_RoyRematchIntro,"RAN: If we lose, I'll catch heck.\nI'm going to go totally all out!$",reviewed AUTO draft
+Route124_Text_RoyRematchDefeat,RAN: Uh-oh…\nMy big sister will chew me out again.$,reviewed AUTO draft
+Route124_Text_RoyPostRematch,RAN: My big sister is really scary\nwhen she gets angry.\pShe's going to make me train really\nhard with CREATURES later…$,reviewed AUTO draft
+Route124_Text_RoyRematchNotEnoughMons,"RAN: Did you want to battle us?\nBring two CREATURES, then.$",reviewed AUTO draft
+Route124_Text_DeclanIntro,"Here I am swimming by my lonesome\non this wide, beautiful sea.\pThere's no other word for it.\nThis is pathetic!$","reviewed, no change needed"
+Route124_Text_DeclanDefeat,I'm feeling blue.\nBlue as the sky…$,"reviewed, no change needed"
+Route124_Text_DeclanPostBattle,I should chat up lady SWIMMERS\nand invite them on a long swim.$,"reviewed, no change needed"
+Route124_Text_IsabellaIntro,I'm not going to lose to some\nsurfer TRAINER.$,"reviewed, no change needed"
+Route124_Text_IsabellaDefeat,I've only got sweat in my eyes!\nI am not crying!$,"reviewed, no change needed"
+Route125_Text_NolenIntro,"I heard you approaching, so I hung\naround for you!$","reviewed, no change needed"
+Route125_Text_NolenDefeat,I surrender!$,"reviewed, no change needed"
+Route125_Text_NolenPostBattle,Sound travels faster in water than\nit does through air.$,"reviewed, no change needed"
+Route125_Text_StanIntro,"Hey, there!\nCheck out my sweet CREATURE!$",reviewed AUTO draft
+Route125_Text_StanDefeat,I floundered…$,"reviewed, no change needed"
+Route125_Text_StanPostBattle,"I was blown away by SEASTEED's charm,\nso I started swimming, too.$",reviewed AUTO draft
+Route125_Text_TanyaIntro,I'm tired of swimming.\nAre you up for a battle with me?$,"reviewed, no change needed"
+Route125_Text_TanyaDefeat,You're too much!$,"reviewed, no change needed"
+Route125_Text_TanyaPostBattle,Whew…\nWhich way is it to YAVIN 4?$,reviewed AUTO draft
+Route125_Text_SharonDefeat,Lost it…$,"reviewed, no change needed"
+Route125_Text_SharonPostBattle,Your power… You're the real deal.\nI'm amazed!$,"reviewed, no change needed"
+Route125_Text_ErnestDefeat,Gwrroooar!\nI couldn't win!$,"reviewed, no change needed"
+Route125_Text_ErnestRegister,"Register me in your COMLINK,\nand I'll tell you something good.$",reviewed AUTO draft
+Route125_Text_ErnestRematchIntro,"It's high time I get my payback\nfrom you! Come on, we're battling!$","reviewed, no change needed"
+Route125_Text_ErnestRematchDefeat,I couldn't win!\nI flat out couldn't win!$,"reviewed, no change needed"
+Route125_Text_KimIntro,"KAI: A funny old man lives in the\nWAMPA CAVE. Someone told me.\lAre you going to see him, too?$",reviewed AUTO draft
+Route125_Text_KimDefeat,KAI: I thought we would win.$,reviewed AUTO draft
+Route125_Text_KimNotEnoughMons,"KAI: No, no, no! You need two CREATURES,\nor it's just no good!$",reviewed AUTO draft
+Route125_Text_IrisDefeat,"ISRA: Oh, we came sort of close.$",reviewed AUTO draft
+Route125_Text_IrisNotEnoughMons,"ISRA: Oh, we could never, ever do\nanything like a 2-on-1 battle.$",reviewed AUTO draft
+Route125_Text_PresleyIntro,Why would a BIRDKEEPER like me\ncome out to the sea?$,"reviewed, no change needed"
+Route125_Text_PresleyDefeat,Okay.\nI'll tell you why I'm here.$,"reviewed, no change needed"
+Route125_Text_PresleyPostBattle,I put a message in a bottle and put\nit out to sea.\pI'm sure that a girl SWIMMER will\nfind it!$,"reviewed, no change needed"
+Route125_Text_AuronIntro,Hey! Was it you throwing garbage\ninto the sea?$,"reviewed, no change needed"
+Route125_Text_AuronDefeat,"Oh, you weren't throwing trash into\nthe sea.$","reviewed, no change needed"
+Route125_Text_AuronPostBattle,I found an unsightly bottle bobbing\nin the waves earlier.\pIt angers me that someone would\npollute the sea!$,"reviewed, no change needed"

@@ -52,6 +52,9 @@ Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles,"You're scorching hot!\nThos
 Route109_SeashoreHouse_Text_WantToBuySodaPop,Want to buy some JAWA JUICE?\nCREATURES love it!\pJust 300 credits a bottle!\nBuy some!$,
 Route109_SeashoreHouse_Text_JohannaIntro,Boring battles aren't worth the effort.\pFiery hot battles are what toughen up\nTRAINERS and CREATURES!$,
 Route109_SeashoreHouse_Text_SimonPostBattle,"If one of my CREATURES knew the move\nfor carrying me across water on its\lback, I could get rid of this inner tube.$",
+Route106_Text_ElliotRematchPostBattle,"Win or lose, CREATURES are the best!\nYou agree with me, right?$",
+Route109_Text_MelIntro,"MERI: We're, like, totally in love.\nOur romance is heating up KASHYYYK!$",
+Route109_Text_MelNotEnoughPokemon,"MERI: We're, like, truly in love.\nThat's why we make our CREATURES\lbattle together.$",
 DewfordTown_Text_HallSign,KACHIRHO HALL\n“Everyone's information exchange!”$,reviewed AUTO draft
 DewfordTown_Text_GettingItchToFish,This is a renowned fishing spot.\nAre you getting the itch to fish?$,"reviewed, no change needed"
 DewfordTown_Text_GiveYouOneOfMyRods,"I hear you, and I like what\nyou're saying!\pI'll give you one of my fishing RODS.$","reviewed, no change needed"
@@ -137,3 +140,142 @@ Route109_SeashoreHouse_Text_JohannaDefeated,That's hot!$,"reviewed, no change ne
 Route109_SeashoreHouse_Text_JohannaPostBattle,"Whew, I'm all thirsty.\nMaybe I'll have a JAWA JUICE.$",reviewed AUTO draft
 Route109_SeashoreHouse_Text_SimonIntro,"I'm going to show you how great\nmy CREATURES are, but don't cry!$",reviewed AUTO draft
 Route109_SeashoreHouse_Text_SimonDefeated,"…I lost, but I won't cry…$","reviewed, no change needed"
+Route105_Text_FosterIntro,There's supposed to be a mystical\nrock around here.\lDo you know anything about it?$,"reviewed, no change needed"
+Route105_Text_FosterDefeated,"I was thinking too much about that\nrock, while my CREATURE remained weak…$",reviewed AUTO draft
+Route105_Text_FosterPostBattle,I can spend hours and hours staring\nat a nice rock without growing bored.$,"reviewed, no change needed"
+Route105_Text_LuisIntro,"Whew! I was worried that a kid was\ndrowning when I saw you.\pYou seem to be okay, so what do you\nsay to a battle?$","reviewed, no change needed"
+Route105_Text_LuisDefeated,Glub… Glub…$,"reviewed, no change needed"
+Route105_Text_LuisPostBattle,"If you are drowning, the signal is to\nwave one arm toward the beach.$","reviewed, no change needed"
+Route105_Text_DominikIntro,Swimming the deep blue sea…\nIt feels the greatest!$,"reviewed, no change needed"
+Route105_Text_DominikDefeated,I lost…\nNow I'm feeling blue…$,"reviewed, no change needed"
+Route105_Text_DominikPostBattle,"Why is the sea blue?\pI learned about that at the MUSEUM in\nMOS EISLEY, but I forgot.$",reviewed AUTO draft
+Route105_Text_BeverlyIntro,My body feels lighter in the water.\nIt's as if I've gotten slimmer!$,"reviewed, no change needed"
+Route105_Text_BeverlyDefeated,I'm floating…$,"reviewed, no change needed"
+Route105_Text_PostBattle,Your body weight is reduced to just\none tenth in the water.\pThat would make me…\nWhoops! I'm not telling you my weight!$,"reviewed, no change needed"
+Route105_Text_ImaniIntro,"The blue, blue sky…\nThe vast sea…\lIt's so peaceful…$","reviewed, no change needed"
+Route105_Text_ImaniDefeated,I lost while I was lounging!$,"reviewed, no change needed"
+Route105_Text_ImaniPostBattle,I want to be told I'm relaxing to be\nwith. Giggle.$,"reviewed, no change needed"
+Route105_Text_AndresIntro,I'm convinced that the sea keeps\nsecrets from us.$,"reviewed, no change needed"
+Route105_Text_AndresDefeated,Yes…\nI am no good at battling…$,"reviewed, no change needed"
+Route105_Text_AndresPostBattle,I'm sure there are many secrets to be\ndiscovered in the world's seas.\pI mean to find them all!$,"reviewed, no change needed"
+Route105_Text_AndresRegister,"Huh? I'm so weak, but you're willing\nto register me in your COMLINK?$",reviewed AUTO draft
+Route105_Text_AndresRematchIntro,I've told you that I'm weak…\nAre you sure you want to do this?$,"reviewed, no change needed"
+Route105_Text_AndresRematchDefeated,Yes…\nI didn't think I could win.$,"reviewed, no change needed"
+Route105_Text_AndresRematchPostBattle,"I may be weak at battling, but my\ndrive to explore can't be bested.\pI will travel the seas all around\nthe world!$","reviewed, no change needed"
+Route105_Text_JosueIntro,I'm exhausted from swimming.\nI'm just not used to it.\pI need a battle for a change of pace!$,"reviewed, no change needed"
+Route105_Text_JosueDefeated,I lost because I battled at sea.$,"reviewed, no change needed"
+Route105_Text_JosuePostBattle,"Yeah, for me, the sky is a much better\nmatch than the sea.$","reviewed, no change needed"
+Route106_Text_ElliotIntro,"Which do you prefer, fishing in the\nsea or a stream?$","reviewed, no change needed"
+Route106_Text_ElliotDefeated,"Like in deep-sea fishing, I lost\nspectacularly!$","reviewed, no change needed"
+Route106_Text_ElliotPostBattle,"Fishing is the greatest whether it's\nin the sea or a stream.\lYou agree with me, right?$","reviewed, no change needed"
+Route106_Text_ElliotRegister,"Fishing's great, but so is battling.\nIf you don't mind, can we meet again?$","reviewed, no change needed"
+Route106_Text_ElliotRematchIntro,I caught a bunch of CREATURES fishing.\nI'll show you an impressive battle!$,reviewed AUTO draft
+Route106_Text_ElliotRematchDefeated,I lost again spectacularly!$,"reviewed, no change needed"
+Route106_Text_NedIntro,What do people do if they need to go\nto a washroom?\pWhat if my ROD hooks a big one while\nI'm in the washroom? I just can't go…$,"reviewed, no change needed"
+Route106_Text_NedDefeated,I lost because I'm trying to not go\nto the washroom…$,"reviewed, no change needed"
+Route106_Text_NedPostBattle,"Oh, no! I've got this feeling I'll hook\na big one!$","reviewed, no change needed"
+Route106_Text_DouglasIntro,"Hahahah! I'm a lousy runner, but in\nthe water you can't catch me!$","reviewed, no change needed"
+Route106_Text_DouglasDefeated,I give up!$,"reviewed, no change needed"
+Route106_Text_DouglasPostBattle,I wouldn't lose in a swim race…$,"reviewed, no change needed"
+Route106_Text_KylaIntro,The sea is my backyard. I'm not going\nto take it easy because you're a kid!$,"reviewed, no change needed"
+Route106_Text_KylaDefeated,Did you take it easy on me by any\nchance?$,"reviewed, no change needed"
+Route106_Text_KylaPostBattle,Drifting along with the waves…\nI love it! Why don't you give it a try?$,"reviewed, no change needed"
+Route107_Text_DarrinIntro,Yawn…\pI must have drifted off to sleep while\nI was drifting in the waves.$,"reviewed, no change needed"
+Route107_Text_DarrinDefeated,"Ahaha, I lost…\nI'll take a snooze, I think…$","reviewed, no change needed"
+Route107_Text_DarrinPostBattle,"Floating and being rocked by\nthe waves--it's like sleeping in\la plush, comfy bed.$","reviewed, no change needed"
+Route107_Text_TonyIntro,The sea is like my backyard.\nLet's battle!$,"reviewed, no change needed"
+Route107_Text_TonyDefeated,I lost on my home field…\nI'm in shock!$,"reviewed, no change needed"
+Route107_Text_TonyPostBattle,"I swim the seas with a heart full of\ndreams…\pIt's a song!\nAnyways, I'm swimming some more.$","reviewed, no change needed"
+Route107_Text_TonyRegister,"You've shocked me to the bone!\nWell, so you won't forget me…$","reviewed, no change needed"
+Route107_Text_TonyRematchIntro,"Swimming in the big, wide sea,\nmy CREATURE has grown stronger!$",reviewed AUTO draft
+Route107_Text_TonyRematchDefeated,"What a shock!\pMy CREATURE has gotten stronger, but\nI stayed weak as a TRAINER!$",reviewed AUTO draft
+Route107_Text_TonyRematchPostBattle,What you learn in battle makes you\na stronger TRAINER.\lThe waves taught me that.$,"reviewed, no change needed"
+Route107_Text_DeniseIntro,Do you know a little town called\nKACHIRHO?$,reviewed AUTO draft
+Route107_Text_DeniseDefeated,I hate this!$,"reviewed, no change needed"
+Route107_Text_DenisePostBattle,A weird saying is getting really\ntrendy at KACHIRHO HALL.$,reviewed AUTO draft
+Route107_Text_BethIntro,"Did you want to battle me?\nSure, I'll go with you!$","reviewed, no change needed"
+Route107_Text_BethDefeated,I wasn't good enough for you.$,"reviewed, no change needed"
+Route107_Text_BethPostBattle,"I think you're going to keep getting\nbetter. I'll go for it, too!$","reviewed, no change needed"
+Route107_Text_LisaIntro,LENA: We challenge you as a sister\nand brother!$,reviewed AUTO draft
+Route107_Text_LisaDefeated,LENA: Awesome.\nYou're in a different class of tough.$,reviewed AUTO draft
+Route107_Text_LisaPostBattle,LENA: Do you have any friends who\nwould go to the beach with you?$,reviewed AUTO draft
+Route107_Text_LisaNotEnoughPokemon,"LENA: If you want to battle with us,\nbring more CREATURES.$",reviewed AUTO draft
+Route107_Text_RayIntro,"ROK: We always battle CREATURE,\nme and my sister.\pI always lose, but we can beat you\n2-on-2!$",reviewed AUTO draft
+Route107_Text_RayDefeated,"ROK: Wowee, you're at a higher level\nthan us!$",reviewed AUTO draft
+Route107_Text_RayPostBattle,"ROK: My sister gave me my CREATURE.\nI raised it, and now it's my important\lpartner!$",reviewed AUTO draft
+Route107_Text_RayNotEnoughPokemon,"ROK: If you want to battle us,\ngo bring some more CREATURES!$",reviewed AUTO draft
+Route107_Text_CamronIntro,"I'm in the middle of a triathlon,\nbut I'm nowhere near tired!$","reviewed, no change needed"
+Route107_Text_CamronDefeated,That exhausted me…$,"reviewed, no change needed"
+Route107_Text_CamronPostBattle,I still have swimming and running left\nto do after this.\pAm I going to be okay?$,"reviewed, no change needed"
+Route108_Text_JeromeIntro,My dream is to swim the world's seven\nseas!$,"reviewed, no change needed"
+Route108_Text_JeromeDefeated,I won't be able to swim the seven seas\nlike this…$,"reviewed, no change needed"
+Route108_Text_JeromePostBattle,Playing with marine CREATURE is one of\nthe pleasures of swimming!$,reviewed AUTO draft
+Route108_Text_MatthewIntro,"Ahoy, there! Are you going out to\nthe REPUBLIC WRECK, too?$",reviewed AUTO draft
+Route108_Text_MatthewDefeated,I'm sinking!\nGlub… Glub…$,"reviewed, no change needed"
+Route108_Text_MatthewPostBattle,Some people even go inside that\nREPUBLIC WRECK.$,reviewed AUTO draft
+Route108_Text_TaraIntro,My liar of a boyfriend told me that\nI look great in a bikini…$,"reviewed, no change needed"
+Route108_Text_TaraDefeated,"Oh, boo!$","reviewed, no change needed"
+Route108_Text_TaraPostBattle,"Even if it's a lie, I love being told\nI look great…\lWe girls are so complex…$","reviewed, no change needed"
+Route108_Text_MissyIntro,I love the sea!\nI forget all my worries when I swim!$,"reviewed, no change needed"
+Route108_Text_MissyDefeated,"When I lose a battle, I get all\nstressed out!$","reviewed, no change needed"
+Route108_Text_MissyPostBattle,Work off your stress by swimming!\nIt's so healthy!$,"reviewed, no change needed"
+Route108_Text_CoryIntro,"I love WATER-type CREATURES.\nI love other CREATURES, too!$",reviewed AUTO draft
+Route108_Text_CoryDefeated,Waaah! I lost!\nWaaah! Waaah!$,"reviewed, no change needed"
+Route108_Text_CoryPostBattle,Shouting is good for me!\nIt uplifts me!$,"reviewed, no change needed"
+Route108_Text_CoryRegister,"I love tough TRAINERS, too!\nRegister me in your COMLINK!$",reviewed AUTO draft
+Route108_Text_CoryRematchIntro,"Win or lose, I love battling at sea!$","reviewed, no change needed"
+Route108_Text_CoryRematchDefeated,Waaah! I lost again!\nWaaah! Waaah!$,"reviewed, no change needed"
+Route108_Text_CoryRematchPostBattle,"If you're faced with a challenge,\ntry shouting at the sea!$","reviewed, no change needed"
+Route108_Text_CarolinaIntro,I take huge pride in my CREATURE.\nWe'll show you one speedy battle!$,reviewed AUTO draft
+Route108_Text_CarolinaDefeated,That wasn't cute at all.$,"reviewed, no change needed"
+Route108_Text_CarolinaPostBattle,"Since I'm at sea like this, I wouldn't\nmind putting on a pink, frilly swimsuit…$","reviewed, no change needed"
+Route109_Text_DavidIntro,Hiyah! Look at my chiseled abs!\nThis is what you call “cut”!$,"reviewed, no change needed"
+Route109_Text_DavidDefeated,Aiyah!\nFlubbed out!$,"reviewed, no change needed"
+Route109_Text_DavidPostBattle,Hiyah!\pMy sculpted abs have nothing to do\nwith CREATURE battles!$,reviewed AUTO draft
+Route109_Text_AliceIntro,Are you properly protected against\nthe sun?$,"reviewed, no change needed"
+Route109_Text_AliceDefeated,"Ouch, ouch, ouch!$","reviewed, no change needed"
+Route109_Text_AlicePostBattle,Cheeks are the most prone to burning!$,"reviewed, no change needed"
+Route109_Text_HueyIntro,"I've laid anchor in ports around\nthe world, but MOS EISLEY's the best.$",reviewed AUTO draft
+Route109_Text_HueyDefeated,You're the best!$,"reviewed, no change needed"
+Route109_Text_HueyPostBattle,In the best port was the best\nTRAINER…$,"reviewed, no change needed"
+Route109_Text_EdmondIntro,Urrrrppp…\nBattle? With me?$,"reviewed, no change needed"
+Route109_Text_EdmondDefeated,Urp… Ooooooohhhhhh…\nUrrrrpppp…$,"reviewed, no change needed"
+Route109_Text_EdmondPostBattle,"I'm usually stronger than this!\nI'm just seasick as a dog!\pI'm a SAILOR, but…$","reviewed, no change needed"
+Route109_Text_RickyIntro,I'm thirsty… I could go for a JAWA JUICE\nat the SEASHORE HOUSE…$,reviewed AUTO draft
+Route109_Text_RickyDefeated,Groan…$,"reviewed, no change needed"
+Route109_Text_RickyPostBattle,I'm getting famished… My inner tube\nlooks like a giant doughnut…$,"reviewed, no change needed"
+Route109_Text_RickyRegister,Will you have another match with me\nwhen I'm not all thirsty?$,"reviewed, no change needed"
+Route109_Text_RickyRematchIntro,"I'm hungry, but I've got enough pep in\nme for a battle!$","reviewed, no change needed"
+Route109_Text_RickyRematchDefeated,I lost…\nIt's because I'm hungry…$,"reviewed, no change needed"
+Route109_Text_RickyRematchPostBattle,"When you eat on a beach, everything\nseems to taste a little better.$","reviewed, no change needed"
+Route109_Text_LolaIntro,Doesn't a beach umbrella look like\na giant flower?$,"reviewed, no change needed"
+Route109_Text_LolaDefeated,Mommy!$,"reviewed, no change needed"
+Route109_Text_LolaPostBattle,"If you look at the beach from the sky,\nit looks like a big flower garden!$","reviewed, no change needed"
+Route109_Text_LolaRegister,Me?\nI'm here every day!$,"reviewed, no change needed"
+Route109_Text_LolaRematchIntro,I'm not losing to you again!\nThat's why I have my inner tube!$,"reviewed, no change needed"
+Route109_Text_LolaRematchDefeated,Mommy!$,"reviewed, no change needed"
+Route109_Text_LolaRematchPostBattle,"If I have an inner tube, me and my\nCREATURE's cuteness goes way up!$",reviewed AUTO draft
+Route109_Text_AustinaIntro,"I can't swim without my inner tube,\nbut I won't lose at CREATURE!$",reviewed AUTO draft
+Route109_Text_AustinaDefeated,Did I lose because I have an inner\ntube?$,"reviewed, no change needed"
+Route109_Text_AustinaPostBattle,My inner tube is a fashion item.\nI can't be seen without it.$,"reviewed, no change needed"
+Route109_Text_GwenIntro,"Hi, big TRAINER.\nWill you battle with me?$","reviewed, no change needed"
+Route109_Text_GwenDefeated,"Oh, you're strong.$","reviewed, no change needed"
+Route109_Text_GwenPostBattle,How did you get to be so strong?$,"reviewed, no change needed"
+Route109_Text_CarterIntro,Wahahah! This dude's going to catch\nhimself a big one!$,"reviewed, no change needed"
+Route109_Text_CarterDefeated,This dude just lost one…$,"reviewed, no change needed"
+Route109_Text_CarterPostBattle,"This dude thinks you're a big one.\nNo, you're a big-one-to-be!$","reviewed, no change needed"
+Route109_Text_PaulIntro,"PAZ: Well, this is a mood-breaker.\pI wish you wouldn't disturb our\nprecious time together.$",reviewed AUTO draft
+Route109_Text_PaulDefeated,"PAZ: Well, I give up.$",reviewed AUTO draft
+Route109_Text_PaulPostBattle,"PAZ: Well, don't tell anyone that\nwe're here.\lThis is just our private world of two!$",reviewed AUTO draft
+Route109_Text_PaulNotEnoughPokemon,"PAZ: We're totally, deeply in love.\nThat's why we make our CREATURE battle\ltogether.$",reviewed AUTO draft
+Route109_Text_MelDefeated,"MERI: We lost, and it's my fault!\nPAUL will hate me!$",reviewed AUTO draft
+Route109_Text_MelPostBattle,"MERI: Um, PAUL, are you angry with me?\nPlease don't be angry.$",reviewed AUTO draft
+Route109_Text_ChandlerIntro,Tadaah! See?\nMy inner tube's round!$,"reviewed, no change needed"
+Route109_Text_ChandlerDefeated,"Oh, oh!\nToo bad!$","reviewed, no change needed"
+Route109_Text_ChandlerPostBattle,"After I showed you my round inner\ntube, too…$","reviewed, no change needed"
+Route109_Text_HaileyIntro,"I can't swim, so I'm pretending\nto swim.$","reviewed, no change needed"
+Route109_Text_HaileyDefeated,I thought so!\nI didn't think we could win.$,"reviewed, no change needed"
+Route109_Text_HaileyPostBattle,"When I learn how to swim, I think\nmy CREATURE will become tougher.$",reviewed AUTO draft
+Route109_Text_ElijahIntro,"For a guy as macho as me, this kind\nof CREATURE is the perfect match!$",reviewed AUTO draft
+Route109_Text_ElijahDefeated,"I'm cool even in defeat, hey?$","reviewed, no change needed"
+Route109_Text_ElijahPostBattle,"For a guy as macho as me, a port\nis the perfect setting!\pI guess I'll head for MOS EISLEY.$",reviewed AUTO draft

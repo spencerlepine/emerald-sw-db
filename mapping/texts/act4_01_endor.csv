@@ -114,6 +114,9 @@ Route123_Text_EdIntro,"When there are no TRAINERS around,\nI let my CREATURES ba
 Route123_Text_EdDefeat,I kind of like your CREATURES.$,
 Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop,Be sure to visit the PRETTY PETAL\nflower shop near BESTINE\lon TATOOINE.\pLet flowers fill the world!$,
 Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife,Our four grandchildren should become\nmore accomplished than my husband.\pJoy never goes out of my life!$,
+Kecleon_Text_UseDevonScopeMonAttacked,{PLAYER} used the INCOM SCOPE.\pAn invisible CREATURE became fully\nvisible!\pThe startled CREATURE attacked!$,
+Route121_Text_MarcelIntro,"My CREATURES have never lost!\nOn their next win, I'm entering them\lin SHOWCASES.$",
+Route123_Text_AlbertoDefeat,"Even in defeat, BIRD CREATURES\nare cool!$",
 FortreeCity_Text_SomethingBlockingGym,"I want to go to the ARENA,\nbut something's blocking the way.\pAfter all the bother I went through\ntraining on ROUTE 120…$",reviewed AUTO draft
 FortreeCity_Text_ThisTimeIllBeatWinona,"I've got my pride-and-joy CREATURE\nwith me. This time, I'll beat CHIRPA.$",reviewed AUTO draft
 FortreeCity_Text_BugPokemonComeThroughWindow,Living on top of trees is okay.\pBut sometimes BUG CREATURES come in\nthrough windows.\lIt can be really startling.$,reviewed AUTO draft
@@ -201,9 +204,214 @@ Route120_Text_StevenIllWaitHere,"LEIA: No?\pI'll wait here, so you can get ready
 Route120_Text_StevenShowMeYourPower,"LEIA: {PLAYER}{KUN}, show me your true\npower as a TRAINER!$",reviewed AUTO draft
 Kecleon_Text_SomethingUnseeable,Something unseeable is in the way.$,"reviewed, no change needed"
 Kecleon_Text_WantToUseDevonScope,Something unseeable is in the way.\pWant to use the INCOM SCOPE?$,reviewed AUTO draft
-Kecleon_Text_UseDevonScopeMonAttacked,{PLAYER} used the INCOM SCOPE.\pAn invisible CREATURE became completely\nvisible!\pThe startled CREATURE attacked!$,reviewed AUTO draft
 Route120_Text_RouteSignFortree,ROUTE 120\n{LEFT_ARROW} BRIGHT TREE$,reviewed AUTO draft
 Route120_Text_RouteSign121,{RIGHT_ARROW} ROUTE 121\n{LEFT_ARROW} ROUTE 120$,"reviewed, no change needed"
 Route123_Text_YouLikeGrassMonsTooHaveThis,"Oh?\pYou like GRASS-type CREATURES, too,\ndon't you?\pI'm so happy, you can have this!\nIt's a token of our friendship.$",reviewed AUTO draft
 Route123_Text_RouteSign,{RIGHT_ARROW} ROUTE 123\n{LEFT_ARROW} ROUTE 118$,"reviewed, no change needed"
 Route123_Text_BerryMastersHouse,FRUIT MASTER'S HOUSE$,reviewed AUTO draft
+AncientTomb_Braille_ShineInTheMiddle,"THOSE WHO\nINHERIT OUR\nWILL, SHINE\nIN THE MIDDLE.$","reviewed, no change needed"
+Route118_Text_RoseIntro,The aroma of flowers has a magical\npower. It cleanses us body and soul.$,"reviewed, no change needed"
+Route118_Text_RoseDefeat,"Oh, dear me.\nI seem to have lost.$","reviewed, no change needed"
+Route118_Text_RoseRegister,Sniff… That odor--it's a COMLINK!\nWe must register each other!$,reviewed AUTO draft
+Route118_Text_RoseRematchIntro,Were you drawn here by the sweet\naroma?$,"reviewed, no change needed"
+Route118_Text_RoseRematchDefeat,The power of aroma…\nIt didn't seem to do much.$,"reviewed, no change needed"
+Route118_Text_PerryIntro,BIRD CREATURES that FLY elegantly in\nthe sky… They're the best!$,reviewed AUTO draft
+Route118_Text_PerryDefeat,Urgh…\nI crashed…$,"reviewed, no change needed"
+Route118_Text_ChesterIntro,Take flight!\nMy BIRD CREATURES!$,reviewed AUTO draft
+Route118_Text_ChesterDefeat,They did take flight…$,"reviewed, no change needed"
+Route118_Text_ChesterPostBattle,"If they'd get stronger, they'd be able\nto fly more freely…$","reviewed, no change needed"
+Route118_Text_BarnyIntro,"I'm a FISHERMAN, but also a TRAINER.\nI'm raising the CREATURES I caught.$",reviewed AUTO draft
+Route118_Text_BarnyDefeat,I thought I was doing okay in my\ntraining…$,"reviewed, no change needed"
+Route118_Text_WadeDefeat,I was beaten in heart?$,"reviewed, no change needed"
+Route118_Text_WadePostBattle,"Come to think of it, fishing is a battle\nbetween a FISHERMAN and a CREATURE.$",reviewed AUTO draft
+Route118_Text_DaltonIntro,Let my melody rock your soul!$,"reviewed, no change needed"
+Route118_Text_DaltonDefeat,La-lalala…$,"reviewed, no change needed"
+Route118_Text_DaltonPostBattle,An electric guitar doesn't always\nhave to be noisy…\pIt can be strummed to squeeze out\nthis heart-stirring melody…$,"reviewed, no change needed"
+Route118_Text_DaltonRegister,"When I compose better melodies,\nyou have to come listen, okay?$","reviewed, no change needed"
+Route118_Text_DaltonRematchIntro,A melody from my CREATURE and me…\nLet us deliver it to your soul.$,reviewed AUTO draft
+Route118_Text_DaltonRematchDefeat,La-lalala…$,"reviewed, no change needed"
+Route118_Text_DaltonPostRematch,"When I play, my emotions should reach\nyou through my electric guitar…$","reviewed, no change needed"
+Route118_Text_DeandreIntro,"Go, go, go!\nCREATURE 1, 2, and 3!$",reviewed AUTO draft
+Route118_Text_DeandreDefeat,"Come in, CREATURE! Are you okay?\nCREATURE 1, 2, and 3?!$",reviewed AUTO draft
+Route118_Text_DeandrePostBattle,Isn't it cool that I have a CREATURE\nbattle team?\pYou can copy me--I don't mind!$,reviewed AUTO draft
+Route119_Text_BrentIntro,We're the MIMIC CIRCLE!\nWe MIMIC what you do!$,"reviewed, no change needed"
+Route119_Text_BrentDefeat,Whoopsie!\nI lost!$,"reviewed, no change needed"
+Route119_Text_BrentPostBattle,What's so good about mimicry?\pFufufu…\nYou'll never understand…$,"reviewed, no change needed"
+Route119_Text_DonaldIntro,"So, we finally meet!\nMy BUG CREATURES will keep you company!$",reviewed AUTO draft
+Route119_Text_DonaldDefeat,I wish we'd never met…$,"reviewed, no change needed"
+Route119_Text_DonaldPostBattle,I want to MIMIC you some more.\nCan you hurry up and move?$,"reviewed, no change needed"
+Route119_Text_TaylorIntro,"If you step forward, we step forward.\pIf you turn right, we turn, too…$","reviewed, no change needed"
+Route119_Text_TaylorDefeat,"But if you win, I lose…$","reviewed, no change needed"
+Route119_Text_TaylorPostBattle,I can't MIMIC you winning the match.\nThat's just impossible…\lIt's burning me up…$,"reviewed, no change needed"
+Route119_Text_DougIntro,"Yep, you've finally caught me!\nOr were you trying to avoid me?$","reviewed, no change needed"
+Route119_Text_DougDefeat,"Whoop, that was a great match!$","reviewed, no change needed"
+Route119_Text_DougPostBattle,We're the MIMIC CIRCLE!\nI hope you enjoyed our performance.$,"reviewed, no change needed"
+Route119_Text_GregIntro,"You don't know who I am, do you?\pBut, I also don't know you.\nSo, we'll battle!$","reviewed, no change needed"
+Route119_Text_GregDefeat,You're pretty strong!$,"reviewed, no change needed"
+Route119_Text_GregPostBattle,"Until you go away somewhere, we'll\nkeep on mimicking your every move.$","reviewed, no change needed"
+Route119_Text_KentIntro,The MIMIC CIRCLE was formed by people\nwho like to MIMIC.\pA battle starts the instant we meet!$,"reviewed, no change needed"
+Route119_Text_KentDefeat,I give up!$,"reviewed, no change needed"
+Route119_Text_KentPostBattle,Won't you join our MIMIC CIRCLE?$,"reviewed, no change needed"
+Route119_Text_JacksonIntro,"Who has the knowledge and\nthe technique for survival?\pCREATURE RANGERS, that's who!$",reviewed AUTO draft
+Route119_Text_JacksonDefeat,I didn't have enough CREATURES\nknow-how…$,reviewed AUTO draft
+Route119_Text_JacksonPostBattle,To break away from civilization and\nawaken the wild spirit within!\pThat's our vision.$,"reviewed, no change needed"
+Route119_Text_JacksonRegister,I hope you'll give me a rematch without\nmocking my lack of knowledge.$,"reviewed, no change needed"
+Route119_Text_JacksonRematchDefeat,You've remained strong!$,"reviewed, no change needed"
+Route119_Text_CatherineIntro,"Oh? Look at you.\pFor someone on an adventure,\nyou're traveling awfully light.$","reviewed, no change needed"
+Route119_Text_CatherineDefeat,Accidents happen when you're not\nprepared!$,"reviewed, no change needed"
+Route119_Text_CatherinePostBattle,"You're traveling light but you have\neverything you need.\pYou're on top of things mentally and\nphysically, too.$","reviewed, no change needed"
+Route119_Text_CatherineRegister,"Do you have a COMLINK?\nIt's a must-have tool for any TRAINER.\pOh, you do have one!\nLet's register each other, then!$",reviewed AUTO draft
+Route119_Text_CatherineRematchDefeat,I'm still missing something…$,"reviewed, no change needed"
+Route119_Text_HughIntro,The vast sky holds untold promise!\pNothing can compare to the sheer\nexhilaration of flight!$,"reviewed, no change needed"
+Route119_Text_HughDefeat,Down and out!$,"reviewed, no change needed"
+Route119_Text_HughPostBattle,My BIRD CREATURES made my dreams of\nflying come true!$,reviewed AUTO draft
+Route119_Text_PhilDefeat,We lacked potential…$,"reviewed, no change needed"
+Route119_Text_PhilPostBattle,"Ever since I was a little kid, I always\nadmired BIRD CREATURES…$",reviewed AUTO draft
+Route119_Text_YasuIntro,"To lurk in shadows, and live in\ndarkness… That is my destiny.\pI emerge to challenge you!$","reviewed, no change needed"
+Route119_Text_YasuDefeat,I admit defeat!$,"reviewed, no change needed"
+Route119_Text_YasuPostBattle,"Those defeated in battle withdraw\nquietly back into the shadows.\lThat, too, is destiny…$","reviewed, no change needed"
+Route119_Text_TakashiIntro,"If you're not on your guard,\nyou're in for some pain!$","reviewed, no change needed"
+Route119_Text_TakashiDefeat,You're surprisingly good!$,"reviewed, no change needed"
+Route119_Text_TakashiPostBattle,My surprise attack ended in\nfailure…$,"reviewed, no change needed"
+Route119_Text_HideoIntro,"To hide a tree, use a forest!$","reviewed, no change needed"
+Route119_Text_HideoDefeat,I bow to your superiority.$,"reviewed, no change needed"
+Route119_Text_ChrisIntro,You spoke to me…\nSo you want to challenge me!\pSure! I'll try out the CREATURE I caught\nwhile SURFING!$,reviewed AUTO draft
+Route119_Text_ChrisDefeat,I don't have a clue about what it\ntakes to win.$,"reviewed, no change needed"
+Route119_Text_ChrisPostBattle,Go for a SURF on my CREATURE…\pThen fish off its back…\pIt's an indescribably luxuriant moment!$,reviewed AUTO draft
+Route119_Text_FabianIntro,"Hit me with a power chord!\nVictory is mine!\lIt's our time to shine, whoa, yeah!$","reviewed, no change needed"
+Route119_Text_FabianDefeat,"You showed me who's the boss!\nWe'll have to take the loss, oh, no!$","reviewed, no change needed"
+Route119_Text_FabianPostBattle,Hit me with another power chord!\nLeave me alone!\lYour win you have to atone!$,"reviewed, no change needed"
+Route119_Text_DaytonIntro,Hohoho!\nI like kid TRAINERS!\lLet's have a good one!$,"reviewed, no change needed"
+Route119_Text_DaytonDefeat,You're pretty amazing!\nHohoho!$,"reviewed, no change needed"
+Route119_Text_DaytonPostBattle,Hohoho!\nI'll try emulating the pep of kid\lTRAINERS like you!$,"reviewed, no change needed"
+Route119_Text_RachelIntro,"Wherever and whenever I may be,\nI always have my parasol in hand.$","reviewed, no change needed"
+Route119_Text_RachelDefeat,"Oh, but…\nThat's not fair.$","reviewed, no change needed"
+Route119_Text_RachelPostBattle,You're asking if my parasol is heavy?\nYour BAG is filled with more junk than\lI ever carry around.$,"reviewed, no change needed"
+Route120_Text_ColinIntro,Do you have any moves that can strike\na flying CREATURE?$,reviewed AUTO draft
+Route120_Text_ColinDefeat,You soared above me!$,"reviewed, no change needed"
+Route120_Text_ColinPostBattle,"The move FLY is convenient,\ndon't you think?\pWhile the CREATURE is flying,\nalmost no moves can strike it.$",reviewed AUTO draft
+Route120_Text_RobertIntro,My CREATURE is strong!\nHow about yours?$,reviewed AUTO draft
+Route120_Text_RobertDefeat,Your CREATURES were stronger…$,reviewed AUTO draft
+Route120_Text_RobertPostBattle,A CREATURE that grows steadily is one\nyou can count on.$,reviewed AUTO draft
+Route120_Text_RobertRegister,You can be counted on to get better.\nI'd like to register you in my COMLINK!$,reviewed AUTO draft
+Route120_Text_RobertRematchIntro,A CREATURE that grows steadily is one\nyou can count on.$,reviewed AUTO draft
+Route120_Text_RobertRematchDefeat,Your CREATURES are seriously strong.$,reviewed AUTO draft
+Route120_Text_RobertPostRematch,"My CREATURES are growing stronger.\nI have to grow stronger, too.$",reviewed AUTO draft
+Route120_Text_LorenzoPostBattle,To travel wherever your heart desires\nwith CREATURES…\lThat's the joy of being a TRAINER.$,reviewed AUTO draft
+Route120_Text_JennaIntro,"How's your physical fitness?\nIf you're not fit, you could have a\lrough time in critical situations.$","reviewed, no change needed"
+Route120_Text_JennaDefeat,"I'm totally fit, but…$","reviewed, no change needed"
+Route120_Text_JeffreyIntro,… … … … … …\n… … … … … …\lWant to battle?$,"reviewed, no change needed"
+Route120_Text_JeffreyDefeat,Lost it…$,"reviewed, no change needed"
+Route120_Text_JeffreyPostBattle,… … … … … …\n… … … … … …\lI'll try harder…$,"reviewed, no change needed"
+Route120_Text_JeffreyRegister,… … … … … …\n… … … … … …\lDo you have a COMLINK…?$,reviewed AUTO draft
+Route120_Text_JeffreyRematchIntro,… … … … … …\n… … … … … …\lWant to battle again?$,"reviewed, no change needed"
+Route120_Text_JeffreyRematchDefeat,… … … … … …\nI lost again…$,"reviewed, no change needed"
+Route120_Text_JenniferIntro,"CREATURES have many special abilities.\nIf you want to become a first-class\lTRAINER, learn about them.$",reviewed AUTO draft
+Route120_Text_JenniferDefeat,You're obviously thinking.$,"reviewed, no change needed"
+Route120_Text_JenniferPostBattle,The special abilities of CREATURES\nwill make battle styles change.$,reviewed AUTO draft
+Route120_Text_ChipIntro,Who might you be?\pAre you perhaps searching for ancient\nruins that are rumored to possibly\lexist according to legend?$,"reviewed, no change needed"
+Route120_Text_ChipDefeat,What a disgraceful setback…$,"reviewed, no change needed"
+Route120_Text_ChipPostBattle,That giant rock… I would like to\nbelieve it may indeed contain ancient\lruins. But I see no entrance.$,"reviewed, no change needed"
+Route120_Text_ClarissaIntro,Why am I carrying this parasol?\pI'll tell you if you can win against me.$,"reviewed, no change needed"
+Route120_Text_AngelicaIntro,"Me, CREATURE, and my parasol…\pIf any one of them is missing,\nthe picture of beauty will be ruined.$",reviewed AUTO draft
+Route120_Text_AngelicaDefeat,You've completely ruined my beauty…$,"reviewed, no change needed"
+Route120_Text_AngelicaPostBattle,"A parasol wouldn't suit you at all.\pWhy, something like this would only\nget in your way.$","reviewed, no change needed"
+Route120_Text_KeigoDefeat,The creation of new ninja techniques\nis but a distant dream…$,"reviewed, no change needed"
+Route120_Text_KeigoPostBattle,Perhaps I ought to apprentice under\na ninja sensei.$,"reviewed, no change needed"
+Route120_Text_RileyIntro,We ninja conceal ourselves under our\ncamouflage cloaks.\lI bet you didn't know where I was!$,"reviewed, no change needed"
+Route120_Text_RileyDefeat,I lost!\nI should camouflage my shame!$,"reviewed, no change needed"
+Route120_Text_RileyPostBattle,Our camouflage cloaks are all\nhandmade.$,"reviewed, no change needed"
+Route120_Text_CallieIntro,"If you don't pay attention,\nyou could get hurt!$","reviewed, no change needed"
+Route120_Text_CallieDefeat,Ouch!\nI was the one to get hurt.$,"reviewed, no change needed"
+Route120_Text_LeonelIntro,Your party CREATURE…\nDo you have different types?$,reviewed AUTO draft
+Route120_Text_LeonelDefeat,I've seen your policy in action!$,"reviewed, no change needed"
+Route121_Text_VanessaIntro,Will you play with my delightfully\npretty CREATURE?$,reviewed AUTO draft
+Route121_Text_VanessaDefeat,This isn't what I meant!$,"reviewed, no change needed"
+Route121_Text_WalterDefeat,"Ah, well played.$","reviewed, no change needed"
+Route121_Text_WalterRegister,Your CREATURE prowess is remarkable.\nAllow me to register you as a memento.$,reviewed AUTO draft
+Route121_Text_WalterRematchDefeat,"Ah, well played.$","reviewed, no change needed"
+Route121_Text_TammyIntro,There are powers beyond our\nunderstanding in the world…$,"reviewed, no change needed"
+Route121_Text_TammyDefeat,I have lost…$,"reviewed, no change needed"
+Route121_Text_TammyPostBattle,JEDHA TEMPLE…\nThere is a mysterious power\lat work there…$,reviewed AUTO draft
+Route121_Text_KateIntro,"KESS: Together, we're fearless!\nWe'll demonstrate how tough we are!$",reviewed AUTO draft
+Route121_Text_KateDefeat,KESS: I blew it in front of my junior\nstudent partner…$,reviewed AUTO draft
+Route121_Text_KatePostBattle,"KESS: When someone's relying on me,\nI get this urge to look cool in front\lof them…$",reviewed AUTO draft
+Route121_Text_KateNotEnoughMons,"KESS: If you've only got one CREATURE,\nwe can't battle with you.\pThat would be bullying.$",reviewed AUTO draft
+Route121_Text_JoyIntro,"JOA: Together, we're fearless!\nWe'll demonstrate how tough we are!$",reviewed AUTO draft
+Route121_Text_JoyDefeat,"JOA: Please forgive me, KATE!$",reviewed AUTO draft
+Route121_Text_JoyNotEnoughMons,JOA: You need at least two CREATURES\nif you're going to challenge us!$,reviewed AUTO draft
+Route121_Text_JessicaIntro,Stop! Have a good look at my precious\nCREATURE!$,reviewed AUTO draft
+Route121_Text_JessicaDefeat,"Oh, how dare you!\nDon't take it so seriously!$","reviewed, no change needed"
+Route121_Text_JessicaRegister,I took it easy on you this time!\nIt won't be that way the next time!$,"reviewed, no change needed"
+Route121_Text_JessicaRematchIntro,My precious CREATURES grew!\nHave a good look!$,reviewed AUTO draft
+Route121_Text_JessicaRematchDefeat,"Oh, how dare you!\nYou still won't take it easy!$","reviewed, no change needed"
+Route121_Text_CristinIntro,I have this routine.\nDefeat five TRAINERS a day.\lGuess what? You're number five!$,"reviewed, no change needed"
+Route121_Text_CristinDefeat,No!\nYou're horrid!$,"reviewed, no change needed"
+Route121_Text_CristinPostBattle,I didn't expect to lose this easily…\nI'll win next time!$,"reviewed, no change needed"
+Route121_Text_CristinRegister,That was total humiliation!\nI won't forget you…\lHand over your COMLINK!$,reviewed AUTO draft
+Route121_Text_CristinRematchIntro,I have this new routine.\nDefeat ten TRAINERS a day.\lGuess what? You're number ten!$,"reviewed, no change needed"
+Route121_Text_CristinRematchDefeat,Wait! That's nasty!\nI demand a rematch!$,"reviewed, no change needed"
+Route121_Text_CristinPostRematch,An opponent I just can't beat…\nSnivel…\lI can't believe this is happening…$,"reviewed, no change needed"
+Route121_Text_CaleIntro,"Can't you see that I have all this\nstuff with me?\pDespite that, you still insist that\nwe battle?$","reviewed, no change needed"
+Route121_Text_CaleDefeat,Of course I lost!\nI'm holding stuff in both hands!$,"reviewed, no change needed"
+Route121_Text_MylesDefeat,Super awesome!$,"reviewed, no change needed"
+Route121_Text_PatIntro,I want everybody to see the CREATURE\nI've raised!$,reviewed AUTO draft
+Route121_Text_PatDefeat,Wow!\nSpectacular!$,"reviewed, no change needed"
+Route121_Text_PatPostBattle,I raise every CREATURE with the same\nlove and care--I don't pick favorites.$,reviewed AUTO draft
+Route121_Text_MarcelDefeat,"Oh, now what happened here?$","reviewed, no change needed"
+Route121_Text_MarcelPostBattle,I may have to train my gang some more\nbefore entering any SHOWCASE.$,reviewed AUTO draft
+Route123_Text_WendyIntro,Want to determine how strong you are?\nI'll be the test!$,"reviewed, no change needed"
+Route123_Text_WendyDefeat,You passed with flying colors!$,"reviewed, no change needed"
+Route123_Text_WendyPostBattle,To best even me…\nYour strength is marvelous!$,"reviewed, no change needed"
+Route123_Text_BraxtonIntro,You seem to have a big collection\nof ARENA SHARDS.\pLet me see if you're actually worthy of\nthose SHARDS!$,reviewed AUTO draft
+Route123_Text_BraxtonDefeat,"Oh, you're worthy, all right!$","reviewed, no change needed"
+Route123_Text_BraxtonPostBattle,You did your SHARDS proud in that\nmatch!$,reviewed AUTO draft
+Route123_Text_VioletIntro,They say that good times are filled\nwith good aromas.$,"reviewed, no change needed"
+Route123_Text_VioletDefeat,Oh…\nI smell the bitter scent of misery…$,"reviewed, no change needed"
+Route123_Text_VioletPostBattle,The FRUIT MASTER's garden is filled\nwith uplifting fragrances.$,reviewed AUTO draft
+Route123_Text_CameronIntro,Being a psychic is about willpower.\pI've willed myself not to lose to\nanyone. That makes me strong!$,"reviewed, no change needed"
+Route123_Text_CameronDefeat,I feel sad…$,"reviewed, no change needed"
+Route123_Text_CameronPostBattle,Being a psychic is about willpower.\nI thought I wouldn't lose to you…$,"reviewed, no change needed"
+Route123_Text_CameronRegister,"I sense it!\nYou and I shall battle again!\lI can't tell if I'll win, though…\pLet's see your COMLINK.$",reviewed AUTO draft
+Route123_Text_CameronRematchIntro,I've convinced myself that I won't\nlose anymore. That makes me strong!$,"reviewed, no change needed"
+Route123_Text_CameronRematchDefeat,I feel sad…$,"reviewed, no change needed"
+Route123_Text_CameronPostRematch,I should train at JEDHA TEMPLE…\nI'll never beat you this way…$,reviewed AUTO draft
+Route123_Text_JackiDefeat,Overwhelmed!$,"reviewed, no change needed"
+Route123_Text_JackiPostBattle,We all have psychic powers.\nWe've just forgotten how to use them.$,"reviewed, no change needed"
+Route123_Text_JackiRegister,I would like to face you again.\nIs that okay with you?$,"reviewed, no change needed"
+Route123_Text_JackiRematchIntro,Have you awoken the psychic powers\nwithin you?$,"reviewed, no change needed"
+Route123_Text_JackiRematchDefeat,Astounding!$,"reviewed, no change needed"
+Route123_Text_JackiPostRematch,"Your power with CREATURES…\nThat could be a psychic power, too.$",reviewed AUTO draft
+Route123_Text_MiuIntro,"MIKA: Hello, TRAINER. I hope your\nCREATURE won't cry when they lose.$",reviewed AUTO draft
+Route123_Text_MiuDefeat,"MIKA: Uh-oh, we lost.$",reviewed AUTO draft
+Route123_Text_MiuPostBattle,"MIKA: TRAINER, your CREATURES are\nstrong because you are friends.$",reviewed AUTO draft
+Route123_Text_MiuNotEnoughMons,MIKA: It's no fun to battle if you\ndon't have two CREATURES.$,reviewed AUTO draft
+Route123_Text_YukiIntro,YUN: Okay!\nWe're beating the TRAINER's CREATURE!$,reviewed AUTO draft
+Route123_Text_YukiDefeat,"YUN: Uh-oh, we lost.$",reviewed AUTO draft
+Route123_Text_YukiPostBattle,YUN: Why are you so strong?\nWe've never lost before.$,reviewed AUTO draft
+Route123_Text_YukiNotEnoughMons,YUN: It's no fun to battle if you\ndon't have two CREATURES.$,reviewed AUTO draft
+Route123_Text_KindraDefeat,Overflowing with vitality…$,"reviewed, no change needed"
+Route123_Text_FernandoIntro,I'll turn your lights out while\nI rip through this tune!$,"reviewed, no change needed"
+Route123_Text_FernandoDefeat,"Hey, hold it!\nI was still playing the intro!$","reviewed, no change needed"
+Route123_Text_FernandoPostBattle,You're rock steady.\nI'd like to write a tune about you.$,"reviewed, no change needed"
+Route123_Text_FernandoRegister,"The next time, lend your ears to\nthe full tune, will you?$","reviewed, no change needed"
+Route123_Text_FernandoRematchIntro,Today's the day I'm going to do it!\nI'll turn out your lights before\lI finish singing my song!$,"reviewed, no change needed"
+Route123_Text_FernandoRematchDefeat,"Hey, hold it!\nI haven't even hit the chorus!$","reviewed, no change needed"
+Route123_Text_FernandoPostRematch,"I thought you'd be so enthralled\nby my tune, you'd lose.$","reviewed, no change needed"
+Route123_Text_DavisIntro,This is my awesome BUG CREATURE!\nMy big brother got it for me.$,reviewed AUTO draft
+Route123_Text_DavisDefeat,Waaaah!\nYou meanie!$,"reviewed, no change needed"
+Route123_Text_DavisPostBattle,Don't tell my brother I lost.\nYou have to keep it a secret!$,"reviewed, no change needed"
+Route123_Text_JazmynIntro,My confidence will get a boost by\nbeating someone obviously strong!$,"reviewed, no change needed"
+Route123_Text_JazmynDefeat,There goes my confidence…$,"reviewed, no change needed"
+Route123_Text_JazmynPostBattle,"They say that you can't judge a person\nby their appearance.\pBut often, their looks don't lie…$","reviewed, no change needed"
+Route123_Text_FrederickIntro,"Hello, child!\nCan you spare some time?$","reviewed, no change needed"
+Route123_Text_FrederickDefeat,"Ah, a mighty capable child!\nLet me contribute to your allowance.$","reviewed, no change needed"
+Route123_Text_FrederickPostBattle,Contribute to your allowance?\nWasn't the prize money enough?$,"reviewed, no change needed"
+Route123_Text_AlbertoIntro,"I have to tell you, BIRD CREATURES\nare my obsession!\pBirds are cool!\nThey're the best!$",reviewed AUTO draft
+Route123_Text_EdPostBattle,"Hehe, I'm swiping your battling ideas!\nI think they'll make me better.$","reviewed, no change needed"
+Route123_Text_JonasIntro,"I lay in ambush, and a TRAINER has\nlanded in my trap!$","reviewed, no change needed"
+Route123_Text_JonasDefeat,"If you don't lose, how am I supposed\nto have fun playing ninja?$","reviewed, no change needed"
+Route123_Text_JonasPostBattle,I'm going to ambush a weaker-looking\nTRAINER next time.$,"reviewed, no change needed"
+Route123_Text_KayleyIntro,I just bought this parasol.\nMy cuteness should be up by a third!$,"reviewed, no change needed"
+Route123_Text_KayleyDefeat,You're better than me by about\nfive times!$,"reviewed, no change needed"
+Route123_Text_KayleyPostBattle,Using accessories effectively is\nthe secret behind fashion appeal.$,"reviewed, no change needed"

@@ -139,6 +139,10 @@ S+"PCIsFull": r"Excuse me!\nYour storage BOX is full.$",
 "Route123_Text_EdDefeat": pl("I kind of like your CREATURE."),
 "Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop": [("flower shop near BESTINE.", "flower shop near BESTINE\lon TATOOINE.")],
 "Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife": [],
+# --- overflow fixes (trainer lines) ---
+"Kecleon_Text_UseDevonScopeMonAttacked": r"{PLAYER} used the INCOM SCOPE.\pAn invisible CREATURE became fully\nvisible!\pThe startled CREATURE attacked!$",
+"Route121_Text_MarcelIntro": r"My CREATURES have never lost!\nOn their next win, I'm entering them\lin SHOWCASES.$",
+"Route123_Text_AlbertoDefeat": r"Even in defeat, BIRD CREATURES\nare cool!$",
 }
 NOTES = {
 WI+"2F_Text_ShellyIntro": "Bossk (Shelly): Trandoshan trophy hunter, hisses",

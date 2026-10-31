@@ -13,7 +13,7 @@ keeps the draft as reviewed). Write "\\n" as a plain \n inside normal strings;
 skipped, so a spec still works after a glossary fix. The output CSV is the
 source of truth; the spec is just a convenience and need not be committed.
 """
-import csv, sys, runpy, warnings
+import csv, re, sys, runpy, warnings
 warnings.simplefilter("ignore")
 E = lambda x: x.replace("\n", "\\n")
 spec = runpy.run_path(sys.argv[1]); FIX = spec["FIX"]; NOTES = spec.get("NOTES", {})
@@ -46,8 +46,23 @@ for tid, fx in FIX.items():
             s = s.replace(a, b)
     out.append([tid, s, NOTES.get(tid, "")])
 # KEEP_REST_MAPS: every other text on these maps was read and its AUTO draft is accepted as is
+# Trainer battle lines (data/text/trainers.inc) and a few map-specific shared files have no map_id: derive it from
+# the text id prefix ("Route131_..." -> map:route131). Other shared systems (TV, match call, day care, contests)
+# are reviewed in C3i, not here.
+MAP_TEXT_FILES = ("data/text/trainers.inc", "data/text/braille.inc", "data/text/shoal_cave.inc")
+
+
+def map_of(tid, r):
+    if r["map_id"]:
+        return r["map_id"]
+    if r.get("source_file") not in MAP_TEXT_FILES:
+        return ""
+    head = tid.split("_")[0]
+    return "map:" + re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "-", head).lower() if head[:1].isupper() else ""
+
+
 for tid, r in auto.items():
-    if tid not in FIX and r["map_id"] and r["map_id"].startswith(tuple(spec.get("KEEP_REST_MAPS", ()))) \
+    if tid not in FIX and map_of(tid, r) and map_of(tid, r).startswith(tuple(spec.get("KEEP_REST_MAPS", ()))) \
             and r["text_status"] in ("AUTO", "UNCHANGED"):
         out.append([tid, r["sw_text_raw"], "reviewed AUTO draft" if r["text_status"] == "AUTO" else "reviewed, no change needed"])
 w = csv.writer(open(sys.argv[2], "w", newline="", encoding="utf-8"))

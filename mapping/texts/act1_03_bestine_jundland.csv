@@ -284,3 +284,84 @@ RusturfTunnel_Text_GruntTakePackage,"This is plain not right…\pThe BOSS told m
 RusturfTunnel_Text_YouShatteredBoulderTakeHM,"Wow! You shattered that boulder\nblocking the way.\pTo show you how much I appreciate it,\nI'd like you to have this HM.$","reviewed, no change needed"
 RusturfTunnel_Text_WandaReunion,"CAMIE!\nNow I can see you anytime!\pCAMIE: That's…wonderful.\pPlease, take some rest at my home.$",reviewed AUTO draft
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock,On the other side of this rock…\nMy boyfriend is there.\pHe… He's not just digging the tunnel\nto come see me.\pHe works his hands raw and rough\nfor the benefit of everyone.$,"reviewed, no change needed"
+Route104_Text_GinaIntro,"GARA: Okay, let's battle with our\nCREATURE!$",reviewed AUTO draft
+Route104_Text_GinaDefeat,GARA: Losing upsets me!$,reviewed AUTO draft
+Route104_Text_GinaPostBattle,GARA: You are strong!\nWe have to train lots more!$,reviewed AUTO draft
+Route104_Text_GinaNotEnoughMons,"GARA: Oh? Only one CREATURE?\nThen, we don't battle with you.\pIf there's only one CREATURE, it will\nbe lonesome. That's not nice.$",reviewed AUTO draft
+Route104_Text_MiaIntro,"MYA: We are twins, so we battle\nCREATURE together.$",reviewed AUTO draft
+Route104_Text_MiaDefeat,"MYA: We battled together, but we\nboth lost…$",reviewed AUTO draft
+Route104_Text_MiaPostBattle,MYA: We will train our CREATURE more\nand be strong like you.$,reviewed AUTO draft
+Route104_Text_MiaNotEnoughMons,MYA: You want to battle with us?\pIt's a big no-no if you don't have two\nCREATURES with you.\lWe're too strong for you!$,reviewed AUTO draft
+Route104_Text_IvanIntro,Why keep it a secret?\nI'm the WATER CREATURE expert!\pHuh?\nYou don't know me?$,reviewed AUTO draft
+Route104_Text_IvanDefeat,"I thought I wasn't too bad, if I may\nsay so, but I guess not… Bleah…$","reviewed, no change needed"
+Route104_Text_IvanPostBattle,I got too into fishing.\nI forgot I had to raise my CREATURE…$,reviewed AUTO draft
+Route104_Text_BillyIntro,Leaving footprints in the sand is\nso fun!$,"reviewed, no change needed"
+Route104_Text_BillyDefeat,Waah! I got sand in my runners!\nThey're all gritty!$,"reviewed, no change needed"
+Route104_Text_BillyPostBattle,"I want to leave my footprints in\nthe sand everywhere, but they\ldisappear quickly…$","reviewed, no change needed"
+Route104_Text_HaleyIntro,"Should I…\nOr shouldn't I?\pOkay, sure, I will battle!$","reviewed, no change needed"
+Route104_Text_HaleyDefeat,I shouldn't have battled…$,"reviewed, no change needed"
+Route104_Text_HaleyPostBattle,"If you're faced with a decision and\nyou let someone else choose for you,\lyou will regret it, however things\lturn out.$","reviewed, no change needed"
+Route104_Text_HaleyRegister1,"You're strong, but should I register\nyou in my COMLINK?\lMaybe I shouldn't…\pOkay, sure, I will register you!$",reviewed AUTO draft
+Route104_Text_HaleyRegister2,"You're strong, but should I register\nyou in my COMLINK?\lMaybe I shouldn't…\pOkay, sure, I will register you!$",reviewed AUTO draft
+Route104_Text_HaleyRematchIntro,"Come on, battle with me!$","reviewed, no change needed"
+Route104_Text_HaleyRematchDefeat,Ohh…\nI thought I could win…$,"reviewed, no change needed"
+Route104_Text_HaleyPostRematch,"I made the decision to battle, so\nI can accept this loss with grace.\pI am still upset about losing!$","reviewed, no change needed"
+Route104_Text_WinstonIntro,"Oh, sure, I'll accept your challenge.\nI have a lot of money.$","reviewed, no change needed"
+Route104_Text_WinstonDefeat,Why couldn't I win?$,"reviewed, no change needed"
+Route104_Text_WinstonPostBattle,There are some things money can't buy.\nThat's CREATURE…$,reviewed AUTO draft
+Route104_Text_WinstonRegister1,"Hm?\nAh, you've obtained a COMLINK.\pI will gladly register you.\nAfter all, I have plenty of money.$",reviewed AUTO draft
+Route104_Text_WinstonRegister2,"Hm?\nAh, you've obtained a COMLINK.\pI will gladly register you.\nAfter all, I have plenty of money.$",reviewed AUTO draft
+Route104_Text_WinstonRematchIntro,"After I lost to you, I learned a bunch\nof things about CREATURES.$",reviewed AUTO draft
+Route104_Text_WinstonRematchDefeat,I lost again?\nWhy couldn't I win?$,"reviewed, no change needed"
+Route104_Text_WinstonPostRematch,"I'm fabulously wealthy, but I can't\nseem to win at CREATURE…\pIt's so deep, the world of CREATURES…$",reviewed AUTO draft
+Route104_Text_CindyIntro,We must have been fated to meet.\nMay I ask you for a battle?$,"reviewed, no change needed"
+Route104_Text_CindyDefeat,"Oh, my!$","reviewed, no change needed"
+Route104_Text_CindyPostBattle,“Hello” is the beginning of “good-bye.”\nI hope we meet again.$,"reviewed, no change needed"
+Route104_Text_CindyRegister1,"Hello, we meet again.\pWe seem to be drawn together. Let's\nregister each other in our COMLINKS.$",reviewed AUTO draft
+Route104_Text_CindyRegister2,We should commemorate how we seem\nto be drawn to each other.\pLet's register each other in our\nCOMLINKS.$,reviewed AUTO draft
+Route104_Text_CindyRematchIntro,"Hello, we meet again.\nMay I ask you for a battle?$","reviewed, no change needed"
+Route104_Text_CindyRematchDefeat,"Oh, my…\nI did the best that I could…$","reviewed, no change needed"
+Route104_Text_CindyPostRematch,“Hello” is the beginning of “good-bye.”\nI hope we meet again.$,"reviewed, no change needed"
+Route104_Text_DarianIntro,"I fished up a tough-looking CREATURE!\pIt has this magical quality to it!\nIt surely looks tough, yes it does!$",reviewed AUTO draft
+Route104_Text_DarianDefeat,What the…$,"reviewed, no change needed"
+Route104_Text_DarianPostBattle,"Hey, COLOFRY, you sure don't live up\nto your name, do you?$",reviewed AUTO draft
+Route116_Text_ClarkIntro,"If the tunnel doesn't go through, then\nI'll just go over the top.$","reviewed, no change needed"
+Route116_Text_ClarkDefeat,Gasp… Gasp…\nLosing made me tired…$,"reviewed, no change needed"
+Route116_Text_ClarkPostBattle,"It's no big deal if there's no tunnel.\nTo a HIKER, mountains are roads!$","reviewed, no change needed"
+Route116_Text_JoeyIntro,My CREATURE rule!\nCheck them out!$,reviewed AUTO draft
+Route116_Text_JoeyDefeat,Ouch! A scrape!\nI have to put on a bandage!$,"reviewed, no change needed"
+Route116_Text_JoeyPostBattle,Bandages are signs of toughness!\nI've got another one!$,"reviewed, no change needed"
+Route116_Text_JoseIntro,My BUG CREATURES are tough!\nLet's battle!$,reviewed AUTO draft
+Route116_Text_JoseDefeat,I lost!\nI thought I had you!$,"reviewed, no change needed"
+Route116_Text_JosePostBattle,"BUG CREATURES evolve quickly.\nSo they get strong quickly, too.$",reviewed AUTO draft
+Route116_Text_JaniceIntro,Let me teach you how strong my\nadorable CREATURE is!$,reviewed AUTO draft
+Route116_Text_JaniceDefeat,You're a notch above me…$,"reviewed, no change needed"
+Route116_Text_JanicePostBattle,"CREATURE that possess cuteness and\npower, that's ideal, I think.$",reviewed AUTO draft
+Route116_Text_JerryIntro,We learn all sorts of things at the\nACADEMY.\pI want to test things out for real!$,reviewed AUTO draft
+Route116_Text_JerryDefeat,I slacked off in school…\nThat's why I lost.$,"reviewed, no change needed"
+Route116_Text_JerryPostBattle,"I'll have to redo some courses at\nthe ACADEMY.\lIf I don't, KITSTER will be steamed.$",reviewed AUTO draft
+Route116_Text_JerryRegister1,"I learned at the ACADEMY\nthat a COMLINK can register TRAINERS.\pI don't really get what that means,\nso can I just try it?$",reviewed AUTO draft
+Route116_Text_JerryRegister2,"I learned at the ACADEMY\nthat a COMLINK can register TRAINERS.\pI don't really get what that means,\nso can I just try it?$",reviewed AUTO draft
+Route116_Text_JerryRematchIntro,I've been studying seriously at the\nACADEMY.\lI won't lose like I did last time.$,reviewed AUTO draft
+Route116_Text_JerryRematchDefeat,Hunh?\nI studied diligently.$,"reviewed, no change needed"
+Route116_Text_JerryPostRematch,"I'll have to redo some courses at\nthe ACADEMY.\lIf I don't, KITSTER will be steamed.$",reviewed AUTO draft
+Route116_Text_KarenIntro,"I study at school, and I study on\nthe way home, too!$","reviewed, no change needed"
+Route116_Text_KarenDefeat,I'm in shock--I lost?$,"reviewed, no change needed"
+Route116_Text_KarenPostBattle,"Awww, I'll never become an elegant\nTRAINER like KITSTER this way!$",reviewed AUTO draft
+Route116_Text_KarenRegister1,"Oh, wow! Isn't that a COMLINK?\nI have one, too! Please register me!$",reviewed AUTO draft
+Route116_Text_KarenRegister2,"Oh, wow! Isn't that a COMLINK?\nI have one, too! Please register me!$",reviewed AUTO draft
+Route116_Text_KarenRematchIntro,I studied a whole lot since I saw you.\nYou must see my achievements!$,"reviewed, no change needed"
+Route116_Text_KarenRematchDefeat,I'm in shock.\nI lost again?$,"reviewed, no change needed"
+Route116_Text_KarenPostRematch,"You've beaten KITSTER?\nI can't beat you, then. Not yet.$",reviewed AUTO draft
+Route116_Text_SarahIntro,"Just so you know, I've never once been\nbested by anyone at anything.$","reviewed, no change needed"
+Route116_Text_SarahDefeat,"Oh, my goodness.\nThis is a new experience for me.$","reviewed, no change needed"
+Route116_Text_SarahPostBattle,"My life of luxury affords me all that\nI could possibly desire.\pHowever, when it comes to CREATURE,\nmy wealth has no meaning.$",reviewed AUTO draft
+Route116_Text_DawsonIntro,"When you lay your eyes on my CREATURE's\ngorgeous fur, their beauty will render\lyou helpless!$",reviewed AUTO draft
+Route116_Text_DawsonDefeat,"Oh, baby, say it isn't so!$","reviewed, no change needed"
+Route116_Text_DawsonPostBattle,"Oh, no, no, no!\nYou've mussed up my CREATURE's fur!\lYou've ruined my hairdo, too!\lI'll have to call my stylist now!$",reviewed AUTO draft
+Route116_Text_DevanIntro,We'll rock you hard!$,"reviewed, no change needed"
+Route116_Text_DevanDefeat,Aiyiyi!\nNo contest at all!$,"reviewed, no change needed"
+Route116_Text_DevanPostBattle,"I should try different CREATURE\ntypes, that's what I ought to do.$",reviewed AUTO draft
+Route116_Text_JohnsonIntro,"It's a dead end up here.\nI'm bored, so can we battle?$","reviewed, no change needed"
+Route116_Text_JohnsonDefeat,That was fun even though I lost.$,"reviewed, no change needed"
+Route116_Text_JohnsonPostBattle,Want to stay here and keep\nme company?$,"reviewed, no change needed"

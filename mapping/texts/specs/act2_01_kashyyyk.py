@@ -59,6 +59,10 @@ FIX = {
 "Route109_SeashoreHouse_Text_WantToBuySodaPop": [("Just ¥300 a bottle!", "Just 300 credits a bottle!")],
 "Route109_SeashoreHouse_Text_JohannaIntro": [("TRAINERS and CREATURE!", "TRAINERS and CREATURES!")],
 "Route109_SeashoreHouse_Text_SimonPostBattle": [("If one of my CREATURE knew the move", "If one of my CREATURES knew the move")],
+# --- overflow fixes (trainer lines) ---
+"Route106_Text_ElliotRematchPostBattle": r"Win or lose, CREATURES are the best!\nYou agree with me, right?$",
+"Route109_Text_MelIntro": r"MERI: We're, like, totally in love.\nOur romance is heating up KASHYYYK!$",
+"Route109_Text_MelNotEnoughPokemon": r"MERI: We're, like, truly in love.\nThat's why we make our CREATURES\lbattle together.$",
 }
 NOTES = {"DewfordTown_Gym_Text_BrawlyIntro": "Tarfful speaks Basic in game text (Wookiee roar for flavour)",
          "GraniteCave_StevensRoom_Text_ImStevenLetterForMe": "Leia is surveying kyber for the Rebellion; 'rare stones' -> crystals"}
