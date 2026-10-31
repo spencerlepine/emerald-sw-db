@@ -297,7 +297,8 @@ def build_terms(rows, by_id, char_terms):
             name = r["emerald_name"].upper() if et != "badge" else r["emerald_title"].upper()
             add(name, r["sw_name"], et)
             if et == "item" and not name.endswith("S"):  # "POKé BALLS", "POTIONS" in dialogue
-                add(name + "S", r["sw_name"] + ("" if r["sw_name"].endswith(("S", "FRUIT")) else "S"), et)
+                sw = r["sw_name"]
+                add(name + "S", sw if sw.endswith(("S", "FRUIT")) else sw + ("ES" if sw.endswith(("CH", "SH", "X")) else "S"), et)
         elif et == "location":
             t = r["emerald_title"].upper()
             add(t, r["sw_name"], "location")
@@ -319,9 +320,13 @@ def build_terms(rows, by_id, char_terms):
 
 
 # "POKéMON" is both singular and plural; "CREATURE" is not. Fix the obvious plurals.
-PLURAL_AFTER = re.compile(r"CREATURE(?=(?:\\[nl]|\s)(?:are|were|have|aren't|weren't|don't|do|all|that are|who are)\b)")
+PLURAL_AFTER = re.compile(r"CREATURE(?=(?:\\[nl]|\s)(?:(?:that |who )?(?:are|were|have|aren't|weren't|don't|do|haven't|"
+                          r"live|hide|grow|await|react|become|appear|gather|like|love|seem|tend|need|come|get|"
+                          r"make|look|want|know|can't seem|all)|that are|who are)\b)")
 PLURAL_BEFORE = re.compile(r"(\b(?:all|many|some|several|two|three|four|five|six|these|those|other|more|"
-                           r"lots of|both|few|your two|your six)(?: of)?(?: your| my| the| our| their| his| her)?"
+                           r"lots of|both|few|your two|your six|bunch of|lot of|types of|kinds of|sorts of|"
+                           r"world of|full of|number of|variety of|plenty of|love of|study|studying|catching|"
+                           r"raising|collecting|various|countless)(?: of)?(?: your| my| the| our| their| his| her)?"
                            r"(?:\\[nl]| ))CREATURE\b")
 
 
@@ -331,6 +336,31 @@ PLURAL_BEFORE = re.compile(r"(\b(?:all|many|some|several|two|three|four|five|six
 FONT_WIDTHS = json.loads((ROOT / "tools" / "font_widths.json").read_text(encoding="utf-8"))
 BOX_PX = 208
 PLACEHOLDER_PX = {"PLAYER": 42, "RIVAL": 42, "KUN": 0, "STR_VAR_1": 60, "STR_VAR_2": 60, "STR_VAR_3": 60}
+
+
+# "rare CREATURE" is plural unless an article or determiner comes first ("a rare CREATURE").
+PLURAL_ADJ = re.compile(r"\b(rare|strong|cute|cool|tough|weak|wild|different|powerful|new)((?:\\[nl]| ))CREATURE\b(?!'s)")
+SINGULAR_BEFORE = re.compile(r"(?:(?<=\\[nlp])|\b)(?:a|an|one|this|that|the|any|each|every|your|my|his|her|its|their|our|no|which|what|same)"
+                             r"(?: [a-z]+)?(?:\\[nl]| )$")
+
+
+def _plural_adj(m):
+    before = m.string[max(0, m.start() - 24):m.start()]
+    if SINGULAR_BEFORE.search(before):
+        return m.group(0)
+    return m.group(1) + m.group(2) + "CREATURES"
+
+
+def fix_articles(text: str, new_terms: set[str]) -> str:
+    for term in sorted(new_terms, key=len, reverse=True):
+        if not term[:1].isalpha():
+            continue
+        vowel = term[0] in "AEIO" or (term[0] == "U" and not term.startswith(("UNI", "USE", "USU", "UTI"))) \
+            or re.match(r"[FHLMNRSX][0-9-]", term)  # "an R2 UNIT", "an X-WING"
+        art = "an" if vowel else "a"
+        text = re.sub(r"(?:(?<=\\[nlp])|\b)([Aa])n?((?: |\\[nl]))(?=" + re.escape(term) + r"\b)",
+                      lambda m: (art if m.group(1) == "a" else art.capitalize()) + m.group(2), text)
+    return text
 
 
 def line_px(line: str) -> int:
@@ -364,9 +394,12 @@ def draft_texts(terms: dict[str, str]):
             return terms[m.group(1)]
 
         new = pattern.sub(sub, raw)
+        if used:  # "an GRAPPLE LINE" -> "a GRAPPLE LINE", "a ICE…" -> "an ICE…"
+            new = fix_articles(new, {terms[u] for u in used})
         if "CREATURE" in new:
             new = PLURAL_AFTER.sub("CREATURES", new)
             new = PLURAL_BEFORE.sub(lambda m: m.group(1) + "CREATURES", new)
+            new = PLURAL_ADJ.sub(_plural_adj, new)
         status, note = ("AUTO" if used else "UNCHANGED"), ""
         if t["text_id"] in curated:
             new, src, note = curated[t["text_id"]]
