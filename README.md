@@ -43,7 +43,7 @@ Every row carries four status columns:
 |---|---|
 | `swap_map.csv` | **The Step 4 table.** One row per Emerald entity plus every NET_NEW row: `emerald_id, sw_id, entity_type, swap_kind, map_status, art_status, game_status, emerald_name, sw_name, emerald_title, sw_title, emerald_constant, sw_constant, planet, sw_basis, sw_description, notes, derived_from`. `sw_constant` is the proposed new C constant (`SPECIES_TREECKO` → `SPECIES_WOOKLET`). |
 | `entities.csv` | Emerald `entities.csv` with `title` / `description` replaced by the Star Wars version and the status columns added; the Emerald values stay in `emerald_title` / `emerald_description`. All stats and game columns are unchanged. |
-| `texts.csv` | Every Emerald text block: `emerald_text_raw`, `sw_text_raw`, `text_status` (`CURATED` hand-written, `AUTO` names and terms swapped, `UNCHANGED`), `terms_applied`, `overflow_risk` (a line may no longer fit the text box). |
+| `texts.csv` | Every Emerald text block: `emerald_text_raw`, `sw_text_raw`, `text_status` (`CURATED` hand-written, `AUTO` names and terms swapped, `UNCHANGED`), `terms_applied`, `overflow_risk` (a line is wider than the 208 px text box in Emerald's font, see `progress/NOTES.md`). |
 | `text_terms.csv` | The term dictionary the auto drafts used (glossary + every mapped name), plus ambiguous terms that were left alone. |
 | `pending_art.csv` | Every art asset (PNG or move animation), the entities that use it, the Star Wars entity, a `suggested_path` with the new name, and its `art_status`. |
 | `area_progression.csv` | Emerald's balance table (levels, badges expected, gating) with `planet` and `sw_map_title`. Use it before adding or moving anything. |

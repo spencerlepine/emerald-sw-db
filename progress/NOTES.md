@@ -33,3 +33,25 @@
 ## Berries
 
 All berries are `<NAME> FRUIT` (max 14 chars). Canon where Star Wars has a fruit (jogan, muja, pallie, shuura, blba, hubba), original names otherwise. Dialogue uses FRUIT for BERRY and BERRIES (FRUIT BLENDER, FRUIT MASTER). Effects unchanged.
+
+## Text overflow check (pixel based)
+
+`overflow_risk` now measures each line in pixels with Emerald's normal font (glyph widths from
+`pokeemerald/src/fonts.c` through `charmap.txt`, saved in `tools/font_widths.json`). The field
+text box is 208 px: no Emerald script line without placeholders is wider. A line is flagged when
+it is wider than max(208, the widest line of the original text). Placeholders count as
+{PLAYER}/{RIVAL} 42 px, {STR_VAR_n} 60 px, {KUN} 0. This replaced a character count (36) and cut
+the flagged texts from 466 to about 130.
+
+## Glossary additions (round 2)
+
+Plural and compound forms that the single-word rules got wrong: POKé BALLS, POKéMON MART(S),
+POKéMON CENTERS, CONTESTS, GYMS, GYM LEADERS, POKéMON NEWS (HOLONET NEWS), POKéMON WIRELESS CLUB
+(HOLONET CLUB), and the article fix "a GYM" → "an ARENA". Item names also get an automatic plural
+(POTIONS → BACTA SPRAYS).
+
+## Dialogue conventions (C3)
+
+CREATURES for plural POKéMON; tall grass → scrub or dunes on Tatooine; PC → terminal (storage is
+"over the HoloNet"); TV → HoloNet; clock → chrono; sea → water or stars on desert worlds. Luke is
+restless and reckless, not frail; Owen and Beru are his uncle and aunt.

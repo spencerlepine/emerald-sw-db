@@ -29,7 +29,7 @@ can be `[x]` with its rows still DRAFT.
 - [x] **C1 Timeline.** `mapping/timeline.csv`: rewrite all 45 Emerald timeline events (title, tagline, description, lore, planet).
 - [x] **C2 Trainer names.** 755 generic trainers keep Emerald names (CALVIN, JOEY…). Give them Star Wars-style names (max 10 chars), mapped by trainer id in a new `mapping/trainers.csv`.
 - [~] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
-  - [~] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon). Done: intro speech, Mos Pelgo (town, both houses, lab), Route 101 → `act1_01_mos_pelgo.csv`. Next: Tosche Station (Oldale), Routes 102–104, Mos Entha (Petalburg), Jundland Wastes, Bestine.
+  - [~] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon). Done: intro speech, Mos Pelgo, Route 101 (`act1_01_mos_pelgo.csv`); Tosche Station, Routes 102–103, Mos Entha town + arena + Lars house (`act1_02_tosche_mos_entha.csv`). Next: Route 104, Jundland Wastes (Petalburg Woods), Bestine (Rustboro), Route 116, Beggar's Canyon.
   - [ ] C3b Kashyyyk + Mos Eisley (Act 2)
   - [ ] C3c Mos Espa, Sullust, Mustafar, Mos Entha (Act 3)
   - [ ] C3d Endor (Act 4)
@@ -39,7 +39,7 @@ can be `[x]` with its rows still DRAFT.
   - [ ] C3h Post-game (Grand Arena, islands)
   - [ ] C3i C-side strings (battle messages, menus, datapad UI, match call)
 - [ ] **C4 Datapad entries.** Per creature: category (replaces "Wood Gecko") and a two-line datapad text.
-- [ ] **C5 Overflow fixes.** Rewrite every `overflow_risk=yes` text so it fits.
+- [~] **C5 Overflow fixes.** Check is now pixel-accurate (see NOTES); about 130 texts flagged. Rewrite every `overflow_risk=yes` text so it fits.
 
 ## Phase D: art and world details (names only; drawing is Step 5)
 
@@ -61,3 +61,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C1, B4b · see git log · 45 timeline events DRAFT; 43 berries → `<NAME> FRUIT` (glossary BERRY/BERRIES → FRUIT); fixed auto-draft bug where a term right after `\n`/`\l`/`\p` was skipped (+189 AUTO texts).
 - 2026-10-31 · C2 · see git log · 489 rows in `mapping/trainers.csv` (generated DRAFT names, same initial + gender; stormtrooper grunts = TK numbers, cartel grunts = thug names; BRENDAN/MAY → KAEL/MIRA). Owner may want to hand-pick names for prominent trainers.
 - 2026-10-31 · C3a (part 1) · see git log · 108 curated texts in `mapping/texts/act1_01_mos_pelgo.csv` (intro, Mos Pelgo, Route 101), all within the overflow limit. Conventions: CREATURES plural, scrub/dunes for tall grass, terminal for PC, chrono for clock, HoloNet for TV.
+- 2026-10-31 · C3a (part 2), C5 tooling · see git log · 106 more curated texts (Tosche Station, Routes 102–103, Mos Entha); glossary round 2 (plurals, an ARENA); pixel-based overflow check; `tools/curate_texts.py` helper.

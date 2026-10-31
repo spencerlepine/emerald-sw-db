@@ -23,6 +23,7 @@ Deterministic: same inputs give byte-identical outputs.
 from __future__ import annotations
 
 import csv
+import json
 import os
 import re
 import sys
@@ -295,6 +296,8 @@ def build_terms(rows, by_id, char_terms):
         if et in ("species", "move", "item", "ability", "game_type", "badge"):
             name = r["emerald_name"].upper() if et != "badge" else r["emerald_title"].upper()
             add(name, r["sw_name"], et)
+            if et == "item" and not name.endswith("S"):  # "POKé BALLS", "POTIONS" in dialogue
+                add(name + "S", r["sw_name"] + ("" if r["sw_name"].endswith(("S", "FRUIT")) else "S"), et)
         elif et == "location":
             t = r["emerald_title"].upper()
             add(t, r["sw_name"], "location")
@@ -322,8 +325,23 @@ PLURAL_BEFORE = re.compile(r"(\b(?:all|many|some|several|two|three|four|five|six
                            r"(?:\\[nl]| ))CREATURE\b")
 
 
-def visible_len(line: str) -> int:
-    return len(re.sub(r"\{[^}]*\}", "", line))
+# Pixel width of a text line in Emerald's normal font (glyph widths from pokeemerald src/fonts.c,
+# mapped through charmap.txt into tools/font_widths.json). The field text box is 208 px wide:
+# no Emerald script line without placeholders is wider than that.
+FONT_WIDTHS = json.loads((ROOT / "tools" / "font_widths.json").read_text(encoding="utf-8"))
+BOX_PX = 208
+PLACEHOLDER_PX = {"PLAYER": 42, "RIVAL": 42, "KUN": 0, "STR_VAR_1": 60, "STR_VAR_2": 60, "STR_VAR_3": 60}
+
+
+def line_px(line: str) -> int:
+    total = 0
+    for tok in re.findall(r"\{[^}]*\}|.", line):
+        if tok.startswith("{"):
+            k = tok[1:-1].split(" ")[0]
+            total += PLACEHOLDER_PX.get(k, 8 if ("ARROW" in k or "BUTTON" in k or k.startswith("EMOJI")) else 0)
+        elif tok != "$":
+            total += FONT_WIDTHS.get(tok, 6)
+    return total
 
 
 def draft_texts(terms: dict[str, str]):
@@ -355,8 +373,8 @@ def draft_texts(terms: dict[str, str]):
             status = "CURATED"
         old_lines = re.split(r"\\[nlp]", raw)
         new_lines = re.split(r"\\[nlp]", new)
-        longest = max((visible_len(x) for x in old_lines), default=0)
-        overflow = any(visible_len(x) > max(longest, 36) for x in new_lines)
+        longest = max((line_px(x) for x in old_lines), default=0)
+        overflow = any(line_px(x) > max(longest, BOX_PX) for x in new_lines)
         counts[status] += 1
         out.append({"text_id": t["text_id"], "map_id": t["map_id"], "source_file": t["source_file"],
                     "source_line": t["source_line"], "speaker_label": t["speaker_label"],
