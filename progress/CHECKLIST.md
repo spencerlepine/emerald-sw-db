@@ -28,8 +28,8 @@ can be `[x]` with its rows still DRAFT.
 
 - [x] **C1 Timeline.** `mapping/timeline.csv`: rewrite all 45 Emerald timeline events (title, tagline, description, lore, planet).
 - [x] **C2 Trainer names.** 755 generic trainers keep Emerald names (CALVIN, JOEY…). Give them Star Wars-style names (max 10 chars), mapped by trainer id in a new `mapping/trainers.csv`.
-- [ ] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
-  - [ ] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon)
+- [~] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
+  - [~] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon). Done: intro speech, Mos Pelgo (town, both houses, lab), Route 101 → `act1_01_mos_pelgo.csv`. Next: Tosche Station (Oldale), Routes 102–104, Mos Entha (Petalburg), Jundland Wastes, Bestine.
   - [ ] C3b Kashyyyk + Mos Eisley (Act 2)
   - [ ] C3c Mos Espa, Sullust, Mustafar, Mos Entha (Act 3)
   - [ ] C3d Endor (Act 4)
@@ -60,3 +60,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · A1, A2, B1–B3, B4 (no berries), B5–B7 · see git log · first full DRAFT pass; 0 build warnings; 3,351 texts auto-drafted, 449 flagged for overflow.
 - 2026-10-31 · C1, B4b · see git log · 45 timeline events DRAFT; 43 berries → `<NAME> FRUIT` (glossary BERRY/BERRIES → FRUIT); fixed auto-draft bug where a term right after `\n`/`\l`/`\p` was skipped (+189 AUTO texts).
 - 2026-10-31 · C2 · see git log · 489 rows in `mapping/trainers.csv` (generated DRAFT names, same initial + gender; stormtrooper grunts = TK numbers, cartel grunts = thug names; BRENDAN/MAY → KAEL/MIRA). Owner may want to hand-pick names for prominent trainers.
+- 2026-10-31 · C3a (part 1) · see git log · 108 curated texts in `mapping/texts/act1_01_mos_pelgo.csv` (intro, Mos Pelgo, Route 101), all within the overflow limit. Conventions: CREATURES plural, scrub/dunes for tall grass, terminal for PC, chrono for clock, HoloNet for TV.
