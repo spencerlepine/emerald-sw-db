@@ -348,6 +348,7 @@ PLACEHOLDER_PX = {"PLAYER": 42, "RIVAL": 42, "KUN": 0, "STR_VAR_1": 60, "STR_VAR
 PLURAL_ADJ = re.compile(r"(?:(?<=\\[nlp])|\b)(rare|strong|cute|cool|tough|weak|wild|different|powerful|new|pretty|lively|beautiful|smart|great|fine|amazing|precious|BIRD|BUG|[A-Z]+-type|"
                         r"NORMAL|FIRE|WATER|GRASS|ELECTRIC|ICE|FIGHTING|POISON|GROUND|FLYING|PSYCHIC|ROCK|GHOST|DRAGON|DARK|STEEL|"
                         r"BEAUTIFUL|CUTE|SMART|COOL|TOUGH|"
+                        r"eligible|rental|personal|decent|darling|opposing|three|four|five|six|two|several|many|all|"
                         r"with|of|and|about|love|like|adore|steal|trade|raise|catch|judging|toughening up|taught to)((?:\\[nl]| ))CREATURE\b(?!'s)"
                         r"(?!(?:\\[nl]| )(?:battles?|battling|training|trainers?|TRAINERS?|feathers|team|NURSERY|CENTER|"
                         r"Storage|STORAGE|HERB|fans?|moves?|types?|kinds?|species|world|sound|cry|DATAPAD|lovers?|"

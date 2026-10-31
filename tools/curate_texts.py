@@ -45,6 +45,7 @@ for tid, fx in FIX.items():
                 continue
             s = s.replace(a, b)
     out.append([tid, s, NOTES.get(tid, "")])
+# KEEP_REST_FILES: same, for whole shared source files ("data/text/battle_dome.inc")
 # KEEP_REST_MAPS: every other text on these maps was read and its AUTO draft is accepted as is
 # Trainer battle lines (data/text/trainers.inc) and a few map-specific shared files have no map_id: derive it from
 # the text id prefix ("Route131_..." -> map:route131). Other shared systems (TV, match call, day care, contests)
@@ -62,9 +63,36 @@ def map_of(tid, r):
 
 
 for tid, r in auto.items():
-    if tid not in FIX and map_of(tid, r) and map_of(tid, r).startswith(tuple(spec.get("KEEP_REST_MAPS", ()))) \
-            and r["text_status"] in ("AUTO", "UNCHANGED"):
+    on_map = map_of(tid, r) and map_of(tid, r).startswith(tuple(spec.get("KEEP_REST_MAPS", ())))
+    in_file = r.get("source_file") in spec.get("KEEP_REST_FILES", ())
+    if tid not in FIX and (on_map or in_file) and r["text_status"] in ("AUTO", "UNCHANGED"):
         out.append([tid, r["sw_text_raw"], "reviewed AUTO draft" if r["text_status"] == "AUTO" else "reviewed, no change needed"])
+# REFLOW = True: a paragraph with a line wider than the text box (208 px, or the widest original line) is
+# re-wrapped greedily; its first break stays \n and later breaks become \l (scroll).
+if spec.get("REFLOW"):
+    import build
+
+    def reflow(text, raw):
+        lim = max([208] + [build.line_px(x) for x in re.split(r"\\[nlp]", raw)])
+        end = "$" if text.endswith("$") else ""
+        paras = (text[:-1] if end else text).split("\\p")
+        for i, para in enumerate(paras):
+            lines = re.split(r"\\[nl]", para)
+            if all(build.line_px(x) <= lim for x in lines):
+                continue
+            words, cur, new = " ".join(lines).split(" "), "", []
+            for wd in words:
+                t = (cur + " " + wd) if cur else wd
+                if build.line_px(t) > lim and cur:
+                    new.append(cur); cur = wd
+                else:
+                    cur = t
+            new.append(cur)
+            paras[i] = "\\n".join(new[:2]) + "".join("\\l" + x for x in new[2:])
+        return "\\p".join(paras) + end
+
+    for row in out:
+        row[1] = reflow(row[1], auto[row[0]]["emerald_text_raw"])
 w = csv.writer(open(sys.argv[2], "w", newline="", encoding="utf-8"))
 w.writerow(["text_id", "sw_text_raw", "notes"]); w.writerows(out)
 print(len(out), "rows ->", sys.argv[2])

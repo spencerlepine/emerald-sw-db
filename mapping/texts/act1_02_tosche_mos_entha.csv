@@ -183,11 +183,11 @@ Route103_Text_AndrewIntro,Gah! My fishing line's all snarled up!\nI'm getting fr
 Route103_Text_AndrewDefeated,Gah! Lost it!\nI'm even more annoyed now!$,"reviewed, no change needed"
 Route103_Text_AndrewPostBattle,"Gah, I'm still boiling mad…\nGrrrrr…$","reviewed, no change needed"
 Route103_Text_MiguelIntro,My CREATURE is delightfully adorable!\nDon't be shy--I'll show you!$,reviewed AUTO draft
-Route103_Text_MiguelDefeated,"Oh, my gosh!\nMy darling CREATURE!$",reviewed AUTO draft
+Route103_Text_MiguelDefeated,"Oh, my gosh!\nMy darling CREATURES!$",reviewed AUTO draft
 Route103_Text_MiguelPostBattle,My delightful CREATURE looks darling\neven when it's fainted!$,reviewed AUTO draft
 Route103_Text_MiguelRegister,I'll get you to come out and look in\non my delightful CREATURE again!$,reviewed AUTO draft
 Route103_Text_MiguelRematchIntro,"Hi, you! My delightfully adorable\nCREATURE has become more darling!$",reviewed AUTO draft
-Route103_Text_MiguelRematchDefeated,Oh!\nMy darling CREATURE!$,reviewed AUTO draft
+Route103_Text_MiguelRematchDefeated,Oh!\nMy darling CREATURES!$,reviewed AUTO draft
 Route103_Text_MiguelRematchPostBattle,"The more I spend time with it,\nthe more adorable my CREATURE becomes.$",reviewed AUTO draft
 Route103_Text_PeteIntro,This sort of distance…\nYou should just swim it!$,"reviewed, no change needed"
 Route103_Text_PeteDefeated,"Oh, that's good going!$","reviewed, no change needed"

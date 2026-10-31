@@ -36,7 +36,7 @@ can be `[x]` with its rows still DRAFT.
   - [x] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5): `act5_01_jedha_fortress.csv` (Jedha Temple, Fortress Vader), `act5_02_cloud_city.csv` (Cloud City, Hutt Hideout, Boba Fett), `act5_03_yavin4_hoth.csv` (Yavin 4 base, Launch Tower raid, Massassi Temple arena of Vos & Aayla, Leia's house, Routes 124–125, Hoth's Wampa Cave).
   - [x] C3f Dagobah, Kamino, Asteroid Field (Act 6): `act6_01_dagobah.csv` (Dagobah, Yoda's arena, Cave of Evil, Drowned Cavern, Routes 126–130), `act6_02_kamino_spire.csv` (Tipoca City, Routes 131–134, Sealed Vault, Asteroid Spire).
   - [x] C3g Ilum (Act 7): `act7_01_ilum.csv` (Crystal Caves, Luke's last battle, the Four Trials as Force visions: Maul, Qui-Gon, Ki-Adi, Anakin; Obi-Wan as Champion; Hall of Fame).
-  - [ ] C3h Post-game (Grand Arena, islands)
+  - [x] C3h Post-game: `postgame_01_grand_arena.csv` (Grand Arena = Battle Frontier, all seven facilities, Trainer Hill, Battle Dome and Arena Boss strings; islands were done in C3 gaps).
   - [ ] C3i C-side strings (battle messages, menus, datapad UI, match call)
 - [ ] **C4 Datapad entries.** Per creature: category (replaces "Wood Gecko") and a two-line datapad text.
 - [~] **C5 Overflow fixes.** Check is now pixel-accurate (see NOTES); about 130 texts flagged. Rewrite every `overflow_risk=yes` text so it fits.
@@ -74,3 +74,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3f done · see git log · Kamino and the Asteroid Spire. `tools/curate_texts.py`: trainer battle lines (`data/text/trainers.inc`, no map_id) now count toward KEEP_REST_MAPS by text-id prefix; all area specs re-run, 15 trainer-line overflows fixed. Shared systems (TV, match call, day care, contests) stay for C3i. Total curated 3,835 (34%). Next: C3g Ilum (Ever Grande, Victory Road, the Four Trials).
 - 2026-10-31 · C3g done · see git log · Ilum (90 texts). Each Trial names its lesson (fear, loss, betrayal, the fallen hero). Next: C3h post-game (Grand Arena = Battle Frontier, islands), then C3i shared systems.
 - 2026-10-31 · C3 gaps · see git log · Republic Wreck (Abandoned Ship), STAR TIDAL starliner, event islands (`gaps_01_ships_islands.csv`, 108 texts). Chewie roars on the starliner too. Next: C3h Grand Arena (Battle Frontier).
+- 2026-10-31 · C3h done · see git log · Grand Arena (1,641 texts). Glossary: FRONTIER PASS -> ARENA PASS, FRONTIER BRAINS -> ARENA BOSSES, split BATTLE\nFRONTIER. Ferry -> starliner, PC -> terminal, GBA link cable -> COMLINK. `tools/curate_texts.py`: new KEEP_REST_FILES and REFLOW options (REFLOW re-wraps an overflowing paragraph). `tools/build.py`: number words and eligible/rental/opposing trigger plural CREATURES. Total curated 5,674 (50%), overflow 29. Next: C3i shared systems.
