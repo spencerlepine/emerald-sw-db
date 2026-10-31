@@ -1,0 +1,511 @@
+"""Build database/ from emerald-db (read-only) + mapping/ (hand-written Star Wars rows).
+
+    python3 tools/build.py
+
+Inputs
+  ../emerald-db/database/*.csv   (or EMERALD_DB_DIR)   every Emerald row, never edited
+  ../starwars-db/database/       (or STARWARS_DB_DIR)  used to validate sw_basis ids
+  mapping/*.csv                                         the Star Wars rewrite, by emerald id
+  mapping/texts/*.csv                                   curated dialogue rewrites (optional)
+
+Outputs (database/, generated, never edit by hand)
+  swap_map.csv        one row per Emerald entity + every NET_NEW row: the Step 4 find/replace table
+  entities.csv        Emerald entities with the Star Wars title/description and status columns
+  texts.csv           every Emerald text with an auto-drafted (or curated) Star Wars version
+  pending_art.csv     every art asset, which entity uses it, its new name and art status
+  area_progression.csv  Emerald balance table + planet and new map titles
+  timeline_events.csv   Emerald story chronology rewritten (mapping/timeline.csv)
+  net_new.csv         all net-new content (copied from mapping/net_new.csv, validated)
+  build_info.csv      inputs, counts, warnings
+
+Deterministic: same inputs give byte-identical outputs.
+"""
+from __future__ import annotations
+
+import csv
+import os
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+MAPPING = ROOT / "mapping"
+OUT = ROOT / "database"
+EMERALD = Path(os.environ.get("EMERALD_DB_DIR", ROOT.parent / "emerald-db" / "database"))
+STARWARS = Path(os.environ.get("STARWARS_DB_DIR", ROOT.parent / "starwars-db" / "database"))
+
+csv.field_size_limit(sys.maxsize)
+
+# In-game name limits (pokeemerald include/constants/global.h, include/region_map.h)
+NAME_LIMITS = {"species": 10, "move": 12, "item": 14, "ability": 12, "game_type": 6,
+               "trainer_class": 12, "location": 16, "trainer": 10, "badge": 14}
+CONSTANT_PREFIX = {"species": "SPECIES_", "move": "MOVE_", "item": "ITEM_", "ability": "ABILITY_",
+                   "game_type": "TYPE_", "trainer_class": "TRAINER_CLASS_", "location": "MAPSEC_",
+                   "trainer": "TRAINER_"}
+# Entity types whose names are generic game mechanics and stay as they are unless mapped.
+KEEP_BY_DEFAULT = {"nature", "growth_rate", "ribbon"}
+MAPPING_FILES = ["species", "characters", "items", "moves", "types", "abilities", "badges",
+                 "trainer_classes", "locations"]
+SWAP_KINDS = {"HOTSWAP", "NET_NEW", "KEEP", "CUT"}
+MAP_STATUSES = {"TODO", "DRAFT", "DONE", "IDEA"}
+ART_STATUSES = {"PENDING_ART", "NEEDS_PLACEHOLDER", "KEEP_ANIM", "KEEP_ART", "NO_ART"}
+
+warnings: list[str] = []
+
+# FireRed/LeafGreen key items that exist in the item table but are never obtainable in Emerald.
+FRLG_KEY_ITEMS = {"oaks-parcel", "poke-flute", "secret-key", "bike-voucher", "gold-teeth", "old-amber", "card-key",
+                  "lift-key", "helix-fossil", "dome-fossil", "silph-scope", "bicycle", "town-map", "vs-seeker",
+                  "fame-checker", "tm-case", "berry-pouch", "teachy-tv", "tri-pass", "rainbow-pass", "tea",
+                  "ruby", "sapphire"}
+
+
+def default_keep(e: dict) -> bool:
+    """Rows that need no Star Wars name: placeholders, unused slots, TM/HM labels, mail, sprite forms."""
+    et, col, s = e["entity_type"], e.get("collection", ""), e["id"].split(":", 1)[-1]
+    if et == "":  # Unown letter forms and the Egg: follow their species rows
+        return True
+    if et == "species" and col == "unused-placeholder":
+        return True
+    if et == "item" and (col in ("unused", "tm-hm") or s in FRLG_KEY_ITEMS or s.endswith("-mail")):
+        return True
+    return False
+
+
+def warn(msg: str) -> None:
+    warnings.append(msg)
+
+
+def read(path: Path) -> list[dict]:
+    with path.open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def write(name: str, rows: list[dict], cols: list[str] | None = None) -> None:
+    if cols is None:
+        cols = []
+        for r in rows:
+            for k in r:
+                if k not in cols:
+                    cols.append(k)
+    OUT.mkdir(exist_ok=True)
+    with (OUT / name).open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore", lineterminator="\n")
+        w.writeheader()
+        for r in rows:
+            w.writerow({c: r.get(c, "") for c in cols})
+    print(f"  database/{name}: {len(rows)} rows")
+
+
+def constant(prefix: str, name: str) -> str:
+    s = name.upper().replace("é", "E").replace("♀", "_F").replace("♂", "_M").replace("&", "_AND_")
+    s = re.sub(r"[^A-Z0-9]+", "_", s).strip("_")
+    return prefix + s if s else ""
+
+
+def slug(name: str) -> str:
+    s = name.lower().replace("é", "e").replace("&", "-and-")
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+# --------------------------------------------------------------------------- load
+
+def load_inputs():
+    if not EMERALD.exists():
+        sys.exit(f"emerald-db not found at {EMERALD}; clone it next to this repo or set EMERALD_DB_DIR")
+    entities = read(EMERALD / "entities.csv")
+    by_id = {e["id"]: e for e in entities}
+    sw_ids = set()
+    if (STARWARS / "entities.csv").exists():
+        sw_ids = {r["id"] for r in read(STARWARS / "entities.csv")}
+    else:
+        warn(f"starwars-db not found at {STARWARS}; sw_basis ids not validated")
+
+    mapping: dict[str, dict] = {}
+    for name in MAPPING_FILES:
+        for r in read(MAPPING / f"{name}.csv"):
+            eid = r["emerald_id"]
+            if eid not in by_id:
+                warn(f"mapping/{name}.csv: unknown emerald id {eid}")
+                continue
+            if eid in mapping:
+                warn(f"mapping/{name}.csv: {eid} mapped twice")
+            r["_file"] = name
+            mapping[eid] = r
+            for col, allowed in (("swap_kind", SWAP_KINDS), ("map_status", MAP_STATUSES), ("art_status", ART_STATUSES)):
+                if r.get(col) and r[col] not in allowed:
+                    warn(f"mapping/{name}.csv: {eid} bad {col} {r[col]}")
+            basis = r.get("sw_basis", "")
+            if sw_ids and (basis.startswith("databank:") or basis.startswith("swapi:")) and basis not in sw_ids:
+                warn(f"mapping/{name}.csv: {eid} sw_basis {basis} not in starwars-db")
+    return entities, by_id, mapping, sw_ids
+
+
+# --------------------------------------------------------------------------- derive names
+
+def derive(entities, by_id, mapping):
+    """Return {emerald_id: swap row} for every Emerald entity."""
+    # character text terms: OLD=>NEW pairs, used for trainer names and text
+    char_terms: list[tuple[str, str]] = []
+    trainer_char: dict[str, dict] = {}
+    for eid, m in mapping.items():
+        for pair in filter(None, (m.get("text_terms") or "").split("|")):
+            old, _, new = pair.partition("=>")
+            if old and new and old != new:
+                char_terms.append((old, new))
+        e = by_id[eid]
+        for tid in filter(None, (e.get("trainer_ids") or "").split("|")):
+            trainer_char[tid] = m
+
+    loc_rows = {eid: m for eid, m in mapping.items() if eid.startswith("location:")}
+    rows: dict[str, dict] = {}
+    for e in entities:
+        eid, et = e["id"], e["entity_type"]
+        m = mapping.get(eid)
+        r = {
+            "emerald_id": eid, "entity_type": et,
+            "emerald_name": e.get("game_name") or e.get("title", ""),
+            "emerald_title": e.get("title", ""),
+            "emerald_constant": e.get("source_constant", ""),
+            "source_file": e.get("source_file", ""),
+        }
+        if m:
+            r.update(swap_kind=m.get("swap_kind") or "HOTSWAP", map_status=m.get("map_status") or "DRAFT",
+                     art_status=m.get("art_status") or "PENDING_ART", sw_name=m.get("sw_name", ""),
+                     sw_title=m.get("sw_title") or m.get("sw_name", ""), sw_basis=m.get("sw_basis", ""),
+                     planet=m.get("home_planet") or m.get("planet", ""),
+                     sw_description=m.get("sw_description") or m.get("role", ""),
+                     notes="; ".join(x for x in (m.get("notes"), m.get("habitat_note"), m.get("canon_note")) if x),
+                     derived_from="mapping/" + m["_file"] + ".csv")
+            if r["swap_kind"] == "KEEP" and not r["sw_name"]:
+                r["sw_name"] = r["emerald_name"]
+                r["sw_title"] = r["emerald_title"]
+        elif et in KEEP_BY_DEFAULT or default_keep(e):
+            r.update(swap_kind="KEEP", map_status="DONE", art_status="NO_ART", sw_name=r["emerald_name"],
+                     sw_title=r["emerald_title"], derived_from="default")
+        else:
+            r.update(swap_kind="HOTSWAP", map_status="TODO", art_status="PENDING_ART", sw_name="", sw_title="",
+                     derived_from="")
+        rows[eid] = r
+
+    # trainers: named characters take the character's name, others keep a generic name (TODO)
+    for e in entities:
+        if e["entity_type"] != "trainer":
+            continue
+        r = rows[e["id"]]
+        if r["derived_from"].startswith("mapping"):
+            continue
+        name = e.get("game_name", "")
+        m = trainer_char.get(e["id"])
+        cls = rows.get(e.get("trainer_class", ""), {})
+        cls_name = cls.get("sw_name") or ""
+        if m:
+            new = name
+            for old, rep in sorted(char_terms, key=lambda t: -len(t[0])):
+                new = re.sub(rf"(?<![A-Z]){re.escape(old)}(?![A-Z])", rep, new)
+            r.update(sw_name=new, sw_title=f"{cls_name} {new}".strip(), map_status="DRAFT",
+                     planet=m.get("home_planet", ""), derived_from="character:" + m["emerald_id"])
+        else:
+            r.update(sw_name=name, sw_title=f"{cls_name} {name}".strip(), map_status="TODO",
+                     derived_from="trainer class; name not yet Star Wars-ified")
+
+    # maps: title from the region-map location + room suffix
+    for e in entities:
+        if e["entity_type"] != "map":
+            continue
+        r = rows[e["id"]]
+        loc = loc_rows.get(e.get("location", ""))
+        if not loc:
+            continue
+        base = loc.get("sw_name") or ""
+        emer_loc = by_id[e["location"]].get("title", "")
+        suffix = e.get("title", "")
+        if suffix.startswith(emer_loc):
+            suffix = suffix[len(emer_loc):].lstrip(" ·")
+        r.update(sw_name=(base + (" · " + suffix if suffix else "")) if base else "",
+                 sw_title=(base + (" · " + suffix if suffix else "")) if base else "",
+                 planet=loc.get("planet", ""), map_status=loc.get("map_status", "TODO") if base else "TODO",
+                 swap_kind=loc.get("swap_kind", "HOTSWAP"),
+                 derived_from="location:" + e["location"])
+
+    # constants
+    for r in rows.values():
+        p = CONSTANT_PREFIX.get(r["entity_type"])
+        if p and r["sw_name"] and r["swap_kind"] == "HOTSWAP":
+            name = r["sw_name"].split(" / ")[0]
+            r["sw_constant"] = constant(p, name)
+        elif r["swap_kind"] == "KEEP":
+            r["sw_constant"] = r["emerald_constant"]
+        else:
+            r["sw_constant"] = ""
+        r["game_status"] = "NOT_STARTED"
+        lim = NAME_LIMITS.get(r["entity_type"])
+        if lim and r["sw_name"] and r["entity_type"] != "trainer" and len(r["sw_name"]) > lim \
+                and r["entity_type"] != "location":
+            warn(f"{r['emerald_id']}: name '{r['sw_name']}' is longer than the game limit {lim}")
+        if r["entity_type"] == "location" and len(r["sw_name"]) > 16:
+            warn(f"{r['emerald_id']}: map name '{r['sw_name']}' is longer than 16")
+
+    # duplicate Star Wars names within one type (species/moves/items must be unique)
+    for et in ("species", "move", "item", "ability"):
+        c = Counter(r["sw_name"] for r in rows.values() if r["entity_type"] == et and r["sw_name"] and r["swap_kind"] == "HOTSWAP")
+        for n, k in c.items():
+            if k > 1:
+                warn(f"duplicate {et} name {n} ({k} rows)")
+    return rows, char_terms
+
+
+# --------------------------------------------------------------------------- text
+
+def build_terms(rows, by_id, char_terms):
+    terms: dict[str, set[str]] = defaultdict(set)
+    sources: dict[str, str] = {}
+
+    def add(old: str, new: str, src: str) -> None:
+        old, new = old.strip(), new.strip()
+        if not old or not new or old == new or not any(ch.isalpha() for ch in old):
+            return
+        terms[old].add(new)
+        sources.setdefault(old, src)
+
+    glossary = {}
+    for g in read(MAPPING / "glossary.csv"):
+        add(g["emerald_term"], g["sw_term"], "glossary")
+        glossary[g["emerald_term"].strip()] = g["sw_term"].strip()
+    for old, new in char_terms:
+        add(old, new, "character")
+    for r in rows.values():
+        et = r["entity_type"]
+        if r["swap_kind"] != "HOTSWAP" or not r["sw_name"]:
+            continue
+        # trainer-class names are not used: in dialogue CHAMPION / LEADER / PSYCHIC are generic words
+        if et in ("species", "move", "item", "ability", "game_type", "badge"):
+            name = r["emerald_name"].upper() if et != "badge" else r["emerald_title"].upper()
+            add(name, r["sw_name"], et)
+        elif et == "location":
+            t = r["emerald_title"].upper()
+            add(t, r["sw_name"], "location")
+            w = t.split(" ")
+            if len(w) == 2 and w[1] in ("TOWN", "CITY"):
+                add(w[0], r["sw_name"], "location")
+    # ambiguous terms (one Emerald word, several Star Wars meanings) are not auto-replaced
+    final, ambiguous = {}, {}
+    for old, news in terms.items():
+        if old in glossary:  # the glossary always wins over names derived from entities
+            final[old] = glossary[old]
+        elif len(news) == 1:
+            final[old] = next(iter(news))
+        else:
+            ambiguous[old] = sorted(news)
+    for old, news in sorted(ambiguous.items()):
+        warn(f"ambiguous text term {old!r} -> {news}; left unchanged in auto drafts")
+    return final, sources, ambiguous
+
+
+# "POKéMON" is both singular and plural; "CREATURE" is not. Fix the obvious plurals.
+PLURAL_AFTER = re.compile(r"CREATURE(?=(?:\\[nl]|\s)(?:are|were|have|aren't|weren't|don't|do|all|that are|who are)\b)")
+PLURAL_BEFORE = re.compile(r"(\b(?:all|many|some|several|two|three|four|five|six|these|those|other|more|"
+                           r"lots of|both|few|your two|your six)(?: of)?(?: your| my| the| our| their| his| her)?"
+                           r"(?:\\[nl]| ))CREATURE\b")
+
+
+def visible_len(line: str) -> int:
+    return len(re.sub(r"\{[^}]*\}", "", line))
+
+
+def draft_texts(terms: dict[str, str]):
+    keys = sorted(terms, key=lambda k: (-len(k), k))
+    pattern = re.compile(r"(?<![A-Za-z0-9é])(" + "|".join(re.escape(k) for k in keys) + r")(?![A-Za-z0-9é])")
+    curated = {}
+    tdir = MAPPING / "texts"
+    if tdir.exists():
+        for p in sorted(tdir.glob("*.csv")):
+            for r in read(p):
+                curated[r["text_id"]] = (r["sw_text_raw"], p.name, r.get("notes", ""))
+    out = []
+    counts = Counter()
+    for t in read(EMERALD / "texts.csv"):
+        raw = t["text_raw"]
+        used = []
+
+        def sub(m):
+            used.append(m.group(1))
+            return terms[m.group(1)]
+
+        new = pattern.sub(sub, raw)
+        if "CREATURE" in new:
+            new = PLURAL_AFTER.sub("CREATURES", new)
+            new = PLURAL_BEFORE.sub(lambda m: m.group(1) + "CREATURES", new)
+        status, note = ("AUTO" if used else "UNCHANGED"), ""
+        if t["text_id"] in curated:
+            new, src, note = curated[t["text_id"]]
+            status = "CURATED"
+        old_lines = re.split(r"\\[nlp]", raw)
+        new_lines = re.split(r"\\[nlp]", new)
+        longest = max((visible_len(x) for x in old_lines), default=0)
+        overflow = any(visible_len(x) > max(longest, 36) for x in new_lines)
+        counts[status] += 1
+        out.append({"text_id": t["text_id"], "map_id": t["map_id"], "source_file": t["source_file"],
+                    "source_line": t["source_line"], "speaker_label": t["speaker_label"],
+                    "text_origin": t["text_origin"], "text_context": t["text_context"],
+                    "emerald_text_raw": raw, "sw_text_raw": new, "text_status": status,
+                    "terms_applied": "|".join(sorted(set(used))), "overflow_risk": "yes" if overflow else "",
+                    "notes": note})
+    return out, counts
+
+
+# --------------------------------------------------------------------------- art
+
+def pending_art(rows):
+    assets = {a["asset_id"]: a for a in read(EMERALD / "art_assets.csv")}
+    used_by = defaultdict(list)
+    for ea in read(EMERALD / "entity_art.csv"):
+        used_by[ea["asset_id"]].append((ea["entity_id"], ea["role"]))
+    out = []
+    for aid in sorted(assets):
+        a = assets[aid]
+        links = used_by.get(aid, [])
+        ents = [rows[e] for e, _ in links if e in rows]
+        sw = next((r for r in ents if r["sw_name"] and r["swap_kind"] == "HOTSWAP"), None)
+        path = a["path"]
+        new_path = ""
+        if sw:
+            old_slug = sw["emerald_id"].split(":", 1)[1].replace("-", "_")
+            new_slug = slug(sw["sw_name"].split(" / ")[0]).replace("-", "_")
+            if f"/{old_slug}/" in path:
+                new_path = path.replace(f"/{old_slug}/", f"/{new_slug}/")
+            elif f"/{old_slug}." in path:
+                new_path = path.replace(f"/{old_slug}.", f"/{new_slug}.")
+        statuses = {r["art_status"] for r in ents}
+        if a["kind"] == "battle_animation":
+            status = "PENDING_ART" if "PENDING_ART" in statuses else "KEEP_ANIM"
+        else:
+            status = "PENDING_ART"  # Step 5 redraws every image
+        out.append({"asset_id": aid, "kind": a["kind"], "subkind": a["subkind"], "path": path,
+                    "width": a["width"], "height": a["height"],
+                    "used_by": "|".join(f"{e}:{role}" for e, role in links),
+                    "sw_entity": sw["sw_name"] if sw else "", "suggested_path": new_path,
+                    "art_status": status, "drawn_by": "", "art_notes": ""})
+    return out
+
+
+# --------------------------------------------------------------------------- main
+
+def main() -> None:
+    print("building emerald-sw-db")
+    entities, by_id, mapping, sw_ids = load_inputs()
+    rows, char_terms = derive(entities, by_id, mapping)
+
+    # net-new rows
+    net = read(MAPPING / "net_new.csv")
+    flag_ids = {f["flag_id"] for f in read(EMERALD / "story_flags.csv")}
+    for n in net:
+        for ref in (n.get("placeholder_from"), n.get("depends_on")):
+            if ref and ref not in by_id and ref not in flag_ids:
+                warn(f"net_new {n['id']}: unknown reference {ref}")
+        if n["swap_kind"] != "NET_NEW":
+            warn(f"net_new {n['id']}: swap_kind must be NET_NEW")
+
+    swap_cols = ["emerald_id", "sw_id", "entity_type", "swap_kind", "map_status", "art_status", "game_status",
+                 "emerald_name", "sw_name", "emerald_title", "sw_title", "emerald_constant", "sw_constant",
+                 "planet", "sw_basis", "sw_description", "notes", "derived_from", "source_file"]
+    swap = sorted(rows.values(), key=lambda r: (r["entity_type"], r["emerald_id"]))
+    for r in swap:
+        r["sw_id"] = r["emerald_id"]
+    for n in net:
+        swap.append({"emerald_id": "", "sw_id": n["id"], "entity_type": n["entity_type"], "swap_kind": "NET_NEW",
+                     "map_status": n["map_status"], "art_status": n["art_status"], "game_status": "NOT_STARTED",
+                     "sw_name": n["sw_name"], "sw_title": n["sw_name"], "planet": n["planet"],
+                     "sw_description": n["description"], "notes": n["balance_note"],
+                     "derived_from": "mapping/net_new.csv"})
+    write("swap_map.csv", swap, swap_cols)
+    write("net_new.csv", net)
+
+    # entities: Emerald columns + Star Wars overlay
+    ent_out = []
+    for e in entities:
+        r = rows[e["id"]]
+        o = dict(e)
+        o["emerald_title"] = e.get("title", "")
+        o["emerald_description"] = e.get("description", "")
+        if r["sw_title"]:
+            o["title"] = r["sw_title"]
+        if r.get("sw_description"):
+            o["description"] = r["sw_description"]
+        for k in ("swap_kind", "map_status", "art_status", "game_status", "sw_name", "sw_constant", "planet", "sw_basis"):
+            o[k] = r.get(k, "")
+        o["image_path"] = ""  # Emerald art is not copied into this repo; see pending_art.csv
+        o["image_status"] = "PENDING_ART"
+        ent_out.append(o)
+    for n in net:
+        ent_out.append({"id": n["id"], "entity_type": n["entity_type"], "category": "net-new", "collection": "net-new",
+                        "title": n["sw_name"], "description": n["description"], "swap_kind": "NET_NEW",
+                        "map_status": n["map_status"], "art_status": n["art_status"], "game_status": "NOT_STARTED",
+                        "planet": n["planet"], "image_status": n["art_status"]})
+    lead = ["id", "entity_type", "category", "collection", "title", "description", "history", "swap_kind",
+            "map_status", "art_status", "game_status", "sw_name", "sw_constant", "planet", "sw_basis",
+            "emerald_title", "emerald_description", "source_constant", "source_file", "image_path", "image_status"]
+    cols = lead + [c for c in (ent_out[0].keys()) if c not in lead]
+    write("entities.csv", ent_out, cols)
+
+    terms, sources, ambiguous = build_terms(rows, by_id, char_terms)
+    write("text_terms.csv", [{"emerald_term": k, "sw_term": terms[k], "source": sources.get(k, "")}
+                             for k in sorted(terms)] +
+          [{"emerald_term": k, "sw_term": " / ".join(v), "source": "AMBIGUOUS (not applied)"}
+           for k, v in sorted(ambiguous.items())])
+    texts, tcounts = draft_texts(terms)
+    write("texts.csv", texts)
+
+    art = pending_art(rows)
+    write("pending_art.csv", art)
+
+    # area progression with planets
+    ap = []
+    for a in read(EMERALD / "area_progression.csv"):
+        r = rows.get(a["map_id"], {})
+        a = dict(a)
+        a["sw_map_title"] = r.get("sw_title", "")
+        a["planet"] = r.get("planet", "")
+        ap.append(a)
+    write("area_progression.csv", ap)
+
+    # timeline
+    tl_map = {t["emerald_event_id"]: t for t in read(MAPPING / "timeline.csv")} if (MAPPING / "timeline.csv").exists() else {}
+    tl = []
+    for t in read(EMERALD / "timeline_events.csv"):
+        m = tl_map.get(t["id"])
+        o = dict(t)
+        o["emerald_title"], o["emerald_description"] = t["title"], t["description"]
+        o["planet"] = ""
+        o["map_status"] = "TODO"
+        if m:
+            o["title"] = m["sw_title"] or t["title"]
+            o["tagline"] = m.get("sw_tagline") or t.get("tagline", "")
+            o["description"] = m["sw_description"] or t["description"]
+            o["planet"] = m.get("planet", "")
+            o["map_status"] = m.get("map_status") or "DRAFT"
+            o["lore"] = m.get("sw_lore") or t.get("lore", "")
+        tl.append(o)
+    for t in tl_map:
+        if t not in {x["id"] for x in tl}:
+            warn(f"mapping/timeline.csv: unknown event {t}")
+    write("timeline_events.csv", tl)
+
+    info = [{"key": "emerald_db", "value": str(EMERALD)},
+            {"key": "emerald_db_commit", "value": next((r["value"] for r in read(EMERALD / "build_info.csv")
+                                                       if r.get("key") == "pokeemerald_commit"), "")},
+            {"key": "entities", "value": str(len(entities))},
+            {"key": "net_new", "value": str(len(net))},
+            {"key": "texts_auto", "value": str(tcounts["AUTO"])},
+            {"key": "texts_curated", "value": str(tcounts["CURATED"])},
+            {"key": "texts_unchanged", "value": str(tcounts["UNCHANGED"])},
+            {"key": "warnings", "value": str(len(warnings))}]
+    write("build_info.csv", info)
+    write("build_warnings.csv", [{"warning": w} for w in sorted(set(warnings))])
+    print(f"done: {len(warnings)} warnings (see database/build_warnings.csv)")
+    for w in sorted(set(warnings))[:40]:
+        print("  !", w)
+
+
+if __name__ == "__main__":
+    main()
