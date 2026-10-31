@@ -188,7 +188,10 @@ def derive(entities, by_id, mapping):
                      derived_from="")
         rows[eid] = r
 
-    # trainers: named characters take the character's name, others keep a generic name (TODO)
+    # trainers: named characters take the character's name; generic trainers take mapping/trainers.csv
+    # (keyed by trainer id, or by "name:<EMERALD NAME>" so rematches share a name); the rest stay TODO
+    tn = {r["key"]: r for r in read(MAPPING / "trainers.csv")} if (MAPPING / "trainers.csv").exists() else {}
+    tn_used = set()
     for e in entities:
         if e["entity_type"] != "trainer":
             continue
@@ -205,9 +208,19 @@ def derive(entities, by_id, mapping):
                 new = re.sub(rf"(?<![A-Z]){re.escape(old)}(?![A-Z])", rep, new)
             r.update(sw_name=new, sw_title=f"{cls_name} {new}".strip(), map_status="DRAFT",
                      planet=m.get("home_planet", ""), derived_from="character:" + m["emerald_id"])
+        elif e["id"] in tn or f"name:{name}" in tn:
+            k = e["id"] if e["id"] in tn else f"name:{name}"
+            t = tn[k]
+            tn_used.add(k)
+            r.update(sw_name=t["sw_name"], sw_title=f"{cls_name} {t['sw_name']}".strip(),
+                     map_status=t.get("map_status") or "DRAFT", notes=t.get("notes", ""),
+                     derived_from="mapping/trainers.csv")
         else:
             r.update(sw_name=name, sw_title=f"{cls_name} {name}".strip(), map_status="TODO",
                      derived_from="trainer class; name not yet Star Wars-ified")
+    for k in tn:
+        if k not in tn_used:
+            warn(f"mapping/trainers.csv: key {k} matches no generic trainer")
 
     # maps: title from the region-map location + room suffix
     for e in entities:

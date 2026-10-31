@@ -27,7 +27,7 @@ can be `[x]` with its rows still DRAFT.
 ## Phase C: story and text
 
 - [x] **C1 Timeline.** `mapping/timeline.csv`: rewrite all 45 Emerald timeline events (title, tagline, description, lore, planet).
-- [ ] **C2 Trainer names.** 755 generic trainers keep Emerald names (CALVIN, JOEY…). Give them Star Wars-style names (max 10 chars), mapped by trainer id in a new `mapping/trainers.csv`.
+- [x] **C2 Trainer names.** 755 generic trainers keep Emerald names (CALVIN, JOEY…). Give them Star Wars-style names (max 10 chars), mapped by trainer id in a new `mapping/trainers.csv`.
 - [ ] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
   - [ ] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon)
   - [ ] C3b Kashyyyk + Mos Eisley (Act 2)
@@ -59,3 +59,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 
 - 2026-10-31 · A1, A2, B1–B3, B4 (no berries), B5–B7 · see git log · first full DRAFT pass; 0 build warnings; 3,351 texts auto-drafted, 449 flagged for overflow.
 - 2026-10-31 · C1, B4b · see git log · 45 timeline events DRAFT; 43 berries → `<NAME> FRUIT` (glossary BERRY/BERRIES → FRUIT); fixed auto-draft bug where a term right after `\n`/`\l`/`\p` was skipped (+189 AUTO texts).
+- 2026-10-31 · C2 · see git log · 489 rows in `mapping/trainers.csv` (generated DRAFT names, same initial + gender; stormtrooper grunts = TK numbers, cartel grunts = thug names; BRENDAN/MAY → KAEL/MIRA). Owner may want to hand-pick names for prominent trainers.

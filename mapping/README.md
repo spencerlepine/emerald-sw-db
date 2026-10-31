@@ -13,6 +13,7 @@ emerald-db and writes `database/`. Rows not listed in any file default to
 | `locations.csv` | 213 region-map sections | `planet`. Map titles (`map:*`) are derived: location name + room. |
 | `glossary.csv` | | `emerald_term, sw_term`: generic words (POKéMON → CREATURE). Wins over names derived from entities. |
 | `net_new.csv` | | `id` (`net:*`), `placeholder_from` (Emerald asset or map to copy), `depends_on` (flag / item), `balance_note` |
+| `trainers.csv` | 489 generic trainer names | `key` (`name:<EMERALD NAME>` shared by rematches, or a `trainer:<id>` override, used for the 53 GRUNTs), `emerald_name`, `sw_name`, `notes`. Seeded by `tools/gen_trainer_names.py` (same first letter and gender, deterministic); edit freely, re-runs only add missing rows. |
 | `timeline.csv` | 45 story events | `emerald_event_id, sw_title, sw_tagline, sw_description, sw_lore, planet, map_status` |
 | `texts/*.csv` | curated dialogue | `text_id, sw_text_raw, notes`. Keep Emerald's control codes (`\n`, `\l`, `\p`, `$`, `{PLAYER}` …). |
 
