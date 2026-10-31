@@ -33,7 +33,7 @@ can be `[x]` with its rows still DRAFT.
   - [x] C3b Kashyyyk + Mos Eisley (Act 2): `act2_01_kashyyyk.csv`, `act2_02_mos_eisley.csv` (Spacer Museum re-themed to spacefaring, spaceport + STAR TIDAL starliner, BONGO EXPLORER sub, Jabba's swamp motive), `act2_03_route110.csv` (podrace track, Garindan's Trick House, QUIZ DROIDS).
   - [x] C3c Mos Espa, Sullust, Mustafar (Act 3): `act3_01_mos_espa.csv` (Watto's arena, Wald's bikes, Sabacc Den), `act3_02_anchorhead_routes.csv` (Anchorhead, Routes 111–117, Sandcrawler), `act3_03_sullust_mustafar.csv` (Inyusu Tor, Starfall Cavern, Mustafar Peak, Ashen Pass, Pirin arena). Mos Entha was done in C3a.
   - [x] C3d Endor (Act 4): `act4_01_endor.csv` (Bright Tree Village, Chief Chirpa's arena, Endor Station raided by Bossk, Routes 118–121 and 123; Route 121 pier and Safari gate are shuttle pads to Jedha and Felucia).
-  - [~] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5). Done: Jedha Temple + Fortress Vader (`act5_01_jedha_fortress.csv`). Left: Bespin (Lilycove, Hutt Hideout), Yavin 4 (Mossdeep, Launch Tower, Routes 124–125), Hoth (Shoal Cave).
+  - [~] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5). Done: Jedha Temple + Fortress Vader (`act5_01_jedha_fortress.csv`), Cloud City + Hutt Hideout with Boba Fett (`act5_02_cloud_city.csv`). Left: Yavin 4 (Mossdeep, Launch Tower, Routes 124–125), Hoth (Shoal Cave).
   - [ ] C3f Dagobah, Kamino, Asteroid Field (Act 6)
   - [ ] C3g Ilum (Act 7)
   - [ ] C3h Post-game (Grand Arena, islands)
@@ -68,3 +68,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3c done · see git log · Mos Espa, Anchorhead, desert routes, Sullust and Mustafar (530 texts). Vader intro and defeat rewritten; Nien Nunb male; pair trainers hand-named with speaker labels swapped by the build. Total curated 1,621 (14%). Next: C3d Endor (Fortree, Routes 119–120).
 - 2026-10-31 · C3d done · see git log · Endor (208 texts). Build: plural rule for BIRD/BUG/<TYPE>-type/with/of/and CREATURE (unless a determiner comes first, or CREATURE is an adjective). Total curated 1,829 (16%). Next: C3e Bespin (Lilycove), Jedha (Mt. Pyre), Yavin 4 (Mossdeep), Hoth (Shoal Cave).
 - 2026-10-31 · C3e (part 1) · see git log · Jedha Temple and Fortress Vader (132 texts). Kyber fix: Vader takes the BLUE KYBER, Jabba the RED (Mustafar line corrected). Next: Bespin (Lilycove).
+- 2026-10-31 · C3e (part 2) · see git log · Cloud City and the Hutt Hideout (308 texts): cloud sea instead of sea, Tibanna mine hideout, starliner platform, Boba Fett's lines. Build: more plural triggers (type names, steal/trade/raise/catch). Total curated 2,269 (20%). Next: Yavin 4 (Mossdeep, Launch Tower, Routes 124–125), Hoth (Shoal Cave).

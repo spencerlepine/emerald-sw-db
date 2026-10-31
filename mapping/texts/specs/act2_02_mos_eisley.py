@@ -92,8 +92,8 @@ P+"OceanicMuseum_2F_Text_SumbersibleReplica": r"“PROBE DROID\p“A replica of 
 P+"OceanicMuseum_2F_Text_SSAnneReplica": r"“NABOO ROYAL STARSHIP\p“A replica of the chrome ship that\nRIC OLIé flew for the QUEEN.”$",
 # fan club
 P+"PokemonFanClub_Text_MeetChairman": [("show off\nCREATURE for the world to see!", "show off\nCREATURES for the world to see!"), ("show\noff our CREATURE, and have others", "show\noff our CREATURES, and have others")],
-P+"PokemonFanClub_Text_AllowMeToExamineYourPokemon": [("It delights me no end to see CREATURE\nraised by other TRAINERS.", "It delights me no end to see CREATURES\nraised by other TRAINERS."), ("The happy expressions of CREATURE\nraised with proper care…", "The happy faces of CREATURES\nraised with proper care…")],
-P+"PokemonFanClub_Text_ExplainGreenScarf": [("smartness of CREATURE!", "smartness of a CREATURE!")],
+P+"PokemonFanClub_Text_AllowMeToExamineYourPokemon": [("It delights me no end to see CREATURE\nraised by other TRAINERS.", "It delights me no end to see CREATURES\nraised by other TRAINERS."), ("The happy expressions of CREATURES\nraised with proper care…", "The happy faces of CREATURES\nraised with proper care…")],
+P+"PokemonFanClub_Text_ExplainGreenScarf": [("smartness of CREATURES!", "smartness of a CREATURE!")],
 P+"PokemonFanClub_Text_MonEnjoyedProtein": [("Do CREATURE enjoy having items used", "Do CREATURES enjoy having items used")],
 P+"PokemonFanClub_Text_Azumarill": r"BLOOPHARE: Bloop-bloop?$",
 # Ric's shipyard

@@ -345,8 +345,10 @@ PLACEHOLDER_PX = {"PLAYER": 42, "RIVAL": 42, "KUN": 0, "STR_VAR_1": 60, "STR_VAR
 # "rare CREATURE" is plural unless an article or determiner comes first ("a rare CREATURE").
 # "rare CREATURE", "BIRD CREATURE", "GRASS-type CREATURE", "with CREATURE": plural unless a determiner comes
 # first ("a rare CREATURE") or CREATURE is used as an adjective ("CREATURE battle", "BIRD CREATURE feathers")
-PLURAL_ADJ = re.compile(r"(?:(?<=\\[nlp])|\b)(rare|strong|cute|cool|tough|weak|wild|different|powerful|new|BIRD|BUG|[A-Z]+-type|"
-                        r"with|of|and|about|love|like|adore)((?:\\[nl]| ))CREATURE\b(?!'s)"
+PLURAL_ADJ = re.compile(r"(?:(?<=\\[nlp])|\b)(rare|strong|cute|cool|tough|weak|wild|different|powerful|new|pretty|lively|beautiful|smart|great|fine|amazing|precious|BIRD|BUG|[A-Z]+-type|"
+                        r"NORMAL|FIRE|WATER|GRASS|ELECTRIC|ICE|FIGHTING|POISON|GROUND|FLYING|PSYCHIC|ROCK|GHOST|DRAGON|DARK|STEEL|"
+                        r"BEAUTIFUL|CUTE|SMART|COOL|TOUGH|"
+                        r"with|of|and|about|love|like|adore|steal|trade|raise|catch|judging|toughening up|taught to)((?:\\[nl]| ))CREATURE\b(?!'s)"
                         r"(?!(?:\\[nl]| )(?:battles?|battling|training|trainers?|TRAINERS?|feathers|team|NURSERY|CENTER|"
                         r"Storage|STORAGE|HERB|fans?|moves?|types?|kinds?|species|world|sound|cry|DATAPAD|lovers?|"
                         r"RANGERS?|LEAGUE|SHOWCASES?|BREEDERS?|FAN|CLUB|EGG|data)\b)")

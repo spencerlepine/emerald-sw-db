@@ -9,7 +9,7 @@ FIX = {
 "PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro": [("Didn't that THE CARTEL thug say", "Didn't that CARTEL thug say")],
 "PetalburgWoods_Text_GoBugPokemonTeam": [("a whole bunch of CREATURE!", "a whole bunch of CREATURES!")],
 "PetalburgWoods_Text_ImOutOfPokeBalls": [("I caught a bunch of CREATURE.", "I caught a bunch of CREATURES.")],
-"PetalburgWoods_Text_InstantlyPopularWithBugPokemon": [("If you take BUG CREATURE to school,", "If you take BUG CREATURES to class,")],
+"PetalburgWoods_Text_InstantlyPopularWithBugPokemon": [("If you take BUG CREATURES to school,", "If you take BUG CREATURES to class,")],
 "PetalburgWoods_Text_IWantRematch1": [("my BUG\nCREATURE grow up!", "my BUG\nCREATURES grow up!")],
 "PetalburgWoods_Text_IWantRematch2": [("my BUG \nCREATURE grow up!", "my BUG\nCREATURES grow up!")],
 "PetalburgWoods_Text_IveBeenTrainingHard": [("strong CREATURE, right?", "strong CREATURES, right?")],

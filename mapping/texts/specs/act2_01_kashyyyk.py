@@ -22,7 +22,7 @@ FIX = {
 "Route109_Text_BrineyWhereAreWeBound": r"HAN: Hey, kid!\nFor you, the FALCON flies anytime!\pSo, where are we headed?$",
 "Route109_Text_BrineyTellMeWhenYouNeedToSail": r"HAN: Just tell me whenever you're\nready to fly again!$",
 # Kachirho arena (Tarfful)
-"DewfordTown_Gym_Text_GymGuideAdvice": [("Hey, how's it going, CHAMPION-\nbound {PLAYER}?", "Hey, how's it going, ILUM-\nbound {PLAYER}?"), ("KACHIRHO's ARENA LEADER TARFFUL commands\nFIGHTING-type CREATURE.", "KACHIRHO's LEADER TARFFUL commands\nFIGHTING-type CREATURES."), ("with NORMAL-type\nCREATURE is asking for trouble.", "with NORMAL-type\nCREATURES is asking for trouble."), ("FIGHTING CREATURE will lay a serious\nsmack down on NORMAL CREATURE,", "FIGHTING CREATURES will lay a serious\nsmack down on NORMAL ones,"), ("as dark as\nthe ocean floor.", "as dark as\nthe SHADOWLANDS.")],
+"DewfordTown_Gym_Text_GymGuideAdvice": [("Hey, how's it going, CHAMPION-\nbound {PLAYER}?", "Hey, how's it going, ILUM-\nbound {PLAYER}?"), ("KACHIRHO's ARENA LEADER TARFFUL commands\nFIGHTING-type CREATURES.", "KACHIRHO's LEADER TARFFUL commands\nFIGHTING-type CREATURES."), ("with NORMAL-type\nCREATURE is asking for trouble.", "with NORMAL-type\nCREATURES is asking for trouble."), ("FIGHTING CREATURES will lay a serious\nsmack down on NORMAL CREATURES,", "FIGHTING CREATURES will lay a serious\nsmack down on NORMAL ones,"), ("as dark as\nthe ocean floor.", "as dark as\nthe SHADOWLANDS.")],
 "DewfordTown_Gym_Text_JocelynPostBattle": [("No, I'll become the ILUM TEMPLE\nCHAMPION!", "No, I'll pass the TRIALS\nOF ILUM!")],
 "DewfordTown_Gym_Text_BrendenIntro": r"I'll show you the gumption of\na spacer!$",
 "DewfordTown_Gym_Text_BrendenPostBattle": [("Oh, aye! You're worthy", "Fine! You're worthy")],

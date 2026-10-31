@@ -6,7 +6,7 @@ FIX = {
 R+"Text_MayLetsBattle": [("my CREATURE grew stronger.", "my CREATURES grew stronger.")],
 R+"Text_RideBikeAtFullSpeed": [("Wouldn't it be great to ride a BIKE\nat full speed on PODRACE TRACK?", "Wouldn't it be great to race a\nBIKE down the PODRACE TRACK?")],
 R+"Text_YouGotBikeFromRydel": [("It says right on your bike…", "It says right on your bike…")],
-R+"Text_TwoRoads": [("A road each for people and CREATURE.", "A road each for racers and CREATURES.")],
+R+"Text_TwoRoads": [("A road each for people and CREATURES.", "A road each for racers and CREATURES.")],
 R+"Text_WhichShouldIChoose": [("and look for CREATURE?", "and look for CREATURES?")],
 R+"Text_ChallengeReactionBest": [("Your love of cycling", "Your love of racing")],
 R+"Text_ChallengeReactionOk": [("the\nsheer pleasure of cycling.", "the\nsheer pleasure of racing.")],

@@ -83,3 +83,9 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 - Chief Chirpa (Winona) is male. Bossk (Shelly) hisses and hunts trophies. Leia is female everywhere (some Emerald lines say "he" for Steven).
 - Routes that lead off-world end at shuttle pads: Route 118 west sign reads HANGAR TO TATOOINE; Route 121's pier is the SHUTTLE PAD to JEDHA TEMPLE; the Safari Zone gate is the FELUCIA RESERVE SHUTTLE. Step 4 keeps the maps; only signs and dialogue change (the hangar rows in `net_new.csv` are the real gating).
 - Plural rule round 3 in `build.py` (`PLURAL_ADJ`): type words and bare prepositions before CREATURE pluralize it.
+
+## Bespin (C3e)
+
+- Cloud City floats over a sea of clouds: Emerald's "sea" in Lilycove is the cloud sea, Wailmer (AIWHALET) swim in it, sailors are cloud-car pilots, the harbor is the STAR TIDAL landing platform.
+- The Aqua Hideout is an old TIBANNA mine under the city. Boba Fett (Matt) guards it: short, professional lines, paid by Jabba.
+- GAME FREAK's motel room stays (developer in-joke); GAME BOY ADVANCE → HOLOGAME. Link-cable and "Game Pak" system strings are left for C3i.
