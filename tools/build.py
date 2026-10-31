@@ -490,6 +490,8 @@ def pending_art(rows):
     used_by = defaultdict(list)
     for ea in read(EMERALD / "entity_art.csv"):
         used_by[ea["asset_id"]].append((ea["entity_id"], ea["role"]))
+    subjects_path = MAPPING / "art_subjects.csv"  # written by tools/make_art_subjects.py
+    subjects = {r["asset_id"]: r["sw_subject"] for r in read(subjects_path)} if subjects_path.exists() else {}
     out = []
     for aid in sorted(assets):
         a = assets[aid]
@@ -513,7 +515,8 @@ def pending_art(rows):
         out.append({"asset_id": aid, "kind": a["kind"], "subkind": a["subkind"], "path": path,
                     "width": a["width"], "height": a["height"],
                     "used_by": "|".join(f"{e}:{role}" for e, role in links),
-                    "sw_entity": sw["sw_name"] if sw else "", "suggested_path": new_path,
+                    "sw_entity": sw["sw_name"] if sw else "", "sw_subject": subjects.get(aid, ""),
+                    "suggested_path": new_path,
                     "art_status": status, "drawn_by": "", "art_notes": ""})
     return out
 

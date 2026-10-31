@@ -77,11 +77,13 @@ def main():
     art = read("pending_art.csv")
     ac = Counter(r["art_status"] for r in art)
     named = sum(1 for r in art if r["suggested_path"])
+    subj = sum(1 for r in art if r.get("sw_subject"))
     lines += ["", "## Art", "",
               "| Metric | Count |", "|---|---:|",
               f"| art assets (PNGs + move animations) | {len(art)} |",
               *[f"| {k} | {v} |" for k, v in sorted(ac.items())],
               f"| assets with a suggested Star Wars file name | {named} |",
+              f"| assets with a named Star Wars subject (sprites, trainer pics, tilesets) | {subj} |",
               f"| NET_NEW rows needing placeholder art | {sum(1 for r in swap if r['swap_kind'] == 'NET_NEW' and r['art_status'] == 'NEEDS_PLACEHOLDER')} |"]
 
     tl = read("timeline_events.csv")

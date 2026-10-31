@@ -43,8 +43,8 @@ can be `[x]` with its rows still DRAFT.
 
 ## Phase D: art and world details (names only; drawing is Step 5)
 
-- [ ] **D1 Overworld sprites** (255 `object-gfx:*`) and **trainer pics** (94): Star Wars subject for each (e.g. `object-gfx:youngster` → moisture-farm kid).
-- [ ] **D2 Tilesets** (75): planet / biome for each.
+- [x] **D1 Overworld sprites** (253 files) and **trainer pics** (101): Star Wars subject for each in `mapping/art_subjects.csv` (sources in `mapping/art_subjects_src/`, generator `tools/make_art_subjects.py`), shown as `pending_art.sw_subject`.
+- [x] **D2 Tilesets** (75 tilesets, 226 files incl. animation frames): planet / biome for each (`art_subjects_src/tilesets.txt`).
 - [ ] **D3 Grand Arena** facility trainers (414), Battle Tent trainers, Showcase rivals (96), hideout decorations (120), storylines (22), facilities (7).
 
 ## Phase E: review and net-new design
@@ -79,3 +79,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3i done · see git log · Shared systems part 2: HOLONET shows (glossary TV -> HOLONET, on TV -> on the HOLONET), showcases/Apprentice/Union Room, credits (title line EMERALD SW VERSION, staff names kept), Mauville storyteller, cable club, battle tents, event passes with Captain Han. Glossary: PC -> TERMINAL, link hardware -> COMLINK. All earlier specs re-run and their pairs updated. Total curated 11,229 (100%), dialogue overflow 0. Next: C4 datapad entries.
 
 - 2026-10-31 · C4 (part 1) · see git log · 338 datapad entries and categories; build wraps and checks them (0 warnings), coverage counts them. 48 sentient/named species held pending the owner's call on swapping them for beasts.
+- 2026-10-31 · D1, D2 · see git log · 580 art assets now name their Star Wars subject (people, player bike sprites: brown SWOOP BIKE / white SPEEDER BIKE, Frontier aces, gym leaders, creature dolls, fruit trees, every tileset by planet). Run `tools/make_art_subjects.py` after editing a source list, then build. Next: D3 (Grand Arena trainers, showcase rivals, decorations).
