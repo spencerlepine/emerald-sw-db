@@ -46,7 +46,7 @@ MF2+"JohnRematchIntro": [("We've always battled CREATURE\ntogether", "We've alwa
 # --- Mustafar Peak ---
 MC+"MaxieIntro": r"VADER: Hm?\nWho are you?\p… … … … … …\n… … … … … …\pJABBA has been complaining about a\nchild meddling in the CARTEL's\laffairs.\pIt must be you he meant.\pSo you think you can interfere\nwith the EMPIRE?\pNow you listen.\nWater breeds swamps, and swamps\lbreed disorder.\pSolid land can be ordered.\nIt can be built on and controlled.\pThe EMPIRE will expand the land of\nevery world in the galaxy.\pAnd for that, we need the power of\nwhat sleeps within this mountain…\pI have said too much.\pBut, no matter!\nI will show you the power of\lthe dark side!$",
 MC+"MaxieDefeat": r"Impressive…\nMost impressive.$",
-MC+"MaxieYouHaventSeenLastOfMagma": r"VADER: Enough.\nI will withdraw, for now.\pThe Force is strong with you…\nBut this is not the last you will\lsee of the EMPIRE.\pEven without the METEORITE, once\nI possess the RED KYBER…$",
+MC+"MaxieYouHaventSeenLastOfMagma": r"VADER: Enough.\nI will withdraw, for now.\pThe Force is strong with you…\nBut this is not the last you will\lsee of the EMPIRE.\pEven without the METEORITE, once\nI possess the BLUE KYBER…$",
 MC+"TabithaIntro": [("from STARFALL CAVERN to the BOSS!", "from STARFALL CAVERN to LORD VADER!")],
 MC+"TabithaDefeat": [("if our leader\nawakens that thing…", "if LORD VADER\nawakens that thing…")],
 MC+"TabithaPostBattle": r"LORD VADER, hurry!\nGive it the METEORITE's energy!\pHehehe…$",

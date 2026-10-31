@@ -73,7 +73,7 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 ## Sullust and Mustafar (C3c)
 
 - Nien Nunb (PIRIN ARENA, Lavaridge) is male; Flannery's grandfather becomes his uncle, a former keeper of the TRIALS OF ILUM.
-- Vader's lines use his canon voice: "Impressive… Most impressive." on defeat; he withdraws saying the Force is strong with the player and names the RED KYBER as the next goal.
+- Vader's lines use his canon voice: "Impressive… Most impressive." on defeat; he withdraws saying the Force is strong with the player and names the BLUE KYBER as the next goal (Vader takes the BLUE KYBER at Jedha, Jabba the RED).
 - Mt. Chimney's hot springs are "lava springs" on the peak; Lavaridge keeps hot springs (Sullust).
 - Leia's Meteor Falls line: Emerald's source says SOOTOPOLIS SPACE CENTER (a typo in the original); written as the YAVIN 4 LAUNCH TOWER.
 - Pair trainers ("JOHN & JAY") were hand-renamed, and `build.py` now swaps each member's speaker label ("JOHN:" → "JARO:") in dialogue.
