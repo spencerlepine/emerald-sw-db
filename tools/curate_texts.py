@@ -48,8 +48,8 @@ for tid, fx in FIX.items():
 # KEEP_REST_MAPS: every other text on these maps was read and its AUTO draft is accepted as is
 for tid, r in auto.items():
     if tid not in FIX and r["map_id"] and r["map_id"].startswith(tuple(spec.get("KEEP_REST_MAPS", ()))) \
-            and r["text_status"] == "AUTO":
-        out.append([tid, r["sw_text_raw"], "reviewed AUTO draft"])
+            and r["text_status"] in ("AUTO", "UNCHANGED"):
+        out.append([tid, r["sw_text_raw"], "reviewed AUTO draft" if r["text_status"] == "AUTO" else "reviewed, no change needed"])
 w = csv.writer(open(sys.argv[2], "w", newline="", encoding="utf-8"))
 w.writerow(["text_id", "sw_text_raw", "notes"]); w.writerows(out)
 print(len(out), "rows ->", sys.argv[2])

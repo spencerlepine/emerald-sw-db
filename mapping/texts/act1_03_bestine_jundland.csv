@@ -115,81 +115,139 @@ RusturfTunnel_Text_MikePostBattle,"They halted development here to\nprotect CREA
 PetalburgWoods_Text_TrainerTipsPP,"TRAINER TIPS\pBesides Hit Points (HP), CREATURES\nhave Power Points (PP) that are used to\lmake moves during battle.\pIf a CREATURE runs out of PP, it must be\ntaken to a BACTA CENTER.$",
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter,"SEN. ORGANA: You delivered my\nMESSAGE DISC? Thank you kindly!\pThis is my way of thanking you.\nIt should help you, a TRAINER.$",
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard,"At the SHIPYARD in MOS EISLEY,\nyou should go see RIC OLIé.$",
+PetalburgWoods_Text_NotAOneToBeFound,Hmmm…\nNot a one to be found…$,"reviewed, no change needed"
 PetalburgWoods_Text_IWasGoingToAmbushYou,"I was going to ambush you, but you\nhad to dawdle in JUNDLAND WASTES\lforever, didn't you?\pI got sick of waiting, so here I am!$",reviewed AUTO draft
 PetalburgWoods_Text_YouHaveToHelpMe,"Aiyeeeh!\pYou're a CREATURE TRAINER, aren't you?\nYou've got to help me, please!$",reviewed AUTO draft
 PetalburgWoods_Text_NoOneCrossesTeamAqua,"Hunh? What do you think you're doing?\nWhat, you're going to protect him?\pNo one who crosses THE CARTEL\ngets any mercy, not even a kid!\pCome on and battle me!$",reviewed AUTO draft
+PetalburgWoods_Text_YoureKiddingMe,You're kidding me! You're tough!$,"reviewed, no change needed"
+PetalburgWoods_Text_ICantBeWastingTime,Uh-oh! It's a crisis!\nI can't be wasting time!$,"reviewed, no change needed"
 PetalburgWoods_Text_YoureLoadedWithItems,You're loaded with items.\nI can't give you this DURASTEEL POD.$,reviewed AUTO draft
 PetalburgWoods_Text_ICouldntWin,"I have all these CREATURES,\nbut I couldn't win…$",reviewed AUTO draft
+PetalburgWoods_Text_CantBePopularIfILose,I can't be popular if I lose.$,"reviewed, no change needed"
 PetalburgWoods_Text_PeopleRespectYou,"If you have a big BUG CREATURE,\npeople respect you for it.$",reviewed AUTO draft
 PetalburgWoods_Text_MyPokemonHaveGrown,My BUG CREATURES have grown.\nI'll be popular again.$,reviewed AUTO draft
+PetalburgWoods_Text_CantBePopularIfLose,I can't be popular if I lose.$,"reviewed, no change needed"
+PetalburgWoods_Text_HiddenItemsExplanation,"Sometimes, there are things on the\nground even if you can't see them.\pThat's why I always check where I'm\nwalking.$","reviewed, no change needed"
 PetalburgWoods_Text_TryUsingThisItem,"Oh, neat!\nThat's the SHARD from BESTINE ARENA!\pYou must be a TRAINER.\nYou should try using this item.$",reviewed AUTO draft
 PetalburgWoods_Text_TrainerTipsExperience,"TRAINER TIPS\pAny CREATURE that appears even once\nin a battle is awarded EXP Points.\pTo raise a weak CREATURE, put it at the\nleft of the team list.\pAs soon as a battle starts, switch it\nout. It will earn EXP Points without\lbeing exposed to any harm.$",reviewed AUTO draft
 Route104_Text_ThrowBallAtWeakenedPokemon,"If you're going to throw a CAPTURE POD,\nweaken the wild CREATURE first.\pIt will be easier to catch if it's been\npoisoned, burned, or lulled to sleep.$",reviewed AUTO draft
+Route104_Text_ImNotATrainer,"Oh, no, I'm not a TRAINER.\pBut that's right, if TRAINERS lock eyes,\nit's a challenge to battle.\pIf you don't want to battle, stay out\nof their sight.$","reviewed, no change needed"
 Route104_Text_LikeFillingMouthWithSeedsTakeThis,"I like filling my mouth with seeds,\nthen spitting them out fast!\pYou can have this, so you try it out!\pUse it on a CREATURE, and it will learn\na move for firing seeds rapidly.$",reviewed AUTO draft
+Route104_Text_TMsAreOneTimeUse,"A word of advice!\pA TM, TECHNICAL MACHINE, is good only\nfor one-time use.\pOnce you use it, it's gone.\nThink twice before using it!$","reviewed, no change needed"
+Route104_Text_DontNeedThisTakeIt,"This FLOWER SHOP started selling\nsaplings recently.\pIt made me so happy, I went overboard\nshopping.\pI don't need this WHITE HERB anymore.\nWould you take it, please?$","reviewed, no change needed"
+Route104_Text_FlowerShopSellingSaplings,"This FLOWER SHOP started selling\nsaplings recently.\pIt made me so happy, I went overboard\nshopping. Where should I put them?$","reviewed, no change needed"
 Route104_Text_MayWeShouldRegister,"MIRA: Oh, hi, {PLAYER}{KUN}!\pINCOM upgraded your COMLINK with\nthe MATCH CALL system, huh?\pWe should register each other so we\ncan get in contact anytime.$",reviewed AUTO draft
 Route104_Text_RegisteredMay,{PLAYER} registered MIRA\nin the COMLINK.$,reviewed AUTO draft
 Route104_Text_MayHowsYourPokedex,"MIRA: Oh, by the way, {PLAYER}{KUN},\nhow's your DATAPAD coming along?$",reviewed AUTO draft
+Route104_Text_MayMinesDecentLetsBattle,Mine's looking pretty decent.\nSo…\lHow about a little battle?$,"reviewed, no change needed"
 Route104_Text_MayLetsBattle,"MIRA: So, what do you think?\nHow about a little battle here?$",reviewed AUTO draft
 Route104_Text_MayIntro,"MIRA: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!$",reviewed AUTO draft
+Route104_Text_MayDefeat,Yikes!\nYou're better than I expected!$,"reviewed, no change needed"
 Route104_Text_BrendanWeShouldRegister,"KAEL: Oh, hey, {PLAYER}!\pCool, you had INCOM install the MATCH\nCALL system on your COMLINK!\pLet's register each other in our\nCOMLINKS so we can keep in touch.$",reviewed AUTO draft
 Route104_Text_RegisteredBrendan,{PLAYER} registered KAEL\nin the COMLINK.$,reviewed AUTO draft
 Route104_Text_BrendanHowsYourPokedex,"KAEL: {PLAYER}, how's your DATAPAD?\nHave you filled in any pages yet?$",reviewed AUTO draft
+Route104_Text_BrendanDoingGreatLetsBattle,"Me, I'm doing great!\pWant to check out how good I am with\na battle?$","reviewed, no change needed"
 Route104_Text_BrendanLetsBattle,KAEL: What's up?\nWant to have a battle with me?$,reviewed AUTO draft
 Route104_Text_BrendanIntro,"KAEL: I know you just became\na TRAINER, but I won't go easy!$",reviewed AUTO draft
+Route104_Text_BrendanDefeat,Hmm…\nYou're pretty good.$,"reviewed, no change needed"
+Route116_Text_WantToDigTunnel,Nnn… Roar!\pI want to dig that tunnel!$,"reviewed, no change needed"
+Route116_Text_GoonHightailedItOutOfTunnel,Nnn… Roar!\pThat goofy goon hightailed it out of\nthe tunnel! I can go back to digging!$,"reviewed, no change needed"
 Route116_Text_NewBallAvailableAtMart,Our new CAPTURE POD will be available\nat the SUPPLY DEPOT in BESTINE.\pPlease do try it out!\nThank you and bye-bye!$,reviewed AUTO draft
 Route116_Text_BagIsJamPacked,Your BAG is jam-packed.\nI can't give you this REPEAT POD.$,reviewed AUTO draft
 Route116_Text_TokenOfAppreciation,"As a token of our appreciation for\nyour delivering our package, I have\la gift of a new kind of CAPTURE POD\lfor our most wonderful TRAINER!$",reviewed AUTO draft
+Route116_Text_CanYouHelpMeFindGlasses,I dropped my glasses…\nCan you help me find them?$,"reviewed, no change needed"
+Route116_Text_MayISeeThoseGlasses,Those glasses!\nMay I see them for a second?$,"reviewed, no change needed"
+Route116_Text_NotWhatImLookingForMaybeTheyArentHere,Hmm…\nThese are BLACKGLASSES.\lThey're not what I'm looking for…\pMaybe my glasses aren't around\nhere…$,"reviewed, no change needed"
+Route116_Text_CantFindGlassesNotHere,Hmm…\nI can't find my glasses anywhere…\lMaybe they're not around here…$,"reviewed, no change needed"
+Route116_Text_NotWhatImLookingFor,Hmm…\nThese are BLACKGLASSES.\lThey're not what I'm looking for…$,"reviewed, no change needed"
 Route116_Text_RouteSignRustboro,ROUTE 116\n{LEFT_ARROW} BESTINE$,reviewed AUTO draft
+Route116_Text_TunnelersRestHouse,TUNNELER'S REST HOUSE$,"reviewed, no change needed"
 Route116_Text_TrainerTipsBToStopEvolution,"TRAINER TIPS\pIf you want to stop a CREATURE from\nevolving, press the B Button while it\lis trying to evolve.\lThe startled CREATURE will stop.\pThis is called an evolution cancel.$",reviewed AUTO draft
+Route116_Text_TrainerTipsBagHasPockets,TRAINER TIPS\pYour BAG has several POCKETS.\pItems you obtain are automatically\nplaced in the appropriate POCKETS.\pNo TRAINER can afford to be without\na BAG of their own.$,"reviewed, no change needed"
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough,"Did you hear? The TUNNEL to ANCHORHEAD\nhas gone through!\pSometimes, if you hope strongly enough,\ndreams do come true.$",reviewed AUTO draft
 RustboroCity_Text_WeShortenItToDevon,The INCOM CORPORATION…\nWe all just shorten it to INCOM.\pThat company makes all sorts of\nconvenient products.$,reviewed AUTO draft
+RustboroCity_Text_SneakyLookingManWentAroundCorner,"Hm? A sneaky-looking man?\pCome to think of it, yes, a shady-\nlooking guy went around the corner.$","reviewed, no change needed"
 RustboroCity_Text_HaveYouChallengedGym,"Have you taken the ARENA\nchallenge?\pWhen you get that shiny ARENA SHARD\nin hand, I guess TRAINERS begin to\lrealize what is required of them.$",reviewed AUTO draft
 RustboroCity_Text_HeyThatsRustborosGymBadge,"Hey, that's BESTINE's ARENA SHARD!\pOut of all the ARENA SHARDS,\nBESTINE's is the coolest, I'd say.$",reviewed AUTO draft
 RustboroCity_Text_YoureNewAroundHere,Oh? Who might you be?\nYou're a new face around these parts.\pHave you just transferred into the\nBESTINE ACADEMY?$,reviewed AUTO draft
 RustboroCity_Text_PokemonCanChangeLookFromExp,"If a CREATURE gains experience in\nbattles, it can sometimes change in\lthe way it looks.$",reviewed AUTO draft
 RustboroCity_Text_PokemonChangeShape,"A CREATURE changes shape?\nIf one did that, I would be shocked!$",reviewed AUTO draft
 RustboroCity_Text_TradePokemonGrowFast,"A CREATURE you get in a trade from\nsomeone grows fast.\pBut if you don't have certain ARENA\nSHARDS, it may not obey you…$",reviewed AUTO draft
+RustboroCity_Text_OutOfTheWay,Get out!\nOut of the way!$,"reviewed, no change needed"
 RustboroCity_Text_HelpMeIWasRobbed,"Oh, it's you!\pYou're that fantastic TRAINER who\nhelped me in JUNDLAND WASTES!\pHelp me! I was robbed by THE CARTEL!\nI have to get the INCOM PARTS back!\pIf I don't…\nI'm going to be in serious trouble.$",reviewed AUTO draft
+RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel,"That shady character, I think he took\noff towards the tunnel over there.$","reviewed, no change needed"
 RustboroCity_Text_YouGotItThankYou,"Oh! How did it go?\nThe INCOM PARTS?\pYou did!\nYou got them back!\pYou really are a great TRAINER!\pI know! As my thanks, I'll give you\nanother DURASTEEL POD!$",reviewed AUTO draft
 RustboroCity_Text_YoureLoadedWithItems,You're loaded with items.\nI can't give you this DURASTEEL POD.$,reviewed AUTO draft
+RustboroCity_Text_PleaseComeWithMe,"Excuse me, please!\nPlease come with me!$","reviewed, no change needed"
 RustboroCity_Text_MayHiLetsRegister,"MIRA: Oh, hi, {PLAYER}{KUN}!\pYou had a MATCH CALL feature put\non your COMLINK!\pLet's register each other so we can\ncontact one another anytime!\p… … … … … …$",reviewed AUTO draft
 RustboroCity_Text_RegisteredMay,Registered MIRA\nin the COMLINK.$,reviewed AUTO draft
 RustboroCity_Text_MayWantToBattle,"MIRA: So, what do you think?\nHow about a little battle here?$",reviewed AUTO draft
 RustboroCity_Text_MayImNotGoingToLose,"MIRA: You just became a TRAINER,\n{PLAYER}{KUN}. I'm not going to lose!$",reviewed AUTO draft
+RustboroCity_Text_MayDefeat,Yikes!\nYou're better than I expected!$,"reviewed, no change needed"
 RustboroCity_Text_BrendanHiLetsRegister,"KAEL: Oh, hey, {PLAYER}!\pYou had a MATCH CALL feature put\non your COMLINK! Cool!\pLet's register each other so we can\nget in touch anytime!\p… … … … … …$",reviewed AUTO draft
 RustboroCity_Text_RegisteredBrendan,Registered KAEL\nin the COMLINK.$,reviewed AUTO draft
 RustboroCity_Text_BrendanWantToBattle,KAEL: What's up?\nWant to have a battle with me?$,reviewed AUTO draft
 RustboroCity_Text_BrendanIWontGoEasy,"KAEL: I know you just became\na TRAINER, but I won't go easy!$",reviewed AUTO draft
+RustboroCity_Text_BrendanDefeat,Hmm…\nYou're pretty good.$,"reviewed, no change needed"
+RustboroCity_Text_TunnelNearingCompletion,"“Timesaving tunnel nearing\ncompletion!”\p…Is what it says on the sign, but\nthere's also a big “X” splashed\lacross it in red paint…$","reviewed, no change needed"
 RustboroCity_Text_DevonCorpSign,"INCOM CORPORATION\p“For all your living needs, we make\nit all.”$",reviewed AUTO draft
 RustboroCity_Text_DevonCorpBranchOfficeSign,INCOM CORP. BRANCH OFFICE\p“Access limited to INCOM employees\nand authorized personnel.”$,reviewed AUTO draft
 RustboroCity_Text_CitySign,BESTINE\p“The city probing the integration of\nnature and science.”$,reviewed AUTO draft
+RustboroCity_Text_CuttersHouse,CUTTER'S HOUSE$,"reviewed, no change needed"
 RustboroCity_Text_PleaseSelectPokenav,Please select the COMLINK.$,reviewed AUTO draft
+RustboroCity_Text_IdBetterGetBackToWork,"Okay, I'd better get back to work.\nPlease take care, {PLAYER}!$","reviewed, no change needed"
 RustboroCity_Text_YouCanHave2On2Battle,"Did you know this?\pYou can have a 2-on-2 battle even\nif you're not with another TRAINER.\pIf you catch the eyes of two TRAINERS\nwhen you have two or more CREATURES,\lthey'll both challenge you.\pDon't you think it'd be cool if you\ncould beat two TRAINERS by yourself?$",reviewed AUTO draft
 RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp,Hello and welcome to the INCOM\nCORPORATION.\pWe're proud producers of items and\nmedicine that enhance your life.$,reviewed AUTO draft
+RustboroCity_DevonCorp_1F_Text_StaffGotRobbed,One of our research staff stupidly\ngot robbed of an important parcel.$,"reviewed, no change needed"
+RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct,"Hey, those RUNNING SHOES!\nThey're one of our products!\pIt makes me happy when I see someone\nusing something we made.$","reviewed, no change needed"
+RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright,"That stolen parcel…\pWell, sure it's important, but it's not\nanything that anyone can use.\pIn my estimation, that robber must not\nhave been very bright.$","reviewed, no change needed"
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered,It sounds like they've recovered\nthe ripped-off INCOM PARTS.$,reviewed AUTO draft
+RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter,"I'm sorry, only authorized people\nare allowed to enter here.$","reviewed, no change needed"
+RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed,It's beyond stupid.\nHow could we get robbed?$,"reviewed, no change needed"
+RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere,"Hi, there!\nYou're always welcome here!$","reviewed, no change needed"
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls,I'm developing new kinds of\nCAPTURE PODS…\pBut I haven't made much headway…$,reviewed AUTO draft
 RustboroCity_DevonCorp_2F_Text_IMadePokenav,"I made the COMLINK!\pAs an engineer, I feel blessed to have\nmade something so great!$",reviewed AUTO draft
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife,Wait! That thing you have there…\nIs that a CREATURE fossil?\pWould you like to bring that CREATURE\nback to life?\pI can with my newly developed\nFOSSIL REGENERATOR.$,reviewed AUTO draft
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo,"Oh, is that so?\pINCOM's technological expertise\nis outstanding, I tell you.$",reviewed AUTO draft
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne,"Oh, now that's a surprise!\nYou have not one, but two, fossils?\pUnfortunately, my machine can only\nregenerate one CREATURE at a time.\pWould you like to pick one of your\nfossils for regeneration?$",reviewed AUTO draft
+RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime,"The FOSSIL REGENERATOR, which I made,\nis incredible.\pBut it has one drawback--it takes\na long time to work.\pSo, uh… How about you go for a stroll\nand look around for a while?$","reviewed, no change needed"
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife,"Thanks for waiting!\pYour fossilized CREATURE has been\nbrought back to life!\pThe fossil was an ancient CREATURE.\n{STR_VAR_2}, it was!$",reviewed AUTO draft
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon,"Uh-oh, you've got too many CREATURES.\nYou have no room for this one.$",reviewed AUTO draft
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature,I'm trying to develop a new feature\nfor the COMLINK…\pBut it's not going well.$,reviewed AUTO draft
+RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext,"Well, now what shall I work on\ndeveloping next?\pOur company allows us to make our\ninspirations into reality.\pOne couldn't ask for a better\nenvironment as an engineer.$","reviewed, no change needed"
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav,{PLAYER} received a COMLINK.$,reviewed AUTO draft
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare,"SEN. ORGANA: Well, then, {PLAYER}{KUN},\ngo with caution and care!$",reviewed AUTO draft
 RustboroCity_DevonCorp_3F_Text_CountingOnYou,SEN. ORGANA: I'm counting on you!$,reviewed AUTO draft
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare,SEN. ORGANA: A CREATURE holding that\nEXP. LINK will be given some of the\lEXP Points from battle.\pIt will get EXP Points even if it didn't\nactually battle.\pI would say EXP. LINK is quite useful\nfor raising weak CREATURES.$,reviewed AUTO draft
+RustboroCity_DevonCorp_3F_Text_PleaseGoAhead,"Please, go ahead.$","reviewed, no change needed"
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular,"INCOM's new products, the REPEAT POD\nand TIMER POD, have become hugely\lpopular among TRAINERS.$",reviewed AUTO draft
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility,Every CREATURE has a special ability\nthat it can use.$,reviewed AUTO draft
+RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard,"Oh, it's so hard every day…\pWhat's hard?\nYou need to ask?\pIt's trying to figure out what to\nmake for meals every day.\pIt really isn't easy coming up with\nmeals every day.$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase,"Oh, hello!\nWelcome to the PEPPER household.\pI have a question for you.\nHave you ever baby-sat?\pYou see, I'm a new father, so raising\na child is all new to me.\pAnd I have a problem. My daughter\nWALDA doesn't laugh enough.\pI think she'd laugh for me if I told\nher something funny.\pDo you know of a funny word or\nphrase you can tell me?$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase,I've been saying “{STR_VAR_1}”\nto amuse her lately.\pDo you know of a better word or\na phrase that might work?$,"reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion,"Oh, that's wonderful.\nSo, let's hear it, your suggestion.$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_OhIsThatRight,"Oh, is that right?\pWell, if you come up with a good\nsuggestion, I'm all ears.$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_LetsGiveItATry2,"Ah, I see.\nWell, let's give it a try, shall we?$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_OhShesLaughing,"{STR_VAR_1}.\n{STR_VAR_1}.\pOh, yes! She's laughing!\nOh, I am as delighted as she!$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_LetsGiveItATry,"Ah, I see.\nWell, let's give it a try, shall we?$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll,{STR_VAR_1}.\n{STR_VAR_1}.\pHmmm… She's not smiling at all.\nMaybe WALDA is one serious child…$,"reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase,"Oh, so you don't know any good words.\nI'd better think for myself, then.\pHmm…\nHow about “{STR_VAR_1}”?\lLet's see if that will work.$","reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2,{STR_VAR_1}.\n{STR_VAR_1}.\pHmmm… She's not smiling at all.\nMaybe WALDA is one serious child…$,"reviewed, no change needed"
+RustboroCity_Flat1_2F_Text_OhYouDontKnowAny,"Oh, so you don't know any good words.\nI guess I'll try to amuse her with\lthe saying I used before.\pAnyways, if you have a good suggestion,\ndon't hesitate in telling me, okay?$","reviewed, no change needed"
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll,It's a CREATURE plush DOLL!$,reviewed AUTO draft
 RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere,INCOM CORPORATION's workers live in\nthis building.$,reviewed AUTO draft
 RustboroCity_Flat2_1F_Text_Skitty,LOTHKIT: Gyaaaah!$,reviewed AUTO draft
 RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays,"Way back in the old days, INCOM was just\na teeny, tiny company.$",reviewed AUTO draft
+RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt,"My daddy's working at the CORPORATION.\pMy daddy made this!\nBut I can't use it, so you can have it.$","reviewed, no change needed"
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo,"My daddy's working at the CORPORATION.\pWhen I grow up, I'm going to work for\nINCOM, too.$",reviewed AUTO draft
 RustboroCity_Gym_Text_JoshIntro,Don't take us ARENA TRAINERS lightly!\nI'll show you why we're better!$,reviewed AUTO draft
+RustboroCity_Gym_Text_JoshDefeat,You were too good for me…$,"reviewed, no change needed"
+RustboroCity_Gym_Text_JoshPostBattle,You haven't seen anything of the ROCK\ntype's terrifying power!$,"reviewed, no change needed"
 RustboroCity_Gym_Text_TommyIntro,"If you can't beat me, you won't stand\na chance against KITSTER!$",reviewed AUTO draft
+RustboroCity_Gym_Text_TommyDefeat,Wow! You've got some potential!$,"reviewed, no change needed"
 RustboroCity_Gym_Text_TommyPostBattle,KITSTER is stronger than me by\nseveral times.\pYou'd better be on your guard!$,reviewed AUTO draft
 RustboroCity_Gym_Text_MarcIntro,"We might be in the middle of town,\nbut so what?\pMy ROCK CREATURES need room to\nrampage!$",reviewed AUTO draft
+RustboroCity_Gym_Text_MarcDefeat,"Oh, man oh man!\nOur challenger is one feisty customer!$","reviewed, no change needed"
 RustboroCity_Gym_Text_ReceivedStoneBadge,{PLAYER} received the DUNE SHARD\nfrom KITSTER.$,reviewed AUTO draft
 RustboroCity_Gym_Text_ExplainRockTomb,"That TECHNICAL MACHINE, TM39,\ncontains ROCK TOMB.\pIt not only inflicts damage by dropping\nrocks, it also lowers SPEED.\pIf you use a TM, it instantly teaches\nthe move to a CREATURE.\pRemember, a TM can be used only once,\nso think before you use it.$",reviewed AUTO draft
 RustboroCity_Gym_Text_RoxannePostBattle,"Since you are so strong, you should\nchallenge other ARENA LEADERS.\pBy battling many TRAINERS, you should\nlearn many things.$",reviewed AUTO draft
@@ -198,22 +256,31 @@ RustboroCity_Gym_Text_GymStatueCertified,BESTINE ARENA\pKITSTER'S CERTIFIED TRAI
 RustboroCity_Gym_Text_RoxanneRegisterCall,"… … … … … …\n… … … … … Beep!\pKITSTER: Oh, hello, {PLAYER}?\nThis is KITSTER of BESTINE.\pI heard from TARFFUL that you're\nmoving up through the ranks of\lTRAINERS at an incredible clip.\pWell, I'd rather not think that\nI can't beat you.\pI promise, I will shape up my ARENA\nso that you may challenge us again.\pI hope you'll be looking forward to\nthat occasion as much as me!\p… … … … … …\n… … … … … Click!$",reviewed AUTO draft
 RustboroCity_Gym_Text_RegisteredRoxanne,Registered ARENA LEADER KITSTER\nin the COMLINK.$,reviewed AUTO draft
 RustboroCity_Gym_Text_RoxannePreRematch,"KITSTER: I'm so glad to see you again.\nI'm KITSTER, the ARENA LEADER here.\pI'm sure we've both experienced many\nbattles since we last met.\pI would like to see how much better\nwe've become. Let us battle!$",reviewed AUTO draft
+RustboroCity_Gym_Text_RoxanneRematchDefeat,"Grr…\nAgain, I have lost…$","reviewed, no change needed"
 RustboroCity_House1_Text_IllTradeIfYouWant,"Huh? My CREATURE is cute?\nSure, I knew that.\pBut if you really want, I'm willing\nto trade it to you.\pI'll trade you my {STR_VAR_2} for\na {STR_VAR_1} if you want.$",reviewed AUTO draft
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon,Eheheh…\nPlease be good to my CREATURE.$,reviewed AUTO draft
+RustboroCity_House1_Text_DoesntLookLikeMonToMe,Huh? That doesn't look anything like\na {STR_VAR_1} to me.$,"reviewed, no change needed"
 RustboroCity_House1_Text_YouDontWantToThatsOkay,"Oh, if you don't want to, that's okay.\nBut my CREATURE is cute, you know…$",reviewed AUTO draft
 RustboroCity_House1_Text_AnyPokemonCanBeCute,Any CREATURE can be cute if you raise\nit with care and kindness.$,reviewed AUTO draft
 RustboroCity_House2_Text_TrainerSchoolExcellent,"The ACADEMY is excellent.\pIf you study there, you could even\nbecome an ARENA LEADER.$",reviewed AUTO draft
 RustboroCity_House3_Text_NamingPikachuPekachu,"But giving the name PEKACHU to\nan IONRAT? It seems pointless.\pI suppose it is good to use a name\nthat's easy to understand, but…$",reviewed AUTO draft
+RustboroCity_House3_Text_Pekachu,PEKACHU: Peka!$,"reviewed, no change needed"
 RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish,I'm buying some NERVE TONICS and\nANTITOXINS.\pJust in case I run into FELUSPORE\nin JUNDLAND WASTES.$,reviewed AUTO draft
 RustboroCity_Mart_Text_GettingEscapeRopeJustInCase,I'm getting a GRAPPLE LINE just in\ncase I get lost in a cave.\pI just need to use it to get back to\nthe entrance.$,reviewed AUTO draft
 RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities,"My CREATURE has a NAIVE nature, and my\nfriend's has a JOLLY nature.\pIt's fascinating how CREATURES have\npersonalities!$",reviewed AUTO draft
 RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor,The man next door gave me an HM!\pI used it to teach my CREATURE how to\nVIBROBLADE down skinny trees.$,reviewed AUTO draft
+RustboroCity_PokemonSchool_Text_ReadWhichTopic,Which topic do you want to read?$,"reviewed, no change needed"
 RustboroCity_PokemonSchool_Text_ExplainPoison,"If a CREATURE is poisoned, it will\nsteadily lose HP.\pThe effects of poison remain after\na battle.\pA poisoned CREATURE's HP will drop\nwhile it is traveling.\pHeal a poisoning using an ANTITOXIN.$",reviewed AUTO draft
 RustboroCity_PokemonSchool_Text_ExplainParalysis,"If a CREATURE becomes paralyzed,\nits SPEED drops.\pIt may also not be able to move while\nit is in battle.\pParalysis remains after battle.\nCure it using a NERVE TONIC.$",reviewed AUTO draft
 RustboroCity_PokemonSchool_Text_ExplainSleep,"If a CREATURE falls asleep, it will be\nunable to attack.\pA CREATURE may wake up on its own,\nbut if a battle ends while it is\lsleeping, it will stay asleep.\pWake it up using a STIM PATCH.$",reviewed AUTO draft
 RustboroCity_PokemonSchool_Text_ExplainBurn,"A burn reduces ATTACK power, and it\nsteadily reduces the victim's HP.\pA burn lingers after battle.\nCure a burn using a BURN GEL.$",reviewed AUTO draft
 RustboroCity_PokemonSchool_Text_ExplainFreeze,"If a CREATURE is frozen, it becomes\ncompletely helpless.\pIt will remain frozen after battle.\nThaw it out using a THAW PACK.$",reviewed AUTO draft
+RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw,Students who don't study get a little\ntaste of my QUICK CLAW.\pWhether or not you are a good student \nwill be evident from the way you use\lthis item.$,"reviewed, no change needed"
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot,"I always wanted an EWOKLET, and\nI'm finally getting one!$",reviewed AUTO draft
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown,LANDO: Hmm…\pThe talent levels of the students here\nare unknown. The potential's there.$,reviewed AUTO draft
+RusturfTunnel_Text_ComeAndGetSome,"What, are you coming?\nCome and get some, then!$","reviewed, no change needed"
+RusturfTunnel_Text_GruntDefeat,Urrrggh! My career in crime comes to\na dead end!$,"reviewed, no change needed"
 RusturfTunnel_Text_GruntTakePackage,"This is plain not right…\pThe BOSS told me this would be a\nslick-and-easy job to pull.\pAll I had to do was steal some package\nfrom INCOM.\pTch!\nYou want it back that badly, take it!$",reviewed AUTO draft
+RusturfTunnel_Text_YouShatteredBoulderTakeHM,"Wow! You shattered that boulder\nblocking the way.\pTo show you how much I appreciate it,\nI'd like you to have this HM.$","reviewed, no change needed"
 RusturfTunnel_Text_WandaReunion,"CAMIE!\nNow I can see you anytime!\pCAMIE: That's…wonderful.\pPlease, take some rest at my home.$",reviewed AUTO draft
+RusturfTunnel_Text_BoyfriendOnOtherSideOfRock,On the other side of this rock…\nMy boyfriend is there.\pHe… He's not just digging the tunnel\nto come see me.\pHe works his hands raw and rough\nfor the benefit of everyone.$,"reviewed, no change needed"

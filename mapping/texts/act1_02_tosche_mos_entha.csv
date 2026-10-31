@@ -105,3 +105,40 @@ PetalburgCity_WallysHouse_Text_WallyWasReallyHappy,LUKE was really happy when he
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing,I wonder how our LUKE is doing?$,
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces,"If your CREATURE can SURF, you'll be\nable to go to all sorts of places.$",
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon,LUKE's coming home soon.\nI'm looking forward to that.$,
+PetalburgCity_Gym_Text_DadHmISee,DAD: Hm. I see.$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_WallyOhWowThankYou,"LUKE: Oh, wow!\nThank you!$",reviewed AUTO draft
+PetalburgCity_Gym_Text_WouldYouReallyComeWithMe,{PLAYER}… Would you really come\nwith me?$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_DadSoDidItWorkOut,"DAD: So, did it work out?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_GymGuidePostVictory,"{PLAYER}! Whoa! You've overcome even\nyour own father!\pLike, whoa!\nWhat a stunning turn of events!$","reviewed, no change needed"
+PetalburgCity_Gym_Text_RandallIntro,"The ability to attack before the\nopponent…\pJust that alone puts me at a great\nadvantage, don't you agree?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_RandallDefeat,That was a magnificent battle!$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_ParkerDefeat,I couldn't confuse your team enough…\nYou share a strong bond together.$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_ParkerPostBattle,The next room is the STRENGTH ROOM.\nCan you withstand brute force?$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_ParkerPostBadge,"After you beat our LEADER, the\ntraining has become a lot tougher.$","reviewed, no change needed"
+PetalburgCity_Gym_Text_GeorgeIntro,"Just when you think you're going to\nwin, your opponent restores HP…\pCan you just imagine how awful that\nmust feel?\pI'll show you exactly how awful it\nfeels!$","reviewed, no change needed"
+PetalburgCity_Gym_Text_GeorgeDefeat,I couldn't restore HP enough…\nWhat ATTACK power…$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_GeorgePostBattle,"I should have expected no less from\nour LEADER's kid.\pNo, wait! A TRAINER's abilities are\nearned only through effort.\pI lost because my own efforts\nweren't enough.\pGo on! The ONE-HIT KO ROOM is next.$","reviewed, no change needed"
+PetalburgCity_Gym_Text_BerkeIntro,I'm not going to take it easy just\nbecause you're our LEADER's kid.\pI'll show you how horrid it is for\na CREATURE to take a critical hit!$,reviewed AUTO draft
+PetalburgCity_Gym_Text_BerkeDefeat,Your power…\nYou're the real deal.$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_BerkePostBattle,"Your father really is strong.\nHe's a TRAINER worth my respect.\pAnd, I sense the same glow coming\nfrom you as your father.\pI hope that you'll stage a terrific\nbattle with your father!$","reviewed, no change needed"
+PetalburgCity_Gym_Text_BerkePostBadge,"Since your dad became the LEADER,\nthe TRAINERS of MOS ENTHA have\lbecome a lot tougher.$",reviewed AUTO draft
+PetalburgCity_Gym_Text_MaryIntro,Giggle…\nThis is the ACCURACY ROOM.\pIt's pretty nasty when every attack\nlands without fail.$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_MaryDefeat,You were a cut above me…$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_AlexiaIntro,"The higher the DEFENSE, the more\nreckless I can be in attack.$","reviewed, no change needed"
+PetalburgCity_Gym_Text_AlexiaDefeat,Our defenses weren't enough…$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_AlexiaPostBattle,"I think you've taught me a valuable\nlesson here.\pNow, go on! The left door goes to\nthe STRENGTH ROOM.\pThe right door opens to\nthe ONE-HIT KO ROOM.\pBoth of them have TRAINERS who are\nskilled at offense.$","reviewed, no change needed"
+PetalburgCity_Gym_Text_AlexiaPostBadge,Hi! Have you tried using SURF?$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_JodyDefeat,But… I went all out!$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_DoorAppearsLocked,This door appears to be locked\nright now…$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_EnterSpeedRoom,"“SPEED ROOM,” the sign says.\pDo you want to go through?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_DoorAppearsLocked2,This door appears to be locked\nright now…$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_EnterAccuracyRoom,"“ACCURACY ROOM,” the sign says.\pDo you want to go through?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_EnterDefenseRoom,"“DEFENSE ROOM,” the sign says.\pDo you want to go through?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_EnterRecoveryRoom,"“RECOVERY ROOM,” the sign says.\pDo you want to go through?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_EnterStrengthRoom,"“STRENGTH ROOM,” the sign says.\pDo you want to go through?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_EnterOHKORoom,"“ONE-HIT KO ROOM,” the sign says.\pDo you want to go through?$","reviewed, no change needed"
+PetalburgCity_Gym_Text_GymStatue,MOS ENTHA ARENA$,reviewed AUTO draft
+PetalburgCity_Gym_Text_GymStatueCertified,MOS ENTHA ARENA\pDORAN'S CERTIFIED TRAINERS:\n{PLAYER}$,reviewed AUTO draft
+PetalburgCity_Gym_Text_NormanRematchDefeat,Uh… Haha…\nMaybe that was going too hard…$,"reviewed, no change needed"
+PetalburgCity_Gym_Text_NormanPostRematch,"DAD: {PLAYER}…\nWhat is your dream?\pMy dream…\nHahaha…\lIt has already come true, actually.$","reviewed, no change needed"
+PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou,"Do you have any ANTITOXINS with\nyou?\pIf you walk around with a poisoned\nCREATURE, it will lose HP until it faints.\lTake some ANTITOXINS with you.$",reviewed AUTO draft

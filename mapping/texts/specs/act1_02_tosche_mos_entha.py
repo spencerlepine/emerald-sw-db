@@ -1,3 +1,4 @@
+KEEP_REST_MAPS = ("map:oldale", "map:route102", "map:route103", "map:petalburg-city")
 C = "CREATURE"
 K = []  # keep auto draft as-is (reviewed)
 FIX = {
