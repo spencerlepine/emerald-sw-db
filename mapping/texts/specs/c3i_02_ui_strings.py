@@ -11,7 +11,7 @@ FIX = {
 "gText_WirelessCommStatus": r"COMLINK Status",
 "gText_VarietyOfEventsImportedWireless": r"A variety of events will be imported\nover the COMLINK.",
 "gText_DontRemoveCableTurnOff": r"Don't remove the COMLINK cable.\nDon't turn off the power.",
-"gText_HOFDexRating": r"Spotted CREATURES: {STR_VAR_1}!\nOwned CREATURES: {STR_VAR_2}!\pPROF. KORR's DATAPAD rating!\pPROF. KORR: Let's see…\p",
+"gText_HOFDexRating": r"Spotted COMPANIONS: {STR_VAR_1}!\nOwned COMPANIONS: {STR_VAR_2}!\pPROF. KORR's DATAPAD rating!\pPROF. KORR: Let's see…\p",
 "gText_LeagueChamp": r"ILUM CHAMPION!\nCONGRATULATIONS!",
 "gText_CantDismountBike": r"You can't get off your bike here.{PAUSE_UNTIL_PRESS}",
 "gText_CantStoreImportantItems": r"Important items\ncan't be stored in\nthe TERMINAL!",
@@ -30,14 +30,19 @@ FIX = {
 "gText_SomeonesPC": r"SOMEONE'S TERMINAL",
 "gText_LanettesPC": r"TESS'S TERMINAL",
 "gText_PlayersPC": r"{PLAYER}'s TERMINAL",
-"gText_NotPkmnOtherTrainerWants": r"That isn't the kind of CREATURE\nthat the other TRAINER wants.",
-"gText_MarkYourPkmn": r"Mark your CREATURE.",
-"gEasyChatGroupName_Pokemon2": r"CREATURES2",
-"gText_ProfBirchMatchCallDesc": r"CREATURE PROF.",
+"gText_NotPkmnOtherTrainerWants": r"That isn't the kind of COMPANION\nthat the other TRAINER wants.",
+"gText_MarkYourPkmn": r"Mark your COMPANION.",
+"gEasyChatGroupName_Pokemon2": r"COMPANIONS2",
+"gText_ProfBirchMatchCallDesc": r"COMPANION PROF.",
 "gText_NothingToCut": r"There's nothing to slice here.",
 }
 NOTES = {
 "gText_SomeonesPC": "PC -> TERMINAL; the PC menu window sizes to its longest entry",
 "gText_ProfBirchMatchCallDesc": "{PKMN} glyph token -> plain word (glossary)",
-"gEasyChatGroupName_Pokemon2": "Easy Chat group name; second CREATURE word list",
+"gEasyChatGroupName_Pokemon2": "Easy Chat group name; second COMPANION word list",
 }
+
+# --- COMPANION widths ---
+FIX["gText_DexSortNumericalDescription"] = [("COMPANIONS are listed according to their\nnumber.", "COMPANIONS are listed by their\nnumber.")]
+FIX["gText_DexSortAtoZDescription"] = [("Spotted and owned COMPANIONS are listed\nalphabetically.", "Seen and owned COMPANIONS are listed\nalphabetically.")]
+FIX["gText_BattleFactoryDesc"] = [("Aim for victory using rental COMPANIONS!", "Aim for victory with rental COMPANIONS!")]

@@ -8,7 +8,7 @@ SU = "MtPyre_Summit_Text_"
 
 
 def pl(*olds):
-    return [(o, o.replace("CREATURE", "CREATURES")) for o in olds]
+    return [(o, o.replace("COMPANION", "COMPANIONS")) for o in olds]
 
 
 FIX = {
@@ -27,7 +27,7 @@ MH+"2F_2R_Text_Grunt7PostBattle": [("THE EMPIRE's goal is about to be\nreached!"
 MH+"3F_1R_Text_Grunt9PostBattle": r"Do you think it's odd that we wear\nfull armor in a lava-filled fortress?$",
 MH+"3F_1R_Text_Grunt16Intro": r"We serve LORD VADER and his vision\nof order.\pI don't care if you're with the CARTEL\nor if you're just some kid passing by.\pNo one interferes with us and gets\naway with it!$",
 MH+"3F_1R_Text_Grunt16PostBattle": r"Listen to me.\nThe EMPIRE is right!\pDon't listen to the CARTEL.\nDon't believe their lies!$",
-MH+"3F_2R_Text_Grunt10Intro": r"I follow every order LORD VADER\ngives. But you know what?\pDoing stuff like digging up a super-\nancient CREATURE and ripping off\lsomeone's METEORITE…\pI think we're going a little too far.\nWhat do you think?$",
+MH+"3F_2R_Text_Grunt10Intro": r"I follow every order LORD VADER\ngives. But you know what?\pDoing stuff like digging up a super-\nancient COMPANION and ripping off\lsomeone's METEORITE…\pI think we're going a little too far.\nWhat do you think?$",
 MH+"3F_2R_Text_Grunt10PostBattle": r"You know, losing to you cleared my mind.\pThe next time I see LORD VADER…\nWell… Maybe I'll keep quiet.$",
 MH+"4F_Text_Grunt12PostBattle": r"LORD VADER!\nAn intruder is headed your way!$",
 MH+"4F_Text_TabithaIntro": [("VADER went to GREATKRAYT just seconds\nago!", "LORD VADER went to GREATKRAYT just\nseconds ago!")],
@@ -37,15 +37,15 @@ MH+"4F_Text_MaxieDefeat": r"The Force is strong with you…\nStronger than I had
 MH+"4F_Text_MaxieImGoingAfterGroudon": r"VADER: There has to be some reason\nwhy GREATKRAYT fled…\pThat's what you're trying to say,\nisn't it?\p… … … … … …\n… … … … … …\pYou think I did not know that?\pWith GREATKRAYT gone, I have no\nfurther need for this volcano.\pI am going after GREATKRAYT.\nThis is where we part!$",
 # --- Jedha Temple ---
 MP+"1F_Text_TakeThisForYourOwnGood": [("of JEDHA TEMPLE…", "of the JEDHA TEMPLE…")],
-MP+"1F_Text_ComeToPayRespects": r"Did you come to pay your respects\nto the spirits of departed CREATURES?\pYou must care for your CREATURES a lot.$",
-MP+"2F_Text_MarkIntro": pl("Are you searching for CREATURE?"),
+MP+"1F_Text_ComeToPayRespects": r"Did you come to pay your respects\nto the spirits of departed COMPANIONS?\pYou must care for your COMPANIONS a lot.$",
+MP+"2F_Text_MarkIntro": pl("Are you searching for COMPANION?"),
 MP+"2F_Text_LeahPostBattle": [("It is my duty to protect this\nmountain…", "It is my duty to protect this\ntemple…")],
 MP+"3F_Text_WilliamIntro": [("The rich atmosphere of the mountain\nhas elevated", "The Force in this holy place\nhas elevated")],
-MP+"3F_Text_GabriellePostBattle": [("CREATURE no longer of this world.", "CREATURES no longer of this world."), ("And the CREATURE that you will meet", "And the CREATURES you will meet")],
-MP+"3F_Text_GabriellePostRematch": [("CREATURE no longer of this world.", "CREATURES no longer of this world."), ("And the CREATURE that you will meet", "And the CREATURES you will meet")],
-MP+"3F_Text_GabrielleRegister": pl("I would like to see your CREATURE\nwhen"),
-MP+"6F_Text_ValeriePostBattle": pl("of CREATURE in fitful sleep"),
-MP+"6F_Text_ValeriePostRematch": pl("The CREATURE at rest here…"),
+MP+"3F_Text_GabriellePostBattle": [("COMPANION no longer of this world.", "COMPANIONS no longer of this world."), ("And the COMPANION that you will meet", "And the COMPANIONS you will meet")],
+MP+"3F_Text_GabriellePostRematch": [("COMPANION no longer of this world.", "COMPANIONS no longer of this world."), ("And the COMPANION that you will meet", "And the COMPANIONS you will meet")],
+MP+"3F_Text_GabrielleRegister": pl("I would like to see your COMPANION\nwhen"),
+MP+"6F_Text_ValeriePostBattle": pl("of COMPANION in fitful sleep"),
+MP+"6F_Text_ValeriePostRematch": pl("The COMPANION at rest here…"),
 SU+"Grunt1Intro": r"No! Those EMPIRE goons got\nhere ahead of us!\pWe can't fall behind!$",
 SU+"Grunt1Defeat": r"I thought you were one of the\nSTORMTROOPERS coming back…$",
 SU+"Grunt2Intro": r"Hah!\nToo bad for you!\pIf you came earlier, you only would've\nhad to battle the wimpy EMPIRE.\pBut since you arrived now, you have\nto take on us toughies!$",
@@ -60,10 +60,10 @@ SU+"ArchieWeGotTheOrbLetsGo": r"JABBA: The EMPIRE's VADER got ahead\nof us, but 
 SU+"BothOrbsTakenMagmaLeftThis": [("The BLUE KYBER and RED KYBER must never\nbe separated.", "The BLUE and RED KYBER must never\nbe separated."), ("the two ORBS?", "the two crystals?"), ("Oh, yes. Was it THE EMPIRE who came", "Oh, yes. Was it the EMPIRE who came")],
 SU+"GroudonKyogreAwakened": [("You say that both GREATKRAYT and SANDO\nhave been awakened?", "You say GREATKRAYT and SANDO\nhave both been awakened?"), ("of the ORBS still exists.", "of the crystals still exists."), ("exactly, the ORBS belong to.", "exactly, the crystals belong to.")],
 SU+"ThoseTwoMenReturnedOrbs": [("The two men who took the ORBS came", "The two who took the crystals came")],
-SU+"SuperAncientPokemonTaughtUs": r"The embodiments of the land, sea,\nand the stars…\pThat is said to be the identities of\nthe super-ancient CREATURES…\pIn the same way that we humans and\nCREATURES have life, every world, too,\lis alive…\pThe super-ancient CREATURES have\ntaught us that…$",
-SU+"WillYouHearOutMyTale": [("JEDHA TEMPLE is where we calm the spirits\nof CREATURES that have passed on…", "Here at the TEMPLE we calm the\nspirits of departed CREATURES…"), ("This is a high place where one can\nsee all of OUTER RIM…", "This is a high place where one can\nsee the stars of the OUTER RIM…")],
-SU+"GroudonKyogreTale": r"It happened long, long ago…\pThe worlds were wracked by a ferocious\nclash between the CREATURE of the land\land the CREATURE of the sea…\pThe CREATURE of the land raised\nmountains and dried up the seas…\pThe CREATURE of the sea raised huge\nwaves and drowned the lands…\pTheir fierce duel raged without end.\pThe worlds were engulfed in massive\ninfernos and vicious storms.\pThe BLUE and RED KYBER brought\nan end to the calamity.\pLight poured from the two crystals and\ncalmed the enraged adversaries.\pThe pair, made docile, dove deep into\nthe sea where eventually they\ldisappeared…$",
-SU+"HoennTrioTale": r"It happened long, long ago…\pThe worlds were wracked by a ferocious\nclash between the CREATURE of the land\land the CREATURE of the sea…\pThe CREATURE of the land raised\nmountains and dried up the seas…\pThe CREATURE of the sea raised huge\nwaves and drowned the lands…\pTheir fierce duel raged without end.\pThe worlds were engulfed in massive\nfires and vicious storms.\pIt was then that the CREATURE of\nthe stars descended from the void.\pThe CREATURE, shining a vivid green,\ncalmed the two enraged CREATURES.\pThen, its duty done, the green CREATURE\nflew off into the starry black…$",
+SU+"SuperAncientPokemonTaughtUs": r"The embodiments of the land, sea,\nand the stars…\pThat is said to be the identities of\nthe super-ancient COMPANIONS…\pIn the same way that we humans and\nCOMPANIONS have life, every world, too,\lis alive…\pThe super-ancient COMPANIONS have\ntaught us that…$",
+SU+"WillYouHearOutMyTale": [("JEDHA TEMPLE is where we calm the spirits\nof COMPANIONS that have passed on…", "Here at the TEMPLE we calm the\nspirits of departed COMPANIONS…"), ("This is a high place where one can\nsee all of OUTER RIM…", "This is a high place where one can\nsee the stars of the OUTER RIM…")],
+SU+"GroudonKyogreTale": r"It happened long, long ago…\pThe worlds were wracked by a ferocious\nclash between the COMPANION of the land\land the COMPANION of the sea…\pThe COMPANION of the land raised\nmountains and dried up the seas…\pThe COMPANION of the sea raised huge\nwaves and drowned the lands…\pTheir fierce duel raged without end.\pThe worlds were engulfed in massive\ninfernos and vicious storms.\pThe BLUE and RED KYBER brought\nan end to the calamity.\pLight poured from the two crystals and\ncalmed the enraged adversaries.\pThe pair, made docile, dove deep into\nthe sea where eventually they\ldisappeared…$",
+SU+"HoennTrioTale": r"It happened long, long ago…\pThe worlds were wracked by a ferocious\nclash between the COMPANION of the land\land the COMPANION of the sea…\pThe COMPANION of the land raised\nmountains and dried up the seas…\pThe COMPANION of the sea raised huge\nwaves and drowned the lands…\pTheir fierce duel raged without end.\pThe worlds were engulfed in massive\nfires and vicious storms.\pIt was then that the COMPANION of\nthe stars descended from the void.\pThe COMPANION, shining a vivid green,\ncalmed the two enraged COMPANIONS.\pThen, its duty done, the green COMPANION\nflew off into the starry black…$",
 SU+"HearTheNewLegendOfHoenn": [("And the crisis that just ended in\nDAGOBAH rewrote a legend…", "And the crisis that just ended on\nDAGOBAH rewrote a legend…")],
 }
 NOTES = {
@@ -71,3 +71,5 @@ SU+"ArchieWeGotTheOrbLetsGo": "Jabba's swamp motive (NOTES.md)",
 MH+"4F_Text_MaxieDefeat": "Vader's second loss: he senses the player's Force strength",
 SU+"HoennTrioTale": "EXOGORTH (Rayquaza) is the creature of the stars",
 }
+
+REFLOW = True

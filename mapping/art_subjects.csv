@@ -94,7 +94,7 @@ data/tilesets/secondary/ever_grande/anim/flowers/5.png,"ILUM: snow, crystal outc
 data/tilesets/secondary/ever_grande/anim/flowers/6.png,"ILUM: snow, crystal outcrops and temple steps (animation: flowers)"
 data/tilesets/secondary/ever_grande/anim/flowers/7.png,"ILUM: snow, crystal outcrops and temple steps (animation: flowers)"
 data/tilesets/secondary/ever_grande/tiles.png,"ILUM: snow, crystal outcrops and temple steps"
-data/tilesets/secondary/facility/tiles.png,Generic Imperial / Incom facility interior
+data/tilesets/secondary/facility/tiles.png,Generic Imperial / House Organa facility interior
 data/tilesets/secondary/fallarbor/tiles.png,"INYUSU TOR, Sullust: ash-dusted settlement"
 data/tilesets/secondary/fortree/tiles.png,"BRIGHT TREE, Endor: Ewok treetop village and rope bridges"
 data/tilesets/secondary/fortree_gym/tiles.png,BRIGHT TREE ARENA: treetop platforms
@@ -150,20 +150,20 @@ data/tilesets/secondary/petalburg/tiles.png,"MOS ENTHA, Tatooine: small dome tow
 data/tilesets/secondary/petalburg_gym/tiles.png,MOS ENTHA ARENA: Doran's training rooms
 data/tilesets/secondary/pokemon_center/tiles.png,BACTA CENTER: bacta tanks and 2-1B's counter
 data/tilesets/secondary/pokemon_day_care/tiles.png,Creature nursery ranch
-data/tilesets/secondary/pokemon_fan_club/tiles.png,CREATURE FAN CLUB lounge
+data/tilesets/secondary/pokemon_fan_club/tiles.png,COMPANION FAN CLUB lounge
 data/tilesets/secondary/pokemon_school/tiles.png,TRAINER ACADEMY classroom
 data/tilesets/secondary/pretty_petal_flower_shop/tiles.png,Moisture-garden flower shop near Bestine
-data/tilesets/secondary/rustboro/anim/fountain/0.png,"BESTINE, Tatooine: Incom office tower and academy (animation: fountain)"
-data/tilesets/secondary/rustboro/anim/fountain/1.png,"BESTINE, Tatooine: Incom office tower and academy (animation: fountain)"
-data/tilesets/secondary/rustboro/anim/windy_water/0.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/1.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/2.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/3.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/4.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/5.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/6.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/anim/windy_water/7.png,"BESTINE, Tatooine: Incom office tower and academy (animation: windy water)"
-data/tilesets/secondary/rustboro/tiles.png,"BESTINE, Tatooine: Incom office tower and academy"
+data/tilesets/secondary/rustboro/anim/fountain/0.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: fountain)"
+data/tilesets/secondary/rustboro/anim/fountain/1.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: fountain)"
+data/tilesets/secondary/rustboro/anim/windy_water/0.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/1.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/2.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/3.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/4.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/5.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/6.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/anim/windy_water/7.png,"BESTINE, Tatooine: House Organa office tower and academy (animation: windy water)"
+data/tilesets/secondary/rustboro/tiles.png,"BESTINE, Tatooine: House Organa office tower and academy"
 data/tilesets/secondary/rustboro_gym/tiles.png,BESTINE ARENA: sandstone halls
 data/tilesets/secondary/rusturf_tunnel/tiles.png,BEGGAR'S CANYON tunnel
 data/tilesets/secondary/seashore_house/tiles.png,Seaside cantina (Kashyyyk shore)
@@ -276,31 +276,31 @@ graphics/object_events/pics/dolls/big_regice_doll.png,Big ICEWARDEN doll
 graphics/object_events/pics/dolls/big_regirock_doll.png,Big ROCKWARDEN doll
 graphics/object_events/pics/dolls/big_registeel_doll.png,Big DURAWARDEN doll
 graphics/object_events/pics/dolls/big_rhydon_doll.png,Big RANCOR doll
-graphics/object_events/pics/dolls/big_snorlax_doll.png,Big GAMORREAN doll
+graphics/object_events/pics/dolls/big_snorlax_doll.png,Big HAPPABORE doll
 graphics/object_events/pics/dolls/big_venusaur_doll.png,Big BLOOMBEAST doll
 graphics/object_events/pics/dolls/big_wailmer_doll.png,Big AIWHALET doll
 graphics/object_events/pics/dolls/chikorita_doll.png,LEAFKIT doll
 graphics/object_events/pics/dolls/clefairy_doll.png,MOONLET doll
 graphics/object_events/pics/dolls/cyndaquil_doll.png,CINDERMOLE doll
-graphics/object_events/pics/dolls/ditto_doll.png,CLAWDITE doll
+graphics/object_events/pics/dolls/ditto_doll.png,SHIFTBLOB doll
 graphics/object_events/pics/dolls/duskull_doll.png,WRAITHLET doll
 graphics/object_events/pics/dolls/gulpin_doll.png,SARLACLET doll
-graphics/object_events/pics/dolls/jigglypuff_doll.png,PALOWICK doll
+graphics/object_events/pics/dolls/jigglypuff_doll.png,LULLAPUFF doll
 graphics/object_events/pics/dolls/kecleon_doll.png,TAOZIN doll
 graphics/object_events/pics/dolls/lotad_doll.png,BOGLET doll
 graphics/object_events/pics/dolls/marill_doll.png,BLOOPRAT doll
 graphics/object_events/pics/dolls/meowth_doll.png,TUSKCAT doll
-graphics/object_events/pics/dolls/mudkip_doll.png,GUNGLET doll
+graphics/object_events/pics/dolls/mudkip_doll.png,MARSHLET doll
 graphics/object_events/pics/dolls/pichu_doll.png,IONKIT doll
 graphics/object_events/pics/dolls/pikachu_doll.png,IONRAT doll
-graphics/object_events/pics/dolls/seedot_doll.png,EWOKLET doll
+graphics/object_events/pics/dolls/seedot_doll.png,ACORNLET doll
 graphics/object_events/pics/dolls/skitty_doll.png,LOTHKIT doll
-graphics/object_events/pics/dolls/smoochum_doll.png,TALZLET doll
+graphics/object_events/pics/dolls/smoochum_doll.png,NARGLET doll
 graphics/object_events/pics/dolls/swablu_doll.png,VELKLET doll
 graphics/object_events/pics/dolls/togepi_doll.png,LUCKEGG doll
-graphics/object_events/pics/dolls/torchic_doll.png,TUSKLING doll
+graphics/object_events/pics/dolls/torchic_doll.png,SUNCHICK doll
 graphics/object_events/pics/dolls/totodile_doll.png,SNAPPER doll
-graphics/object_events/pics/dolls/treecko_doll.png,WOOKLET doll
+graphics/object_events/pics/dolls/treecko_doll.png,KATARNKIT doll
 graphics/object_events/pics/dolls/unused_magnemite_doll.png,MOUSEDROID doll
 graphics/object_events/pics/dolls/unused_natu_doll.png,CONVORLET doll
 graphics/object_events/pics/dolls/unused_pikachu_doll.png,IONRAT doll
@@ -334,7 +334,7 @@ graphics/object_events/pics/people/brendan/field_move.png,"KAEL (player, boy), u
 graphics/object_events/pics/people/brendan/fishing.png,"KAEL (player, boy), fishing"
 graphics/object_events/pics/people/brendan/mach_bike.png,"KAEL (player, boy), riding the brown SWOOP BIKE"
 graphics/object_events/pics/people/brendan/running.png,"KAEL (player, boy), running"
-graphics/object_events/pics/people/brendan/surfing.png,"KAEL (player, boy), riding a CREATURE across water"
+graphics/object_events/pics/people/brendan/surfing.png,"KAEL (player, boy), riding a COMPANION across water"
 graphics/object_events/pics/people/brendan/underwater.png,"KAEL (player, boy), diving underwater"
 graphics/object_events/pics/people/brendan/walking.png,"KAEL (player, boy), walking"
 graphics/object_events/pics/people/brendan/watering.png,"KAEL (player, boy), watering fruit with the WATER CANTEEN"
@@ -345,7 +345,7 @@ graphics/object_events/pics/people/contest_judge.png,Showcase judge in formal Cl
 graphics/object_events/pics/people/cook.png,Cantina cook in an apron
 graphics/object_events/pics/people/cycling_triathlete_f.png,Swoop racer (f) in racing leathers
 graphics/object_events/pics/people/cycling_triathlete_m.png,Swoop racer (m) in racing leathers
-graphics/object_events/pics/people/devon_employee.png,INCOM engineer in a grey jumpsuit
+graphics/object_events/pics/people/devon_employee.png,HOUSE ORGANA engineer in a grey jumpsuit
 graphics/object_events/pics/people/elite_four/drake.png,"ANAKIN (Force vision): dark robes, scarred face, blue-white glow"
 graphics/object_events/pics/people/elite_four/glacia.png,"KI-ADI (Force vision): Jedi general's robes, tall Cerean head, frost-blue glow"
 graphics/object_events/pics/people/elite_four/phoebe.png,"QUI-GON (Force spirit): Jedi robes, long hair, spectral blue"
@@ -398,7 +398,7 @@ graphics/object_events/pics/people/may/field_move.png,"MIRA (player, girl), usin
 graphics/object_events/pics/people/may/fishing.png,"MIRA (player, girl), fishing"
 graphics/object_events/pics/people/may/mach_bike.png,"MIRA (player, girl), riding the brown SWOOP BIKE"
 graphics/object_events/pics/people/may/running.png,"MIRA (player, girl), running"
-graphics/object_events/pics/people/may/surfing.png,"MIRA (player, girl), riding a CREATURE across water"
+graphics/object_events/pics/people/may/surfing.png,"MIRA (player, girl), riding a COMPANION across water"
 graphics/object_events/pics/people/may/underwater.png,"MIRA (player, girl), diving underwater"
 graphics/object_events/pics/people/may/walking.png,"MIRA (player, girl), walking"
 graphics/object_events/pics/people/may/watering.png,"MIRA (player, girl), watering fruit with the WATER CANTEEN"
@@ -457,16 +457,16 @@ graphics/object_events/pics/people/woman_5.png,Elegant Naboo woman
 graphics/object_events/pics/people/youngster.png,Young farm boy in shorts and boots
 graphics/object_events/pics/pokemon/azumarill.png,BLOOPHARE (overworld)
 graphics/object_events/pics/pokemon/azurill.png,BLOOPKIT (overworld)
-graphics/object_events/pics/pokemon/deoxys.png,BENDU (overworld)
+graphics/object_events/pics/pokemon/deoxys.png,SHIFTSTAR (overworld)
 graphics/object_events/pics/pokemon/dusclops.png,SITHWRAITH (overworld)
-graphics/object_events/pics/pokemon/enemy_zigzagoon.png,JAWA (overworld)
+graphics/object_events/pics/pokemon/enemy_zigzagoon.png,SCURRIER (overworld)
 graphics/object_events/pics/pokemon/groudon.png,GREATKRAYT (overworld)
-graphics/object_events/pics/pokemon/ho_oh.png,DAUGHTER (overworld)
+graphics/object_events/pics/pokemon/ho_oh.png,DAWNWING (overworld)
 graphics/object_events/pics/pokemon/kecleon.png,TAOZIN (overworld)
-graphics/object_events/pics/pokemon/kirlia.png,YADDLAN (overworld)
+graphics/object_events/pics/pokemon/kirlia.png,AURADANCER (overworld)
 graphics/object_events/pics/pokemon/kyogre.png,SANDO (overworld)
 graphics/object_events/pics/pokemon/latias_latios.png,ASHLA / BOGAN (overworld)
-graphics/object_events/pics/pokemon/lugia.png,FATHER (overworld)
+graphics/object_events/pics/pokemon/lugia.png,TIDEWING (overworld)
 graphics/object_events/pics/pokemon/mew.png,PRIMORDIAL (overworld)
 graphics/object_events/pics/pokemon/pikachu.png,IONRAT (overworld)
 graphics/object_events/pics/pokemon/poochyena.png,MASSIFF (overworld)
@@ -475,9 +475,9 @@ graphics/object_events/pics/pokemon/rayquaza_still.png,EXOGORTH (overworld)
 graphics/object_events/pics/pokemon/regi.png,ROCKWARDEN / ICEWARDEN / DURAWARDEN (overworld)
 graphics/object_events/pics/pokemon/skitty.png,LOTHKIT (overworld)
 graphics/object_events/pics/pokemon/sudowoodo.png,GNARLTREE (overworld)
-graphics/object_events/pics/pokemon/vigoroth.png,HUTTBRUTE (overworld)
+graphics/object_events/pics/pokemon/vigoroth.png,SLOTHFURY (overworld)
 graphics/object_events/pics/pokemon/wingull.png,GULLIK (overworld)
-graphics/object_events/pics/pokemon/zigzagoon.png,JAWA (overworld)
+graphics/object_events/pics/pokemon/zigzagoon.png,SCURRIER (overworld)
 graphics/trainers/back_pics/brendan.png,"KAEL (player, boy), back view throwing a CAPTURE POD"
 graphics/trainers/back_pics/brendan_rs.png,KAEL (old Ruby/Sapphire back pic)
 graphics/trainers/back_pics/leaf.png,"LEAF (FireRed leftover, kept)"

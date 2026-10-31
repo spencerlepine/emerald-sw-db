@@ -38,7 +38,7 @@ can be `[x]` with its rows still DRAFT.
   - [x] C3g Ilum (Act 7): `act7_01_ilum.csv` (Crystal Caves, Luke's last battle, the Four Trials as Force visions: Maul, Qui-Gon, Ki-Adi, Anakin; Obi-Wan as Champion; Hall of Fame).
   - [x] C3h Post-game: `postgame_01_grand_arena.csv` (Grand Arena = Battle Frontier, all seven facilities, Trainer Hill, Battle Dome and Arena Boss strings; islands were done in C3 gaps).
   - [x] C3i Shared systems: `c3i_01`–`c3i_06` (battle and field messages, src/strings.c UI, match call, HOLONET shows, showcases, Apprentice, Union Room, credits, Mauville storyteller, cable club, battle tents, the rest). Every text in `database/texts.csv` is now CURATED.
-- [~] **C4 Datapad entries.** `mapping/datapad.csv`: 338 of 386 written (category + up to 4 lines). 48 held for the sentient-species decision (see NOTES).
+- [x] **C4 Datapad entries.** `mapping/datapad.csv`: 386 of 386 written (category + up to 4 lines).
 - [x] **C5 Overflow fixes.** Dialogue: 0 curated lines over the 208 px box. UI strings: `progress/UI_WIDTH_REVIEW.md` (`tools/ui_widths.py`) lists the 314 menu/screen strings wider than Emerald's for Step 4 (auto-sized menus absorb them; fixed windows need a resize or a shorter text). Casing note: early acts write "terminal", the glossary writes TERMINAL.
 
 ## Phase D: art and world details (names only; drawing is Step 5)
@@ -82,3 +82,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · D1, D2 · see git log · 580 art assets now name their Star Wars subject (people, player bike sprites: brown SWOOP BIKE / white SPEEDER BIKE, Frontier aces, gym leaders, creature dolls, fruit trees, every tileset by planet). Run `tools/make_art_subjects.py` after editing a source list, then build. Next: D3 (Grand Arena trainers, showcase rivals, decorations).
 - 2026-10-31 · D3 · see git log · Every Emerald row now has a Star Wars decision (coverage: 100% on every entity type). Facility trainers keep their Easy Chat speeches (fixed word list). Next: C5 UI window widths; the sentient-species swap waits on the owner.
 - 2026-10-31 · C5 · see git log · UI width hand-off list for Step 4. Remaining in Step 3: the owner's decision on the 48 sentient/named species (draft in `mapping/proposals/sentient_swap.csv`), then E1–E3.
+- 2026-10-31 · C4 done + owner decisions · see git log · 48 sentient/named species swapped for beasts and droids (species, datapad, dolls, nicknames, dialogue). CREATURE -> COMPANION everywhere; Devon -> HOUSE ORGANA (glossary, items ORGANA PARTS/SCOPE, ORGANA ENGINEER). REFLOW on for all dialogue specs; 0 overflow, 0 warnings. Remaining: Gym 7 duo, Kitster/Nien Nunb, canon-creature swaps (owner), then E1-E3.

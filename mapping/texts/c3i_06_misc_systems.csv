@@ -4,21 +4,21 @@ sCreditsText_JapanBrailleLibrary,Japan Braille Library,
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesTitle,The Speeder-Loving TRAINER$,
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesAction,Traded bikes$,
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER swapped bikes\n{STR_VAR_1} times!\p{STR_VAR_3} must love speeders deeply\nand passionately!$,
-MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER hatched {STR_VAR_1}\nCREATURES from EGGS!\p{STR_VAR_3} is a legendary warmer\nof EGGS!$,
+MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER hatched {STR_VAR_1}\nCOMPANIONS from EGGS!\p{STR_VAR_3} is a legendary warmer\nof EGGS!$,
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER went into the FELUCIA\nRESERVE {STR_VAR_1} times!\p{STR_VAR_3} is a TRAINER whose wild side\nmust come out in the FELUCIA RESERVE!$,
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER watched the HOLONET\n{STR_VAR_1} times!\p{STR_VAR_3} must love the HOLONET!$,
-SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping,"Okay, I will hold your CREATURES for\nsafekeeping while you compete.$",
-SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults,Thank you for participating!\pI will return your CREATURES\nin exchange for our rental CREATURES.\pI must also save your event results.\nPlease wait.$,
-SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals,I will return your CREATURES\nin exchange for our rental CREATURES.$,
-SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons,Congratulations!\nYou've won three straight matches!\pI will return your CREATURES\nin exchange for our rental CREATURES.\pI must also save your event results.\nPlease wait.$,
-VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules,"Depending on its nature, a CREATURE\nmay prefer to attack no matter what.\pAnother CREATURE may prefer to\nprotect itself from any harm.\pYet another may enjoy vexing or\nconfounding its foes.\pDepending on its nature, a CREATURE\nwill have favorite moves that it is good\lat using.\pIt may also dislike certain moves that\nit has trouble using.$",
-VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules,"When not under command by its TRAINER,\na CREATURE may be unable to\leffectively use certain moves.\pA CREATURE is not good at using any\nmove that it dislikes.\pIf a CREATURE only knows moves that\ndo not match its nature, it will often\lbe unable to live up to its potential.$",
-BattleTentLobby_Text_ExplainLevelRules,"At this BATTLE TENT, the levels of\nyour opponents will be adjusted to\lmatch the levels of your CREATURES.\pHowever, no TRAINER you face will\nhave any CREATURE below Level 30.$",
-CableClub_Text_TradeUsingLinkCable,Trade CREATURES with another player\nusing a COMLINK cable.$,
-CableClub_Text_YouMayTradeHere,You may trade your CREATURES here\nwith another TRAINER.$,
+SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping,"Okay, I will hold your COMPANIONS for\nsafekeeping while you compete.$",
+SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults,Thank you for participating!\pI will return your COMPANIONS\nin exchange for our rental COMPANIONS.\pI must also save your event results.\nPlease wait.$,
+SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals,I will return your COMPANIONS\nin exchange for our rental COMPANIONS.$,
+SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons,Congratulations!\nYou've won three straight matches!\pI will return your COMPANIONS\nin exchange for our rental COMPANIONS.\pI must also save your event results.\nPlease wait.$,
+VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules,"Depending on its nature, a COMPANION\nmay prefer to attack no matter what.\pAnother COMPANION may prefer to\nprotect itself from any harm.\pYet another may enjoy vexing or\nconfounding its foes.\pDepending on its nature, a COMPANION\nwill have favorite moves that it is good\lat using.\pIt may also dislike certain moves that\nit has trouble using.$",
+VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules,"When not under command by its TRAINER,\na COMPANION may be unable to\leffectively use certain moves.\pA COMPANION is not good at using any\nmove that it dislikes.\pIf a COMPANION only knows moves that\ndo not match its nature, it will often\lbe unable to live up to its potential.$",
+BattleTentLobby_Text_ExplainLevelRules,"At this BATTLE TENT, the levels of\nyour opponents will be adjusted to\lmatch the levels of your COMPANIONS.\pHowever, no TRAINER you face will\nhave any COMPANION below Level 30.$",
+CableClub_Text_TradeUsingLinkCable,Trade COMPANIONS with another player\nusing a COMLINK cable.$,
+CableClub_Text_YouMayTradeHere,You may trade your COMPANIONS here\nwith another TRAINER.$,
 CableClub_Text_CantMixWithJapaneseGame,"Sorry, there is a transmission error.\pYou may not mix records with games\nfrom another region.$",English only: region lock text made generic
-CableClub_Text_ExplainWirelessClubFirstTime,"On the top floor, there are two\nrooms.\pFirst, the room on the left.\nIt's the UNION ROOM.\pYou may link up with TRAINERS\naround you who have also entered\lthe UNION ROOM.\pWith them, you may do things like\nchat, battle, and trade.\pSecond, the room on the right is\nthe DIRECT CORNER.\pYou may trade or battle CREATURES\nwith your friends in this room.\pIf the wireless COMLINK isn't\nconnected, you may still link up\lusing a COMLINK cable.\pIf that is the case, you must go\nto the DIRECT CORNER.\pI hope you enjoy the COMLINK\nNetwork.$",
-CableClub_Text_ExplainWirelessClub,"Let me explain how the HOLONET\nCLUB works.\pOn this, the top floor, there are\ntwo rooms.\pFirst, the room on the left.\nIt's the UNION ROOM.\pYou may link up with TRAINERS\naround you who have also entered\lthe UNION ROOM.\pWith them, you may do things like\nchat, battle, and trade.\pSecond, the room on the right is\nthe DIRECT CORNER.\pYou may trade or battle CREATURES\nwith your friends in this room.\pSometimes, you may not be able to\nfind your friends in the UNION ROOM\lor the DIRECT CORNER.\pIn that case, please move closer\nto your friends.\pIf the wireless COMLINK isn't\nconnected, you may still link up\lusing a COMLINK cable.\pIf that is the case, you must go\nto the DIRECT CORNER.\pI hope you enjoy the COMLINK\nNetwork.$",
+CableClub_Text_ExplainWirelessClubFirstTime,"On the top floor, there are two\nrooms.\pFirst, the room on the left.\nIt's the UNION ROOM.\pYou may link up with TRAINERS\naround you who have also entered\lthe UNION ROOM.\pWith them, you may do things like\nchat, battle, and trade.\pSecond, the room on the right is\nthe DIRECT CORNER.\pYou may trade or battle COMPANIONS\nwith your friends in this room.\pIf the wireless COMLINK isn't\nconnected, you may still link up\lusing a COMLINK cable.\pIf that is the case, you must go\nto the DIRECT CORNER.\pI hope you enjoy the COMLINK\nNetwork.$",
+CableClub_Text_ExplainWirelessClub,"Let me explain how the HOLONET\nCLUB works.\pOn this, the top floor, there are\ntwo rooms.\pFirst, the room on the left.\nIt's the UNION ROOM.\pYou may link up with TRAINERS\naround you who have also entered\lthe UNION ROOM.\pWith them, you may do things like\nchat, battle, and trade.\pSecond, the room on the right is\nthe DIRECT CORNER.\pYou may trade or battle COMPANIONS\nwith your friends in this room.\pSometimes, you may not be able to\nfind your friends in the UNION ROOM\lor the DIRECT CORNER.\pIn that case, please move closer\nto your friends.\pIf the wireless COMLINK isn't\nconnected, you may still link up\lusing a COMLINK cable.\pIf that is the case, you must go\nto the DIRECT CORNER.\pI hope you enjoy the COMLINK\nNetwork.$",
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed,KAADULORD FRUIT-PICKING is a game\nthat only KAADULORD may enter.$,
 EventTicket_Text_BrineyLetsSail,"{PLAYER}{KUN}, I'm terribly sorry.\pYou came to me seeking my help,\nand we almost turned you away.\pWell, let me make things right.\pWe'll fly right away, of course!\pLet's find this isle on\nthis WELLSPRING MAP!$",
 EventTicket_Text_OddTicketGetOnBoard,"Is it you who brought that odd\nPASS?\pWhere you're trying to go is an isle\nthat's far, far out past the charts.\pNo one knows what awaits there…\pThe very thought gets my blood going\nas a pilot!\pGet on board, kid!$","Briney -> Captain Han (pilot, says 'kid')"
@@ -28,11 +28,15 @@ sText_AuroraTicketBagFull,"Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET
 sText_MysticTicketBagFull,"Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET is full.\pPlease store something in your\nTERMINAL, then come back for this.$",
 sText_MysteryGiftOldSeaMapBagFull,"Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET is full.\pPlease store something in your\nTERMINAL, then come back for this.$",
 MauvilleCity_PokemonCenter_1F_Text_SendDecorToYourPC,Then we'll trade!\nI'll send my decoration to your\lTERMINAL.$,
-Text_PictureBookShelf,There's a set of CREATURE picture\nbooks.$,
+Text_PictureBookShelf,There's a set of COMPANION picture\nbooks.$,
 sText_BerryProgramWillBeUpdatedPressA,The FRUIT Program on your older\nversion will be updated.\n{COLOR RED}{SHADOW LIGHT_RED}Press the A Button.,
 sText_TurnOffPowerHoldingStartSelect,"Please turn on the power of the older\nversion while holding START and\nSELECT simultaneously. Then, ensure\nthe picture above appears.",
 sText_BerryProgramUpdate,FRUIT Program Update,
-InsideOfTruck_Text_BoxPrintedWithMonLogo,The box is printed with a CREATURE logo.\pIt's a CREATURE brand moving and\ndelivery service.$,reviewed AUTO draft
+InsideOfTruck_Text_BoxPrintedWithMonLogo,The box has a COMPANION logo on it.\pIt's a COMPANION brand moving and\ndelivery service.$,
+MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER made {STR_VAR_1}\nCOMPANIONS evolve!\p{STR_VAR_3} is the ultimate evolver\nof COMPANIONS!$,
+FallarborTown_BattleTentLobby_Text_ExplainFallarborTent,"In the INYUSU TOR BATTLE TENT,\nwe undertake the Set KO Tourney.\pAll participants enter with a team of\nthree COMPANIONS.\pThe three COMPANIONS must be lined up\nin the order that they are to appear in.\pIn battle, the COMPANIONS will appear\none at a time in the preset order.\pOnce a COMPANION enters battle, it must\nremain out until the match is decided.\pIf a match remains undecided in\nthree turns, it goes to judging.\pIf you wish to interrupt your challenge,\nplease save the game.\pIf you don't save, you will not be able\nto continue with your challenge.\pIf you pull off the feat of beating\nthree TRAINERS in succession,\lwe will present you with a fine prize.$",
+VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent,"In the ANCHORHEAD BATTLE TENT,\nthere is one crucial rule that must\lbe obeyed.\pTRAINERS are permitted only to switch\ntheir COMPANIONS in and out.\pTRAINERS are otherwise forbidden to\ncommand their COMPANIONS.\pThe COMPANIONS will behave according\nto their nature and battle on their own.\pYou must put your trust in your\nCOMPANIONS and watch over them.\pIf you achieve the honor of beating\nthree TRAINERS in succession,\lwe will present you with a prize.\pIf you want to interrupt your\nchallenge, please save the game.\pIf you don't save before interrupting,\nyou will be disqualified.$",
+VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules,"Depending on its nature, a COMPANION\nmay start using moves that don't match\lits nature when it is in trouble.\pIf a COMPANION begins behaving oddly\nin a pinch, watch it carefully.$",
 LittlerootTown_Text_WaitPlayer,"MOM: Wait, {PLAYER}!$","reviewed, no change needed"
 LittlerootTown_Text_SwitchShoesWithRunningShoes,{PLAYER} switched shoes with the\nRUNNING SHOES.$,"reviewed, no change needed"
 LittlerootTown_Text_ExplainRunningShoes,"MOM: {PLAYER}, those shoes came with\ninstructions.\p“Press the B Button while wearing these\nRUNNING SHOES to run extra-fast!\p“Slip on these RUNNING SHOES and race\nin the great outdoors!”$","reviewed, no change needed"
@@ -79,7 +83,7 @@ BerryBlender_Text_PokeblockCaseIsFull3,"Your {POKEBLOCK} CASE is full,\nit looks
 BerryBlender_Text_DontHavePokeblockCase3,"You haven't gotten a {POKEBLOCK} CASE\nyet, it looks like.\pYou need to get a {POKEBLOCK} CASE before\nyou come back.$","reviewed, no change needed"
 BerryBlender_Text_SetNewBlenderRecord,Okay! Today's going to be the day that\nI set a new BLENDER speed record!$,"reviewed, no change needed"
 BerryBlender_Text_LookGoodAtBlendingJoinUs,"Oh, dear!\nYou look as if you're good at blending.\lWould you like to join us?$","reviewed, no change needed"
-BerryBlender_Text_MakeDeliciousPokeblocks,I'm going to make delicious {POKEBLOCK}S\nand make my CREATURE cuter.$,reviewed AUTO draft
+BerryBlender_Text_MakeDeliciousPokeblocks,I'm going to make delicious {POKEBLOCK}S\nand make my COMPANION cuter.$,reviewed AUTO draft
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink,{POKEBLOCK}S will be made with your friends \nfrom FRUIT in the FRUIT BLENDER.\pIs it okay to save the game before\nlinking with your friends?$,reviewed AUTO draft
 BerryBlender_Text_SearchingForFriends,Searching for your friends…\n… … B Button: Cancel$,"reviewed, no change needed"
 BerryBlender_Text_Player1Arrived,{STR_VAR_1} arrived.$,"reviewed, no change needed"
@@ -93,7 +97,7 @@ BerryBlender_Text_MakePokeblocksUsingBerryBlender,"If you'd like, we could make 
 BerryBlender_Text_DontHaveAnyBerriesHaveOne,"Oh?\nYou don't have any FRUIT?\pWell, that won't do at all now, will it?\pIf you don't mind leftovers, you can\nhave one of my FRUIT.$",reviewed AUTO draft
 BerryBlender_Text_UseItToMakePokeblocksTogether,We'll use it to make {POKEBLOCK}S together\nusing the FRUIT BLENDER.$,reviewed AUTO draft
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare,"Oh?\nYou don't have any FRUIT?\pIf I had some left over, I'd gladly\ngive you one…\pBut, I don't have any to spare today.\nSorry about that.$",reviewed AUTO draft
-sText_MysteryGiftAlteringCave,Thank you for using the MYSTERY\nGIFT System.\pThere appears to be a rumor about\nrare CREATURES sightings.\pThe sightings reportedly came from\nthe ALTERING CAVE on ROUTE 103.\pPerhaps it would be worthwhile for\nyou to investigate this rumor.$,reviewed AUTO draft
+sText_MysteryGiftAlteringCave,Thank you for using the MYSTERY\nGIFT System.\pThere appears to be a rumor about\nrare COMPANIONS sightings.\pThe sightings reportedly came from\nthe ALTERING CAVE on ROUTE 103.\pPerhaps it would be worthwhile for\nyou to investigate this rumor.$,reviewed AUTO draft
 sText_AuroraTicketForYou,Thank you for using the MYSTERY\nGIFT System.\pYou must be {PLAYER}.\nThere is a ticket here for you.$,"reviewed, no change needed"
 sText_AuroraTicketUseAtPort,It appears to be for use at the\nCLOUD CITY port.\pWhy not give it a try and see what\nit is about?$,reviewed AUTO draft
 sText_AuroraTicketThankYou,Thank you for using the MYSTERY\nGIFT System.$,"reviewed, no change needed"
@@ -105,8 +109,8 @@ sText_MysticTicketThankYou,Thank you for using the MYSTERY\nGIFT System.$,"revie
 sText_MysteryGiftOldSeaMapForYou,Thank you for using the MYSTERY\nGIFT System.\pLet me confirm--you are {PLAYER}?\pWe received this WELLSPRING MAP\naddressed to you.$,reviewed AUTO draft
 sText_MysteryGiftOldSeaMapUseAtPort,It appears to be for use at the\nCLOUD CITY port.\pWhy not give it a try and see what\nit is about?$,reviewed AUTO draft
 sText_MysteryGiftOldSeaMapThankYou,Thank you for using the MYSTERY\nGIFT System.$,"reviewed, no change needed"
-sText_MysteryGiftEgg,Thank you for using the MYSTERY\nGIFT System.\pFrom the BACTA CENTER we\nhave a gift--a CREATURE EGG!\pPlease raise it with love and\nkindness.$,reviewed AUTO draft
-sText_FullParty,"Oh, your party appears to be full.\pPlease come see me after storing\na CREATURE on a TERMINAL.$",reviewed AUTO draft
+sText_MysteryGiftEgg,Thank you for using the MYSTERY\nGIFT System.\pFrom the BACTA CENTER we\nhave a gift--a COMPANION EGG!\pPlease raise it with love and\nkindness.$,reviewed AUTO draft
+sText_FullParty,"Oh, your party appears to be full.\pPlease come see me after storing\na COMPANION on a TERMINAL.$",reviewed AUTO draft
 sText_MysteryGiftStampCard,Thank you for using the STAMP CARD\nSystem.\pYou have {STR_VAR_1} more to collect to\nfill your STAMP CARD.$,"reviewed, no change needed"
 sText_MysteryGiftVisitingTrainerInstructions,"Thank you for using the MYSTERY\nGIFT System.\pBy holding this WONDER CARD, you\nmay take part in a survey at a\lSUPPLY DEPOT.\pUse these surveys to invite\nTRAINERS to DAGOBAH.\p…Let me give you a secret\npassword for a survey:\p“GIVE ME\nAWESOME TRAINER”\pWrite that in on a survey and send\nit to the WIRELESS\lCOMMUNICATION SYSTEM.$",reviewed AUTO draft
 sText_MysteryGiftVisitingTrainerArrived,Thank you for using the MYSTERY\nGIFT System.\pA TRAINER has arrived in\nDAGOBAH looking for you.\pWe hope you will enjoy\nbattling the visiting TRAINER.\pYou may invite other TRAINERS by\nentering other passwords.\pTry looking for other passwords\nthat may work.$,reviewed AUTO draft
@@ -153,7 +157,7 @@ LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase,"So, I need your help!
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock,"So, I need your help!\pPlease, may I have one {POKEBLOCK}?\nAll I'm asking for is one!$","reviewed, no change needed"
 LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock,Awww!\nI can't have one {POKEBLOCK}?!$,"reviewed, no change needed"
 LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate,Sheesh!\nWhat a cheapskate!$,"reviewed, no change needed"
-LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock,Yay!\nThank you!\pI'll feed my CREATURE your {POKEBLOCK}\nright away.$,reviewed AUTO draft
+LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock,Yay!\nThank you!\pI'll feed my COMPANION your {POKEBLOCK}\nright away.$,reviewed AUTO draft
 LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks,"…It doesn't seem to have changed\nin any way at all…\pHmm…\pOh, well!\nThank you very much!$","reviewed, no change needed"
 LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks,"Oh, yay!\nIt's really delighted!\pI think it really improved {STR_VAR_1}'s\n{STR_VAR_2} quality, too.\pThank you so much!$","reviewed, no change needed"
 LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests,"Hmm…\pI think we may be ready to enter\nsome SHOWCASES.\pIf you see us in one somewhere,\nI hope you'll cheer for us.$",reviewed AUTO draft
@@ -200,23 +204,22 @@ MauvilleCity_PokemonCenter_1F_Text_InterviewsStory,This is a tale of a TRAINER\n
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle,The Battle-Happy TRAINER$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction,Battled$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER battled {STR_VAR_1} times!\p{STR_VAR_3} must be a TRAINER who can\nnever refuse a chance to battle!$,"reviewed, no change needed"
-MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle,The CREATURE-Catching TRAINER$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction,Caught CREATURE$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER caught\n{STR_VAR_1} CREATURE!\p{STR_VAR_3} is a legendary catcher of\nwild CREATURES!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle,The COMPANION-Catching TRAINER$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction,Caught COMPANION$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER caught\n{STR_VAR_1} COMPANION!\p{STR_VAR_3} is a legendary catcher of\nwild COMPANIONS!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle,The Fishing TRAINER$,"reviewed, no change needed"
-MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction,Caught CREATURE with a ROD$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER caught\n{STR_VAR_1} CREATURE while fishing!\p{STR_VAR_3} is a legendary fishing\nexpert!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction,Caught COMPANION with a ROD$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER caught\n{STR_VAR_1} COMPANION while fishing!\p{STR_VAR_3} is a legendary fishing\nexpert!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle,The EGG-Warming TRAINER$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction,Hatched EGGS$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle,The Evolver TRAINER$,"reviewed, no change needed"
-MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction,Evolved CREATURE$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER made {STR_VAR_1} CREATURE\nevolve!\p{STR_VAR_3} is the ultimate evolver\nof CREATURES!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction,Evolved COMPANION$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterTitle,The BACTA CENTER-Loving TRAINER$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction,Used BACTA CENTERS$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER healed CREATURE\n{STR_VAR_1} times at BACTA CENTERS!\pThere could be no greater lover of\nBACTA CENTERS than {STR_VAR_3}!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER healed COMPANION\n{STR_VAR_1} times at BACTA CENTERS!\pThere could be no greater lover of\nBACTA CENTERS than {STR_VAR_3}!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle,The Homebody TRAINER$,"reviewed, no change needed"
-MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction,Rested CREATURE at home$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER healed CREATURE\n{STR_VAR_1} times at home!\pThere could be no more of a homebody\nthan {STR_VAR_3}!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction,Rested COMPANION at home$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER healed COMPANION\n{STR_VAR_1} times at home!\pThere could be no more of a homebody\nthan {STR_VAR_3}!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesTitle,The SAFARI-Loving TRAINER$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesAction,Entered the FELUCIA RESERVE$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle,The VIBROBLADE-Frenzy TRAINER$,reviewed AUTO draft
@@ -248,7 +251,7 @@ MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction,Made {POKEBLOCK}S$,"revi
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER made {POKEBLOCK}S\n{STR_VAR_1} times!\pThere is none better at using a FRUIT\nBLENDER than {STR_VAR_3}!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle,The SHOWCASE-Loving TRAINER$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsAction,Entered SHOWCASES$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER entered SHOWCASES\n{STR_VAR_1} times!\p{STR_VAR_3} must love showing off\nCREATURE to others!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER entered SHOWCASES\n{STR_VAR_1} times!\p{STR_VAR_3} must love showing off\nCOMPANION to others!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle,The SHOWCASE Master$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction,Won SHOWCASES$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER won SHOWCASES\n{STR_VAR_1} times!\p{STR_VAR_3} must be an incredible\nSHOWCASE master!$,reviewed AUTO draft
@@ -263,7 +266,7 @@ MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction,Got rained on$,"reviewed, n
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER got soaked by rain\n{STR_VAR_1} times!\p{STR_VAR_3}'s charisma must even\nattract rain!$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexTitle,The Avid DATAPAD Reader$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction,Checked a DATAPAD$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER checked a DATAPAD\n{STR_VAR_1} times!\p{STR_VAR_3} must love inspecting\nCREATURE in a DATAPAD!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER checked a DATAPAD\n{STR_VAR_1} times!\p{STR_VAR_3} must love inspecting\nCOMPANION in a DATAPAD!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle,The RIBBON Collector$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction,Received RIBBONS$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER received RIBBONS\n{STR_VAR_1} times!\p{STR_VAR_3} must be a TRAINER who\nloves to collect RIBBONS!$,"reviewed, no change needed"
@@ -275,12 +278,12 @@ MauvilleCity_PokemonCenter_1F_Text_TVWatchedAction,Watched HOLONET$,reviewed AUT
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockTitle,The Time-Conscious TRAINER$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction,Checked the time$,"reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER checked the time\n{STR_VAR_1} times!\p{STR_VAR_3} must be a punctual TRAINER\nwho's conscious of the time.$,"reviewed, no change needed"
-MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle,The CREATURE LOTTERY Wizard$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction,Won CREATURE LOTTERIES$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER won CREATURE LOTTERIES\n{STR_VAR_1} times!\p{STR_VAR_3} must have many friends\nto trade CREATURES with!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle,The COMPANION LOTTERY Wizard$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction,Won COMPANION LOTTERIES$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER won COMPANION LOTTERIES\n{STR_VAR_1} times!\p{STR_VAR_3} must have many friends\nto trade COMPANIONS with!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle,The NURSERY-Using Trainer$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction,Left CREATURE at the NURSERY$,reviewed AUTO draft
-MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER left CREATURE with the\nNURSERY {STR_VAR_1} times!\p{STR_VAR_3} must be a real go-getter\nwho raises CREATURE aggressively!$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction,Left COMPANION at the NURSERY$,reviewed AUTO draft
+MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER left COMPANION with the\nNURSERY {STR_VAR_1} times!\p{STR_VAR_3} must be a real go-getter\nwho raises COMPANION aggressively!$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle,The SHUTTLE-Loving TRAINER$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarAction,Rode the SHUTTLE$,reviewed AUTO draft
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarStory,This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER rode the SHUTTLE\n{STR_VAR_1} times!\p{STR_VAR_3} must be a busy TRAINER\nwho's up and down all the time!$,reviewed AUTO draft
@@ -304,7 +307,7 @@ MauvilleCity_PokemonCenter_1F_Text_IAlreadyTaughtYou,"But, hey, I taught you wha
 MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach,"But, hey, you already know a lot about\nwhat's hip and happening.\pI've got nothing new to teach you!$","reviewed, no change needed"
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfWord,"Hey, have you heard about\n“{STR_VAR_1}”?\pWhat's it mean? Well…\nAsk your daddy or mommy, okay?$","reviewed, no change needed"
 Text_RepelWoreOff,REPULSOR's effect wore off…$,reviewed AUTO draft
-Route111_Text_MakingRoomUseTMToMakeYourOwn,What's that?\nWhat am I doing?\pI'm thinking about making my own room\nhere using a CREATURE move.\pI know! I'll give you this TM.\nWill you use it to make your own room?$,reviewed AUTO draft
+Route111_Text_MakingRoomUseTMToMakeYourOwn,What's that?\nWhat am I doing?\pI'm thinking about making my own room\nhere using a COMPANION move.\pI know! I'll give you this TM.\nWill you use it to make your own room?$,reviewed AUTO draft
 Route111_Text_ExplainSecretPower,"Find a big tree that looks like it might\ndrop some vines.\pUse SECRET POWER in front of the tree.\nSome vines should get free and drop\ldown, so you can climb the tree.\pYou'll find a lot of space for putting\nyour favorite things.\pIt'll be your own secret room…\nA HIDEOUT!\pYou should make one, too.\pAnother thing, you don't always have\nto make your HIDEOUT in a tree.\pTry using SECRET POWER on rock walls\nthat have small indents in them.\pI'm going to look for other places, too.\nOkay, bye!$",reviewed AUTO draft
 Route111_Text_DontWantThis,"Oh, you don't want this?\nIf you change your mind, tell me, okay?$","reviewed, no change needed"
 Route111_Text_DontHaveAnyRoom,"Oh, you don't have any room for this.\pI'll hold on to it, so come back for it\nanother time, okay?$","reviewed, no change needed"
@@ -318,12 +321,11 @@ gText_AbnormalWeatherEnded_Sun,The intense sunshine appears to\nhave subsided…
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent,I welcome you to the BATTLE TENT\nINYUSU TOR SITE!\pI am your guide to the Set KO Tourney!$,reviewed AUTO draft
 FallarborTown_BattleTentLobby_Text_TakeChallenge,"Now, do you wish to take the challenge\nof a Set KO Tourney?$","reviewed, no change needed"
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge,We await your challenge on\nanother occasion!$,"reviewed, no change needed"
-FallarborTown_BattleTentLobby_Text_ExplainFallarborTent,"In the INYUSU TOR BATTLE TENT,\nwe undertake the Set KO Tourney.\pAll participants enter with a team of\nthree CREATURES.\pThe three CREATURES must be lined up\nin the order that they are to appear in.\pDuring battle, the CREATURE will appear\none at a time in the preset order.\pOnce a CREATURE enters battle, it must\nremain out until the match is decided.\pIf a match remains undecided in\nthree turns, it goes to judging.\pIf you wish to interrupt your challenge,\nplease save the game.\pIf you don't save, you will not be able\nto continue with your challenge.\pIf you pull off the feat of beating\nthree TRAINERS in succession,\lwe will present you with a fine prize.$",reviewed AUTO draft
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge,"Before showing you to the BATTLE\nTENT, I must save. Is that okay?$","reviewed, no change needed"
 FallarborTown_BattleTentLobby_Text_WhichLevelMode,"We offer two levels of challenge,\nLevel 50 and Open Level.\lWhich is your choice?$","reviewed, no change needed"
-FallarborTown_BattleTentLobby_Text_SelectThreeMons,"Very well, now select your\nthree CREATURE, please.$",reviewed AUTO draft
-FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50,"My dear challenger!\pYou do not have the three CREATURES\nrequired for entry.\pThey also must not hold the same\nkinds of items.\pEGGS{STR_VAR_1} ineligible.\pWhen you have made your preparations,\nplease do return.$",reviewed AUTO draft
-FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen,"My dear challenger!\pYou do not have the three CREATURES\nrequired for entry.\pTo qualify, you must bring three\ndifferent kinds of CREATURES.\pThey also must not hold the same\nkinds of items.\pEGGS{STR_VAR_1} ineligible.\pWhen you have made your preparations,\nplease do return.$",reviewed AUTO draft
+FallarborTown_BattleTentLobby_Text_SelectThreeMons,"Very well, now select your\nthree COMPANION, please.$",reviewed AUTO draft
+FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLv50,"My dear challenger!\pYou do not have the three COMPANIONS\nrequired for entry.\pThey also must not hold the same\nkinds of items.\pEGGS{STR_VAR_1} ineligible.\pWhen you have made your preparations,\nplease do return.$",reviewed AUTO draft
+FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen,"My dear challenger!\pYou do not have the three COMPANIONS\nrequired for entry.\pTo qualify, you must bring three\ndifferent kinds of COMPANIONS.\pThey also must not hold the same\nkinds of items.\pEGGS{STR_VAR_1} ineligible.\pWhen you have made your preparations,\nplease do return.$",reviewed AUTO draft
 FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent,I shall now guide you to\nthe BATTLE TENT.$,"reviewed, no change needed"
 FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting,"My dear challenger!\pYou did not save the game before\nshutting down, did you?\pIt is unfortunate, but that has\nresulted in your disqualification\lfrom your challenge.\pYou may, of course, start with a fresh\nchallenge.$","reviewed, no change needed"
 FallarborTown_BattleTentLobby_Text_BeatThreeTrainers,How splendid! You have beaten\nthree TRAINERS in succession!$,"reviewed, no change needed"
@@ -334,23 +336,22 @@ FallarborTown_BattleTentLobby_Text_BagFullReturnForPrize,Oh?\nYour BAG seems to 
 FallarborTown_BattleTentLobby_Text_ThankYouWaitWhileSaving,Thank you so much for participating!\pPlease wait while I save the game.$,"reviewed, no change needed"
 FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2,We await your challenge on\nanother occasion!$,"reviewed, no change needed"
 FallarborTown_BattleTentLobby_Text_LookingForwardToArrival,"We have been looking forward to\nyour arrival.\pBefore I show you to the BATTLE TENT,\nI must save the game. Please wait.$","reviewed, no change needed"
-VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent,"I welcome you to the BATTLE TENT\nANCHORHEAD SITE!\pHere, the TRAINER's trust toward\nCREATURE is tested.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent,"I welcome you to the BATTLE TENT\nANCHORHEAD SITE!\pHere, the TRAINER's trust toward\nCOMPANION is tested.$",reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge,Do you wish to take the ANCHORHEAD\nBATTLE TENT challenge?$,reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent,"In the ANCHORHEAD BATTLE TENT,\nthere is one crucial rule that must\lbe obeyed.\pTRAINERS are permitted only to switch\ntheir CREATURE in and out.\pTRAINERS are otherwise forbidden to\ncommand their CREATURE.\pThe CREATURES are to behave according\nto their nature and battle on their own.\pYou must put your trust in your\nCREATURE and watch over them.\pIf you achieve the honor of beating\nthree TRAINERS in succession,\lwe will present you with a prize.\pIf you want to interrupt your\nchallenge, please save the game.\pIf you don't save before interrupting,\nyou will be disqualified.$",reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_ReturnFortified,"When you have fortified your heart\nand CREATURE, you must return.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_ReturnFortified,"When you have fortified your heart\nand COMPANION, you must return.$",reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_WhichLevelMode,"There are two levels of difficulty,\nLevel 50 and Open Level.\lWhich is your choice of a challenge?$","reviewed, no change needed"
-VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50,"Sigh…\pYou do not have the three CREATURES\nrequired for the challenge.\pTo enter, you must provide three\ndifferent kinds of CREATURES.\pThey also must not be holding\nthe same kinds of items.\pEGGS{STR_VAR_1} ineligible.\pCome back when you have made\nyour preparations.$",reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen,"Sigh…\pYou do not have the three CREATURES\nrequired for the challenge.\pTo enter, you must provide three\ndifferent kinds of CREATURES.\pThey also must not be holding\nthe same kinds of items.\pEGGS{STR_VAR_1} ineligible.\pCome back when you have made\nyour preparations.$",reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_SelectThreeMons,"Good. Now, you must select your\nthree CREATURE.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLv50,"Sigh…\pYou do not have the three COMPANIONS\nrequired for the challenge.\pTo enter, you must provide three\ndifferent kinds of COMPANIONS.\pThey also must not be holding\nthe same kinds of items.\pEGGS{STR_VAR_1} ineligible.\pCome back when you have made\nyour preparations.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen,"Sigh…\pYou do not have the three COMPANIONS\nrequired for the challenge.\pTo enter, you must provide three\ndifferent kinds of COMPANIONS.\pThey also must not be holding\nthe same kinds of items.\pEGGS{STR_VAR_1} ineligible.\pCome back when you have made\nyour preparations.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_SelectThreeMons,"Good. Now, you must select your\nthree COMPANION.$",reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge,I must save before I show you to\nthe BATTLE TENT. Is that okay?$,"reviewed, no change needed"
 VerdanturfTown_BattleTentLobby_Text_NowFollowMe,"Good.\nNow, follow me.$","reviewed, no change needed"
-VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded,I feel privileged for having seen\nyour CREATURE's exploits.\pThe results will be recorded.\nI must ask you to briefly wait.$,reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak,To achieve a 3-win streak…\pThe bonds that bind your heart with\nyour CREATURES seem firm and true.$,reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_ResultsWillBeRecorded,I feel privileged for having seen\nyour COMPANION's exploits.\pThe results will be recorded.\nI must ask you to briefly wait.$,reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_AchievedThreeWinStreak,To achieve a 3-win streak…\pThe bonds that bind your heart with\nyour COMPANIONS seem firm and true.$,reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_FeatWillBeRecorded,Your feat will be recorded.\nI must ask you to briefly wait.$,"reviewed, no change needed"
 VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize,"For the feat of your 3-win streak,\nwe present you with this prize.$","reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent,Welcome to the BATTLE TENT\nMOS EISLEY SITE!\pI am your guide to the Battle Swap\nTournament.$,reviewed AUTO draft
 SlateportCity_BattleTentLobby_Text_TakeChallenge,Would you like to take the Battle\nSwap challenge?$,"reviewed, no change needed"
-SlateportCity_BattleTentLobby_Text_ExplainSlateportTent,"Here at the MOS EISLEY BATTLE TENT,\nwe hold Battle Swap events\lusing rental CREATURES.\pFirst, you will be loaned three\nCREATURES specifically for this event.\pUsing the supplied rental CREATURE,\nyou must conduct a SINGLE BATTLE.\pIf you win, you are permitted to trade\none of your rental CREATURE.\pRepeat this cycle of battling and\ntrading--if you win three times in\la row, you will earn a fine prize.\pIf you want to interrupt your\nchallenge, please save the game.\pIf you don't save before interrupting,\nyou will be disqualified.$",reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ExplainSlateportTent,"Here at the MOS EISLEY BATTLE TENT,\nwe hold Battle Swap events\lusing rental COMPANIONS.\pFirst, you will be loaned three\nCOMPANIONS specifically for this event.\pUsing the supplied rental COMPANION,\nyou must conduct a SINGLE BATTLE.\pIf you win, you are permitted to trade\none of your rental COMPANION.\pRepeat this cycle of battling and\ntrading--if you win three times in\la row, you will earn a fine prize.\pIf you want to interrupt your\nchallenge, please save the game.\pIf you don't save before interrupting,\nyou will be disqualified.$",reviewed AUTO draft
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit,We look forward to your next visit.$,"reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_WhichLevelMode,Which level do you wish to challenge?\nLevel 50 or Level 100?$,"reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_SaveBeforeChallenge,"Before you begin your challenge,\nI need to save data. Is that okay?$","reviewed, no change needed"
@@ -359,20 +360,19 @@ SlateportCity_BattleTentLobby_Text_AwardYouThisPrize,"In recognition of your 3-w
 SlateportCity_BattleTentLobby_Text_NoRoomInBagMakeRoom,Oh?\nYou seem to have no room for this.\pPlease make room in your BAG and\nlet me know.$,"reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_BeenWaitingForYou,"We've been waiting for you!\pBefore we resume your challenge,\nI must save the game.$","reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting,"I'm sorry to say this, but you didn't\nsave before you quit playing last time.\pAs a result, you have been disqualified\nfrom your challenge.$","reviewed, no change needed"
-SlateportCity_BattleTentLobby_Text_ReturnPersonalMons,We'll return your personal CREATURE.$,reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ReturnPersonalMons,We'll return your personal COMPANION.$,reviewed AUTO draft
 SlateportCity_BattleTentLobby_Text_ReceivedPrize,{PLAYER} received the prize\n{STR_VAR_1}.$,"reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_RulesAreListed,The Battle Swap rules are listed.$,"reviewed, no change needed"
 SlateportCity_BattleTentLobby_Text_ReadWhichHeading,Which heading do you want to read?$,"reviewed, no change needed"
-SlateportCity_BattleTentLobby_Text_ExplainBasicRules,"In a Battle Swap event, you may use\nonly three CREATURES.\pWhether you are renting or swapping,\nyour team may not have two or more\lof the same CREATURE.$",reviewed AUTO draft
-SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules,You may swap CREATURE only with\nthe TRAINER you have just defeated.\pYou may swap for only those CREATURES\nused by the beaten TRAINER.$,reviewed AUTO draft
-SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules,"After every battle you win, you may\nswap for one of your defeated\lopponent's CREATURE.\pYou will not be able to swap CREATURE\nwith the third TRAINER in the event.$",reviewed AUTO draft
-SlateportCity_BattleTentLobby_Text_ExplainSwapNotes,"There are two key points to be aware\nof when swapping CREATURE.\pFirst, when swapping, you can't check\nthe stats of the CREATURE you are\labout to receive.\pSecond, the CREATURE on your team\nare lined up in sequence, depending on\lthe order in which you rented them.\pThis sequence remains unchanged\neven when swaps are made.$",reviewed AUTO draft
-SlateportCity_BattleTentLobby_Text_ExplainMonRules,The CREATURE of the MOS EISLEY\nBATTLE TENT are all rentals.\pAll rental CREATURES are kept at\nLevel 30.$,reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ExplainBasicRules,"In a Battle Swap event, you may use\nonly three COMPANIONS.\pWhether you are renting or swapping,\nyour team may not have two or more\lof the same COMPANION.$",reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules,You may swap COMPANION only with\nthe TRAINER you have just defeated.\pYou may swap for only those COMPANIONS\nused by the beaten TRAINER.$,reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules,"After every battle you win, you may\nswap for one of your defeated\lopponent's COMPANION.\pYou will not be able to swap COMPANION\nwith the third TRAINER in the event.$",reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ExplainSwapNotes,"There are two key points to be aware\nof when swapping COMPANION.\pFirst, when swapping, you can't check\nthe stats of the COMPANION you are\labout to receive.\pSecond, the COMPANION on your team\nare lined up in sequence, depending on\lthe order in which you rented them.\pThis sequence remains unchanged\neven when swaps are made.$",reviewed AUTO draft
+SlateportCity_BattleTentLobby_Text_ExplainMonRules,The COMPANION of the MOS EISLEY\nBATTLE TENT are all rentals.\pAll rental COMPANIONS are kept at\nLevel 30.$,reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2,The ANCHORHEAD BATTLE TENT\nrules are listed.$,reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading,Which heading do you want to read?$,"reviewed, no change needed"
-VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules,"Here at the ANCHORHEAD BATTLE TENT,\nCREATURES are required to think and\lbattle by themselves.\pUnlike in the wild, CREATURES that live\nwith people behave differently\ldepending on their nature.$",reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules,There are offensive moves that inflict\ndirect damage on the foe.\pThere are defensive moves that are\nused to prepare for enemy attacks or\lused to heal HP and so on.\pThere are also other somewhat-odd\nmoves that may enfeeble the foes with\lstat problems including poison and \lparalysis.\pCREATURE will consider using moves in\nthese three categories.$,reviewed AUTO draft
-VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules,"Depending on its nature, a CREATURE may\nstart using moves that don't match its\lnature when it is in trouble.\pIf a CREATURE begins behaving oddly\nin a pinch, watch it carefully.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules,"Here at the ANCHORHEAD BATTLE TENT,\nCOMPANIONS are required to think and\lbattle by themselves.\pUnlike in the wild, COMPANIONS that live\nwith people behave differently\ldepending on their nature.$",reviewed AUTO draft
+VerdanturfTown_BattleTentLobby_Text_ExplainMoveRules,There are offensive moves that inflict\ndirect damage on the foe.\pThere are defensive moves that are\nused to prepare for enemy attacks or\lused to heal HP and so on.\pThere are also other somewhat-odd\nmoves that may enfeeble the foes with\lstat problems including poison and \lparalysis.\pCOMPANION will consider using moves in\nthese three categories.$,reviewed AUTO draft
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed,The ANCHORHEAD BATTLE TENT\nrules are listed.$,reviewed AUTO draft
 gText_Birch_AndYouAre,And you are?$,"reviewed, no change needed"
 gText_Birch_BoyOrGirl,Are you a boy?\nOr are you a girl?$,"reviewed, no change needed"
@@ -393,14 +393,14 @@ BerryBlender_Text_WhatAnExpert,What an expert!$,"reviewed, no change needed"
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster,"When I blended with the MASTER,\nwe made amazing {POKEBLOCK}S!$","reviewed, no change needed"
 BerryBlender_Text_QualitiesOfBlendMaster,Eyes that track the arrow with\nmachinelike intensity…\pA hand that taps the A Button\nwith clockwork-like precision…\pPossessing these qualities makes\nthe BLEND MASTER truly great.$,"reviewed, no change needed"
 BerryBlender_Text_MasterWorksOnSkillsInMountains,"The BLEND MASTER's supposed to work\non his skills deep in the mountains.\pSometimes, he comes to CLOUD CITY\nto blend FRUIT all day long.$",reviewed AUTO draft
-CableClub_Text_WelcomeWhichCableClubService,Welcome to the CREATURE CABLE\nCLUB.\pWhich of our services do you wish\nto use?$,reviewed AUTO draft
+CableClub_Text_WelcomeWhichCableClubService,Welcome to the COMPANION CABLE\nCLUB.\pWhich of our services do you wish\nto use?$,reviewed AUTO draft
 CableClub_Text_WhichService,Which of our services do you wish\nto use?$,"reviewed, no change needed"
 CableClub_Text_BattleUsingLinkCable,You may battle another TRAINER\nusing a COMLINK cable.$,reviewed AUTO draft
 CableClub_Text_RecordCornerUsingLinkCable,You can use the RECORD CORNER with\nothers using a COMLINK cable.$,reviewed AUTO draft
 CableClub_Text_CloseThisMenu,Close this menu.$,"reviewed, no change needed"
-CableClub_Text_NeedTwoMonsForDoubleBattle,"For a DOUBLE BATTLE, you must\nhave at least two CREATURES.$",reviewed AUTO draft
-CableClub_Text_NeedTwoMonsToTrade,"For trading, you must have at\nleast two CREATURES with you.$",reviewed AUTO draft
-CableClub_Text_CantTradeEnigmaBerry,A CREATURE holding the {STR_VAR_1}\nFRUIT can't be traded.$,reviewed AUTO draft
+CableClub_Text_NeedTwoMonsForDoubleBattle,"For a DOUBLE BATTLE, you must\nhave at least two COMPANIONS.$",reviewed AUTO draft
+CableClub_Text_NeedTwoMonsToTrade,"For trading, you must have at\nleast two COMPANIONS with you.$",reviewed AUTO draft
+CableClub_Text_CantTradeEnigmaBerry,A COMPANION holding the {STR_VAR_1}\nFRUIT can't be traded.$,reviewed AUTO draft
 gText_PleaseWaitForLink,Please wait.\n… … B Button: Cancel$,"reviewed, no change needed"
 gText_ConfirmLinkWhenPlayersReady,When all players are ready…\nA Button: Confirm\lB Button: Cancel$,"reviewed, no change needed"
 gText_ConfirmStartLinkWithXPlayers,Start link with {STR_VAR_1} players.\nA Button: Confirm\lB Button: Cancel$,"reviewed, no change needed"
@@ -429,7 +429,7 @@ CableClub_Text_TrainerCardDataOverwritten,The TRAINER CARD data will\nbe overwri
 CableClub_Text_HopeToSeeYouAgain,I hope to see you again!$,"reviewed, no change needed"
 CableClub_Text_NotSetUpForFarAwayRegion,I'm awfully sorry.\pWe're not set up to conduct trades\nwith TRAINERS far away in another\lregion yet…$,"reviewed, no change needed"
 CableClub_Text_OtherTrainerNotReady,The other TRAINER is not ready.$,"reviewed, no change needed"
-CableClub_Text_YouHaveAMonThatCantBeTaken,You have at least one CREATURE\nthat can't be taken.$,reviewed AUTO draft
+CableClub_Text_YouHaveAMonThatCantBeTaken,You have at least one COMPANION\nthat can't be taken.$,reviewed AUTO draft
 RecordCorner_Text_TakeSeatAndWait,Please take your seat and wait.$,"reviewed, no change needed"
 RecordCorner_Text_PlayerSentOverOneX,{STR_VAR_1} sent over one\n{STR_VAR_2}.$,"reviewed, no change needed"
 CableClub_Text_AdapterNotConnected,The wireless COMLINK is not\nconnected properly.$,reviewed AUTO draft
@@ -444,8 +444,8 @@ CableClub_Text_CancelSelectedItem,Cancels the selected MENU item.$,"reviewed, no
 CableClub_Text_WhichBattleMode,Which battle mode would you like?$,"reviewed, no change needed"
 CableClub_Text_ReturnsToPreviousStep,Returns to the previous step.$,"reviewed, no change needed"
 CableClub_Text_NeedBerryForBerryCrush,"To use the FRUIT CRUSH service,\nyou must have at least one FRUIT.$",reviewed AUTO draft
-CableClub_Text_NeedTwoMonsForUnionRoom,"To enter the UNION ROOM, you must\nhave at least two CREATURES.$",reviewed AUTO draft
-CableClub_Text_NoEnigmaBerryInUnionRoom,No CREATURE holding the {STR_VAR_1}\nFRUIT may enter the UNION ROOM.$,reviewed AUTO draft
+CableClub_Text_NeedTwoMonsForUnionRoom,"To enter the UNION ROOM, you must\nhave at least two COMPANIONS.$",reviewed AUTO draft
+CableClub_Text_NoEnigmaBerryInUnionRoom,No COMPANION holding the {STR_VAR_1}\nFRUIT may enter the UNION ROOM.$,reviewed AUTO draft
 CableClub_Text_UnionRoomAdapterNotConnected,"This is the HOLONET CLUB\nUNION ROOM.\pUnfortunately, your wireless\nCOMLINK is not connected properly.\pPlease do come again.$",reviewed AUTO draft
 CableClub_Text_OhExcuseMe,Oh…\nExcuse me!$,"reviewed, no change needed"
 CableClub_Text_PlayerIsWaiting,It appears as if {STR_VAR_1} is playing\nright now.\lGo for it!$,"reviewed, no change needed"
@@ -456,30 +456,30 @@ MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait,"Hi, welcome!\nAre you here to
 MossdeepCity_GameCorner_1F_Text_ComeAgain,"All right, come again!$","reviewed, no change needed"
 MossdeepCity_GameCorner_1F_Text_AdapterNotConnected,The wireless COMLINK isn't connected.\nCome back when it's hooked up!$,reviewed AUTO draft
 MossdeepCity_GameCorner_1F_Text_PlayWhichGame,"All right, which game did you want\nto play?$","reviewed, no change needed"
-MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon,Which CREATURE would you like to\nenter?$,reviewed AUTO draft
+MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon,Which COMPANION would you like to\nenter?$,reviewed AUTO draft
 MossdeepCity_GameCorner_1F_Text_AllGoodToGo,"Okay, you're all good to go.\nDon't let the others beat you!$","reviewed, no change needed"
 MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain,Are you leaving now?\nDo come again!$,"reviewed, no change needed"
 MossdeepCity_GameCorner_1F_Text_RetryPlease,"Could you retry this from the start\nagain, please?$","reviewed, no change needed"
 CableClub_Text_WelcomeWhichDirectCornerRoom,Welcome to the HOLONET\nCLUB DIRECT CORNER.\pYou may interact directly with\nyour friends here.\pWhich room would you like to\nenter?$,reviewed AUTO draft
-CableClub_Text_TradePokemon,Would you like to trade CREATURES?$,reviewed AUTO draft
+CableClub_Text_TradePokemon,Would you like to trade COMPANIONS?$,reviewed AUTO draft
 CableClub_Text_PlayWhichBattleMode,Which Battle Mode would you like\nto play?$,"reviewed, no change needed"
 CableClub_Text_AccessRecordCorner,Would you like to access\nthe RECORD CORNER?$,"reviewed, no change needed"
 CableClub_Text_UseBerryCrush,Would you like to use the\nFRUIT CRUSH System?$,reviewed AUTO draft
-CableClub_Text_ExplainBattleModes,There are three Battle Modes.\pSINGLE BATTLE is for two TRAINERS\nwith one or more CREATURES each.\pEach TRAINER can have one CREATURE\nin battle at a time.\pDOUBLE BATTLE is for two TRAINERS\nwith two or more CREATURES each.\pEach TRAINER will send out two\nCREATURES in battle at a time.\pMULTI BATTLE is for four TRAINERS\nwith one or more CREATURES each.\pEach TRAINER can have one CREATURE\nin battle at a time.$,reviewed AUTO draft
+CableClub_Text_ExplainBattleModes,There are three Battle Modes.\pSINGLE BATTLE is for two TRAINERS\nwith one or more COMPANIONS each.\pEach TRAINER can have one COMPANION\nin battle at a time.\pDOUBLE BATTLE is for two TRAINERS\nwith two or more COMPANIONS each.\pEach TRAINER will send out two\nCOMPANIONS in battle at a time.\pMULTI BATTLE is for four TRAINERS\nwith one or more COMPANIONS each.\pEach TRAINER can have one COMPANION\nin battle at a time.$,reviewed AUTO draft
 CableClub_Text_ChooseGroupLeaderOfTwo,Please decide which of you two\nwill become the LEADER.\pThe other player must then choose\n“JOIN GROUP.”$,"reviewed, no change needed"
 CableClub_Text_ChooseGroupLeaderOfFour,Please decide which of you four\nwill become the GROUP LEADER.\pThe other players must then choose\n“JOIN GROUP.”$,"reviewed, no change needed"
 CableClub_Text_ChooseGroupLeader,Please decide which of you will\nbecome the GROUP LEADER.\pThe other players must then choose\n“JOIN GROUP.”$,"reviewed, no change needed"
 CableClub_Text_WelcomeUnionRoomEnter,"Welcome to the HOLONET\nCLUB UNION ROOM.\pYou may interact directly with\nother TRAINERS here, some of\lwhom you may not even know.\pWould you like to enter the ROOM?$",reviewed AUTO draft
-CableClub_Text_UnionRoomInfo,"The TRAINERS in the UNION ROOM\nwill be those players around you\lwho have also entered the ROOM.\pYou may do all sorts of things\nhere, such as exchanging greetings.\pYou may enter two CREATURES up to\nLv. 30 for a one-on-one battle.\pYou may take part in a chat with\ntwo to five people.\pOr, you may register a CREATURE for\ntrade.\pWould you like to enter the ROOM?$",reviewed AUTO draft
+CableClub_Text_UnionRoomInfo,"The TRAINERS in the UNION ROOM\nwill be those players around you\lwho have also entered the ROOM.\pYou may do all sorts of things\nhere, such as exchanging greetings.\pYou may enter two COMPANIONS up to\nLv. 30 for a one-on-one battle.\pYou may take part in a chat with\ntwo to five people.\pOr, you may register a COMPANION for\ntrade.\pWould you like to enter the ROOM?$",reviewed AUTO draft
 CableClub_Text_EnjoyUnionRoom,I hope you enjoy your time in\nthe UNION ROOM.$,"reviewed, no change needed"
 CableClub_Text_FirstTimeRightThisWay,"Hello!\nMy name is TEALA.\pThis must be your first time\nup here.\pI'll show you how the COMLINK\nNetwork works.\pFirst, I need to show you this\nfloor of our BACTA CENTER.\pRight this way, please.$",reviewed AUTO draft
 CableClub_Text_AskAboutLinking,"Hello, {PLAYER}!\pIt's me, TEALA, the BACTA\nCENTER 2F attendant.\pIs there something you needed to\nask me about linking?$",reviewed AUTO draft
 CableClub_Text_HopeYouEnjoyWirelessSystem,I hope you enjoy the COMLINK\nNetwork.$,reviewed AUTO draft
 Text_BookShelf,It's filled with all sorts of books.$,"reviewed, no change needed"
-Text_PokemonCenterBookShelf,CREATURE magazines!\nCREATURE PAL…\pCREATURE HANDBOOK…\nADORABLE CREATURE…$,reviewed AUTO draft
+Text_PokemonCenterBookShelf,COMPANION magazines!\nCOMPANION PAL…\pCOMPANION HANDBOOK…\nADORABLE COMPANION…$,reviewed AUTO draft
 Text_Vase,"This vase looks expensive…\nPeered inside…\pBut, it was empty.$","reviewed, no change needed"
 Text_EmptyTrashCan,It's empty.$,"reviewed, no change needed"
-Text_ShopShelf,The shelves brim with all sorts of\nCREATURES merchandise.$,reviewed AUTO draft
+Text_ShopShelf,The shelves brim with all sorts of\nCOMPANIONS merchandise.$,reviewed AUTO draft
 Text_Blueprint,A blueprint of some sort?\nIt's too complicated!$,"reviewed, no change needed"
 EventTicket_Text_OldSeaMapTooFar,"What's up, youngster?\pWhat, it's you who's supposed to have\na tattered old map?\pLet's have a look.\n… … … … … …\pBoy, this is quite a ways away.\nI'm afraid I can't help you…$","reviewed, no change needed"
 EventTicket_Text_BrineyHoldOnASecond,HAN: Hold on a second!\pWhat's the idea of turning down\nsomeone that I owe so much to?$,reviewed AUTO draft
@@ -509,14 +509,14 @@ GiddyText_SecretBasesAreSoWonderful,SECRET BASES are so wonderful!\nCan't you fe
 Text_BootUpPC,{PLAYER} booted up the TERMINAL.$,reviewed AUTO draft
 gText_WhichPCShouldBeAccessed,Which TERMINAL should be accessed?$,reviewed AUTO draft
 gText_AccessedSomeonesPC,Accessed SOMEONE'S TERMINAL.$,reviewed AUTO draft
-gText_StorageSystemOpened,CREATURE Storage System opened.$,reviewed AUTO draft
+gText_StorageSystemOpened,COMPANION Storage System opened.$,reviewed AUTO draft
 gText_AccessedPlayersPC,Accessed {PLAYER}'s TERMINAL.$,reviewed AUTO draft
 gText_AccessedLanettesPC,Accessed TESS's TERMINAL.$,reviewed AUTO draft
 gText_PkmnTransferredSomeonesPC,{STR_VAR_2} was transferred to\nSOMEONE'S TERMINAL.\pIt was placed in \nBOX “{STR_VAR_1}.”$,reviewed AUTO draft
 gText_PkmnTransferredLanettesPC,{STR_VAR_2} was transferred to\nTESS'S TERMINAL.\pIt was placed in \nBOX “{STR_VAR_1}.”$,reviewed AUTO draft
 gText_PkmnTransferredSomeonesPCBoxFull,BOX “{STR_VAR_3}” on\nSOMEONE'S TERMINAL was full.\p{STR_VAR_2} was transferred to\nBOX “{STR_VAR_1}.”$,reviewed AUTO draft
 gText_PkmnTransferredLanettesPCBoxFull,BOX “{STR_VAR_3}” on\nTESS'S TERMINAL was full.\p{STR_VAR_2} was transferred to\nBOX “{STR_VAR_1}.”$,reviewed AUTO draft
-gText_NoMoreRoomForPokemon,There's no more room for CREATURE!\pThe CREATURE BOXES are full and\ncan't accept any more!$,reviewed AUTO draft
+gText_NoMoreRoomForPokemon,There's no more room for COMPANION!\pThe COMPANION BOXES are full and\ncan't accept any more!$,reviewed AUTO draft
 gText_NicknameThisPokemon,Do you want to give a nickname to\nthis {STR_VAR_1}?$,"reviewed, no change needed"
 Questionnaire_Text_FillOut,There is a questionnaire.\nWould you like to fill it out?$,"reviewed, no change needed"
 Questionnaire_Text_ThankYou,Thank you for taking the time to\nfill out our questionnaire.\pYour feedback will be used for\nfuture reference.$,"reviewed, no change needed"
@@ -532,7 +532,7 @@ gText_ConfirmSave,Would you like to save the game?$,"reviewed, no change needed"
 gText_AlreadySavedFile,There is already a saved file.\nIs it okay to overwrite it?$,"reviewed, no change needed"
 gText_SavingDontTurnOff,SAVING…\nDON'T TURN OFF THE POWER.$,"reviewed, no change needed"
 gText_PlayerSavedGame,{PLAYER} saved the game.$,"reviewed, no change needed"
-gText_DifferentSaveFile,"WARNING!\pThere is a different game file that\nis already saved.\pIf you save now, the other file's\nadventure, including items and\lCREATURES, will be entirely lost.\pAre you sure you want to save now\nand overwrite the other save file?$",reviewed AUTO draft
+gText_DifferentSaveFile,"WARNING!\pThere is a different game file that\nis already saved.\pIf you save now, the other file's\nadventure, including items and\lCOMPANIONS, will be entirely lost.\pAre you sure you want to save now\nand overwrite the other save file?$",reviewed AUTO draft
 gText_SaveError,Save error.\pPlease exchange the\nbackup memory.$,"reviewed, no change needed"
 gText_SavingDontTurnOffPower,SAVING…\nDON'T TURN OFF THE POWER.$,"reviewed, no change needed"
 gText_WantToUseSurf,The water is dyed a deep blue…\nWould you like to SURF?$,"reviewed, no change needed"
@@ -545,13 +545,13 @@ gTrickHouse_Mechadoll_Lotad,BOGLET$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Wingull,GULLIK$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Dustox,DUSTMOTH$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Zubat,MYNOCK$,reviewed AUTO draft
-gTrickHouse_Mechadoll_Nincada,GEONOGRUB$,reviewed AUTO draft
-gTrickHouse_Mechadoll_Ralts,YODLING$,reviewed AUTO draft
-gTrickHouse_Mechadoll_Zigzagoon,JAWA$,reviewed AUTO draft
-gTrickHouse_Mechadoll_Slakoth,HUTTLET$,reviewed AUTO draft
+gTrickHouse_Mechadoll_Nincada,HIVEGRUB$,reviewed AUTO draft
+gTrickHouse_Mechadoll_Ralts,AURALET$,reviewed AUTO draft
+gTrickHouse_Mechadoll_Zigzagoon,SCURRIER$,reviewed AUTO draft
+gTrickHouse_Mechadoll_Slakoth,SLOTHLET$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Poochyena2,MASSIFF$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Shroomish,FELUSPORE$,reviewed AUTO draft
-gTrickHouse_Mechadoll_Zigzagoon2,JAWA$,reviewed AUTO draft
+gTrickHouse_Mechadoll_Zigzagoon2,SCURRIER$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Poochyena3,MASSIFF$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Zubat2,MYNOCK$,reviewed AUTO draft
 gTrickHouse_Mechadoll_Carvanha,OPEEFRY$,reviewed AUTO draft
@@ -634,7 +634,7 @@ sText_RubySapphire,Ruby/Sapphire,"reviewed, no change needed"
 sText_Emerald,Emerald,"reviewed, no change needed"
 sText_EnsureGBAConnectionMatches,Please ensure the connection of your\nGame Boy Advance system matches this.\n{COLOR RED}{SHADOW LIGHT_RED}YES: Press the A Button.\nNO: Turn off the power and try again.,"reviewed, no change needed"
 sText_TransmittingPleaseWait,Transmitting. Please wait.\n{COLOR RED}{SHADOW LIGHT_RED}Please do not turn off the power or\nunplug the Game Boy Advance Game\nLink Cable.,"reviewed, no change needed"
-sText_PleaseFollowInstructionsOnScreen,Please follow the instructions on your\nCREATURE Ruby/Sapphire screen.,reviewed AUTO draft
+sText_PleaseFollowInstructionsOnScreen,Please follow the instructions on your\nCOMPANION Ruby/Sapphire screen.,reviewed AUTO draft
 sText_TransmissionFailureTryAgain,Transmission failure.\n{COLOR RED}{SHADOW LIGHT_RED}Please try again.,"reviewed, no change needed"
 sCreditsText_EmptyString,,"reviewed, no change needed"
 sCreditsText_Credits,Credits,"reviewed, no change needed"
@@ -648,9 +648,9 @@ sCreditsText_FieldSystemPgrms,Field System Programmer,"reviewed, no change neede
 sCreditsText_Programmers,Programmers,"reviewed, no change needed"
 sCreditsText_MainGraphicDesigner,Main Graphic Designer,"reviewed, no change needed"
 sCreditsText_GraphicDesigners,Graphic Designers,"reviewed, no change needed"
-sCreditsText_PkmnDesigners,CREATURE Designers,reviewed AUTO draft
+sCreditsText_PkmnDesigners,COMPANION Designers,reviewed AUTO draft
 sCreditsText_MusicComposition,Music Composition,"reviewed, no change needed"
-sCreditsText_SoundEffectsAndPkmnVoices,Sound Effects & CREATURE Voices,reviewed AUTO draft
+sCreditsText_SoundEffectsAndPkmnVoices,Sound Effects & COMPANION Voices,reviewed AUTO draft
 sCreditsText_GameDesigners,Game Designers,"reviewed, no change needed"
 sCreditsText_ScenarioPlot,Scenario Plot,"reviewed, no change needed"
 sCreditsText_Scenario,Scenario,"reviewed, no change needed"
@@ -805,7 +805,7 @@ sText_FourQuestionMarks,????,"reviewed, no change needed"
 sText_UnusedEmpty,,"reviewed, no change needed"
 sText_IsThisTradeOkay,Is this trade okay?,"reviewed, no change needed"
 sText_Cancel,CANCEL,"reviewed, no change needed"
-sText_ChooseAPkmn,Choose a CREATURE.,reviewed AUTO draft
+sText_ChooseAPkmn,Choose a COMPANION.,reviewed AUTO draft
 sText_Summary,SUMMARY,"reviewed, no change needed"
 sText_Trade,TRADE,"reviewed, no change needed"
 sText_CancelTrade,Cancel trade?,"reviewed, no change needed"
@@ -813,9 +813,9 @@ sJPText_PressBButtonToQuit,Bボタン　で　もどります,"reviewed, no chan
 sText_Summary2,SUMMARY,"reviewed, no change needed"
 sText_Trade2,TRADE,"reviewed, no change needed"
 sText_TheTradeHasBeenCanceled,{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}The trade has\nbeen canceled.,"reviewed, no change needed"
-sText_OnlyPkmnForBattle,That's your only\nCREATURE for battle.,reviewed AUTO draft
+sText_OnlyPkmnForBattle,That's your only\nCOMPANION for battle.,reviewed AUTO draft
 sText_WaitingForYourFriend,{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Waiting for your friend\nto finish…,"reviewed, no change needed"
-sText_YourFriendWantsToTrade,Your friend wants\nto trade CREATURES.,reviewed AUTO draft
+sText_YourFriendWantsToTrade,Your friend wants\nto trade COMPANIONS.,reviewed AUTO draft
 sText_ShedinjaJP,ヌケニン,"reviewed, no change needed"
 sJapaneseEggNickname,タマゴ,"reviewed, no change needed"
 sJPText_Vowels,あいうえおかき,"reviewed, no change needed"
@@ -842,7 +842,7 @@ LandmarkName_WeatherInstitute,ENDOR STATION,reviewed AUTO draft
 LandmarkName_MeteorFalls,STARFALL CAVERN,reviewed AUTO draft
 LandmarkName_TunnelersRestHouse,TUNNELER'S RESTHOUSE,"reviewed, no change needed"
 LandmarkName_RusturfTunnel,BEGGAR'S CANYON,reviewed AUTO draft
-LandmarkName_PokemonDayCare,CREATURE NURSERY,reviewed AUTO draft
+LandmarkName_PokemonDayCare,COMPANION NURSERY,reviewed AUTO draft
 LandmarkName_SafariZoneEntrance,FELUCIA RESERVE ENTRANCE,reviewed AUTO draft
 LandmarkName_MtPyre,JEDHA TEMPLE,reviewed AUTO draft
 LandmarkName_ShoalCave,WAMPA CAVE,reviewed AUTO draft
@@ -880,7 +880,7 @@ sEmptyItemName,,"reviewed, no change needed"
 gText_MysteryEventBerry,Obtained a {STR_VAR_2} FRUIT!\nDad has it at MOS ENTHA ARENA.,reviewed AUTO draft
 gText_MysteryEventBerryTransform,The {STR_VAR_1} FRUIT transformed into\none {STR_VAR_2} FRUIT.,reviewed AUTO draft
 gText_MysteryEventBerryObtained,The {STR_VAR_1} FRUIT has already been\nobtained.,reviewed AUTO draft
-gText_MysteryEventSpecialRibbon,A special RIBBON was awarded to\nyour party CREATURE.,reviewed AUTO draft
+gText_MysteryEventSpecialRibbon,A special RIBBON was awarded to\nyour party COMPANION.,reviewed AUTO draft
 gText_MysteryEventNationalDex,The DATAPAD has been upgraded\nwith the NATIONAL MODE.,reviewed AUTO draft
 gText_MysteryEventRareWord,A rare word has been added.,"reviewed, no change needed"
 gText_MysteryEventSentOver,{STR_VAR_1} was sent over!,"reviewed, no change needed"

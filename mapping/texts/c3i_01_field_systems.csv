@@ -1,6 +1,6 @@
 text_id,sw_text_raw,notes
 sText_TrainerBlockedBall,The TRAINER blocked the POD!,
-sText_ItDodgedBall,It dodged the thrown POD!\nThis CREATURE can't be caught!,
+sText_ItDodgedBall,It dodged the thrown POD!\nThis COMPANION can't be caught!,
 sText_PkmnSentToPC,{B_OPPONENT_MON1_NAME} was sent to\n{B_PC_CREATOR_NAME} TERMINAL.,PC -> TERMINAL across shared systems
 sText_YouThrowABallNowRight,"You throw a POD now, right?\nI… I'll do my best!",
 gText_SafariZoneMenu,POD{CLEAR_TO 56}{POKEBLOCK}\nGO NEAR{CLEAR_TO 56}RUN,
@@ -8,21 +8,21 @@ gText_PlayerHouseBootPC,{PLAYER} booted up the TERMINAL.$,
 SecretBase_Text_BootUpPC,{PLAYER} booted up the TERMINAL.$,
 SecretBase_Text_AllDecorationsWillBeReturned,All decorations and furniture in your\nHIDEOUT will be returned to your\lTERMINAL.\pIs that okay?$,
 gText_TheDecorWasTransferredToThePC,The {STR_VAR_2} was transferred\nto the TERMINAL.$,
-gText_PokemonTrainerSchoolEmail,There's a message from the TRAINER\nACADEMY.\p… … … … … …\pA CREATURE may learn up to four moves.\pA TRAINER's expertise is tested on the\nmove sets chosen for CREATURES.\p… … … … … …$,
+gText_PokemonTrainerSchoolEmail,There's a message from the TRAINER\nACADEMY.\p… … … … … …\pA COMPANION may learn up to four moves.\pA TRAINER's expertise is tested on the\nmove sets chosen for COMPANIONS.\p… … … … … …$,
 SecretBase_Text_ToyTV,A realistic toy HOLOPROJECTOR. It could\nbe easily mistaken for the real thing.$,
-SecretBase_Text_SeedotTV,A toy HOLOPROJECTOR shaped like an\nEWOKLET. It looks ready to roll away\lon its own…$,
+SecretBase_Text_SeedotTV,A toy HOLOPROJECTOR shaped like an\nACORNLET. It looks ready to roll away\lon its own…$,
 SecretBase_Text_SkittyTV,A toy HOLOPROJECTOR shaped like a\nLOTHKIT. It looks ready to stroll away…$,
-gText_WouldYouLikeToRestYourPkmn,"Hello, and welcome to\nthe BACTA CENTER.\pWe restore your tired CREATURES\nto full health.\pWould you like to rest your CREATURES?$",the nurse heals the whole team: plural
-gText_IllTakeYourPkmn,"Okay, I'll take your CREATURES\nfor a few seconds.$",
-gText_IllTakeYourPkmn2,"Okay, I'll take your CREATURES\nfor a few seconds.$",
-gText_RestoredPkmnToFullHealth,Thank you for waiting.\pWe've restored your CREATURES\nto full health.$,
-gText_NoticesGoldCard,"Th-that card…\nCould it be… The GOLD CARD?!\pOh, the gold color is brilliant!\nThe four stars seem to sparkle!\pI've seen several TRAINERS with\na SILVER CARD before, but, {PLAYER},\lyou're the first TRAINER I've ever\lseen with a GOLD CARD!\pOkay, {PLAYER}, please allow me\nthe honor of resting your CREATURES!$",
-Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon,"I'm the DAY-CARE MAN.\pI help take care of the precious\nCREATURES of TRAINERS.\pIf you'd like me to raise your CREATURE,\nhave a word with my wife.$",
-SafariZone_South_Text_Man,"I want to keep going deeper, but I\nforgot to bring a SPEEDER BIKE.\pSomething tells me that rare CREATURES\nlive in the outlying areas.$",
-SafariZone_North_Text_Fisherman,I'm on a mission to find WATER\nCREATURES you don't see anywhere else\lin the OUTER RIM.\pDo you have any idea where the lake is?$,
-gBirchDexRatingText_SoYouveSeenAndCaught,"Hmhm…\pSo, you've seen {STR_VAR_1} CREATURES,\nand you've caught {STR_VAR_2}\lCREATURES…$",
-gBirchDexRatingText_OnANationwideBasis,"Hmhm…\nAcross the whole galaxy…\pYou've seen {STR_VAR_1} CREATURES, and\nyou've caught {STR_VAR_2} CREATURES…$",
-LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket,"This is the CREATURE LOTTERY CORNER.\pAll shoppers at our DEPARTMENT STORE\nget to draw a CREATURE LOTO TICKET.\pIf the LOTO TICKET's number matches\nthe ID number of any of your CREATURES,\lyou will receive a fabulous gift.\pWould you like to draw a CREATURE\nLOTO TICKET?$",
+gText_WouldYouLikeToRestYourPkmn,"Hello, and welcome to\nthe BACTA CENTER.\pWe restore your tired COMPANIONS\nto full health.\pWould you like to rest your COMPANIONS?$",the nurse heals the whole team: plural
+gText_IllTakeYourPkmn,"Okay, I'll take your COMPANIONS\nfor a few seconds.$",
+gText_IllTakeYourPkmn2,"Okay, I'll take your COMPANIONS\nfor a few seconds.$",
+gText_RestoredPkmnToFullHealth,Thank you for waiting.\pWe've restored your COMPANIONS\nto full health.$,
+gText_NoticesGoldCard,"Th-that card…\nCould it be… The GOLD CARD?!\pOh, the gold color is brilliant!\nThe four stars seem to sparkle!\pI've seen several TRAINERS with\na SILVER CARD before, but, {PLAYER},\lyou're the first TRAINER I've ever\lseen with a GOLD CARD!\pOkay, {PLAYER}, please allow me\nthe honor of resting your COMPANIONS!$",
+Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon,"I'm the DAY-CARE MAN.\pI help take care of the precious\nCOMPANIONS of TRAINERS.\pIf you'd like me to raise your\nCOMPANION, have a word with my wife.$",
+SafariZone_South_Text_Man,"I want to keep going deeper, but I\nforgot to bring a SPEEDER BIKE.\pSomething tells me that rare\nCOMPANIONS live in the outlying areas.$",
+SafariZone_North_Text_Fisherman,I'm on a mission to find WATER\nCOMPANIONS you don't see anywhere else\lin the OUTER RIM.\pDo you have any idea where the lake is?$,
+gBirchDexRatingText_SoYouveSeenAndCaught,"Hmhm…\pSo, you've seen {STR_VAR_1} COMPANIONS,\nand you've caught {STR_VAR_2}\lCOMPANIONS…$",
+gBirchDexRatingText_OnANationwideBasis,"Hmhm…\nAcross the whole galaxy…\pYou've seen {STR_VAR_1} COMPANIONS,\nand you've caught {STR_VAR_2}\lCOMPANIONS…$",
+LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket,"This is the COMPANION LOTTERY CORNER.\pAll shoppers at our DEPARTMENT STORE\nget to draw a COMPANION LOTO TICKET.\pIf the LOTO TICKET's number matches\nthe ID number of any of your\lCOMPANIONS, you will receive a fabulous\lgift.\pWould you like to draw a COMPANION\nLOTO TICKET?$",
 EventTicket_Text_ShowOldSeaMap,The starliner to MOS EISLEY is…\pI beg your pardon?\nCan we fly to this place on the map?\pI know someone who will help you better.\nPlease wait.$,
 EventTicket_Text_ThatPass,The starliner to MOS EISLEY is…\pOh?\nThat PASS…$,
 EventTicket_Text_ShowEonTicket,"HAN: Hey, kid, are you the one who\nbrought that mighty odd PASS?\pI'll tell you, you're trying to reach a\ntiny rock of an isle way out past\lthe charts.\pNo telling what we'll run into\nonce we get there.\lI've got a bad feeling about this.\pAll aboard!$",Briney's sea-dog lines -> Captain Han ('bad feeling about this')
@@ -35,10 +35,10 @@ gText_SandstormIsVicious,The sandstorm is vicious.\nIt's impossible to keep goin
 gText_SelectWithoutRegisteredItem,An item in the BAG can be\nregistered to SELECT for easy use.$,"reviewed, no change needed"
 gText_PokeblockLinkCanceled,The link was canceled.$,"reviewed, no change needed"
 gText_UnusedNicknameReceivedPokemon,Want to give a nickname to\nthe {STR_VAR_2} you received?$,"reviewed, no change needed"
-gText_PlayerWhitedOut,{PLAYER} is out of usable\nCREATURE!\p{PLAYER} whited out!$,reviewed AUTO draft
+gText_PlayerWhitedOut,{PLAYER} is out of usable\nCOMPANION!\p{PLAYER} whited out!$,reviewed AUTO draft
 gText_RegisteredTrainerinPokeNav,Registered {STR_VAR_1} {STR_VAR_2}\nin the COMLINK.$,reviewed AUTO draft
 gText_ComeBackWithSecretPower,"Do you know the TM SECRET POWER?\pOur group, we love the TM SECRET\nPOWER.\pOne of our members will give it to you.\nCome back and show me if you get it.\pWe'll accept you as a member and sell\nyou good stuff in secrecy.$","reviewed, no change needed"
-gText_PokerusExplanation,"Your CREATURE may be infected with\nMIDIPOX.\pLittle is known about the MIDIPOX\nexcept that they are microscopic life-\lforms that attach to CREATURE.\pWhile infected, CREATURES are said to\ngrow exceptionally well.$",reviewed AUTO draft
+gText_PokerusExplanation,"Your COMPANION may be infected with\nMIDIPOX.\pLittle is known about the MIDIPOX\nexcept that they are microscopic life-\lforms that attach to COMPANION.\pWhile infected, COMPANIONS are said to\ngrow exceptionally well.$",reviewed AUTO draft
 gText_DoorOpenedFarAway,It sounded as if a door opened\nsomewhere far away.$,"reviewed, no change needed"
 gText_BigHoleInTheWall,There is a big hole in the wall.$,"reviewed, no change needed"
 gText_SorryWirelessClubAdjustments,I'm terribly sorry.\nThe HOLONET CLUB is\lundergoing adjustments now.$,reviewed AUTO draft
@@ -80,58 +80,58 @@ BerryTree_Text_WantToWater,Want to water the {STR_VAR_1} with the\nWATER CANTEEN
 BerryTree_Text_WateredTheBerry,{PLAYER} watered the {STR_VAR_1}.$,"reviewed, no change needed"
 BerryTree_Text_PlantIsDelighted,The plant seems to be delighted.$,"reviewed, no change needed"
 BerryTree_Text_ExclamationPoint,!$,"reviewed, no change needed"
-Route117_Text_DoYouWantEgg,"Ah, it's you!\pWe were raising your CREATURES,\nand my goodness, were we surprised!\pYour CREATURE had an EGG!\pWe don't know how it got there,\nbut your CREATURE had it.\pYou do want it, yes?$",reviewed AUTO draft
+Route117_Text_DoYouWantEgg,"Ah, it's you!\pWe were raising your COMPANIONS,\nand my goodness, were we surprised!\pYour COMPANION had an EGG!\pWe don't know how it got there,\nbut your COMPANION had it.\pYou do want it, yes?$",reviewed AUTO draft
 Route117_Text_YourMonIsDoingFine,"Ah, it's you! Good to see you.\nYour {STR_VAR_1}'s doing fine.$","reviewed, no change needed"
 Route117_Text_IllKeepIt,"Well then, I'll keep it.\nThanks!$","reviewed, no change needed"
 Route117_Text_YouHaveNoRoomForIt,You have no room for it…\nCome back when you've made room.$,"reviewed, no change needed"
 Route117_Text_ReceivedEgg,{PLAYER} received the EGG from\nthe DAY-CARE MAN.$,"reviewed, no change needed"
 Route117_Text_TakeGoodCareOfIt,Take good care of it.$,"reviewed, no change needed"
 Route117_Text_FriendlyWithOtherTrainersMon,"By the way, about your {STR_VAR_1},\nit seemed to be friendly with\l{STR_VAR_2}'s {STR_VAR_3}.\pI may even have seen it receiving\na piece of MAIL.$","reviewed, no change needed"
-Route117_Text_SeeWifeIfYouWantToPickUpMon,"If you want to pick up your CREATURE,\nhave a word with my wife.$",reviewed AUTO draft
+Route117_Text_SeeWifeIfYouWantToPickUpMon,"If you want to pick up your COMPANION,\nhave a word with my wife.$",reviewed AUTO draft
 Route117_Text_YourMonsAreDoingFine,"Ah, it's you! Your {STR_VAR_1} and\n{STR_VAR_2} are doing fine.$","reviewed, no change needed"
 Route117_Text_IWillKeepDoYouWantIt,"I really will keep it.\nYou do want this, yes?$","reviewed, no change needed"
-Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon,I'm the DAY-CARE LADY.\pWe can raise CREATURES for you.\pWould you like us to raise one?$,reviewed AUTO draft
-Route117_PokemonDayCare_Text_WhichMonShouldWeRaise,Which CREATURE should we raise for\nyou?$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon,I'm the DAY-CARE LADY.\pWe can raise COMPANIONS for you.\pWould you like us to raise one?$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_WhichMonShouldWeRaise,Which COMPANION should we raise for\nyou?$,reviewed AUTO draft
 Route117_PokemonDayCare_Text_WellRaiseYourMon,"Fine, we'll raise your {STR_VAR_1}\nfor a while.\pCome back for it later.$","reviewed, no change needed"
-Route117_PokemonDayCare_Text_WeCanRaiseOneMore,We can raise two of your CREATURES.\nWould you like us to raise one more?$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_WeCanRaiseOneMore,We can raise two of your COMPANIONS.\nWould you like us to raise one more?$,reviewed AUTO draft
 Route117_PokemonDayCare_Text_HusbandWasLookingForYou,My husband was looking for you.$,"reviewed, no change needed"
 Route117_PokemonDayCare_Text_FineThenComeAgain,"Oh, fine, then.\nCome again.$","reviewed, no change needed"
 Route117_PokemonDayCare_Text_NotEnoughMoney,You don't have enough money…$,"reviewed, no change needed"
 Route117_PokemonDayCare_Text_TakeOtherOneBackToo,"Will you take back the other one,\ntoo?$","reviewed, no change needed"
 Route117_PokemonDayCare_Text_ComeAgain,Fine.\nCome again.$,"reviewed, no change needed"
-Route117_PokemonDayCare_Text_GoodToSeeYou,"Ah, it's you! Good to see you.\nYour CREATURE can only be doing good!$",reviewed AUTO draft
+Route117_PokemonDayCare_Text_GoodToSeeYou,"Ah, it's you! Good to see you.\nYour COMPANION can only be doing good!$",reviewed AUTO draft
 Route117_PokemonDayCare_Text_YourMonHasGrownXLevels,"By level, your {STR_VAR_1} has\ngrown by {STR_VAR_2}.$","reviewed, no change needed"
-Route117_PokemonDayCare_Text_YourTeamIsFull,"Your CREATURE team is full.\nMake room, then come see me.$",reviewed AUTO draft
-Route117_PokemonDayCare_Text_TakeBackWhichMon,Which CREATURE will you take back?$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_YourTeamIsFull,"Your COMPANION team is full.\nMake room, then come see me.$",reviewed AUTO draft
+Route117_PokemonDayCare_Text_TakeBackWhichMon,Which COMPANION will you take back?$,reviewed AUTO draft
 Route117_PokemonDayCare_Text_ItWillCostX,"If you want your {STR_VAR_1} back,\nit will cost ¥{STR_VAR_2}.$","reviewed, no change needed"
-Route117_PokemonDayCare_Text_HeresYourMon,Perfect!\nHere's your CREATURE.$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_HeresYourMon,Perfect!\nHere's your COMPANION.$,reviewed AUTO draft
 Route117_PokemonDayCare_Text_TookBackMon,{PLAYER} took back {STR_VAR_1} from\nthe DAY-CARE LADY.$,"reviewed, no change needed"
-Route117_PokemonDayCare_Text_YouHaveJustOneMon,Oh? But you have just one\nCREATURE.\pCome back another time.$,reviewed AUTO draft
-Route117_PokemonDayCare_Text_TakeYourMonBack,Will you take your CREATURE back?$,reviewed AUTO draft
-Route117_PokemonDayCare_Text_WhatWillYouBattleWith,"If you leave me that CREATURE,\nwhat will you battle with?\pCome back another time.$",reviewed AUTO draft
+Route117_PokemonDayCare_Text_YouHaveJustOneMon,Oh? But you have just one\nCOMPANION.\pCome back another time.$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_TakeYourMonBack,Will you take your COMPANION back?$,reviewed AUTO draft
+Route117_PokemonDayCare_Text_WhatWillYouBattleWith,"If you leave me that COMPANION,\nwhat will you battle with?\pCome back another time.$",reviewed AUTO draft
 Text_EggHatchHuh,Huh?$,"reviewed, no change needed"
-Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne,"Huh?\nNow, now.\pIf you leave that CREATURE with\nme, you'll be left with just one.\pYou will be better off if you catch\nsome more, I dare say.$",reviewed AUTO draft
+Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne,"Huh?\nNow, now.\pIf you leave that COMPANION with\nme, you'll be left with just one.\pYou will be better off if you catch\nsome more, I dare say.$",reviewed AUTO draft
 Text_WantToCut,This tree looks like it can be\nVIBROBLADE down!\pWould you like to VIBROBLADE it?$,reviewed AUTO draft
 Text_MonUsedFieldMove,{STR_VAR_1} used {STR_VAR_2}!$,"reviewed, no change needed"
 Text_CantCut,This tree looks like it can be\nVIBROBLADE down!$,reviewed AUTO draft
 Text_WantToSmash,This rock appears to be breakable.\nWould you like to use ROCK SMASH?$,"reviewed, no change needed"
-Text_CantSmash,"It's a rugged rock, but a CREATURE\nmay be able to smash it.$",reviewed AUTO draft
-Text_WantToStrength,"It's a big boulder, but a CREATURE\nmay be able to push it aside.\pWould you like to use STRENGTH?$",reviewed AUTO draft
+Text_CantSmash,"It's a rugged rock, but a COMPANION\nmay be able to smash it.$",reviewed AUTO draft
+Text_WantToStrength,"It's a big boulder, but a COMPANION\nmay be able to push it aside.\pWould you like to use STRENGTH?$",reviewed AUTO draft
 Text_MonUsedStrength,{STR_VAR_1} used STRENGTH!\p{STR_VAR_1}'s STRENGTH made it\npossible to move boulders around!$,"reviewed, no change needed"
-Text_CantStrength,"It's a big boulder, but a CREATURE\nmay be able to push it aside.$",reviewed AUTO draft
+Text_CantStrength,"It's a big boulder, but a COMPANION\nmay be able to push it aside.$",reviewed AUTO draft
 Text_StrengthActivated,STRENGTH made it possible to move\nboulders around.$,"reviewed, no change needed"
 Text_CantWaterfall,A wall of water is crashing down with\na mighty roar.$,"reviewed, no change needed"
 Text_WantToWaterfall,It's a large waterfall.\nWould you like to use WATERFALL?$,"reviewed, no change needed"
 Text_MonUsedWaterfall,{STR_VAR_1} used WATERFALL.$,"reviewed, no change needed"
-Text_CantDive,The sea is deep here. A CREATURE\nmay be able to go underwater.$,reviewed AUTO draft
+Text_CantDive,The sea is deep here. A COMPANION\nmay be able to go underwater.$,reviewed AUTO draft
 Text_WantToDive,The sea is deep here.\nWould you like to use DIVE?$,"reviewed, no change needed"
 Text_MonUsedDive,{STR_VAR_1} used DIVE.$,"reviewed, no change needed"
-Text_CantSurface,Light is filtering down from above.\nA CREATURE may be able to surface.$,reviewed AUTO draft
+Text_CantSurface,Light is filtering down from above.\nA COMPANION may be able to surface.$,reviewed AUTO draft
 Text_WantToSurface,Light is filtering down from above.\nWould you like to use DIVE?$,"reviewed, no change needed"
 Text_FailSweetScent,Looks like there's nothing here…$,"reviewed, no change needed"
-ProfileMan_Text_CollectTrainerProfiles,"Hello there, TRAINER!\nYou've got a wonderful smile, there.\pI have a hobby--collecting the profiles\nof CREATURE TRAINERS.$",reviewed AUTO draft
+ProfileMan_Text_CollectTrainerProfiles,"Hello there, TRAINER!\nYou've got a wonderful smile, there.\pI have a hobby--collecting the profiles\nof COMPANION TRAINERS.$",reviewed AUTO draft
 ProfileMan_Text_MayISeeYourProfile,"So, how about it?\nMay I see your profile?$","reviewed, no change needed"
-ProfileMan_Text_EasyChatExplanation,"You make your own profile by putting\ntogether four words or phrases.\pHere, I'll show you an example of a\nprofile using four pieces of text.\pYou can switch those four pieces with\nother text pieces any which way you\llike to make your own profile.\pThere are a lot of text pieces that\nyou can use.\pThey are arranged in groups like\nCREATURES, lifestyles, and hobbies so\lit is easier to look them up.\pSo, first, choose the group of text\npieces to display a list of choices.\pThen, pick the choice you want.\pRepeat for the remaining text choices,\nand you'll have your very own profile.$",reviewed AUTO draft
+ProfileMan_Text_EasyChatExplanation,"You make your own profile by putting\ntogether four words or phrases.\pHere, I'll show you an example of a\nprofile using four pieces of text.\pYou can switch those four pieces with\nother text pieces any which way you\llike to make your own profile.\pThere are a lot of text pieces that\nyou can use.\pThey are arranged in groups like\nCOMPANIONS, lifestyles, and hobbies so\lit is easier to look them up.\pSo, first, choose the group of text\npieces to display a list of choices.\pThen, pick the choice you want.\pRepeat for the remaining text choices,\nand you'll have your very own profile.$",reviewed AUTO draft
 ProfileMan_Text_LetsSeeItThen,"Yes! Thank you!\nSo, let's see it, then.$","reviewed, no change needed"
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile,"Oh, no, really?\pI imagine someone like you would have\na wonderful profile…$","reviewed, no change needed"
 ProfileMan_Text_NotIntoItRightNow,"Oh? You're not into it right now?\pWell, anytime is good by me!$","reviewed, no change needed"
@@ -172,22 +172,22 @@ SafariZone_South_Text_StillHaveTimeExit,You still have time left. Would you like
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure,Please enjoy the rest of your wild\nadventure!$,"reviewed, no change needed"
 SafariZone_South_Text_ExitEarlyThankYouForPlaying,Okay.\pI'll take back your remaining SAFARI\nPODS.\pThank you for playing.\nWe hope to see you again.$,reviewed AUTO draft
 SafariZone_South_Text_GoodLuck,"Good luck!\pIf you need anything, don't hesitate\nto tell me, please!$","reviewed, no change needed"
-SafariZone_South_Text_Boy,"Did you know?\pIf you put a {POKEBLOCK} in that square box,\nCREATURES gather around.$",reviewed AUTO draft
-SafariZone_Southwest_Text_Woman,"Sometimes, when I toss a {POKEBLOCK} at \nCREATURE, it gets ignored.\pDo CREATURES have likes and dislikes\nabout what they eat?$",reviewed AUTO draft
-SafariZone_Northwest_Text_Man,Gasp… Gasp…\nI…made it out here…but…\pI'm exhausted… I don't have the\nenergy to catch CREATURES…$,reviewed AUTO draft
-SafariZone_North_Text_Man,I'm going to catch a lot of rare\nCREATURES here and trade them with my\lfriends!$,reviewed AUTO draft
-SafariZone_South_Text_Youngster,I put a {POKEBLOCK} on the {POKEBLOCK} FEEDER.\nBut it seems to have disappeared.\pI guess CREATURE must have eaten it\nwithout me noticing.$,reviewed AUTO draft
-Route121_SafariZoneEntrance_Text_TrainerTip,FELUCIA RESERVE TRAINER TIP!\pThrow {POKEBLOCK}S at wild CREATURES to make\nthem less likely to flee.$,reviewed AUTO draft
+SafariZone_South_Text_Boy,"Did you know?\pIf you put a {POKEBLOCK} in that square box,\nCOMPANIONS gather around.$",reviewed AUTO draft
+SafariZone_Southwest_Text_Woman,"Sometimes, when I toss a {POKEBLOCK} at \nCOMPANION, it gets ignored.\pDo COMPANIONS have likes and dislikes\nabout what they eat?$",reviewed AUTO draft
+SafariZone_Northwest_Text_Man,Gasp… Gasp…\nI…made it out here…but…\pI'm exhausted… I don't have the\nenergy to catch COMPANIONS…$,reviewed AUTO draft
+SafariZone_North_Text_Man,I'm going to catch a lot of rare\nCOMPANIONS here and trade them with my\lfriends!$,reviewed AUTO draft
+SafariZone_South_Text_Youngster,I put a {POKEBLOCK} on the {POKEBLOCK} FEEDER.\nBut it seems to have disappeared.\pI guess COMPANION must have eaten it\nwithout me noticing.$,reviewed AUTO draft
+Route121_SafariZoneEntrance_Text_TrainerTip,FELUCIA RESERVE TRAINER TIP!\pThrow {POKEBLOCK}S at wild COMPANIONS to make\nthem less likely to flee.$,reviewed AUTO draft
 SafariZone_Southwest_Text_RestHouseSign,“Relieve your tired feet.”\nREST HOUSE$,"reviewed, no change needed"
-SafariZone_RestHouse_Text_Youngster,"I don't have any {POKEBLOCK}S, but I caught\na good number of CREATURES.\pYou can improve your chances of making\na catch by getting closer to them\lbefore throwing a SAFARI POD.$",reviewed AUTO draft
-SafariZone_RestHouse_Text_PsychicM,"If you use {POKEBLOCK}S, wild CREATURES won't\nbe so quick to run away.\pIt's not much use to give {POKEBLOCK}S to\nCREATURES that don't flee easily.$",reviewed AUTO draft
-SafariZone_RestHouse_Text_FatMan,"If you put a {POKEBLOCK} on the FEEDER,\nCREATURES are attracted to it.\pI think CREATURE with the same sort of\nnature are drawn by a certain {POKEBLOCK}.$",reviewed AUTO draft
+SafariZone_RestHouse_Text_Youngster,"I don't have any {POKEBLOCK}S, but I caught\na good number of COMPANIONS.\pYou can improve your chances of making\na catch by getting closer to them\lbefore throwing a SAFARI POD.$",reviewed AUTO draft
+SafariZone_RestHouse_Text_PsychicM,"If you use {POKEBLOCK}S, wild COMPANIONS won't\nbe so quick to run away.\pIt's not much use to give {POKEBLOCK}S to\nCOMPANIONS that don't flee easily.$",reviewed AUTO draft
+SafariZone_RestHouse_Text_FatMan,"If you put a {POKEBLOCK} on the FEEDER,\nCOMPANIONS are attracted to it.\pI think COMPANION with the same sort of\nnature are drawn by a certain {POKEBLOCK}.$",reviewed AUTO draft
 SafariZone_South_Text_AreaOffLimits1,"This area is still under construction.\nIt's off-limits, sorry!$","reviewed, no change needed"
 SafariZone_Southeast_Text_ExpansionIsFinished,The FELUCIA RESERVE's expansion\nproject is finished now.\pWe hope you will enjoy the new area.$,reviewed AUTO draft
 SafariZone_South_Text_AreaOffLimits2,"This area is still under construction.\nIt's off-limits, sorry!$","reviewed, no change needed"
-SafariZone_Southeast_Text_LittleGirl,Wow! Whee! I haven't seen any of\nthese CREATURE before!$,reviewed AUTO draft
-SafariZone_Southeast_Text_FatMan,The CREATURE in this area are all\nnew to me.\pAnd I'm allowed to catch these rare\nCREATURES! Too cool!$,reviewed AUTO draft
-SafariZone_Southeast_Text_RichBoy,The CREATURE around here seem to be\nfrom somewhere other than OUTER RIM.$,reviewed AUTO draft
+SafariZone_Southeast_Text_LittleGirl,Wow! Whee! I haven't seen any of\nthese COMPANION before!$,reviewed AUTO draft
+SafariZone_Southeast_Text_FatMan,The COMPANION in this area are all\nnew to me.\pAnd I'm allowed to catch these rare\nCOMPANIONS! Too cool!$,reviewed AUTO draft
+SafariZone_Southeast_Text_RichBoy,The COMPANION around here seem to be\nfrom somewhere other than OUTER RIM.$,reviewed AUTO draft
 SafariZone_Northeast_Text_Boy,I only have a couple SAFARI PODS left.\pI'm having a hard time trying to\ndecide what I should catch.$,reviewed AUTO draft
 SafariZone_Northeast_Text_Woman,I heard that you can see IONRAT here.\nWhere might one be?$,reviewed AUTO draft
 SafariZone_Northeast_Text_Girl,"Oh, boo!\nI can't seem to catch anything!\pI'll end up wasting the admission\nprice if I don't catch something!$","reviewed, no change needed"
@@ -209,7 +209,7 @@ SecretBase_Text_WouldYouLikeToMoveBases,You may only make one HIDEOUT.\pWould yo
 SecretBase_Text_MovingCompletedUseSecretPower,Moving completed.\pWould you like to use the SECRET POWER?$,"reviewed, no change needed"
 PetalburgCity_Gym_Text_GiveEnigmaBerry,"DAD: Hi, {PLAYER}!\pI just received a very rare FRUIT.\nI'd like you to have it.$",reviewed AUTO draft
 Route104_Text_PlantBerriesInSoilTakeThis,"If you see FRUIT growing in loamy\nsoil, feel free to take them.\pBut make sure you plant a FRUIT in the\nsame spot. That's common courtesy.\pHere, I'll share this with you.$",reviewed AUTO draft
-Route104_Text_TrainersOftenMakeMonHoldBerries,"The way you look, you must be a\nTRAINER, no?\pTRAINERS often make CREATURE hold\nFRUIT.\pIt's up to you whether to grow FRUIT\nor use them.$",reviewed AUTO draft
+Route104_Text_TrainersOftenMakeMonHoldBerries,"The way you look, you must be a\nTRAINER, no?\pTRAINERS often make COMPANION hold\nFRUIT.\pIt's up to you whether to grow FRUIT\nor use them.$",reviewed AUTO draft
 Route111_Text_WateredPlantsEveryDayTakeBerry,"I watered the plants every day.\nThey grew lots of flowers.\pAnd they gave me lots of FRUIT, too.\pHere you go!\nYou can have it!$",reviewed AUTO draft
 Route111_Text_GoingToTryToMakeDifferentColorBerries,"I'm going to try really hard and make\nFRUIT in different colors.\pI hope you try hard, too!$",reviewed AUTO draft
 Route111_Text_WhatColorBerriesToLookForToday,I wonder what color FRUIT I'll look\nfor today?$,reviewed AUTO draft
@@ -236,7 +236,7 @@ Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness,"Flowers bring so much
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis,"Hello!\pThe more attention you give to flowers,\nthe more beautifully they bloom.\pYou'll like tending flowers. I'm sure\nof it. You can have this.$","reviewed, no change needed"
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation,"While FRUIT plants are growing,\nwater them with the WATER CANTEEN.\pOh, another thing.\pIf you don't pick FRUIT for a while,\nthey'll drop off onto the ground.\lBut they'll sprout again.\pIsn't that awesome?\nIt's like they have the will to live.$",reviewed AUTO draft
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers,"I'm trying to be like my big sisters.\nI'm growing flowers, too!\pHere you go!\nIt's for you!$","reviewed, no change needed"
-Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries,"You can plant a FRUIT and grow it big,\nor you can make a CREATURE hold it.\pBut now they have a machine that mixes\nup different FRUIT and makes candies\lfor CREATURE.\pI want some candy, too.$",reviewed AUTO draft
+Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries,"You can plant a FRUIT and grow it big,\nor you can make a COMPANION hold it.\pBut now they have a machine that mixes\nup different FRUIT and makes candies\lfor COMPANION.\pI want some candy, too.$",reviewed AUTO draft
 SootopolisCity_Text_NameIsKiriHaveOneOfThese,"Hi, what's your name?\p… … …  … … …  … … …\nOkay. That's nice!\pMy name is KIRI.\pMy mommy and daddy named me that so\nI would grow healthy and warmhearted.\lThat's what they wished.\pYou can have one of these.$","reviewed, no change needed"
 SootopolisCity_Text_GiveYouThisBerryToo,"KIRI will give you this FRUIT, too!\nI really like it lots!$",reviewed AUTO draft
 SootopolisCity_Text_WhatKindOfWishInYourName,I wonder what kind of wish is included\nin your name.$,"reviewed, no change needed"
@@ -250,7 +250,7 @@ SouthernIsland_Exterior_Text_Sign,“Those whose memories fade seek to\ncarve th
 LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow,Please come back tomorrow.$,"reviewed, no change needed"
 LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain,Please do visit again.$,"reviewed, no change needed"
 LilycoveCity_DepartmentStore_1F_Text_PleasePickTicket,Please pick a LOTO TICKET.\n…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$,"reviewed, no change needed"
-LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait,The LOTO TICKET number is {STR_VAR_1}.\pI need to run a check on this number\nto see if it matches any of your\lCREATURE's ID numbers. Please wait.$,reviewed AUTO draft
+LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait,The LOTO TICKET number is {STR_VAR_1}.\pI need to run a check on this number\nto see if it matches any of your\lCOMPANION's ID numbers. Please wait.$,reviewed AUTO draft
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon,Congratulations!\pThe ID number of your team's\n{STR_VAR_1} matches your\lLOTO TICKET's number!$,"reviewed, no change needed"
 LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched,I'm sorry.\nNone of the numbers matched.$,"reviewed, no change needed"
 LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched,"Two digits matched, so you win the\nthird prize!\lYou've won the {STR_VAR_1}!$","reviewed, no change needed"
@@ -261,46 +261,46 @@ LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis,Oh?\nYou seem to have no room
 LilycoveCity_DepartmentStore_1F_Text_PrizeWeveBeenHolding,"{PLAYER}?\nYes, I've been expecting you.\pThis is the prize we've been holding\nfor you.$","reviewed, no change needed"
 LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain2,Please do visit again.$,"reviewed, no change needed"
 MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce,This move can be learned only\nonce. Is that okay?$,"reviewed, no change needed"
-MoveTutor_Text_SwaggerTeach,"Heh! My CREATURE totally rules!\nIt's cooler than any CREATURE!\pI was lipping off with a swagger in\nmy step like that when the CHAIRMAN\lchewed me out.\pThat took the swagger out of my step.\pIf you'd like, I'll teach the move\nSWAGGER to a CREATURE of yours.$",reviewed AUTO draft
+MoveTutor_Text_SwaggerTeach,"Heh! My COMPANION totally rules!\nIt's cooler than any COMPANION!\pI was lipping off with a swagger in\nmy step like that when the CHAIRMAN\lchewed me out.\pThat took the swagger out of my step.\pIf you'd like, I'll teach the move\nSWAGGER to a COMPANION of yours.$",reviewed AUTO draft
 MoveTutor_Text_SwaggerDeclined,"What, no? Can't you get into\nthe spirit of things?$","reviewed, no change needed"
-MoveTutor_Text_SwaggerWhichMon,"All right, which CREATURE wants to\nlearn how to SWAGGER?$",reviewed AUTO draft
-MoveTutor_Text_SwaggerTaught,I'll just praise my CREATURE from now\non without the swagger.$,reviewed AUTO draft
-MoveTutor_Text_RolloutTeach,"Did you know that you can go from\nhere a long way in that direction\lwithout changing direction?\pI might even be able to roll\nthat way.\pDo you think your CREATURE will\nwant to roll, too?\pI can teach one the move ROLLOUT\nif you'd like.$",reviewed AUTO draft
+MoveTutor_Text_SwaggerWhichMon,"All right, which COMPANION wants to\nlearn how to SWAGGER?$",reviewed AUTO draft
+MoveTutor_Text_SwaggerTaught,I'll just praise my COMPANION from now\non without the swagger.$,reviewed AUTO draft
+MoveTutor_Text_RolloutTeach,"Did you know that you can go from\nhere a long way in that direction\lwithout changing direction?\pI might even be able to roll\nthat way.\pDo you think your COMPANION will\nwant to roll, too?\pI can teach one the move ROLLOUT\nif you'd like.$",reviewed AUTO draft
 MoveTutor_Text_RolloutDeclined,You don't need to be shy about it.\nLet's roll!$,"reviewed, no change needed"
-MoveTutor_Text_RolloutWhichMon,"Ehehe, sure thing! It'd be great if\nthe CREATURE looked like me.$",reviewed AUTO draft
+MoveTutor_Text_RolloutWhichMon,"Ehehe, sure thing! It'd be great if\nthe COMPANION looked like me.$",reviewed AUTO draft
 MoveTutor_Text_RolloutTaught,"Rolling around in the grass makes me\nhappy. Come on, let's roll!$","reviewed, no change needed"
-MoveTutor_Text_FuryCutterTeach,"There's a move that gets stronger\nwhen you keep using it in a row.\pIt's a BUG-type move, and it is\nwickedly cool.\pIt's called FURY CUTTER.\nWant me to teach it to a CREATURE?$",reviewed AUTO draft
+MoveTutor_Text_FuryCutterTeach,"There's a move that gets stronger\nwhen you keep using it in a row.\pIt's a BUG-type move, and it is\nwickedly cool.\pIt's called FURY CUTTER.\nWant me to teach it to a COMPANION?$",reviewed AUTO draft
 MoveTutor_Text_FuryCutterDeclined,We're not on the same wavelength.$,"reviewed, no change needed"
-MoveTutor_Text_FuryCutterWhichMon,Yay!\nShow me which CREATURE I should teach.$,reviewed AUTO draft
+MoveTutor_Text_FuryCutterWhichMon,Yay! Show me which COMPANION I should\nteach.$,reviewed AUTO draft
 MoveTutor_Text_FuryCutterTaught,I get a thrill watching to see if\nthe move keeps hitting in succession!$,"reviewed, no change needed"
 MoveTutor_MimicTeach,"Ah, young one!\pI am also a young one, but I mimic\nthe styles and speech of the elderly\lfolks of this town.\pWhat do you say, young one?\nWould you agree to it if I were to\loffer to teach the move MIMIC?$","reviewed, no change needed"
-MoveTutor_MimicDeclined,"Oh, boo! I wanted to teach MIMIC\nto your CREATURE!$",reviewed AUTO draft
-MoveTutor_Text_MimicWhichMon,Fwofwo! And so I shall!\nLet me see the CREATURE\lyou wish me to teach.$,reviewed AUTO draft
+MoveTutor_MimicDeclined,"Oh, boo! I wanted to teach MIMIC\nto your COMPANION!$",reviewed AUTO draft
+MoveTutor_Text_MimicWhichMon,Fwofwo! And so I shall!\nLet me see the COMPANION\lyou wish me to teach.$,reviewed AUTO draft
 MoveTutor_Text_MimicTaught,MIMIC is a move of great depth.\pCould you execute it to perfection\nas well as me…?$,"reviewed, no change needed"
-MoveTutor_Text_MetronomeTeach,"I want all sorts of things!\nBut I used up my allowance…\pWouldn't it be nice if there were\na spell that made money appear when\lyou waggle a finger?\pIf you want, I can teach your CREATURE\nthe move METRONOME.\pMoney won't appear, but your CREATURE\nwill waggle a finger. Yes?$",reviewed AUTO draft
+MoveTutor_Text_MetronomeTeach,"I want all sorts of things!\nBut I used up my allowance…\pWouldn't it be nice if there were\na spell that made money appear when\lyou waggle a finger?\pIf you want, I can teach your\nCOMPANION the move METRONOME.\pMoney won't appear, but your COMPANION\nwill waggle a finger. Yes?$",reviewed AUTO draft
 MoveTutor_Text_MetronomeDeclined,Okay. I'll be here if you change\nyour mind.$,"reviewed, no change needed"
-MoveTutor_Text_MetronomeWhichMon,Okay! I'll teach it!\nWhich CREATURE should I teach?$,reviewed AUTO draft
-MoveTutor_Text_MetronomeTaught,"When a CREATURE waggles its finger\nlike a METRONOME, all sorts of nice\lthings happen.\pWouldn't it be nice if we could\nuse it, too?$",reviewed AUTO draft
-MoveTutor_Text_SleepTalkTeach,"Humph! My wife relies on HIDDEN\nPOWER to stay awake.\pShe should just take a nap like I do,\nand SLEEP TALK.\pI can teach your CREATURE how to\nSLEEP TALK instead. Interested?$",reviewed AUTO draft
+MoveTutor_Text_MetronomeWhichMon,Okay! I'll teach it!\nWhich COMPANION should I teach?$,reviewed AUTO draft
+MoveTutor_Text_MetronomeTaught,"When a COMPANION waggles its finger\nlike a METRONOME, all sorts of nice\lthings happen.\pWouldn't it be nice if we could\nuse it, too?$",reviewed AUTO draft
+MoveTutor_Text_SleepTalkTeach,"Humph! My wife relies on HIDDEN\nPOWER to stay awake.\pShe should just take a nap like I do,\nand SLEEP TALK.\pI can teach your COMPANION how to\nSLEEP TALK instead. Interested?$",reviewed AUTO draft
 MoveTutor_Text_SleepTalkDeclined,"Oh, fine, fine. You want to stay awake\nwith HIDDEN POWER, too…$","reviewed, no change needed"
-MoveTutor_Text_SleepTalkWhichMon,"Ah, an appreciative child!\nWhich CREATURE should I teach?$",reviewed AUTO draft
+MoveTutor_Text_SleepTalkWhichMon,"Ah, an appreciative child!\nWhich COMPANION should I teach?$",reviewed AUTO draft
 MoveTutor_Text_SleepTalkTaught,I've never once gotten my wife's\ncoin trick right.\pI would be happy if I got it right\neven as I SLEEP TALK…$,"reviewed, no change needed"
-MoveTutor_Text_SubstituteTeach,When I see the wide world from up\nhere on the roof…\pI think about how nice it would be\nif there were more than just one me\lso I could enjoy all sorts of lives.\pOf course it's not possible.\nGiggle…\pI know! Would you be interested in\nhaving a CREATURE learn SUBSTITUTE?$,reviewed AUTO draft
-MoveTutor_Text_SubstituteDeclined,"Oh, no?\pA CREATURE can make a copy of\nitself using it, you know.$",reviewed AUTO draft
-MoveTutor_Text_SubstituteWhichMon,Giggle…\nWhich CREATURES do you want me to\lteach SUBSTITUTE?$,reviewed AUTO draft
+MoveTutor_Text_SubstituteTeach,When I see the wide world from up\nhere on the roof…\pI think about how nice it would be\nif there were more than just one me\lso I could enjoy all sorts of lives.\pOf course it's not possible.\nGiggle…\pI know! Would you be interested in\nhaving a COMPANION learn SUBSTITUTE?$,reviewed AUTO draft
+MoveTutor_Text_SubstituteDeclined,"Oh, no?\pA COMPANION can make a copy of\nitself using it, you know.$",reviewed AUTO draft
+MoveTutor_Text_SubstituteWhichMon,Giggle…\nWhich COMPANIONS do you want me to\lteach SUBSTITUTE?$,reviewed AUTO draft
 MoveTutor_Text_SubstituteTaught,"We human beings should enjoy our\nown lives to the utmost!\pI hope you'll get that way, too!$","reviewed, no change needed"
-MoveTutor_Text_DynamicPunchTeach,"I can't do this anymore!\pIt's utterly hopeless!\pI'm a FIGHTING-type TRAINER,\nso I can't win at the YAVIN 4 ARENA\lno matter how hard I try!\pArgh! Punch! Punch! Punch!\nPunch! Punch! Punch!\pWhat, don't look at me that way!\nI'm only hitting the ground!\pOr do you want me to teach your\nCREATURE DYNAMICPUNCH?$",reviewed AUTO draft
+MoveTutor_Text_DynamicPunchTeach,"I can't do this anymore!\pIt's utterly hopeless!\pI'm a FIGHTING-type TRAINER,\nso I can't win at the YAVIN 4 ARENA\lno matter how hard I try!\pArgh! Punch! Punch! Punch!\nPunch! Punch! Punch!\pWhat, don't look at me that way!\nI'm only hitting the ground!\pOr do you want me to teach your\nCOMPANION DYNAMICPUNCH?$",reviewed AUTO draft
 MoveTutor_Text_DynamicPunchDeclined,Darn! You're even making fun of me?\nPunch! Punch! Punch!$,"reviewed, no change needed"
-MoveTutor_Text_DynamicPunchWhichMon,What? You do? You're a good person!\nWhich CREATURE should I teach?$,reviewed AUTO draft
+MoveTutor_Text_DynamicPunchWhichMon,What? You do? You're a good person!\nWhich COMPANION should I teach?$,reviewed AUTO draft
 MoveTutor_Text_DynamicPunchTaught,I want you to win at the YAVIN 4 ARENA\nusing that DYNAMICPUNCH!$,reviewed AUTO draft
-MoveTutor_Text_DoubleEdgeTeach,"Sigh…\pDAGOBAH's ARENA LEADER is really\nlovably admirable.\pBut that also means I have many\nrivals for his attention.\pHe's got appeal with a DOUBLE-EDGE.\nI couldn't even catch his eye.\pPlease, let me teach your CREATURE\nthe move DOUBLE-EDGE!$",reviewed AUTO draft
+MoveTutor_Text_DoubleEdgeTeach,"Sigh…\pDAGOBAH's ARENA LEADER is really\nlovably admirable.\pBut that also means I have many\nrivals for his attention.\pHe's got appeal with a DOUBLE-EDGE.\nI couldn't even catch his eye.\pPlease, let me teach your COMPANION\nthe move DOUBLE-EDGE!$",reviewed AUTO draft
 MoveTutor_Text_DoubleEdgeDeclined,Oh…\nEven you rejected me…$,"reviewed, no change needed"
-MoveTutor_Text_DoubleEdgeWhichMon,"Okay, which CREATURE should I teach\nDOUBLE-EDGE?$",reviewed AUTO draft
+MoveTutor_Text_DoubleEdgeWhichMon,"Okay, which COMPANION should I teach\nDOUBLE-EDGE?$",reviewed AUTO draft
 MoveTutor_Text_DoubleEdgeTaught,I won't live for love anymore!\nI'll become tough!$,"reviewed, no change needed"
-MoveTutor_Text_ExplosionTeach,"I don't intend to be going nowhere\nfast in the sticks like this forever.\pYou watch me, I'll get out to the city\nand become a huge hit.\pSeriously, I'm going to cause\na huge DETONATE of popularity!\pIf you overheard that, I'll happily\nteach DETONATE to your CREATURE!$",reviewed AUTO draft
+MoveTutor_Text_ExplosionTeach,"I don't intend to be going nowhere\nfast in the sticks like this forever.\pYou watch me, I'll get out to the city\nand become a huge hit.\pSeriously, I'm going to cause\na huge DETONATE of popularity!\pIf you overheard that, I'll happily\nteach DETONATE to your COMPANION!$",reviewed AUTO draft
 MoveTutor_Text_ExplosionDeclined,Gaah! You're turning me down because\nI live in the country?$,"reviewed, no change needed"
-MoveTutor_Text_ExplosionWhichMon,Fine! A DETONATE it is!\nWhich CREATURE wants to blow up?$,reviewed AUTO draft
-MoveTutor_Text_ExplosionTaught,"For a long time, I've taught CREATURE\nhow to use DETONATE, but I've yet\lto ignite my own DETONATE…\pMaybe it's because deep down,\nI would rather stay here…$",reviewed AUTO draft
+MoveTutor_Text_ExplosionWhichMon,Fine! A DETONATE it is!\nWhich COMPANION wants to blow up?$,reviewed AUTO draft
+MoveTutor_Text_ExplosionTaught,"For a long time, I've taught COMPANION\nhow to use DETONATE, but I've yet\lto ignite my own DETONATE…\pMaybe it's because deep down,\nI would rather stay here…$",reviewed AUTO draft
 gText_ObtainedTheItem,Obtained the {STR_VAR_2}!$,"reviewed, no change needed"
 gText_TheBagIsFull,The BAG is full…$,"reviewed, no change needed"
 gText_PutItemInPocket,{PLAYER} put away the {STR_VAR_2}\nin the {STR_VAR_3} POCKET.$,"reviewed, no change needed"
@@ -310,30 +310,30 @@ gText_PlayerPutItemInBag,{PLAYER} put away the {STR_VAR_2}\nin the BAG.$,"review
 gText_ObtainedTheDecor,Obtained the {STR_VAR_2}!$,"reviewed, no change needed"
 gText_NoRoomLeftForAnother,Too bad! There's no room left for\nanother {STR_VAR_2}…$,"reviewed, no change needed"
 gText_WeHopeToSeeYouAgain,We hope to see you again!$,"reviewed, no change needed"
-gText_WelcomeCutShort,"Hello, and welcome to\nthe BACTA CENTER.\pWe restore your tired CREATURE\nto full health.\pWould you like to…$",reviewed AUTO draft
+gText_WelcomeCutShort,"Hello, and welcome to\nthe BACTA CENTER.\pWe restore your tired COMPANION\nto full health.\pWould you like to…$",reviewed AUTO draft
 gText_YouWantTheUsual,"I'm delighted to see you, {PLAYER}!\nYou want the usual, am I right?$","reviewed, no change needed"
 gText_ThankYouForWaiting,Thank you for waiting.$,"reviewed, no change needed"
 gText_WeHopeToSeeYouAgain2,We hope to see you again!$,"reviewed, no change needed"
 gBirchDexRatingText_AreYouCurious,"PROF. KORR: Ah, {PLAYER}{KUN}!\pAre you curious about how your\nDATAPAD is coming along?$",reviewed AUTO draft
-gBirchDexRatingText_Cancel,"Hm? Oh, you haven't caught enough\nCREATURE to make it worthwhile.$",reviewed AUTO draft
-gBirchDexRatingText_LessThan10,Go into grassy areas more and look\nfor CREATURE more carefully.$,reviewed AUTO draft
+gBirchDexRatingText_Cancel,"Hm? Oh, you haven't caught enough\nCOMPANION to make it worthwhile.$",reviewed AUTO draft
+gBirchDexRatingText_LessThan10,Go into grassy areas more and look\nfor COMPANION more carefully.$,reviewed AUTO draft
 gBirchDexRatingText_LessThan20,"I guess you're getting the hang\nof it. But, it gets harder from here.$","reviewed, no change needed"
-gBirchDexRatingText_LessThan30,Some CREATURE only appear in\ncertain areas.\lYou must be persistent.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan30,Some COMPANION only appear in\ncertain areas.\lYou must be persistent.$,reviewed AUTO draft
 gBirchDexRatingText_LessThan40,"Well, it could use more quantity,\nbut this is looking more like\la DATAPAD now.$",reviewed AUTO draft
 gBirchDexRatingText_LessThan50,This is coming along pretty good.\nKeep up the effort.$,"reviewed, no change needed"
-gBirchDexRatingText_LessThan60,Are you using any RODS?\nThere are many CREATURES in the sea.$,reviewed AUTO draft
-gBirchDexRatingText_LessThan70,"Instead of just catching CREATURES,\nhow about making them evolve, too?$",reviewed AUTO draft
+gBirchDexRatingText_LessThan60,Are you using any RODS?\nThere are many COMPANIONS in the sea.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan70,"Instead of just catching COMPANIONS,\nhow about making them evolve, too?$",reviewed AUTO draft
 gBirchDexRatingText_LessThan80,This is going to be a fantastic\nDATAPAD.\lThat's the feeling I'm getting.$,reviewed AUTO draft
 gBirchDexRatingText_LessThan90,You've collected this many…\nYour talent is remarkable!$,"reviewed, no change needed"
-gBirchDexRatingText_LessThan100,Have you visited the FELUCIA RESERVE?\pI hear there are some CREATURES that\ncan only be caught there.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan100,Have you visited the FELUCIA RESERVE?\pI hear there are some COMPANIONS that\ncan only be caught there.$,reviewed AUTO draft
 gBirchDexRatingText_LessThan110,You've finally reached\nthe 100-kind mark.\pThis is an impressive DATAPAD!$,reviewed AUTO draft
-gBirchDexRatingText_LessThan120,There might be CREATURE that can be\nfound using ROCK SMASH.$,reviewed AUTO draft
-gBirchDexRatingText_LessThan130,You should get some more CREATURES\nby trading with others.$,reviewed AUTO draft
-gBirchDexRatingText_LessThan140,I've heard of CREATURES that evolve\nwhen they come to fully love their\lTRAINERS.$,reviewed AUTO draft
-gBirchDexRatingText_LessThan150,I had no idea that there were so\nmany CREATURE species in the OUTER RIM\lregion.$,reviewed AUTO draft
-gBirchDexRatingText_LessThan160,"On occasion, some CREATURES appear\nin large numbers like outbreaks.\pDon't miss opportunities like\nthose.$",reviewed AUTO draft
-gBirchDexRatingText_LessThan170,One can get a very good idea about\nthe CREATURE of the OUTER RIM region\lby looking through your DATAPAD.$,reviewed AUTO draft
-gBirchDexRatingText_LessThan180,"I would say you already qualify as\na CREATURE PROFESSOR, and a good\lone, too!$",reviewed AUTO draft
+gBirchDexRatingText_LessThan120,There might be COMPANION that can be\nfound using ROCK SMASH.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan130,You should get some more COMPANIONS\nby trading with others.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan140,I've heard of COMPANIONS that evolve\nwhen they come to fully love their\lTRAINERS.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan150,I had no idea that there were so many\nCOMPANION species in the OUTER RIM\lregion.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan160,"On occasion, some COMPANIONS appear\nin large numbers like outbreaks.\pDon't miss opportunities like\nthose.$",reviewed AUTO draft
+gBirchDexRatingText_LessThan170,One can get a very good idea about\nthe COMPANION of the OUTER RIM region\lby looking through your DATAPAD.$,reviewed AUTO draft
+gBirchDexRatingText_LessThan180,"I would say you already qualify as\na COMPANION PROFESSOR, and a good\lone, too!$",reviewed AUTO draft
 gBirchDexRatingText_LessThan190,"With a DATAPAD this complete,\nyou're a real professional at this!$",reviewed AUTO draft
 gBirchDexRatingText_LessThan200,You're very close to completing\nthis DATAPAD.\lI can feel it in my bones!$,reviewed AUTO draft
 gBirchDexRatingText_DexCompleted,Congratulations!\nYour DATAPAD is complete!$,reviewed AUTO draft
@@ -367,24 +367,24 @@ SecretBase_Text_Trainer1DeclineBattle,Hunh? Is that right?\nYou're not intereste
 SecretBase_Text_Trainer1Defeated,I can't keep going!\nI surrender!$,"reviewed, no change needed"
 SecretBase_Text_Trainer1PostBattle,"Okay, when I move one day,\nthis place will be yours!$","reviewed, no change needed"
 SecretBase_Text_Trainer1PreChampion,This is a popular spot.\nIt's always taken.\pI waited a long time for it to open.\nI finally got to use it!$,"reviewed, no change needed"
-SecretBase_Text_Trainer6Intro,Welcome to my CREATURE LAB.\pI carry out research on battling in\nsecrecy.\pWould you like to see how strong I am?$,reviewed AUTO draft
+SecretBase_Text_Trainer6Intro,Welcome to my COMPANION LAB.\pI carry out research on battling in\nsecrecy.\pWould you like to see how strong I am?$,reviewed AUTO draft
 SecretBase_Text_Trainer6AcceptBattle,I'm going to go all out!$,"reviewed, no change needed"
 SecretBase_Text_Trainer6DeclineBattle,"Oh.\nSome other time, then!$","reviewed, no change needed"
 SecretBase_Text_Trainer6Defeated,Hmm… I've still got lots to learn.\nI have to study some more.$,"reviewed, no change needed"
 SecretBase_Text_Trainer6PostBattle,Thanks for battling with me.\nPlease come back again tomorrow.$,"reviewed, no change needed"
-SecretBase_Text_Trainer6PreChampion,Welcome to my CREATURE LAB.\pI carry out research on battling in\nsecrecy.$,reviewed AUTO draft
+SecretBase_Text_Trainer6PreChampion,Welcome to my COMPANION LAB.\pI carry out research on battling in\nsecrecy.$,reviewed AUTO draft
 SecretBase_Text_Trainer2Intro,"A big mansion is nice, but I like this\nsort of place more.\pI like it because all kinds of people\ncome visit me.\pSo, how would you like a battle?$","reviewed, no change needed"
 SecretBase_Text_Trainer2AcceptBattle,That's the way!$,"reviewed, no change needed"
 SecretBase_Text_Trainer2DeclineBattle,"When you're ready, give me a shout!$","reviewed, no change needed"
 SecretBase_Text_Trainer2Defeated,Aww! Done in!\nBut it's still fun to battle!$,"reviewed, no change needed"
 SecretBase_Text_Trainer2PostBattle,"Well, anyway, I should go buy some\ndecorations and furniture.\pI want my HIDEOUT to be a place\nother people can enjoy.$",reviewed AUTO draft
 SecretBase_Text_Trainer2PreChampion,"A big mansion is nice, but I like this\nsort of place more.\pI like it because all kinds of people\ncome visit me.$","reviewed, no change needed"
-SecretBase_Text_Trainer7Intro,"I simply adore shopping for decorations\nand furniture.\pI also love raising CREATURES just\nas much.\pIf you would be so kind, will you battle\nwith my CREATURE?$",reviewed AUTO draft
+SecretBase_Text_Trainer7Intro,"I simply adore shopping for decorations\nand furniture.\pI also love raising COMPANIONS just\nas much.\pIf you would be so kind, will you battle\nwith my COMPANION?$",reviewed AUTO draft
 SecretBase_Text_Trainer7AcceptBattle,Thank you.\nShall we begin?$,"reviewed, no change needed"
 SecretBase_Text_Trainer7DeclineBattle,Oh.\nHow disappointing…$,"reviewed, no change needed"
 SecretBase_Text_Trainer7Defeated,I concede…$,"reviewed, no change needed"
 SecretBase_Text_Trainer7PostBattle,That was all in good fun!\nI should go enjoy shopping now.$,"reviewed, no change needed"
-SecretBase_Text_Trainer7PreChampion,I simply adore shopping for decorations\nand furniture.\pI also love raising CREATURES just\nas much.$,reviewed AUTO draft
+SecretBase_Text_Trainer7PreChampion,I simply adore shopping for decorations\nand furniture.\pI also love raising COMPANIONS just\nas much.$,reviewed AUTO draft
 SecretBase_Text_Trainer3Intro,"Some people make their SECRET BASES in\nhard-to-find places.\lDo they want to just lie low?\pBut since you found me, how about we\nhave a battle?$","reviewed, no change needed"
 SecretBase_Text_Trainer3AcceptBattle,I'm not going down easily!$,"reviewed, no change needed"
 SecretBase_Text_Trainer3DeclineBattle,Oh… Are you maybe tired from searching\nfor this place?$,"reviewed, no change needed"
@@ -397,12 +397,12 @@ SecretBase_Text_Trainer8DeclineBattle,I'll battle with you anytime.$,"reviewed, 
 SecretBase_Text_Trainer8Defeated,Huh?\nDid I just lose?$,"reviewed, no change needed"
 SecretBase_Text_Trainer8PostBattle,I won't lose at collecting decorations.\nCome visit again!$,"reviewed, no change needed"
 SecretBase_Text_Trainer8PreChampion,People have told me that you can get\ndecorations in several ways.\pWe should have a race to see who can\nget nicer decorations and furniture!$,"reviewed, no change needed"
-SecretBase_Text_Trainer4Intro,"I found a spot I liked, and I did it up\nwith my favorite decorations.\pI raise my favorite CREATURE and grow\nstronger with it.\pThat's what I do.\nWant to battle with me?$",reviewed AUTO draft
+SecretBase_Text_Trainer4Intro,"I found a spot I liked, and I did it up\nwith my favorite decorations.\pI raise my favorite COMPANION and grow\nstronger with it.\pThat's what I do.\nWant to battle with me?$",reviewed AUTO draft
 SecretBase_Text_Trainer4AcceptBattle,Show me what you're made of!$,"reviewed, no change needed"
 SecretBase_Text_Trainer4DeclineBattle,I guess there are times when you're not\ninto it.$,"reviewed, no change needed"
 SecretBase_Text_Trainer4Defeated,I know exactly what you're made of now.$,"reviewed, no change needed"
 SecretBase_Text_Trainer4PostBattle,We can both become stronger.\nLet's keep at it!$,"reviewed, no change needed"
-SecretBase_Text_Trainer4PreChampion,"I found a spot I liked, and I did it up\nwith my favorite decorations.\pI raise my favorite CREATURE and grow\nstronger with it.\pEvery day is a great day.$",reviewed AUTO draft
+SecretBase_Text_Trainer4PreChampion,"I found a spot I liked, and I did it up\nwith my favorite decorations.\pI raise my favorite COMPANION and grow\nstronger with it.\pEvery day is a great day.$",reviewed AUTO draft
 SecretBase_Text_Trainer9Intro,"You can learn a lot about the taste\nand sense of people by the kinds of\ldecorations they have, and how they\ldisplay them.\pWhat do you think of my taste?\nAre you speechless?\pWant to see my taste in battling?$","reviewed, no change needed"
 SecretBase_Text_Trainer9AcceptBattle,There's no holding back!$,"reviewed, no change needed"
 SecretBase_Text_Trainer9DeclineBattle,I'll be happy to demonstrate my style\nanytime.$,"reviewed, no change needed"
@@ -421,7 +421,7 @@ sText_TryToLearnMove3,Delete a move to make\nroom for {B_BUFF2}?,"reviewed, no c
 sText_PkmnForgotMove,{B_BUFF1} forgot\n{B_BUFF2}.\p,"reviewed, no change needed"
 sText_StopLearningMove,{PAUSE 32}Stop learning\n{B_BUFF2}?,"reviewed, no change needed"
 sText_DidNotLearnMove,{B_BUFF1} did not learn\n{B_BUFF2}.\p,"reviewed, no change needed"
-sText_UseNextPkmn,Use next CREATURE?,reviewed AUTO draft
+sText_UseNextPkmn,Use next COMPANION?,reviewed AUTO draft
 sText_AttackMissed,{B_ATK_NAME_WITH_PREFIX}'s\nattack missed!,"reviewed, no change needed"
 sText_PkmnProtectedItself,{B_DEF_NAME_WITH_PREFIX}\nprotected itself!,"reviewed, no change needed"
 sText_AvoidedDamage,{B_DEF_NAME_WITH_PREFIX} avoided\ndamage with {B_DEF_ABILITY}!,"reviewed, no change needed"
@@ -431,7 +431,7 @@ sText_ItDoesntAffect,It doesn't affect\n{B_DEF_NAME_WITH_PREFIX}…,"reviewed, n
 sText_AttackerFainted,{B_ATK_NAME_WITH_PREFIX}\nfainted!\p,"reviewed, no change needed"
 sText_TargetFainted,{B_DEF_NAME_WITH_PREFIX}\nfainted!\p,"reviewed, no change needed"
 sText_PlayerGotMoney,{B_PLAYER_NAME} got ¥{B_BUFF1}\nfor winning!\p,"reviewed, no change needed"
-sText_PlayerWhiteout,{B_PLAYER_NAME} is out of\nusable CREATURE!\p,reviewed AUTO draft
+sText_PlayerWhiteout,{B_PLAYER_NAME} is out of\nusable COMPANION!\p,reviewed AUTO draft
 sText_PlayerWhiteout2,{B_PLAYER_NAME} whited out!{PAUSE_UNTIL_PRESS},"reviewed, no change needed"
 sText_PreventsEscape,{B_SCR_ACTIVE_NAME_WITH_PREFIX} prevents\nescape with {B_SCR_ACTIVE_ABILITY}!\p,"reviewed, no change needed"
 sText_CantEscape2,Can't escape!\p,"reviewed, no change needed"
@@ -713,7 +713,7 @@ sText_CoinsScattered,Coins scattered everywhere!,"reviewed, no change needed"
 sText_TooWeakForSubstitute,It was too weak to make\na SUBSTITUTE!,"reviewed, no change needed"
 sText_SharedPain,The battlers shared\ntheir pain!,"reviewed, no change needed"
 sText_BellChimed,A bell chimed!,"reviewed, no change needed"
-sText_FaintInThree,All affected CREATURE will\nfaint in three turns!,reviewed AUTO draft
+sText_FaintInThree,All affected COMPANION will\nfaint in three turns!,reviewed AUTO draft
 sText_NoPPLeft,There's no PP left for\nthis move!\p,"reviewed, no change needed"
 sText_ButNoPPLeft,But there was no PP left\nfor the move!,"reviewed, no change needed"
 sText_PkmnIgnoresAsleep,{B_ATK_NAME_WITH_PREFIX} ignored\norders while asleep!,"reviewed, no change needed"
@@ -723,7 +723,7 @@ sText_PkmnLoafing,{B_ATK_NAME_WITH_PREFIX} is\nloafing around!,"reviewed, no cha
 sText_PkmnWontObey,{B_ATK_NAME_WITH_PREFIX} won't\nobey!,"reviewed, no change needed"
 sText_PkmnTurnedAway,{B_ATK_NAME_WITH_PREFIX} turned away!,"reviewed, no change needed"
 sText_PkmnPretendNotNotice,{B_ATK_NAME_WITH_PREFIX} pretended\nnot to notice!,"reviewed, no change needed"
-sText_EnemyAboutToSwitchPkmn,{B_TRAINER1_CLASS} {B_TRAINER1_NAME} is\nabout to use {B_BUFF2}.\pWill {B_PLAYER_NAME} change\nCREATURE?,reviewed AUTO draft
+sText_EnemyAboutToSwitchPkmn,{B_TRAINER1_CLASS} {B_TRAINER1_NAME} is\nabout to use {B_BUFF2}.\pWill {B_PLAYER_NAME} change\nCOMPANION?,reviewed AUTO draft
 sText_PkmnLearnedMove2,{B_ATK_NAME_WITH_PREFIX} learned\n{B_BUFF1}!,"reviewed, no change needed"
 sText_PlayerDefeatedLinkTrainerTrainer1,Player defeated\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!\p,"reviewed, no change needed"
 sText_CreptCloser,{B_PLAYER_NAME} crept closer to\n{B_OPPONENT_MON1_NAME}!,"reviewed, no change needed"
@@ -796,8 +796,8 @@ sText_PlayerUsedItem,{B_PLAYER_NAME} used\n{B_LAST_ITEM}!,"reviewed, no change n
 sText_WallyUsedItem,LUKE used\n{B_LAST_ITEM}!,reviewed AUTO draft
 sText_Trainer1UsedItem,{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!,"reviewed, no change needed"
 sText_DontBeAThief,Don't be a thief!,"reviewed, no change needed"
-sText_YouMissedPkmn,You missed the CREATURE!,reviewed AUTO draft
-sText_PkmnBrokeFree,"Oh, no!\nThe CREATURE broke free!",reviewed AUTO draft
+sText_YouMissedPkmn,You missed the COMPANION!,reviewed AUTO draft
+sText_PkmnBrokeFree,"Oh, no!\nThe COMPANION broke free!",reviewed AUTO draft
 sText_ItAppearedCaught,Aww!\nIt appeared to be caught!,"reviewed, no change needed"
 sText_AarghAlmostHadIt,Aargh!\nAlmost had it!,"reviewed, no change needed"
 sText_ShootSoClose,"Shoot!\nIt was so close, too!","reviewed, no change needed"
@@ -835,7 +835,7 @@ gText_WhatWillPkmnDo,What will\n{B_ACTIVE_NAME_WITH_PREFIX} do?,"reviewed, no ch
 gText_WhatWillPkmnDo2,What will\n{B_PLAYER_NAME} do?,"reviewed, no change needed"
 gText_WhatWillWallyDo,What will\nLUKE do?,reviewed AUTO draft
 gText_LinkStandby,{PAUSE 16}Link standby…,"reviewed, no change needed"
-gText_BattleMenu,FIGHT{CLEAR_TO 56}BAG\nCREATURE{CLEAR_TO 56}RUN,reviewed AUTO draft
+gText_BattleMenu,FIGHT{CLEAR_TO 56}BAG\nCOMPANION{CLEAR_TO 56}RUN,reviewed AUTO draft
 gText_MoveInterfacePP,PP ,"reviewed, no change needed"
 gText_MoveInterfaceType,TYPE/,"reviewed, no change needed"
 gText_MoveInterfacePPType,{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\nTYPE/,"reviewed, no change needed"
@@ -905,9 +905,9 @@ sText_PkmnBeganGrowlingDeeply,{B_SCR_ACTIVE_NAME_WITH_PREFIX} began growling dee
 sText_PkmnEagerForMore,{B_SCR_ACTIVE_NAME_WITH_PREFIX} is eager for more!,"reviewed, no change needed"
 sText_RefIfNothingIsDecided,"REFEREE: If nothing is decided in\n3 turns, we will go to judging!","reviewed, no change needed"
 sText_RefThatsIt,REFEREE: That's it! We will now go to\njudging to determine the winner!,"reviewed, no change needed"
-sText_RefJudgeMind,"REFEREE: Judging category 1, Mind!\nThe CREATURE showing the most guts!\p",reviewed AUTO draft
-sText_RefJudgeSkill,"REFEREE: Judging category 2, Skill!\nThe CREATURE using moves the best!\p",reviewed AUTO draft
-sText_RefJudgeBody,"REFEREE: Judging category 3, Body!\nThe CREATURE with the most vitality!\p",reviewed AUTO draft
+sText_RefJudgeMind,"REFEREE: Judging category 1, Mind!\nThe COMPANION showing the most guts!\p",reviewed AUTO draft
+sText_RefJudgeSkill,"REFEREE: Judging category 2, Skill!\nThe COMPANION using moves the best!\p",reviewed AUTO draft
+sText_RefJudgeBody,"REFEREE: Judging category 3, Body!\nThe COMPANION with the most vitality!\p",reviewed AUTO draft
 sText_RefPlayerWon,REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\nThe winner is {B_PLAYER_NAME}'s {B_PLAYER_MON1_NAME}!\p,"reviewed, no change needed"
 sText_RefOpponentWon,REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\nThe winner is {B_TRAINER1_NAME}'s {B_OPPONENT_MON1_NAME}!\p,"reviewed, no change needed"
 sText_RefDraw,REFEREE: Judgment: 3 to 3!\nWe have a draw!\p,"reviewed, no change needed"

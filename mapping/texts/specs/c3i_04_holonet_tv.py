@@ -5,13 +5,13 @@ REFLOW = True
 
 
 def pl(*olds):
-    return [(o, o.replace("CREATURE", "CREATURES")) for o in olds]
+    return [(o, o.replace("COMPANION", "COMPANIONS")) for o in olds]
 
 
 FIX = {
-"SlateportCity_OceanicMuseum_1F_Text_InterviewRequest": [("with the HOLONET network.", "with a HOLONET network."), ("stories on CREATURE and", "stories on CREATURES and")],
-"gTVFanClubOpinionsText04": pl("What do CREATURE\nmean to you?"),
-"gTVTodaysRivalTrainerText10": [("who's on a ferry now.", "who's on a starliner now."), ("{STR_VAR_2} CREATURE in the DATAPAD.", "{STR_VAR_2} CREATURES in the DATAPAD.")],
+"SlateportCity_OceanicMuseum_1F_Text_InterviewRequest": [("with the HOLONET network.", "with a HOLONET network."), ("stories on COMPANION and", "stories on COMPANIONS and")],
+"gTVFanClubOpinionsText04": pl("What do COMPANION\nmean to you?"),
+"gTVTodaysRivalTrainerText10": [("who's on a ferry now.", "who's on a starliner now."), ("{STR_VAR_2} COMPANION in the DATAPAD.", "{STR_VAR_2} COMPANIONS in the DATAPAD.")],
 "gTVHoennTreasureInvestigatorsText02": [("on a ferry.", "on a starliner.")],
 "gTVTrainerFanClubText06": r"FANS: The TRAINER's amazing\nspeeder-riding techniques!$",
 "TVSecretBaseSecrets_Text_UsedTV": r"The visitor is watching the HOLONET!\pLooks like we have a big HOLONET fan!$",

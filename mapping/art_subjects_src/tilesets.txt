@@ -22,7 +22,7 @@ secondary/dewford|KACHIRHO, Kashyyyk: wroshyr-root village on the lagoon
 secondary/dewford_gym|KACHIRHO ARENA: dark wroshyr hollow
 secondary/elite_four|ILUM TEMPLE: the Four Trials' vision chambers
 secondary/ever_grande|ILUM: snow, crystal outcrops and temple steps
-secondary/facility|Generic Imperial / Incom facility interior
+secondary/facility|Generic Imperial / House Organa facility interior
 secondary/fallarbor|INYUSU TOR, Sullust: ash-dusted settlement
 secondary/fortree|BRIGHT TREE, Endor: Ewok treetop village and rope bridges
 secondary/fortree_gym|BRIGHT TREE ARENA: treetop platforms
@@ -51,10 +51,10 @@ secondary/petalburg|MOS ENTHA, Tatooine: small dome town
 secondary/petalburg_gym|MOS ENTHA ARENA: Doran's training rooms
 secondary/pokemon_center|BACTA CENTER: bacta tanks and 2-1B's counter
 secondary/pokemon_day_care|Creature nursery ranch
-secondary/pokemon_fan_club|CREATURE FAN CLUB lounge
+secondary/pokemon_fan_club|COMPANION FAN CLUB lounge
 secondary/pokemon_school|TRAINER ACADEMY classroom
 secondary/pretty_petal_flower_shop|Moisture-garden flower shop near Bestine
-secondary/rustboro|BESTINE, Tatooine: Incom office tower and academy
+secondary/rustboro|BESTINE, Tatooine: House Organa office tower and academy
 secondary/rustboro_gym|BESTINE ARENA: sandstone halls
 secondary/rusturf_tunnel|BEGGAR'S CANYON tunnel
 secondary/seashore_house|Seaside cantina (Kashyyyk shore)

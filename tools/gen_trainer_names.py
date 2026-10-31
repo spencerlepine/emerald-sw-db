@@ -101,7 +101,7 @@ def main():
         assert len(sw) <= 10, sw
         rows[key] = {"key": key, "emerald_name": name, "sw_name": sw, "map_status": "DRAFT", "notes": note}
     # Grand Arena / Battle Tent / Trial Spire trainers and Showcase rivals: same scheme, keyed by name so a
-    # name shared with a story trainer keeps one Star Wars name. Showcase rivals' creature nicknames get a
+    # name shared with a story trainer keeps one Star Wars name. Showcase rivals' companion nicknames get a
     # "nick:" row built from the Star Wars species name (POOCHY the Poochyena -> MASSY the MASSIFF).
     with (EMERALD / "entities.csv").open(encoding="utf-8", newline="") as f:
         others = [e for e in csv.DictReader(f) if e["entity_type"] in ("facility_trainer", "contest_opponent")]
@@ -125,7 +125,7 @@ def main():
                 sw = base[:3] + "IE" if not sw.endswith("IE") else base[:3] + "O"
             used.add(sw)
             rows["nick:" + nick] = {"key": "nick:" + nick, "emerald_name": nick, "sw_name": sw, "map_status": "DRAFT",
-                                    "notes": "Showcase rival's creature nickname"}
+                                    "notes": "Showcase rival's companion nickname"}
     with OUT.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["key", "emerald_name", "sw_name", "map_status", "notes"])
         w.writeheader()

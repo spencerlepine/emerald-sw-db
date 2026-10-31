@@ -6,30 +6,30 @@ REFLOW = True
 
 
 def pl(*olds):
-    return [(o, o.replace("CREATURE", "CREATURES")) for o in olds]
+    return [(o, o.replace("COMPANION", "COMPANIONS")) for o in olds]
 
 
 FIX = {
-"MatchCall_NegativeBattleText8": pl("How are your CREATURE doing?"),
-"MatchCall_NegativeBattleText11": pl("How are your CREATURE?"),
-"MatchCall_PositiveBattleText9": pl("How are your CREATURE holding up?"),
-"MatchCall_SameRouteBattleRequestText6": pl("How are your CREATURE keeping?"),
-"MatchCall_DifferentRouteBattleRequestText3": pl("with your CREATURE"),
-"MatchCall_DifferentRouteBattleRequestText7": pl("Are your CREATURE growing?"),
-"MatchCall_DifferentRouteBattleRequestText9": pl("How are your CREATURE doing?", "My CREATURE keep"),
-"MatchCall_DifferentRouteBattleRequestText11": pl("seeing your CREATURE,"),
-"MatchCall_DifferentRouteBattleRequestText13": pl("Are your CREATURE keeping well?"),
-"MatchCall_PersonalizedText30": pl("help of CREATURE can"),
-"MatchCall_PersonalizedText41": pl("How are your CREATURE doing?"),
-"MatchCall_PersonalizedText54": pl("Are your CREATURE fit"),
-"MatchCall_PersonalizedText60": pl("enjoy CREATURE whatever"),
-"MatchCall_Text_Mom1": pl("captivated by CREATURE.", "charm of CREATURE?"),
-"MatchCall_Text_Scott1": pl("how CREATURE can be found"),
+"MatchCall_NegativeBattleText8": pl("How are your COMPANION doing?"),
+"MatchCall_NegativeBattleText11": pl("How are your COMPANION?"),
+"MatchCall_PositiveBattleText9": pl("How are your COMPANION holding up?"),
+"MatchCall_SameRouteBattleRequestText6": pl("How are your COMPANION keeping?"),
+"MatchCall_DifferentRouteBattleRequestText3": pl("with your COMPANION"),
+"MatchCall_DifferentRouteBattleRequestText7": pl("Are your COMPANION growing?"),
+"MatchCall_DifferentRouteBattleRequestText9": pl("How are your COMPANION doing?", "My COMPANION keep"),
+"MatchCall_DifferentRouteBattleRequestText11": pl("seeing your COMPANION,"),
+"MatchCall_DifferentRouteBattleRequestText13": pl("Are your COMPANION keeping well?"),
+"MatchCall_PersonalizedText30": pl("help of COMPANION can"),
+"MatchCall_PersonalizedText41": pl("How are your COMPANION doing?"),
+"MatchCall_PersonalizedText54": pl("Are your COMPANION fit"),
+"MatchCall_PersonalizedText60": pl("enjoy COMPANION whatever"),
+"MatchCall_Text_Mom1": pl("captivated by COMPANION.", "charm of COMPANION?"),
+"MatchCall_Text_Scott1": pl("how COMPANION can be found"),
 "MatchCall_Text_May1": r"MIRA: Hi, {PLAYER}{KUN}!\pHAN says he's retired from smuggling,\nbut I still see him flying around\lwith CHEWIE sometimes.\pHe must love flying still.$",
 "MatchCall_Text_Brendan1": r"KAEL: Hey, {PLAYER}!\pHAN says he's retired from smuggling,\nbut I still see him flying around\lwith CHEWIE sometimes.\pI guess he must love\nflying still.$",
 "MatchCall_Text_Steven1": [("visit the BIKE SHOP\nand get a SWOOP BIKE.", "visit the bike shop\nand get a SWOOP BIKE."), ("GRANITE\nCAVE", "SHADOWLANDS\nof KASHYYYK")],
-"gText_MatchCallSchoolKid_Karen_Pokemon": r"I love any kind of CREATURES!",
-"gText_MatchCallPokefan_Miguel_Intro2": pl("trust with your CREATURE."),
+"gText_MatchCallSchoolKid_Karen_Pokemon": r"I love any kind of COMPANIONS!",
+"gText_MatchCallPokefan_Miguel_Intro2": pl("trust with your COMPANION."),
 "gText_MatchCallSwimmer_Jenny_Intro2": r"I was interviewed on the HOLONET.",
 }
 NOTES = {

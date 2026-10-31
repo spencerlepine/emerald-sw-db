@@ -13,7 +13,7 @@ contest_judge|Showcase judge in formal Cloud City robes
 cook|Cantina cook in an apron
 cycling_triathlete_f|Swoop racer (f) in racing leathers
 cycling_triathlete_m|Swoop racer (m) in racing leathers
-devon_employee|INCOM engineer in a grey jumpsuit
+devon_employee|HOUSE ORGANA engineer in a grey jumpsuit
 drake|ANAKIN (Force vision): dark robes, scarred face, blue-white glow
 glacia|KI-ADI (Force vision): Jedi general's robes, tall Cerean head, frost-blue glow
 phoebe|QUI-GON (Force spirit): Jedi robes, long hair, spectral blue

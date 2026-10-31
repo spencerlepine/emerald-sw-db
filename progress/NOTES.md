@@ -6,7 +6,7 @@
 - **Generated output only in database/.** Hand-written input lives in `mapping/` and `bible/`.
 - **Unchanged game data is not copied** (learnsets, parties, encounters, scripts, flags): join emerald-db by id. Only tables with Star Wars content are generated here.
 - **Auto drafts for text.** `texts.csv` swaps every mapped name and glossary term (uppercase, whole word, longest first). The glossary wins over derived names; trainer-class names are not used in text (CHAMPION, LEADER, PSYCHIC are generic words in dialogue). Ambiguous terms are left alone and listed in `text_terms.csv`.
-- **Plurals.** Emerald's POKéMON is singular and plural; CREATURE isn't. The build fixes the obvious cases ("CREATURES are", "all your CREATURES"); the rest is curated text work (C3).
+- **Plurals.** Emerald's POKéMON is singular and plural; COMPANION isn't. The build fixes the obvious cases ("COMPANIONS are", "all your COMPANIONS"); the rest is curated text work (C3).
 - **Every image is PENDING_ART** because Step 5 redraws everything. Move animations default to KEEP_ANIM; only the renamed moves that want a Star Wars VFX are PENDING_ART.
 - **Named characters are people, never creatures.** The player is one fixed character chosen at the start; there is no party member that is a story character. (Owner, 2026-10-31.)
 - **Timeline frame: ~2 BBY**, starting on Tatooine (owner's primer). Dead-by-2-BBY prequel figures appear only as visions (the Four Trials), as Order 66 survivors (Vos & Aayla), or in lore.
@@ -20,11 +20,10 @@
 
 ## Open questions for the owner
 
-- CREATURE vs COMPANION as the word for Pokémon.
-- Mr. Stone as Bail Organa running Incom is a stretch; alternatives: an original Incom president, or make Devon "House Organa".
+- **Decided 2026-10-31:** COMPANION is the word for Pokémon (was CREATURE). Devon is HOUSE ORGANA, Alderaan's royal house; Bail Organa (Mr. Stone) heads it, its engineers make the COMLINK, ORGANA SCOPE and ORGANA PARTS.
+- **Decided 2026-10-31 (decision card): swap for beasts.** All 48 sentient or named species slots now hold beasts or droids (applied from `mapping/proposals/sentient_swap.csv`). Jawas, Wookiees, Ewoks and the rest appear only as people.
 - Gym 7: Quinlan Vos & Aayla Secura (Order 66 survivors) vs. another duo.
 - Arena leader 1 (Kitster) and 4 (Nien Nunb) are the weakest fits.
-- **Asked on 2026-10-31 (decision card), recommended: swap for beasts.** Sentient species as creatures: ZIGZAGOON is mapped to JAWA (a people, not a beast). Under the "characters stay people" rule, a scrap-hunting beast (e.g. a WOMP RAT variant) may fit better. Same check applies to any other sentient species in `species.csv`.
 - Many national-dex creatures are `original` names; happy to swap any for canon creatures you prefer.
 
 ## Text drafting: control codes
@@ -53,7 +52,7 @@ POKéMON CENTERS, CONTESTS, GYMS, GYM LEADERS, POKéMON NEWS (HOLONET NEWS), POK
 
 ## Dialogue conventions (C3)
 
-CREATURES for plural POKéMON; tall grass → scrub or dunes on Tatooine; PC → terminal (storage is
+COMPANIONS for plural POKéMON; tall grass → scrub or dunes on Tatooine; PC → terminal (storage is
 "over the HoloNet"); TV → HoloNet; clock → chrono; sea → water or stars on desert worlds. Luke is
 restless and reckless, not frail; Owen and Beru are his uncle and aunt.
 
@@ -82,7 +81,7 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 
 - Chief Chirpa (Winona) is male. Bossk (Shelly) hisses and hunts trophies. Leia is female everywhere (some Emerald lines say "he" for Steven).
 - Routes that lead off-world end at shuttle pads: Route 118 west sign reads HANGAR TO TATOOINE; Route 121's pier is the SHUTTLE PAD to JEDHA TEMPLE; the Safari Zone gate is the FELUCIA RESERVE SHUTTLE. Step 4 keeps the maps; only signs and dialogue change (the hangar rows in `net_new.csv` are the real gating).
-- Plural rule round 3 in `build.py` (`PLURAL_ADJ`): type words and bare prepositions before CREATURE pluralize it.
+- Plural rule round 3 in `build.py` (`PLURAL_ADJ`): type words and bare prepositions before COMPANION pluralize it.
 
 ## Bespin (C3e)
 
@@ -94,15 +93,14 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 
 - PC is a TERMINAL everywhere (SOMEONE'S TERMINAL, TESS'S TERMINAL, {PLAYER}'s TERMINAL). The PC menu sizes to its longest entry.
 - Wireless Adapter and Game Link cable are both the COMLINK.
-- The `{PKMN}` glyph token becomes the plain word CREATURE (glossary), since there is no CREATURE glyph.
+- The `{PKMN}` glyph token becomes the plain word COMPANION (glossary), since there is no COMPANION glyph.
 - ¥ stays as the money glyph; Step 5 can redraw it as a credits sign.
 - Captain Han (Briney) handles the event-pass voyages from Cloud City.
-- UI strings in fixed-size windows (menus, party, Datapad headers) are 6–48 px wider than the original in 68 cases (CREATURE is wider than {PKMN}; TERMINAL is wider than PC). The 208 px dialogue check does not catch these: they need a per-window check in C5 or a window resize in Step 5.
+- UI strings in fixed-size windows (menus, party, Datapad headers) are 6–48 px wider than the original in 68 cases (COMPANION is wider than {PKMN}; TERMINAL is wider than PC). The 208 px dialogue check does not catch these: they need a per-window check in C5 or a window resize in Step 5.
 - `tools/curate_texts.py` REFLOW re-wraps overflowing dialogue paragraphs only; UI specs leave it off, because UI windows do not scroll.
 
 ## Datapad entries (C4)
 
 - `mapping/datapad.csv`: one row per species with `sw_category` (max 11 characters) and `sw_datapad_text` (written unwrapped; the build wraps it to at most 4 lines of 224 px into `entities.datapad_text`, keeping Emerald's category in `emerald_dex_category`).
 - Entries keep each creature's Emerald behaviour (moves, abilities, evolution hints) so the text matches what the creature does in battle. Height and weight are unchanged.
-- 48 species are held with no entry: they are sentient peoples or named characters, so they wait on the owner's decision about swapping them for beasts. Held: the Wookiee, Tusken and Gungan starter lines, Jawas, Ewoks, Hutts, Dathomirians, Geonosians, Trandoshans, Ugnaughts, Jedi younglings/Padawan, clone troopers, Talz, Mustafarians, Gamorrean, Clawdite, Felucian, Pa'lowick, Yoda's species, the Father and Daughter of Mortis, and the Bendu.
-- Draft swap list (not applied): `mapping/proposals/sentient_swap.csv` gives a beast or droid for each of the 48 held slots (e.g. WOOKLET -> KATARNKIT, JAWA -> SCURRIER, GAMORREAN -> HAPPABORE, clone troopers -> Kamino training droids). Types, stats and evolutions do not change. If the owner agrees, it gets copied into `species.csv`, the datapad entries get written, and the dialogue that names these creatures gets updated.
+- The 48 sentient or named slots were swapped for beasts and droids (owner's decision, 2026-10-31), and each has its own entry (notes column: `beast swap`). Showcase-rival nicknames were regenerated from the new names.

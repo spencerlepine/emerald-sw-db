@@ -76,7 +76,7 @@ T = "BattleTentLobby_Text_"
 
 
 def pl(*olds):
-    return [(o, o.replace("CREATURE", "CREATURES")) for o in olds]
+    return [(o, o.replace("COMPANION", "COMPANIONS")) for o in olds]
 
 
 FIX = {
@@ -86,23 +86,23 @@ FIX = {
 M+"BikeTradesTitle": r"The Speeder-Loving TRAINER$",
 M+"BikeTradesAction": r"Traded bikes$",
 M+"BikeTradesStory": r"This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER swapped bikes\n{STR_VAR_1} times!\p{STR_VAR_3} must love speeders deeply\nand passionately!$",
-M+"EggsHatchedStory": [("hatched {STR_VAR_1} CREATURE\nfrom EGGS!", "hatched {STR_VAR_1}\nCREATURES from EGGS!")],
+M+"EggsHatchedStory": [("hatched {STR_VAR_1} COMPANION\nfrom EGGS!", "hatched {STR_VAR_1}\nCOMPANIONS from EGGS!")],
 M+"SafariGamesStory": [("went into the FELUCIA RESERVE\n{STR_VAR_1} times!", "went into the FELUCIA\nRESERVE {STR_VAR_1} times!")],
 M+"TVWatchedStory": r"This is a tale of a TRAINER\nnamed {STR_VAR_3}.\pThis TRAINER watched the HOLONET\n{STR_VAR_1} times!\p{STR_VAR_3} must love the HOLONET!$",
 # --- battle tents ---
-"SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping": pl("hold your CREATURE for"),
-"SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults": [("I will return your CREATURE in exchange\nfor our rental CREATURE.", "I will return your CREATURES\nin exchange for our rental CREATURES.")],
-"SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals": r"I will return your CREATURES\nin exchange for our rental CREATURES.$",
-"SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons": [("I will return your CREATURE in exchange\nfor our rental CREATURE.", "I will return your CREATURES\nin exchange for our rental CREATURES.")],
-"VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules": [("Another CREATURE may prefer to protect\nitself", "Another CREATURE may prefer to\nprotect itself")],
-"VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules": [("a CREATURE may be unable to effectively\luse", "a CREATURE may be unable to\leffectively use")],
-T+"ExplainLevelRules": pl("levels of your CREATURE."),
+"SlateportCity_BattleTentLobby_Text_HoldMonsForSafekeeping": pl("hold your COMPANION for"),
+"SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults": [("I will return your COMPANION in exchange\nfor our rental COMPANION.", "I will return your COMPANIONS\nin exchange for our rental COMPANIONS.")],
+"SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals": r"I will return your COMPANIONS\nin exchange for our rental COMPANIONS.$",
+"SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons": [("I will return your COMPANION in exchange\nfor our rental COMPANION.", "I will return your COMPANIONS\nin exchange for our rental COMPANIONS.")],
+"VerdanturfTown_BattleTentLobby_Text_ExplainNatureRules": [("Another COMPANION may prefer to protect\nitself", "Another COMPANION may prefer to\nprotect itself")],
+"VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules": [("a COMPANION may be unable to effectively\luse", "a COMPANION may be unable to\leffectively use")],
+T+"ExplainLevelRules": pl("levels of your COMPANION."),
 # --- cable club / HOLONET CLUB ---
-CC+"TradeUsingLinkCable": r"Trade CREATURES with another player\nusing a COMLINK cable.$",
-CC+"YouMayTradeHere": pl("trade your CREATURE here"),
+CC+"TradeUsingLinkCable": r"Trade COMPANIONS with another player\nusing a COMLINK cable.$",
+CC+"YouMayTradeHere": pl("trade your COMPANION here"),
 CC+"CantMixWithJapaneseGame": r"Sorry, there is a transmission error.\pYou may not mix records with games\nfrom another region.$",
-CC+"ExplainWirelessClubFirstTime": [("battle CREATURE\nwith", "battle CREATURES\nwith"), ("I hope you enjoy the Wireless \nCommunication System.", "I hope you enjoy the COMLINK\nNetwork.")],
-CC+"ExplainWirelessClub": [("battle CREATURE\nwith", "battle CREATURES\nwith"), ("I hope you enjoy the Wireless \nCommunication System.", "I hope you enjoy the COMLINK\nNetwork.")],
+CC+"ExplainWirelessClubFirstTime": [("battle COMPANION\nwith", "battle COMPANIONS\nwith"), ("I hope you enjoy the Wireless \nCommunication System.", "I hope you enjoy the COMLINK\nNetwork.")],
+CC+"ExplainWirelessClub": [("battle COMPANION\nwith", "battle COMPANIONS\nwith"), ("I hope you enjoy the Wireless \nCommunication System.", "I hope you enjoy the COMLINK\nNetwork.")],
 "MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed": r"KAADULORD FRUIT-PICKING is a game\nthat only KAADULORD may enter.$",
 # --- event passes: Captain Han ---
 "EventTicket_Text_BrineyLetsSail": [("We'll sail right away, of course!", "We'll fly right away, of course!"), ("Let's find this island on", "Let's find this isle on")],
@@ -114,7 +114,7 @@ CC+"ExplainWirelessClub": [("battle CREATURE\nwith", "battle CREATURES\nwith"), 
 "sText_MysticTicketBagFull": [("store something on your TERMINAL,\nthen", "store something in your\nTERMINAL, then")],
 "sText_MysteryGiftOldSeaMapBagFull": [("store something on your TERMINAL,\nthen", "store something in your\nTERMINAL, then")],
 M+"SendDecorToYourPC": r"Then we'll trade!\nI'll send my decoration to your\lTERMINAL.$",
-"Text_PictureBookShelf": r"There's a set of CREATURE picture\nbooks.$",
+"Text_PictureBookShelf": r"There's a set of COMPANION picture\nbooks.$",
 "sText_BerryProgramWillBeUpdatedPressA": r"The FRUIT Program on your older\nversion will be updated.\n{COLOR RED}{SHADOW LIGHT_RED}Press the A Button.",
 "sText_TurnOffPowerHoldingStartSelect": r"Please turn on the power of the older\nversion while holding START and\nSELECT simultaneously. Then, ensure\nthe picture above appears.",
 "sText_BerryProgramUpdate": r"FRUIT Program Update",
@@ -124,3 +124,10 @@ NOTES = {
 "EventTicket_Text_OddTicketGetOnBoard": "Briney -> Captain Han (pilot, says 'kid')",
 CC+"CantMixWithJapaneseGame": "English only: region lock text made generic",
 }
+
+# --- COMPANION widths ---
+FIX["InsideOfTruck_Text_BoxPrintedWithMonLogo"] = [("The box is printed with a COMPANION logo.", "The box has a COMPANION logo on it.")]
+FIX["MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory"] = [("This TRAINER made {STR_VAR_1} COMPANION\nevolve!", "This TRAINER made {STR_VAR_1}\nCOMPANIONS evolve!")]
+FIX["FallarborTown_BattleTentLobby_Text_ExplainFallarborTent"] = [("During battle, the COMPANION will appear\none at a time", "In battle, the COMPANIONS will appear\none at a time")]
+FIX["VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent"] = [("their COMPANION in and out.", "their COMPANIONS in and out."), ("command their COMPANION.", "command their COMPANIONS."), ("The COMPANIONS are to behave according\nto their nature", "The COMPANIONS will behave according\nto their nature"), ("your trust in your\nCOMPANION and", "your trust in your\nCOMPANIONS and")]
+FIX["VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules"] = [("Depending on its nature, a COMPANION may\nstart using moves that don't match its\lnature when it is in trouble.", "Depending on its nature, a COMPANION\nmay start using moves that don't match\lits nature when it is in trouble.")]

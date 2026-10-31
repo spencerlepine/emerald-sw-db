@@ -1,12 +1,12 @@
 emerald_id,sw_name,swap_kind,map_status,art_status,sw_basis,sw_description,notes
-item:poke-ball,CAPTURE POD,HOTSWAP,DRAFT,PENDING_ART,original,Standard stasis pod for catching creatures.,Capture-pod family replaces Poké Balls.
+item:poke-ball,CAPTURE POD,HOTSWAP,DRAFT,PENDING_ART,original,Standard stasis pod for catching companions.,Capture-pod family replaces Poké Balls.
 item:great-ball,DURASTEEL POD,HOTSWAP,DRAFT,PENDING_ART,original,Reinforced pod with a better catch rate.,Capture-pod family replaces Poké Balls.
 item:ultra-ball,BESKAR POD,HOTSWAP,DRAFT,PENDING_ART,original,"Mandalorian-iron pod, high catch rate.",Capture-pod family replaces Poké Balls.
 item:master-ball,KYBER POD,HOTSWAP,DRAFT,PENDING_ART,original,Kyber-locked pod that never fails.,Capture-pod family replaces Poké Balls.
 item:safari-ball,SAFARI POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod used only in the Felucia Reserve.,Capture-pod family replaces Poké Balls.
-item:net-ball,NET POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod tuned for water and bug creatures.,Capture-pod family replaces Poké Balls.
+item:net-ball,NET POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod tuned for water and bug companions.,Capture-pod family replaces Poké Balls.
 item:dive-ball,DIVE POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod that works best underwater.,Capture-pod family replaces Poké Balls.
-item:nest-ball,NEST POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod that works best on weak creatures.,Capture-pod family replaces Poké Balls.
+item:nest-ball,NEST POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod that works best on weak companions.,Capture-pod family replaces Poké Balls.
 item:repeat-ball,REPEAT POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod for species already registered.,Capture-pod family replaces Poké Balls.
 item:timer-ball,TIMER POD,HOTSWAP,DRAFT,PENDING_ART,original,Pod that gets better the longer a battle lasts.,Capture-pod family replaces Poké Balls.
 item:luxury-ball,LUXURY POD,HOTSWAP,DRAFT,PENDING_ART,original,Comfortable pod that raises friendship.,Capture-pod family replaces Poké Balls.
@@ -16,12 +16,12 @@ item:super-potion,BACTA PATCH,HOTSWAP,DRAFT,PENDING_ART,original,Restores 50 HP.
 item:hyper-potion,BACTA PACK,HOTSWAP,DRAFT,PENDING_ART,original,Restores 200 HP.,
 item:max-potion,BACTA TANK,HOTSWAP,DRAFT,PENDING_ART,original,Fully restores HP.,
 item:full-restore,MEDPAC,HOTSWAP,DRAFT,PENDING_ART,original,Restores HP and cures status.,
-item:revive,REVIVE STIM,HOTSWAP,DRAFT,PENDING_ART,original,Revives a fainted creature.,
-item:max-revive,BACTA REVIVE,HOTSWAP,DRAFT,PENDING_ART,original,Fully revives a fainted creature.,
+item:revive,REVIVE STIM,HOTSWAP,DRAFT,PENDING_ART,original,Revives a fainted companion.,
+item:max-revive,BACTA REVIVE,HOTSWAP,DRAFT,PENDING_ART,original,Fully revives a fainted companion.,
 item:antidote,ANTITOXIN,HOTSWAP,DRAFT,PENDING_ART,original,Cures poison.,
 item:burn-heal,BURN GEL,HOTSWAP,DRAFT,PENDING_ART,original,Cures burns.,
-item:ice-heal,THAW PACK,HOTSWAP,DRAFT,PENDING_ART,original,Thaws a frozen creature.,
-item:awakening,STIM PATCH,HOTSWAP,DRAFT,PENDING_ART,original,Wakes a sleeping creature.,
+item:ice-heal,THAW PACK,HOTSWAP,DRAFT,PENDING_ART,original,Thaws a frozen companion.,
+item:awakening,STIM PATCH,HOTSWAP,DRAFT,PENDING_ART,original,Wakes a sleeping companion.,
 item:paralyze-heal,NERVE TONIC,HOTSWAP,DRAFT,PENDING_ART,original,Cures paralysis.,
 item:full-heal,FULL MEDKIT,HOTSWAP,DRAFT,PENDING_ART,original,Cures any status.,
 item:ether,POWER CELL,HOTSWAP,DRAFT,PENDING_ART,original,Restores PP of one move.,
@@ -38,11 +38,11 @@ item:energy-root,ENERGY ROOT,HOTSWAP,DRAFT,PENDING_ART,original,,
 item:heal-powder,HEAL POWDER,HOTSWAP,DRAFT,PENDING_ART,original,,
 item:revival-herb,REVIVAL HERB,HOTSWAP,DRAFT,PENDING_ART,original,,
 item:escape-rope,GRAPPLE LINE,HOTSWAP,DRAFT,PENDING_ART,original,Climb out of any cave.,
-item:repel,REPULSOR,HOTSWAP,DRAFT,PENDING_ART,original,Keeps weak creatures away.,
-item:super-repel,REPULSOR II,HOTSWAP,DRAFT,PENDING_ART,original,Keeps weak creatures away longer.,
-item:max-repel,REPULSOR III,HOTSWAP,DRAFT,PENDING_ART,original,Keeps weak creatures away longest.,
-item:rare-candy,POWER RATION,HOTSWAP,DRAFT,PENDING_ART,original,Raises a creature by one level.,
-item:poke-doll,HOLO DECOY,HOTSWAP,DRAFT,PENDING_ART,original,Lets you flee from a wild creature.,
+item:repel,REPULSOR,HOTSWAP,DRAFT,PENDING_ART,original,Keeps weak companions away.,
+item:super-repel,REPULSOR II,HOTSWAP,DRAFT,PENDING_ART,original,Keeps weak companions away longer.,
+item:max-repel,REPULSOR III,HOTSWAP,DRAFT,PENDING_ART,original,Keeps weak companions away longest.,
+item:rare-candy,POWER RATION,HOTSWAP,DRAFT,PENDING_ART,original,Raises a companion by one level.,
+item:poke-doll,HOLO DECOY,HOTSWAP,DRAFT,PENDING_ART,original,Lets you flee from a wild companion.,
 item:guard-spec,SHIELD SPEC.,HOTSWAP,DRAFT,PENDING_ART,original,,
 item:sacred-ash,KYBER ASH,HOTSWAP,DRAFT,PENDING_ART,original,Revives the whole party.,
 item:mach-bike,SWOOP BIKE,HOTSWAP,DRAFT,PENDING_ART,original,Brown hover-bike built for raw speed (Mach Bike).,
@@ -52,9 +52,9 @@ item:itemfinder,SCANNER,HOTSWAP,DRAFT,PENDING_ART,original,Detects hidden items.
 item:ss-ticket,STARLINER PASS,HOTSWAP,DRAFT,PENDING_ART,original,Boarding pass for the STAR TIDAL.,
 item:contest-pass,SHOWCASE PASS,HOTSWAP,DRAFT,PENDING_ART,original,Entry to Cloud City Showcases.,
 item:wailmer-pail,WATER CANTEEN,HOTSWAP,DRAFT,PENDING_ART,original,Waters berry plants.,
-item:devon-goods,INCOM PARTS,HOTSWAP,DRAFT,PENDING_ART,original,Bongo-sub parts made by Incom.,
+item:devon-goods,ORGANA PARTS,HOTSWAP,DRAFT,PENDING_ART,original,Bongo-sub parts made by House Organa.,
 item:soot-sack,ASH SACK,HOTSWAP,DRAFT,PENDING_ART,original,Collects volcanic ash.,
-item:pokeblock-case,TREAT CASE,HOTSWAP,DRAFT,PENDING_ART,original,Holds CREATURE TREATS.,
+item:pokeblock-case,TREAT CASE,HOTSWAP,DRAFT,PENDING_ART,original,Holds COMPANION TREATS.,
 item:letter,MESSAGE DISC,HOTSWAP,DRAFT,PENDING_ART,original,Sen. Organa's sealed message for Leia.,
 item:eon-ticket,TYTHON PASS,HOTSWAP,DRAFT,PENDING_ART,original,Pass to Tython Isle.,
 item:red-orb,RED KYBER,HOTSWAP,DRAFT,PENDING_ART,original,Kyber crystal bound to SANDO.,
@@ -64,7 +64,7 @@ item:go-goggles,SAND GOGGLES,HOTSWAP,DRAFT,PENDING_ART,original,Lets you see thr
 item:meteorite,METEORITE,HOTSWAP,DRAFT,PENDING_ART,original,Fragment that fell on Sullust.,
 item:root-fossil,FROND FOSSIL,HOTSWAP,DRAFT,PENDING_ART,original,Fossil of an ancient sea-lily.,
 item:claw-fossil,CLAW FOSSIL,HOTSWAP,DRAFT,PENDING_ART,original,Fossil of an ancient claw.,
-item:devon-scope,INCOM SCOPE,HOTSWAP,DRAFT,PENDING_ART,original,Reveals the invisible TAOZIN.,
+item:devon-scope,ORGANA SCOPE,HOTSWAP,DRAFT,PENDING_ART,original,Reveals the invisible TAOZIN.,
 item:magma-emblem,CODE CYLINDER,HOTSWAP,DRAFT,PENDING_ART,original,Imperial code cylinder; opens Fortress Vader.,
 item:mystic-ticket,MORTIS PASS,HOTSWAP,DRAFT,PENDING_ART,original,Pass to the Mortis Gate.,
 item:aurora-ticket,ATOLLON PASS,HOTSWAP,DRAFT,PENDING_ART,original,Pass to Atollon.,

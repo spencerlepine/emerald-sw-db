@@ -1,17 +1,17 @@
 emerald_id,sw_category,sw_datapad_text,notes
-species:treecko,,,held: sentient people / named character; see NOTES (decision pending)
-species:grovyle,,,held: sentient people / named character; see NOTES (decision pending)
-species:sceptile,,,held: sentient people / named character; see NOTES (decision pending)
-species:torchic,,,held: sentient people / named character; see NOTES (decision pending)
-species:combusken,,,held: sentient people / named character; see NOTES (decision pending)
-species:blaziken,,,held: sentient people / named character; see NOTES (decision pending)
-species:mudkip,,,held: sentient people / named character; see NOTES (decision pending)
-species:marshtomp,,,held: sentient people / named character; see NOTES (decision pending)
-species:swampert,,,held: sentient people / named character; see NOTES (decision pending)
+species:treecko,Wood Gecko,A katarn kit of Kashyyyk. The tiny hooks on its feet let it climb straight up the wroshyr trees. It stays calm in a crisis.,beast swap (sentient species replaced)
+species:grovyle,Wood Gecko,A young katarn. The leaf blades on its arms can slice through thick vines. It leaps from branch to branch in the canopy.,beast swap (sentient species replaced)
+species:sceptile,Forest,The apex hunter of Kashyyyk's wroshyr forests. The seeds on its back hold life for the trees. It guards the forest fiercely.,beast swap (sentient species replaced)
+species:torchic,Chick,A desert chick of Tatooine. It holds the heat of the twin suns in its belly. Hugging it feels like hugging a warm stone.,beast swap (sentient species replaced)
+species:combusken,Young Fowl,A long-legged desert runner. It outpaces sandcrawlers across the dunes and kicks ten times a second when it fights.,beast swap (sentient species replaced)
+species:blaziken,Blaze,A fiery desert fighter of the Dune Sea. Flames burst from its wrists when it fights. It can leap over a moisture tower.,beast swap (sentient species replaced)
+species:mudkip,Mud Fish,A marsh amphibian of Naboo. The fin on its head senses the flow of the water. It can lift boulders far heavier than itself.,beast swap (sentient species replaced)
+species:marshtomp,Mud Fish,A marsh runner of Naboo's swamps. Its legs are strong in the deep mud. It is fast both on land and in the water.,beast swap (sentient species replaced)
+species:swampert,Mud Fish,A huge marsh titan of Naboo. It can sense storms coming by the waves. It pulls boats to shore with its great arms.,beast swap (sentient species replaced)
 species:poochyena,Lizardhound,Tuskens keep massiffs to guard their camps. It snaps at anything that moves and will chase a speeder across the dunes until it tires.,
 species:mightyena,Lizardhound,The alpha of a massiff pack. Its bony spines rise when it is angry. Packs led by one will circle a moisture farm for days.,
-species:zigzagoon,,,held: sentient people / named character; see NOTES (decision pending)
-species:linoone,,,held: sentient people / named character; see NOTES (decision pending)
+species:zigzagoon,Scamp,A striped desert scurrier of Tatooine. It zigzags across the sand and digs up lost scrap and coins for its trainer.,beast swap (sentient species replaced)
+species:linoone,Rushing,A fast desert runner. It dashes in a straight line at blazing speed to catch prey. It struggles to turn corners.,beast swap (sentient species replaced)
 species:wurmple,Larva,It burrows under the sand by day and sips dew at night. The spikes on its tail ward off womp rats. It splits into two cocoon lines.,
 species:silcoon,Cocoon,A sandgrub wraps itself in silk spun from desert dew. It stays still inside and waits for the twin suns to warm it into a moth.,
 species:beautifly,Moth,It flutters around moisture vaporators to drink the droplets on their vanes. Farmers on Tatooine say a sandmoth means water is near.,
@@ -20,34 +20,34 @@ species:dustox,Poison Moth,"It flies only at night. When it beats its wings, a t
 species:lotad,Water Weed,It floats on the swamps of Naboo with a lily pad on its head. It drifts to the shore at dawn to soak up the morning light.,
 species:lombre,Jolly,"A reed creature of the Naboo marshes. It loves to play pranks on fishers, tugging at their lines from under the water.",
 species:ludicolo,Swamp Beast,"A huge amphibian of Naboo's swamps. Gungans strap shield generators to its back. When it hears music, it sways and stamps its feet.",
-species:seedot,,,held: sentient people / named character; see NOTES (decision pending)
-species:nuzleaf,,,held: sentient people / named character; see NOTES (decision pending)
-species:shiftry,,,held: sentient people / named character; see NOTES (decision pending)
+species:seedot,Acorn,An acorn-shaped creature of Endor. It hangs from branches by its head and sucks up water. It looks just like a seed.,beast swap (sentient species replaced)
+species:nuzleaf,Wily,A trickster of Endor's forest. It plays the leaf on its head like a flute to unsettle travelers. It lives in hollow trees.,beast swap (sentient species replaced)
+species:shiftry,Wicked,A forest lord of Endor. The fans on its arms whip up gales that can blow down a tree hut. It lives in the oldest trees.,beast swap (sentient species replaced)
 species:taillow,Tiny Flyer,"A small but fearless desert flyer. It will take on far larger foes. It skims the dunes at dawn, hunting insects on the wing.",
 species:swellow,Hawk,"It wheels high over the Dune Sea, then dives at blinding speed to snatch womp rats. Its glossy wings shine in the twin suns.",
 species:wingull,Seabird,"It nests on the cliffs of the Kashyyyk archipelago. It rarely flaps its wings, riding the sea winds that rise along the shore.",
 species:pelipper,Water Bird,Spacers pay it in fish to carry small cargo between islands. It stores food and parcels alike in its enormous bill.,
-species:ralts,,,held: sentient people / named character; see NOTES (decision pending)
-species:kirlia,,,held: sentient people / named character; see NOTES (decision pending)
-species:gardevoir,,,held: sentient people / named character; see NOTES (decision pending)
+species:ralts,Feeling,A small Force-sensitive swamp sprite of Dagobah. It senses feelings with the horns on its head. It hides from anger.,beast swap (sentient species replaced)
+species:kirlia,Emotion,A Force sprite that dances when its trainer is happy. Its dance bends the space around it. It shines in moonlight.,beast swap (sentient species replaced)
+species:gardevoir,Embrace,"A Force sprite that will shield its trainer at any cost. It can see the future, and it guards its trainer from harm.",beast swap (sentient species replaced)
 species:surskit,Pond Skater,"It skates across the still pools of Dagobah. A sweet scent from its head lures prey, and it flees if the water ripples.",
 species:masquerain,Eyeball,Its wings carry eye patterns that frighten predators. It hangs from the gnarltree branches of Dagobah and flies off in the rain.,
 species:shroomish,Mushroom,A fungal sprout of Felucia's jungles. It scatters spores when it is threatened. It lives in the damp soil under giant fungi.,
-species:breloom,,,held: sentient people / named character; see NOTES (decision pending)
-species:slakoth,,,held: sentient people / named character; see NOTES (decision pending)
-species:vigoroth,,,held: sentient people / named character; see NOTES (decision pending)
-species:slaking,,,held: sentient people / named character; see NOTES (decision pending)
-species:abra,,,held: sentient people / named character; see NOTES (decision pending)
-species:kadabra,,,held: sentient people / named character; see NOTES (decision pending)
-species:alakazam,,,held: sentient people / named character; see NOTES (decision pending)
-species:nincada,,,held: sentient people / named character; see NOTES (decision pending)
-species:ninjask,,,held: sentient people / named character; see NOTES (decision pending)
+species:breloom,Mushroom,A spore-capped fighter of Felucia. It throws punches with stretchy arms. The spores on its head make foes drowsy.,beast swap (sentient species replaced)
+species:slakoth,Slacker,A lazy swamp sloth of Nal Hutta. It lies still all day and eats the leaves that grow within reach. It barely moves.,beast swap (sentient species replaced)
+species:vigoroth,Wild Monkey,A restless swamp sloth that cannot sit still. Its heart beats ten times faster than normal. It must always be moving.,beast swap (sentient species replaced)
+species:slaking,Lazy,"A giant swamp sloth of Nal Hutta. It lies down all day and eats the grass around it. When the grass is gone, it moves.",beast swap (sentient species replaced)
+species:abra,Psi,"A small mist creature of Dathomir. It sleeps 18 hours a day. When it senses danger, it vanishes into the fog.",beast swap (sentient species replaced)
+species:kadabra,Psi,A mist creature that weaves fog with the Force. It carries a silver spoon that boosts its powers. It hides in the fog.,beast swap (sentient species replaced)
+species:alakazam,Psi,"A wise mist creature of Dathomir. Its brain keeps growing, and it remembers everything. It holds a spoon in each hand.",beast swap (sentient species replaced)
+species:nincada,Trainee,"A hive grub of Geonosis. It lives underground for years, sucking sap from roots. It cannot see well, so it feels its way.",beast swap (sentient species replaced)
+species:ninjask,Ninja,A winged hive dart of Geonosis. It flies so fast it seems to vanish. Its buzzing wings give some people headaches.,beast swap (sentient species replaced)
 species:shedinja,Shed,"An empty Geonosian shell, moved by a brain worm. It makes no sound and does not breathe. Peering into its back is said to steal your soul.",
 species:whismur,Whisper,"A small monkey-lizard. It cackles when startled, and once it starts it cannot stop. It hides in the rafters of cantinas.",
 species:loudred,Big Voice,A grown monkey-lizard. Its laugh is so loud it can shake walls. It stamps its feet to warm up before a cackling fit.,
 species:exploud,Loud Noise,Its cackle can be heard for kilometers across the desert. The blast of sound from its open mouth can knock a speeder off course.,
-species:makuhita,,,held: sentient people / named character; see NOTES (decision pending)
-species:hariyama,,,held: sentient people / named character; see NOTES (decision pending)
+species:makuhita,Guts,A forest bear cub of Kashyyyk. It loves to wrestle and builds its strength by slamming into wroshyr trees.,beast swap (sentient species replaced)
+species:hariyama,Arm Thrust,A massive forest brawler of Kashyyyk. Its palm strikes can fell a tree. It roars before every battle.,beast swap (sentient species replaced)
 species:goldeen,Horned Fish,"It swims the rivers of Naboo, its tail fin waving like a gown. Its horn is sharp enough to pierce a Gungan bongo hull.",
 species:seaking,Horned Fish,In autumn it swims upstream to lay eggs. Its body turns a bright color and it fights off rivals with its horn.,
 species:magikarp,Fish,It is weak and only splashes about. Colo claw fry are found in every waterway of Naboo. Nobody knows how it survives.,
@@ -74,8 +74,8 @@ species:aggron,Iron Armor,An NR-N99 tank droid. It claims a whole mountain as it
 species:machop,Superpower,"A B1 battle droid. It is weak alone, but it trains hard and never stops. It answers every order with a cheerful ""Roger roger"".",
 species:machoke,Superpower,A B2 super battle droid. Its heavy frame lets it lift loads that would crush a B1. It is often mistaken for a heavy lifter.,
 species:machamp,Superpower,A BX commando droid. It moves with four arms of strength. It can punch through durasteel and is never seen at rest.,
-species:meditite,,,held: sentient people / named character; see NOTES (decision pending)
-species:medicham,,,held: sentient people / named character; see NOTES (decision pending)
+species:meditite,Meditate,A meditating monkey of Ilum's crystal caves. It sits still for hours to sharpen its focus. It eats one berry a day.,beast swap (sentient species replaced)
+species:medicham,Meditate,A crystal-cave ape of Ilum. Years of meditation give it a sixth sense. Its fighting moves flow like a dance.,beast swap (sentient species replaced)
 species:electrike,Lightning,A kath hound pup. Static builds up in its fur as it runs across the Dantooine plains. Its sparks keep predators away.,
 species:manectric,Discharge,A kath hound whose mane crackles with lightning. It gathers static from the air. Thunderclouds form where it runs.,
 species:plusle,Cheering,A podrace pit droid. It cheers its partner on with sparks and pom-poms. It folds up when tapped on the nose.,
@@ -135,15 +135,15 @@ species:lileep,Sea Lily,"A fossil sea-lily from when Tatooine had oceans. Revive
 species:cradily,Barnacle,An ancient sea-lily titan. It digs its roots into rock and waits for prey. It lived in the warm seas of ancient Tatooine.,
 species:anorith,Old Shrimp,A fossil shrimp from Tatooine's ancient seas. It swam with eight wings and caught prey with its claws.,
 species:armaldo,Plate,An armored ancient predator. It grew stronger as it adapted to life on land. Its claws could cut through anything.,
-species:igglybuff,,,held: sentient people / named character; see NOTES (decision pending)
-species:jigglypuff,,,held: sentient people / named character; see NOTES (decision pending)
-species:wigglytuff,,,held: sentient people / named character; see NOTES (decision pending)
+species:igglybuff,Balloon,"A round, soft creature of Tatooine. Its body is bouncy and it rolls everywhere. It sings in a squeaky little voice.",beast swap (sentient species replaced)
+species:jigglypuff,Balloon,A puffball that sings a lullaby. Anyone who hears it falls asleep. It inflates itself to sing even longer.,beast swap (sentient species replaced)
+species:wigglytuff,Balloon,A soft diva of Tatooine's cantinas. Its fur is the softest in the galaxy. It puffs up and sings to calm a crowd.,beast swap (sentient species replaced)
 species:feebas,Fish,"A drab swamp fish nobody wants. It is shabby and sluggish, but it survives where few others can. Few know what it becomes.",
 species:milotic,Tender,"A radiant sea serpent, said to be the most beautiful creature in the galaxy. The sight of it calms any angry heart.",
 species:castform,Weather,A weather probe droid of Endor. It changes its shell to match the weather. Its sensors can predict storms days in advance.,
 species:staryu,Star Shape,"A star-shaped coral creature of Kamino. At night its core glows. As long as its core is intact, it can regrow lost limbs.",
 species:starmie,Mysterious,A glowing coral with a kyber core. Its core shines in seven colors. Some say it sends signals to the stars.,
-species:kecleon,Color Swap,A creature invisible to sight and even to the Force. Only its wavy stripe gives it away. The INCOM SCOPE reveals it.,
+species:kecleon,Color Swap,A creature invisible to sight and even to the Force. Only its wavy stripe gives it away. The ORGANA SCOPE reveals it.,
 species:shuppet,Puppet,"A wisp left behind by a strong feeling. It feeds on envy and grudges, and gathers at the eaves of houses at night.",
 species:banette,Marionette,A doll that was thrown away and came to life from resentment. It hunts for the child who abandoned it. Its zipper seals in curses.,
 species:duskull,Requiem,A small dark-side wraith that drifts among the tombs of Jedha. It can pass through walls. Crying children are its prey.,
@@ -200,7 +200,7 @@ species:kyogre,Sea Basin,"Titan of the seas, the greatest of the sando aqua mons
 species:groudon,Continent,"Titan of the land, the eldest greater krayt dragon. It is said to have raised Tatooine's mountains in its fights with SANDO.",
 species:rayquaza,Sky High,"Titan of the void, the space slug that lives in an asteroid field. It calms the other two titans when they clash.",
 species:jirachi,Wish,A star-creature from the Journal of the Whills. It wakes once every thousand years and grants any wish written on its notes.,
-species:deoxys,,,held: sentient people / named character; see NOTES (decision pending)
+species:deoxys,DNA,A star-born creature of Atollon. It shifts between many forms. Its crystal core fires lasers from its chest.,beast swap (sentient species replaced)
 species:bulbasaur,Seed,A lizard with a seed bulb on its back. The seed was planted there at birth. It grows by taking in the sun of Kashyyyk.,
 species:ivysaur,Seed,The bulb on its back opens into a bud as it grows. It must bask in Kashyyyk's sun to bear the weight of the bud.,
 species:venusaur,Seed,A huge lizard carrying a wroshyr bloom. The scent of the bloom calms all who smell it. It roams the forest floor.,
@@ -237,8 +237,8 @@ species:paras,Mushroom,A fungus-backed grub of Felucia. The mushrooms on its bac
 species:parasect,Mushroom,"A grub controlled by the fungus on its back. The fungus has taken over and moves it to damp, dark places.",
 species:venonat,Insect,"A fuzzy, compound-eyed gnat of Dagobah. Its big eyes work like radar. It is drawn to lights at night.",
 species:venomoth,Poison Moth,A poison-dusted swamp moth. Its wing dust is poisonous. Dark dust means poison and light dust means paralysis.,
-species:diglett,,,held: sentient people / named character; see NOTES (decision pending)
-species:dugtrio,,,held: sentient people / named character; see NOTES (decision pending)
+species:diglett,Mole,A tiny burrowing mole of Bespin's mining layers. It lives just under the ground and eats roots. It hates bright light.,beast swap (sentient species replaced)
+species:dugtrio,Mole,"Three burrowing moles that act as one. They dig through Bespin's rock at high speed, which can set off quakes.",beast swap (sentient species replaced)
 species:meowth,Scratch Cat,A scruffy cat of Corellia that hoards credits. It loves shiny things and roams the spaceport at night for coins.,
 species:persian,Classy Cat,"A sleek, vain tusk-cat. It is very proud and fussy. Its tusks are a status symbol among Corellian gangs.",
 species:mankey,Pig Monkey,"A gundark young, already loose. It is light on its feet and quick to anger. Once angry, it will not calm down.",
@@ -272,20 +272,20 @@ species:exeggcute,Egg,"A cluster of wroshyr seeds that think as one. Even if one
 species:exeggutor,Coconut,"A walking wroshyr sapling. Each head thinks on its own. When one head grows too heavy, it falls and takes root.",
 species:cubone,Lonely,A lonely cub wearing a krayt skull. It cries for its lost mother. The skull it wears never comes off.,
 species:marowak,Bone Keeper,A bone-club warrior of the Krayt Graveyard. It has toughened up and grown wild. It throws its bone club like a boomerang.,
-species:hitmonlee,,,held: sentient people / named character; see NOTES (decision pending)
-species:hitmonchan,,,held: sentient people / named character; see NOTES (decision pending)
+species:hitmonlee,Kicking,A combat droid with springy legs. It kicks so fast that foes never see it. Its legs can stretch out long.,beast swap (sentient species replaced)
+species:hitmonchan,Punching,A combat droid built for boxing. Its punches can drill through concrete. It needs a three-minute rest after a fight.,beast swap (sentient species replaced)
 species:lickitung,Licking,A long-tongued lizard of Nal Hutta. Its tongue is twice as long as its body. Its saliva causes numbness.,
 species:chansey,Medic,An FX-6 medical assistant droid. It carries a store of bacta and shares it with the injured. It is very kind.,
 species:tangela,Vine,A tangle of tentacles from Twon Ketter. Do not let them loose. Its tentacles grab anything that moves near it.,
 species:kangaskhan,Parent,A mother beast of Dantooine that carries its young in a pouch. It will fight to the end to protect its child.,
 species:mr-mime,Barrier,"A mime of Naboo that builds invisible walls. It is a skilled performer, and its walls stop any attack.",
 species:scyther,Mantis,A scythe-limbed arena beast of Geonosis. It strikes so fast that its blades leave afterimages.,
-species:jynx,,,held: sentient people / named character; see NOTES (decision pending)
+species:jynx,Snow Cat,A snow-hunting narglatch of Orto Plutonia. It prowls the ice with silent paws. Its spines warn off any rival.,beast swap (sentient species replaced)
 species:electabuzz,Electric,An IG-series assassin droid crackling with power. It feeds on electricity. Power outages follow it.,
-species:magmar,,,held: sentient people / named character; see NOTES (decision pending)
+species:magmar,Spitfire,"A lava-spitting beast of Mustafar. It lives in the lava rivers. It spits fireballs, and its body is always burning hot.",beast swap (sentient species replaced)
 species:tauros,Wild Bull,A bad-tempered orray bull of Geonosis. It whips itself with its tail before it charges. It never stops once it starts.,
 species:lapras,Transport,A gentle purrgil that carries travelers across space. It can jump through hyperspace on its own. It sings as it swims.,
-species:ditto,,,held: sentient people / named character; see NOTES (decision pending)
+species:ditto,Transform,"A shapeshifting blob of Zolan. It can change into any creature it sees. When it sleeps, it melts into a puddle.",beast swap (sentient species replaced)
 species:eevee,Evolution,"A tooka cat of Coruscant that adapts to anything. Its genes change to suit where it lives, so it has many forms.",held: sentient people / named character; see NOTES (decision pending)
 species:vaporeon,Bubble Jet,"A water-adapted tooka. Its cells are like water, so it melts away when it swims. It lives near clean water.",
 species:jolteon,Lightning,A static-charged tooka. Its fur stands up like needles when it is angry. It fires bolts of lightning from its fur.,
@@ -296,7 +296,7 @@ species:omastar,Spiral,"A tentacled spiral fossil. Its heavy shell made it slow,
 species:kabuto,Shellfish,A dome-shelled fossil. It lived on the sea floor long ago. Its eyes glow in the dark under its shell.,
 species:kabutops,Shellfish,A scythe-armed fossil predator. It swam fast and cut down its prey with its sharp scythes.,
 species:aerodactyl,Fossil,An ancient flying predator revived from amber. It flew in the skies of Tatooine and attacked with its fangs.,
-species:snorlax,,,held: sentient people / named character; see NOTES (decision pending)
+species:snorlax,Sleeping,"A huge water beast of Jakku. It eats huge meals, then sleeps. Kids climb on its belly. It only moves to drink and eat.",beast swap (sentient species replaced)
 species:articuno,Freeze,A legendary ice bird of Hoth. It appears to travelers lost in the snow. It freezes moisture in the air to make snow.,
 species:zapdos,Electric,A legendary storm bird of Bespin. It lives in thunderclouds and controls lightning. It is said to appear in storms.,
 species:moltres,Flame,A legendary fire bird of Mustafar. Its flapping wings scatter embers. It is said to bring the spring.,
@@ -369,11 +369,11 @@ species:houndoom,Dark,A fyrnock pack alpha. The leader of the pack has the darke
 species:porygon2,Virtual,A TC-series protocol droid. It can translate any language in the galaxy. It was upgraded to work in space.,
 species:stantler,Big Horn,An antlered stag of Endor. Its curved antlers make the air shimmer. Staring at them makes the mind go blank.,
 species:smeargle,Painter,A painter creature of Tatooine. It copies any move it sees with its tail. Its marks can be found on canyon walls.,
-species:tyrogue,,,held: sentient people / named character; see NOTES (decision pending)
-species:hitmontop,,,held: sentient people / named character; see NOTES (decision pending)
-species:smoochum,,,held: sentient people / named character; see NOTES (decision pending)
+species:tyrogue,Scuffle,A training droid from Kamino's labs. It fights anyone to grow stronger. Its program decides which fighter it becomes.,beast swap (sentient species replaced)
+species:hitmontop,Handstand,A combat droid that spins on its head. It fights by spinning and kicking like a top. Its spin can carve the ground.,beast swap (sentient species replaced)
+species:smoochum,Kiss,A small narglatch cub of Orto Plutonia. It bumps its nose against anything to sense it. It loves the ice and snow.,beast swap (sentient species replaced)
 species:elekid,Electric,An IG-RM thug droid. It stores power in its body. It swings its arms to build up a charge.,
-species:magby,,,held: sentient people / named character; see NOTES (decision pending)
+species:magby,Live Coal,"A small lava creature of Mustafar. It breathes out flames, and smoke rises from it when it is happy or sad.",beast swap (sentient species replaced)
 species:miltank,Milk Cow,A plump Naboo shaak. Its milk is full of nutrients. Gungans and Naboo farmers raise them on the grass plains.,
 species:blissey,Happiness,A 2-1B surgical droid. It is a kind droid that tends to anyone who is hurt. It fitted Luke's new hand.,
 species:raikou,Thunder,A legendary thunder beast of Endor. It came down with lightning. It roars like thunder and runs as fast.,
@@ -382,6 +382,6 @@ species:suicune,Aurora,A legendary aurora beast of Naboo. It runs across the wat
 species:larvitar,Rock Skin,"A Zillo beast hatchling of Malastare. It eats soil and grows. Once it has eaten a whole mountain, it sleeps.",
 species:pupitar,Hard Shell,A Zillo beast in its armored shell. Its body is made of gas under pressure. It moves by blasting the gas.,
 species:tyranitar,Armor,The Zillo Beast. Its armor cannot be pierced by any blaster. It once rampaged across Coruscant.,
-species:lugia,,,held: sentient people / named character; see NOTES (decision pending)
-species:ho-oh,,,held: sentient people / named character; see NOTES (decision pending)
+species:lugia,Diving,A legendary sea bird of Mortis. Its wings can cause a storm that lasts 40 days. It sleeps at the bottom of the sea.,beast swap (sentient species replaced)
+species:ho-oh,Rainbow,A legendary sky bird of Mortis. Its feathers glow in seven colors. A rainbow is said to follow it wherever it flies.,beast swap (sentient species replaced)
 species:celebi,Time Travel,A spirit that walks the World Between Worlds. It wanders through time. Forests where it appears are said to bloom.,

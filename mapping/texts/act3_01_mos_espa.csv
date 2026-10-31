@@ -1,9 +1,9 @@
 text_id,sw_text_raw,notes
-MauvilleCity_Text_UncleHesTooPeppy,"UNCLE: It's because of CREATURES that\nthis boy's got more pep, I suppose…\lBut he's become a bit too peppy…$",
-MauvilleCity_Text_UncleYourePushingIt,"UNCLE: Now hold on, LUKE.\pSince you started raising CREATURES,\nyou have grown quite a lot stronger.\pBut don't you think you're pushing it\nto suddenly challenge an ARENA?$",
-MauvilleCity_Text_ThankYouNotEnoughToBattle,"{PLAYER}, thank you.\nBeing a TRAINER is tough, isn't it?\pIt's not enough just to have CREATURES\nand make them battle. That isn't what\lbeing a real TRAINER is about.$",
-MauvilleCity_Text_NurseHurtMonBackToHealth,"You know, it's cool to have CREATURE\nbattles and stuff…\pBut if your CREATURE gets hurt,\nyou have to nurse it back to health.$",
-MauvilleCity_Text_PokemonCanJumpYouOnBike,"Even if you're riding a BIKE,\nwild CREATURES could jump you.$",
+MauvilleCity_Text_UncleHesTooPeppy,"UNCLE: It's because of COMPANIONS that\nthis boy's got more pep, I suppose…\lBut he's become a bit too peppy…$",
+MauvilleCity_Text_UncleYourePushingIt,"UNCLE: Now hold on, LUKE.\pSince you started raising COMPANIONS,\nyou have grown quite a lot stronger.\pBut don't you think you're pushing it\nto suddenly challenge an ARENA?$",
+MauvilleCity_Text_ThankYouNotEnoughToBattle,"{PLAYER}, thank you.\nBeing a TRAINER is tough, isn't it?\pIt's not enough just to have\nCOMPANIONS and make them battle. That\lisn't what being a real TRAINER is\labout.$",
+MauvilleCity_Text_NurseHurtMonBackToHealth,"You know, it's cool to have COMPANION\nbattles and stuff…\pBut if your COMPANION gets hurt,\nyou have to nurse it back to health.$",
+MauvilleCity_Text_PokemonCanJumpYouOnBike,"Even if you're riding a BIKE,\nwild COMPANIONS could jump you.$",
 MauvilleCity_Text_CitySign,MOS ESPA\n“Home of the BOONTA EVE CLASSIC!”$,
 MauvilleCity_Text_GymSign,MOS ESPA ARENA\nLEADER: WATTO\l“The junk dealer with a spark!”$,
 MauvilleCity_Text_BikeShopSign,“Ride the dunes and shake up your\nsoul!”\lWALD'S BIKES$,
@@ -16,24 +16,24 @@ MauvilleCity_BikeShop_Text_HowToRideMachBike,"A BIKE moves in the direction that
 MauvilleCity_BikeShop_Text_SandySlopes,"There are small sandy slopes\nall over the OUTER RIM.\pThe loose, crumbly sand makes it\nimpossible to climb normally.\pBut if you have a SWOOP BIKE, you can\nzip up a sandy slope.\pWant to read a different page?$",
 MauvilleCity_BikeShop_Text_Wheelies,"Press the B Button while riding,\nand the nose of the bike lifts up.\pYou can zip around with the nose\nup using the + Control Pad.\pThis technique is called a wheelie.\pWant to read a different page?$",
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins,Were you looking for CHIPS?\pIt's 1000 credits for 50 CHIPS.\nWould you like some?$,
-MauvilleCity_Gym_Text_GymGuideAdvice,"Hey, how's it going, ILUM-\nbound {PLAYER}?\pWATTO, the LEADER of MOS ESPA\nARENA, uses ELECTRIC-type CREATURES.\pIf you challenge him with WATER-type\nCREATURES, he'll zap them! Bzzt!\pAnd, he's put in switch-controlled\ndoors all over his ARENA! Eccentric!\pHey, go for it!$",
-MauvilleCity_Gym_Text_KirkPostBattle,"CREATURES and rock, it's all about\nheart, whoa-yeah!$",
+MauvilleCity_Gym_Text_GymGuideAdvice,"Hey, how's it going, ILUM-\nbound {PLAYER}?\pWATTO, the LEADER of MOS ESPA\nARENA, uses ELECTRIC-type COMPANIONS.\pIf you challenge him with WATER-type\nCOMPANIONS, he'll zap them! Bzzt!\pAnd, he's put in switch-controlled\ndoors all over his ARENA! Eccentric!\pHey, go for it!$",
+MauvilleCity_Gym_Text_KirkPostBattle,"COMPANIONS and rock, it's all about\nheart, whoa-yeah!$",
 MauvilleCity_BikeShop_Text_ExchangedAcroForMach,{PLAYER} traded the SPEEDER BIKE\nfor a SWOOP BIKE.$,
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro,{PLAYER} traded the SWOOP BIKE\nfor a SPEEDER BIKE.$,
 MauvilleCity_Gym_Text_ShawnPostBattle,"WATTO, our ARENA LEADER, has been\naround for a long, long time.\pHe was betting on podraces before\nyour daddy was born, that old coot.$",
 MauvilleCity_Gym_Text_VivianPostBattle,I've heard that WATTO has run his\njunk shop in MOS ESPA for ages.\pHe was a TRAINER long before we\nbecame TRAINERS.\lHe must know all sorts of things!$,
 MauvilleCity_Gym_Text_AngeloPostBattle,MOS ESPA ARENA's WATTO has wings\nthat buzz so fast they hum.\lIt makes me happy!$,
 MauvilleCity_Gym_Text_WattsonIntro,"I've given up betting on podraces,\nI have. That SKYWALKER boy cost me\leverything.\pAnd so, I put my time into making\ndoor traps in my ARENA.\pOh? Now, what are you doing here?\pWhat's that? You say you've gotten\npast all my rigged doors?\pWahahahah!\nNow, that is amusing!\pThen, I, WATTO, the LEADER of\nMOS ESPA ARENA, shall electrify you!$",Watto lost Anakin (and Shmi) on the Boonta Eve bet; canon nod
-MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis,"With the SPARK SHARD, CREATURES can\nuse ROCK SMASH out of battle.\pAnd, it will make your CREATURES a little\nbit faster, too.\pHmm…\nYou should take this, too!$",
-MauvilleCity_Gym_Text_WattsonPreRematch,WATTO: Ah-ha! Here at last!\nI know what you want.\lYou want to battle my CREATURES!\pWahahahaha!\pI'll make sparks fly from you!\nDon't say I didn't warn you!$,
-MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons,"WATTO: Ah-ha! Here at last!\nI know what you want.\lYou want to battle my CREATURES!\pWahahahaha!\pOops! Wait!\nYou've only one CREATURE with you!\pCome see me with two or more\nCREATURES, all right?$",
+MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis,"With the SPARK SHARD, COMPANIONS can\nuse ROCK SMASH out of battle.\pAnd, it will make your COMPANIONS a\nlittle bit faster, too.\pHmm…\nYou should take this, too!$",
+MauvilleCity_Gym_Text_WattsonPreRematch,WATTO: Ah-ha! Here at last!\nI know what you want.\lYou want to battle my COMPANIONS!\pWahahahaha!\pI'll make sparks fly from you!\nDon't say I didn't warn you!$,
+MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons,"WATTO: Ah-ha! Here at last!\nI know what you want.\lYou want to battle my COMPANIONS!\pWahahahaha!\pOops! Wait!\nYou've only one COMPANION with you!\pCome see me with two or more\nCOMPANIONS, all right?$",
 MauvilleCity_House2_Text_BuyHarborMailAtSlateport,"If I had a BIKE, it'd be easy to ride to\nMOS EISLEY for some shopping.\pI'd be able to buy HARBOR MAIL at the\nSUPPLY DEPOT in MOS EISLEY…$",
-MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats,There are items that temporarily\nelevate the stats of CREATURES.\pThe ones I know you use in battle\nare X ATTACK and X DEFEND…\pI do believe that there are others\nlike them.$,
+MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats,There are items that temporarily\nelevate the stats of COMPANIONS.\pThe ones I know you use in battle\nare X ATTACK and X DEFEND…\pI do believe that there are others\nlike them.$,
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner,"When I accessed the RECORD CORNER,\nthe data for what's hot in KACHIRHO\lgot updated.\pNow that bit of data is the same\nas my friend's!$",
 NewMauville_Inside_Text_GeneratorRadiatingHeat,The ESPA GENERATOR is radiating heat\nthat can be felt even at a distance.\pIt looks like it should be turned off\nas soon as possible.$,
 MauvilleCity_BikeShop_Text_OhYourBikeIsInPC,"Oh? What happened to that BIKE\nI gave you?\pOh, I get it, you stored it using\nyour TERMINAL.\pWell, take it out of TERMINAL storage,\nand I'll be happy to exchange it!\pMay the wind always be at your back\non your adventure!$",
 MauvilleCity_Text_WallyWantToChallengeGym,"LUKE: Aww, UNCLE, please?\pI want to challenge this ARENA and see\nhow much better I've become.\pPlease? May I, please?$",reviewed AUTO draft
-MauvilleCity_Text_WallyWeCanBeatAnyone,"LUKE: I'm not pushing it.\pIf I combine forces with YODLING,\nwe can beat anyone!$",reviewed AUTO draft
+MauvilleCity_Text_WallyWeCanBeatAnyone,"LUKE: I'm not pushing it.\pIf I combine forces with AURALET,\nwe can beat anyone!$",reviewed AUTO draft
 MauvilleCity_Text_WallyWillYouBattleMe,"LUKE: Oh! Hi, {PLAYER}!\pI've gotten a lot stronger since\nwe met.\p{PLAYER}, I want you and my UNCLE to\nunderstand that.\p{PLAYER}, please, will you have\na battle with me?$",reviewed AUTO draft
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong,"LUKE: Oh… If you won't battle me,\n{PLAYER}, my UNCLE won't know that I've\lbecome really strong.$",reviewed AUTO draft
 MauvilleCity_Text_UncleCanYouBattleWally,"UNCLE: {PLAYER}{KUN}, was it?\nOn LUKE's behalf, can I ask you to\lbattle with him just this once?\pI don't think he's going to listen to\nany reason the way he is now.$",reviewed AUTO draft
@@ -42,10 +42,10 @@ MauvilleCity_Text_WallyHereICome,"LUKE: {PLAYER}, thank you.\pOkay… Here I com
 MauvilleCity_Text_WallyDefeat,LUKE: … … … … … … …\p… … … … … … … …\pI lost…$,reviewed AUTO draft
 MauvilleCity_Text_WallyIllGoBackToVerdanturf,LUKE: UNCLE…\nI'll go back to ANCHORHEAD…$,reviewed AUTO draft
 MauvilleCity_Text_UncleNoNeedToBeDown,"UNCLE: LUKE, there's no need to be so\ndown on yourself.\pWhy, what's keeping you from becoming\nstronger and stronger?\pCome on, let's go home.\nEveryone's waiting for you.$",reviewed AUTO draft
-MauvilleCity_Text_UncleVisitUsSometime,"UNCLE: {PLAYER}{KUN}, it just dawned on me\nthat you must be the TRAINER who kept\lan eye out for LUKE when he caught\lhis CREATURE.\pWhy don't you visit us in ANCHORHEAD\nsometime?\lI'm sure LUKE would enjoy it.$",reviewed AUTO draft
+MauvilleCity_Text_UncleVisitUsSometime,"UNCLE: {PLAYER}{KUN}, it just dawned on me\nthat you must be the TRAINER who kept\lan eye out for LUKE when he caught\lhis COMPANION.\pWhy don't you visit us in ANCHORHEAD\nsometime?\lI'm sure LUKE would enjoy it.$",reviewed AUTO draft
 MauvilleCity_Text_WallyPokenavCall,"… … … … … …\n… … … … … Beep!\pLUKE: Oh, hello, {PLAYER}!\pI just wanted to tell you that\nmy uncle bought me a COMLINK!\pNow I can get in touch with you\nanytime, {PLAYER}!\p… … … … … …\n… … … … … Click!$",reviewed AUTO draft
 MauvilleCity_Text_RegisteredWally,Registered LUKE\nin the COMLINK.$,reviewed AUTO draft
-MauvilleCity_Text_ScottYouDidntHoldBack,"LANDO: Hehe…\nI was watching that match!\pYou're friends with that boy LUKE,\naren't you?\pBut you didn't hold anything back\nand beat him impressively.\pYeah! That's what a real CREATURE\nbattle is all about!\pI idolize TRAINERS like that!\p… … … … … …\nI'll be cheering for you!$",reviewed AUTO draft
+MauvilleCity_Text_ScottYouDidntHoldBack,"LANDO: Hehe…\nI was watching that match!\pYou're friends with that boy LUKE,\naren't you?\pBut you didn't hold anything back\nand beat him impressively.\pYeah! That's what a real COMPANION\nbattle is all about!\pI idolize TRAINERS like that!\p… … … … … …\nI'll be cheering for you!$",reviewed AUTO draft
 MauvilleCity_Text_WattsonNeedFavorTakeKey,"WATTO: Oh, {PLAYER}{KUN}!\nYou look like you have a lot of zip!\lThat's a good thing, wahahahaha!\pFine! I've decided!\nI need a favor, {PLAYER}{KUN}!\pMOS ESPA has an underground\nsector called ESPA GENERATOR.\p{PLAYER}{KUN}, I'd like you to go there and\nswitch off the GENERATOR.\pThe GENERATOR has been running a bit\nhaywire. It's getting unsafe.\pHere, this is the KEY to get into\nESPA GENERATOR.$",reviewed AUTO draft
 MauvilleCity_Text_WattsonWontBeChallenge,"WATTO: Don't you worry about it.\nIt won't be a challenge to you.\pThe entrance to ESPA GENERATOR is just\na short SURF away from ROUTE 110.\pThat's it, then, you have my trust!\nWahahahaha!$",reviewed AUTO draft
 MauvilleCity_Text_WattsonThanksTakeTM,"WATTO: Wahahahaha!\pI knew it, {PLAYER}{KUN}! I knew I'd made\nthe right choice asking you!\pThis is my thanks--a TM containing\nTHUNDERBOLT!\pGo on, you've earned it!$",reviewed AUTO draft
@@ -106,7 +106,7 @@ MauvilleCity_Gym_Text_ShawnDefeat,Unplugged and turned off…$,"reviewed, no cha
 MauvilleCity_Gym_Text_BenIntro,This ARENA's got puzzles!\nIsn't it fun?$,reviewed AUTO draft
 MauvilleCity_Gym_Text_BenDefeat,It's no fun to lose…$,"reviewed, no change needed"
 MauvilleCity_Gym_Text_BenPostBattle,WATTO says he likes setting up\nlittle traps with switches.$,reviewed AUTO draft
-MauvilleCity_Gym_Text_VivianIntro,"With my charm and my CREATURE's moves,\nyou'll be shocked!$",reviewed AUTO draft
+MauvilleCity_Gym_Text_VivianIntro,"With my charm and my COMPANION's moves,\nyou'll be shocked!$",reviewed AUTO draft
 MauvilleCity_Gym_Text_VivianDefeat,I'm shocked by your power!$,"reviewed, no change needed"
 MauvilleCity_Gym_Text_AngeloIntro,I love shiny things!$,"reviewed, no change needed"
 MauvilleCity_Gym_Text_AngeloDefeat,Oh…\nMy eyes are frazzled…$,"reviewed, no change needed"
@@ -120,9 +120,9 @@ MauvilleCity_Gym_Text_GymStatue,MOS ESPA ARENA$,reviewed AUTO draft
 MauvilleCity_Gym_Text_GymStatueCertified,MOS ESPA ARENA\pWATTO'S CERTIFIED TRAINERS:\n{PLAYER}$,reviewed AUTO draft
 MauvilleCity_Gym_Text_WattsonRematchDefeat,Oof…\nOur batteries ran dry…$,"reviewed, no change needed"
 MauvilleCity_Gym_Text_WattsonPostRematch,"WATTO: We'll have to recharge our\nbatteries again.\pWhen we're fully charged up, we'll\ngladly accept your challenge.\pSo, come back again sometime,\nwon't you?$",reviewed AUTO draft
-MauvilleCity_House1_Text_ImRockSmashDudeTakeThis,"Woohoo!\pI hear people call me the ROCK SMASH\nGUY, but I find that sort of degrading.\pI think I deserve a bit more respect,\nlike maybe the ROCK SMASH DUDE.\pWoohoo!\pAnyways, your CREATURES look pretty\nstrong.\pI like that!\nHere, take this HIDDEN MACHINE!$",reviewed AUTO draft
+MauvilleCity_House1_Text_ImRockSmashDudeTakeThis,"Woohoo!\pI hear people call me the ROCK SMASH\nGUY, but I find that sort of degrading.\pI think I deserve a bit more respect,\nlike maybe the ROCK SMASH DUDE.\pWoohoo!\pAnyways, your COMPANIONS look pretty\nstrong.\pI like that!\nHere, take this HIDDEN MACHINE!$",reviewed AUTO draft
 MauvilleCity_House1_Text_ExplainRockSmash,"That HM contains ROCK SMASH.\pIf you come across large boulders\nthat block your path…\pWell, use that HM move and smash\nthem right out of your way!\pYes, sir! Smash rocks aside, I say!\nWoohoo!$","reviewed, no change needed"
-MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock,"Oh, yes, if you smash a rock, a CREATURE\ncould come flying out of hiding.\pWoohoo!$",reviewed AUTO draft
+MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock,"Oh, yes, if you smash a rock, a\nCOMPANION could come flying out of\lhiding.\pWoohoo!$",reviewed AUTO draft
 MauvilleCity_House2_Text_TradeHarborMailForCoinCase,Oh! You have HARBOR MAIL?\nWill you trade it for a CHIP CASE?$,reviewed AUTO draft
 MauvilleCity_House2_Text_IllTradeYouCoinCase,"Oh, I'm so happy!\nOkay, I'll trade you a CHIP CASE!$",reviewed AUTO draft
 MauvilleCity_House2_Text_UseCoinCaseAtGameCorner,That CHIP CASE can be used\nat the SABACC DEN.$,reviewed AUTO draft

@@ -31,7 +31,7 @@ PLAYER = {"brendan": "KAEL (player, boy)", "may": "MIRA (player, girl)",
           "ruby_sapphire_brendan": "KAEL (old Ruby/Sapphire sprite)", "ruby_sapphire_may": "MIRA (old Ruby/Sapphire sprite)"}
 ACTION = {"acro_bike": "riding the white SPEEDER BIKE", "mach_bike": "riding the brown SWOOP BIKE",
           "decorating": "decorating a hideout", "field_move": "using a field move", "fishing": "fishing",
-          "running": "running", "surfing": "riding a CREATURE across water", "underwater": "diving underwater",
+          "running": "running", "surfing": "riding a COMPANION across water", "underwater": "diving underwater",
           "walking": "walking", "watering": "watering fruit with the WATER CANTEEN"}
 
 rows, missing = [], []

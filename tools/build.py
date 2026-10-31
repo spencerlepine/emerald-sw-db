@@ -359,15 +359,15 @@ def build_terms(rows, by_id, char_terms):
     return final, sources, ambiguous
 
 
-# "POKéMON" is both singular and plural; "CREATURE" is not. Fix the obvious plurals.
-PLURAL_AFTER = re.compile(r"CREATURE(?=(?:\\[nl]|\s)(?:(?:that |who )?(?:are|were|have|aren't|weren't|don't|do|haven't|"
+# "POKéMON" is both singular and plural; "COMPANION" is not. Fix the obvious plurals.
+PLURAL_AFTER = re.compile(r"COMPANION(?=(?:\\[nl]|\s)(?:(?:that |who )?(?:are|were|have|aren't|weren't|don't|do|haven't|"
                           r"live|hide|grow|await|react|become|appear|gather|like|love|seem|tend|need|come|get|"
                           r"make|look|want|know|can't seem|all)|that are|who are)\b)")
 PLURAL_BEFORE = re.compile(r"(\b(?:all|many|some|several|two|three|four|five|six|these|those|other|more|"
                            r"lots of|both|few|your two|your six|bunch of|lot of|types of|kinds of|sorts of|"
                            r"world of|full of|number of|variety of|plenty of|love of|study|studying|catching|"
                            r"raising|collecting|various|countless)(?: of)?(?: your| my| the| our| their| his| her)?"
-                           r"(?:\\[nl]| ))CREATURE\b")
+                           r"(?:\\[nl]| ))COMPANION\b")
 
 
 # Pixel width of a text line in Emerald's normal font (glyph widths from pokeemerald src/fonts.c,
@@ -378,14 +378,14 @@ BOX_PX = 208
 PLACEHOLDER_PX = {"PLAYER": 42, "RIVAL": 42, "KUN": 0, "STR_VAR_1": 60, "STR_VAR_2": 60, "STR_VAR_3": 60}
 
 
-# "rare CREATURE" is plural unless an article or determiner comes first ("a rare CREATURE").
-# "rare CREATURE", "BIRD CREATURE", "GRASS-type CREATURE", "with CREATURE": plural unless a determiner comes
-# first ("a rare CREATURE") or CREATURE is used as an adjective ("CREATURE battle", "BIRD CREATURE feathers")
+# "rare COMPANION" is plural unless an article or determiner comes first ("a rare COMPANION").
+# "rare COMPANION", "BIRD COMPANION", "GRASS-type COMPANION", "with COMPANION": plural unless a determiner comes
+# first ("a rare COMPANION") or COMPANION is used as an adjective ("COMPANION battle", "BIRD COMPANION feathers")
 PLURAL_ADJ = re.compile(r"(?:(?<=\\[nlp])|\b)(rare|strong|cute|cool|tough|weak|wild|different|powerful|new|pretty|lively|beautiful|smart|great|fine|amazing|precious|BIRD|BUG|[A-Z]+-type|"
                         r"NORMAL|FIRE|WATER|GRASS|ELECTRIC|ICE|FIGHTING|POISON|GROUND|FLYING|PSYCHIC|ROCK|GHOST|DRAGON|DARK|STEEL|"
                         r"BEAUTIFUL|CUTE|SMART|COOL|TOUGH|"
                         r"eligible|rental|personal|decent|darling|opposing|three|four|five|six|two|several|many|all|"
-                        r"with|of|and|about|love|like|adore|steal|trade|raise|catch|judging|toughening up|taught to)((?:\\[nl]| ))CREATURE\b(?!'s)"
+                        r"with|of|and|about|love|like|adore|steal|trade|raise|catch|judging|toughening up|taught to)((?:\\[nl]| ))COMPANION\b(?!'s)"
                         r"(?!(?:\\[nl]| )(?:battles?|battling|training|trainers?|TRAINERS?|feathers|team|NURSERY|CENTER|"
                         r"Storage|STORAGE|HERB|fans?|moves?|types?|kinds?|species|world|sound|cry|DATAPAD|lovers?|"
                         r"RANGERS?|LEAGUE|SHOWCASES?|BREEDERS?|FAN|CLUB|EGG|data)\b)")
@@ -397,7 +397,7 @@ def _plural_adj(m):
     before = m.string[max(0, m.start() - 24):m.start()]
     if SINGULAR_BEFORE.search(before):
         return m.group(0)
-    return m.group(1) + m.group(2) + "CREATURES"
+    return m.group(1) + m.group(2) + "COMPANIONS"
 
 
 def fix_articles(text: str, new_terms: set[str]) -> str:
@@ -445,9 +445,9 @@ def draft_texts(terms: dict[str, str]):
         new = pattern.sub(sub, raw)
         if used:  # "an GRAPPLE LINE" -> "a GRAPPLE LINE", "a ICE…" -> "an ICE…"
             new = fix_articles(new, {terms[u] for u in used})
-        if "CREATURE" in new:
-            new = PLURAL_AFTER.sub("CREATURES", new)
-            new = PLURAL_BEFORE.sub(lambda m: m.group(1) + "CREATURES", new)
+        if "COMPANION" in new:
+            new = PLURAL_AFTER.sub("COMPANIONS", new)
+            new = PLURAL_BEFORE.sub(lambda m: m.group(1) + "COMPANIONS", new)
             new = PLURAL_ADJ.sub(_plural_adj, new)
         status, note = ("AUTO" if used else "UNCHANGED"), ""
         if t["text_id"] in curated:
