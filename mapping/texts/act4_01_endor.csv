@@ -156,10 +156,10 @@ FortreeCity_House2_Text_ExplainHiddenPower,HIDDEN POWER is a move that changes\n
 FortreeCity_House2_Text_YouGuessedWrong,"No, too bad.\nYou guessed wrong.$","reviewed, no change needed"
 FortreeCity_House3_Text_OhYouHavePokedex,"What's that thing you have there?\p… … … … … …\pOh, it's called a DATAPAD?\nIt's really awesome!$",reviewed AUTO draft
 FortreeCity_House4_Text_GoBirdPokemon,"There!\nGo, BIRD COMPANIONS!$",reviewed AUTO draft
-FortreeCity_House4_Text_AskedWingullToRunErrand,"Heheh, I asked my GULLIK to run\nan errand for me.$",reviewed AUTO draft
-FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb,"Good!\nWelcome back, GULLIK!\pHuh? What is this?\nWhat is it holding?\pA MENTAL HERB?\nIt must have picked it up somewhere.\pBut I'm not a TRAINER, so you can\nhave it.$",reviewed AUTO draft
-FortreeCity_House4_Text_FriendsFarAwayThanksToWingull,"Thanks to my GULLIK, I have friends\nwho live far away.$",reviewed AUTO draft
-FortreeCity_House4_Text_Wingull,GULLIK: Pihyoh!$,reviewed AUTO draft
+FortreeCity_House4_Text_AskedWingullToRunErrand,"Heheh, I asked my SHYYYOLET to run\nan errand for me.$",reviewed AUTO draft
+FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb,"Good!\nWelcome back, SHYYYOLET!\pHuh? What is this?\nWhat is it holding?\pA MENTAL HERB?\nIt must have picked it up somewhere.\pBut I'm not a TRAINER, so you can\nhave it.$",reviewed AUTO draft
+FortreeCity_House4_Text_FriendsFarAwayThanksToWingull,"Thanks to my SHYYYOLET, I have friends\nwho live far away.$",reviewed AUTO draft
+FortreeCity_House4_Text_Wingull,SHYYYOLET: Pihyoh!$,reviewed AUTO draft
 FortreeCity_House5_Text_Zigzagoon,SCURRIER: Bufuu!$,reviewed AUTO draft
 FortreeCity_Mart_Text_SuperRepelBetter,"REPULSOR II lasts a long time,\nand it gets the job done.\pIt's much better than an ordinary\nREPULSOR.$",reviewed AUTO draft
 FortreeCity_Mart_Text_StockUpOnItems,I always stock up on more items than\nI'm sure I'll need.\pYou never know what might happen.\nBetter to be safe than sorry!$,"reviewed, no change needed"
@@ -181,7 +181,7 @@ Route119_Text_ThoughtFlyByCatchingBirdMons,"I thought you FLY by catching a whol
 Route119_Text_RouteSignFortree,ROUTE 119\n{RIGHT_ARROW} BRIGHT TREE$,reviewed AUTO draft
 Route119_Text_WeatherInstitute,ENDOR STATION$,reviewed AUTO draft
 Route119_Text_TrainerTipsDecoration,TRAINER TIPS\pUp to sixteen decorations and\nfurniture items can be placed in\la HIDEOUT.\pPick your favorite items and create\nyour very own HIDEOUT exactly the\lway you want.$,reviewed AUTO draft
-Route119_House_Text_Wingull,GULLIK: Pihyoh!$,reviewed AUTO draft
+Route119_House_Text_Wingull,SHYYYOLET: Pihyoh!$,reviewed AUTO draft
 Route119_WeatherInstitute_1F_Text_Grunt1Defeat,Blast it…\nBlasted by a kid…$,"reviewed, no change needed"
 Route119_WeatherInstitute_1F_Text_Grunt4Intro,Huh?\nWhat's a kid doing here?$,"reviewed, no change needed"
 Route119_WeatherInstitute_1F_Text_Grunt4Defeat,Huh?\nI lost?!$,"reviewed, no change needed"

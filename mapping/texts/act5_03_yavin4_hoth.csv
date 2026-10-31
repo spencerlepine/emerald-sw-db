@@ -134,7 +134,7 @@ MossdeepCity_House1_Text_HmmYourPokemon,Hmm!\nYour {STR_VAR_1}…$,"reviewed, no
 MossdeepCity_House1_Text_ItLikesXPokeblocks,"It likes {STR_VAR_1}S,\ndoesn't it?\pNo, I'm positive of it! It definitely\nlikes {STR_VAR_1}S!$","reviewed, no change needed"
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks,It doesn't appear to like or dislike\nany {POKEBLOCK}S.$,"reviewed, no change needed"
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes,My husband can tell what kind of\n{POKEBLOCK}S a COMPANION likes at a glance.$,reviewed AUTO draft
-MossdeepCity_House2_Text_Wingull,GULLIK: Pihyoh!$,reviewed AUTO draft
+MossdeepCity_House2_Text_Wingull,SHYYYOLET: Pihyoh!$,reviewed AUTO draft
 MossdeepCity_House3_Text_YouWantSuperRod,"Hey there, TRAINER!\nA SUPER ROD really is super!\pSay all you want, but this baby can\ncatch COMPANIONS off the seafloor!\pWhat do you think?\nYou want it, don't you?$",reviewed AUTO draft
 MossdeepCity_House3_Text_SuperRodIsSuper,"You bet, you bet!\nAfter all, a SUPER ROD is really super!$","reviewed, no change needed"
 MossdeepCity_House3_Text_TryDroppingRodInWater,"If there's any water, try dropping in\nyour ROD and see what bites!$","reviewed, no change needed"

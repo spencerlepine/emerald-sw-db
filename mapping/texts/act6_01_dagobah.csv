@@ -178,22 +178,22 @@ SootopolisCity_House6_Text_TakeGoodCareOfIt,Take good care of it!$,"reviewed, no
 SootopolisCity_House6_Text_IllHoldItForYou,"Oh, you want it, but not right now?\nOkay, then I'll hold it for you.$","reviewed, no change needed"
 SootopolisCity_House6_Text_DontWantThisDoll,Are you sure?\nYou don't want this DOLL?$,"reviewed, no change needed"
 SootopolisCity_House6_Text_LovePlushDolls,I love plush DOLLS!$,"reviewed, no change needed"
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot,"Do you know the COMPANION ACORNLET?\nIt's hardly ever seen in DAGOBAH.\pAnyway, I love big ACORNLET.\nThe bigger the better.\pBut my younger brother, he says that\nBOGLET is bigger.\pThat's silly.\nACORNLET has to be bigger than that!\pHuh? Do you have an ACORNLET with you?\nP-p-please, show me!$",reviewed AUTO draft
-SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad,"{STR_VAR_2} inches!\nOh, my gosh, this is a big one!\pIt might even beat the big BOGLET\nmy younger brother saw!\pThanks for showing me.\nThis is my thanks!$",reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot,"Do you know the COMPANION ACORNLET?\nIt's hardly ever seen in DAGOBAH.\pAnyway, I love big ACORNLET.\nThe bigger the better.\pBut my younger brother, he says that\nBOGLING is bigger.\pThat's silly.\nACORNLET has to be bigger than that!\pHuh? Do you have an ACORNLET with you?\nP-p-please, show me!$",reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad,"{STR_VAR_2} inches!\nOh, my gosh, this is a big one!\pIt might even beat the big BOGLING\nmy younger brother saw!\pThanks for showing me.\nThis is my thanks!$",reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion1,{PLAYER} received a BACTA SPRAY.$,reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull1,Hunh?\nYour BAG is crammed full.$,"reviewed, no change needed"
 SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerSeedot,"{STR_VAR_2} inches, is it?\pHmm… I've seen a bigger ACORNLET\nthan this one.$",reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotSeedot,"Oh, now this is quite something…\nBut it's not an ACORNLET!$",reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot,"You don't have a big ACORNLET?\nThat's too bad…\pIf you get a big ACORNLET, please\ncome show me.$",reviewed AUTO draft
-SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory,The biggest ACORNLET in history!\n{STR_VAR_2}'s {STR_VAR_3}-inch giant!\pAn ACORNLET bigger than a BOGLET\nalways wanted!$,reviewed AUTO draft
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad,"Do you know the COMPANION BOGLET?\nIt's rarely seen in DAGOBAH.\pI love, I mean love, big BOGLET!\pMy big brother says that ACORNLET is\nbigger.\pBut that's wrong! Everyone knows that\nBOGLET is a lot bigger.\pHunh? Do you have a BOGLET?\nP-p-please show me!$",reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory,The biggest ACORNLET in history!\n{STR_VAR_2}'s {STR_VAR_3}-inch giant!\pAn ACORNLET bigger than a BOGLING\nalways wanted!$,reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad,"Do you know the COMPANION BOGLING?\nIt's rarely seen in DAGOBAH.\pI love, I mean love, big BOGLING!\pMy big brother says that ACORNLET is\nbigger.\pBut that's wrong! Everyone knows that\nBOGLING is a lot bigger.\pHunh? Do you have a BOGLING?\nP-p-please show me!$",reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSeedot,"{STR_VAR_2} inches!\nWow, that is big!\pIt might be even bigger than the huge\nACORNLET my big brother saw.\pThanks for showing me!\nThis is my thanks!$",reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_ReceivedPotion2,{PLAYER} received a BACTA SPRAY.$,reviewed AUTO draft
 SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2,Hunh?\nYour BAG is crammed full.$,"reviewed, no change needed"
-SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad,{STR_VAR_2} inches?\pHmm… I've seen a bigger BOGLET\nthan this one here.$,reviewed AUTO draft
-SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad,"Well, isn't this something!\nBut it's no BOGLET!$",reviewed AUTO draft
-SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad,"Don't you have a big BOGLET?\nHow disappointing…\pIf you get a big BOGLET, please\ncome show me!$",reviewed AUTO draft
-SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory,The biggest BOGLET in history!\n{STR_VAR_2}'s {STR_VAR_3}-inch colossus!\pA BOGLET bigger than an ACORNLET\nalways wanted!$,reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad,{STR_VAR_2} inches?\pHmm… I've seen a bigger BOGLING\nthan this one here.$,reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad,"Well, isn't this something!\nBut it's no BOGLING!$",reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad,"Don't you have a big BOGLING?\nHow disappointing…\pIf you get a big BOGLING, please\ncome show me!$",reviewed AUTO draft
+SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory,The biggest BOGLING in history!\n{STR_VAR_2}'s {STR_VAR_3}-inch colossus!\pA BOGLING bigger than an ACORNLET\nalways wanted!$,reviewed AUTO draft
 SootopolisCity_Mart_Text_PPUpIsGreat,"PP UP is great!\pIt raises the POWER POINTS, the PP,\nof a COMPANION move.$",reviewed AUTO draft
 SootopolisCity_Mart_Text_TooScaryOutside,"What…\nWhat is happening?\pI really want to know, but it's too\nscary to go outside.$","reviewed, no change needed"
 SootopolisCity_Mart_Text_FullRestoreItemOfDreams,Do you know MEDPAC?\pFull restoration of HP!\nEradication of all status problems!\pIt's truly an item of your dreams!$,reviewed AUTO draft

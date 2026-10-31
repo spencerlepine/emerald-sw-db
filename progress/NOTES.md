@@ -103,3 +103,9 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 - `mapping/datapad.csv`: one row per species with `sw_category` (max 11 characters) and `sw_datapad_text` (written unwrapped; the build wraps it to at most 4 lines of 224 px into `entities.datapad_text`, keeping Emerald's category in `emerald_dex_category`).
 - Entries keep each creature's Emerald behaviour (moves, abilities, evolution hints) so the text matches what the creature does in battle. Height and weight are unchanged.
 - The 48 sentient or named slots were swapped for beasts and droids (owner's decision, 2026-10-31), and each has its own entry (notes column: `beast swap`). Showcase-rival nicknames were regenerated from the new names.
+
+## Canon-creature pass (owner's decision, 2026-10-31)
+
+- 15 invented companions were renamed to canon Star Wars creatures where one fits the type and role: `mapping/proposals/canon_pass.csv` lists each change with its new datapad entry. Types, stats, abilities and evolutions are unchanged.
+- Lines: Hawk-bat (TAILLOW, SWELLOW), Shyyyo bird (WINGULL, PELIPPER), Bogling (LOTAD), Oggdo (WOOPER, QUAGSIRE), Rawka (MURKROW), Ikopi (STANTLER), Puffer pig (SPOINK, GRUMPIG), Thala-siren (SEEL, DEWGONG), Mogu (MAKUHITA, HARIYAMA).
+- The other invented names stay because no canon creature fits without breaking a line or a type (most canon creatures are already used). Nicknames, dolls and dialogue follow `species.csv` automatically.

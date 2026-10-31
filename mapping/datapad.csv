@@ -17,16 +17,16 @@ species:silcoon,Cocoon,A sandgrub wraps itself in silk spun from desert dew. It 
 species:beautifly,Moth,It flutters around moisture vaporators to drink the droplets on their vanes. Farmers on Tatooine say a sandmoth means water is near.,
 species:cascoon,Cocoon,This sandgrub cocoon drips a bitter poison. It keeps its eyes open through the silk and remembers anything that harms it.,
 species:dustox,Poison Moth,"It flies only at night. When it beats its wings, a toxic dust falls that makes crops wilt. It is drawn to the lights of settlements.",
-species:lotad,Water Weed,It floats on the swamps of Naboo with a lily pad on its head. It drifts to the shore at dawn to soak up the morning light.,
+species:lotad,Water Weed,A small bogling of Bogano. The lily pad on its back has grown too heavy for it to stay on land. It drifts on ponds and pools.,canon pass
 species:lombre,Jolly,"A reed creature of the Naboo marshes. It loves to play pranks on fishers, tugging at their lines from under the water.",
 species:ludicolo,Swamp Beast,"A huge amphibian of Naboo's swamps. Gungans strap shield generators to its back. When it hears music, it sways and stamps its feet.",
 species:seedot,Acorn,An acorn-shaped creature of Endor. It hangs from branches by its head and sucks up water. It looks just like a seed.,beast swap (sentient species replaced)
 species:nuzleaf,Wily,A trickster of Endor's forest. It plays the leaf on its head like a flute to unsettle travelers. It lives in hollow trees.,beast swap (sentient species replaced)
 species:shiftry,Wicked,A forest lord of Endor. The fans on its arms whip up gales that can blow down a tree hut. It lives in the oldest trees.,beast swap (sentient species replaced)
-species:taillow,Tiny Flyer,"A small but fearless desert flyer. It will take on far larger foes. It skims the dunes at dawn, hunting insects on the wing.",
-species:swellow,Hawk,"It wheels high over the Dune Sea, then dives at blinding speed to snatch womp rats. Its glossy wings shine in the twin suns.",
-species:wingull,Seabird,"It nests on the cliffs of the Kashyyyk archipelago. It rarely flaps its wings, riding the sea winds that rise along the shore.",
-species:pelipper,Water Bird,Spacers pay it in fish to carry small cargo between islands. It stores food and parcels alike in its enormous bill.,
+species:taillow,Tiny Bird,A hawk-bat chick of Coruscant. It is small but fearless and will take on much bigger foes. It nests under the city's sky bridges.,canon pass
+species:swellow,Swallow,A hawk-bat of Coruscant. It dives between the towers at high speed to snatch prey. It keeps its wings glossy and flies high on clear days.,canon pass
+species:wingull,Seagull,A shyyyo chick of Kashyyyk. It rides the sea winds with its long wings stretched out. It nests on the cliffs along the coast.,canon pass
+species:pelipper,Water Bird,A great shyyyo bird of Kashyyyk. It skims the sea and carries prey in its huge bill. Wookiees say it once carried a lost Jedi to safety.,canon pass
 species:ralts,Feeling,A small Force-sensitive swamp sprite of Dagobah. It senses feelings with the horns on its head. It hides from anger.,beast swap (sentient species replaced)
 species:kirlia,Emotion,A Force sprite that dances when its trainer is happy. Its dance bends the space around it. It shines in moonlight.,beast swap (sentient species replaced)
 species:gardevoir,Embrace,"A Force sprite that will shield its trainer at any cost. It can see the future, and it guards its trainer from harm.",beast swap (sentient species replaced)
@@ -46,8 +46,8 @@ species:shedinja,Shed,"An empty Geonosian shell, moved by a brain worm. It makes
 species:whismur,Whisper,"A small monkey-lizard. It cackles when startled, and once it starts it cannot stop. It hides in the rafters of cantinas.",
 species:loudred,Big Voice,A grown monkey-lizard. Its laugh is so loud it can shake walls. It stamps its feet to warm up before a cackling fit.,
 species:exploud,Loud Noise,Its cackle can be heard for kilometers across the desert. The blast of sound from its open mouth can knock a speeder off course.,
-species:makuhita,Guts,A forest bear cub of Kashyyyk. It loves to wrestle and builds its strength by slamming into wroshyr trees.,beast swap (sentient species replaced)
-species:hariyama,Arm Thrust,A massive forest brawler of Kashyyyk. Its palm strikes can fell a tree. It roars before every battle.,beast swap (sentient species replaced)
+species:makuhita,Guts,A mogu cub of Kashyyyk. It loves to wrestle and builds its strength by slamming into wroshyr trees.,canon pass
+species:hariyama,Arm Thrust,A massive mogu of Kashyyyk. Its palm strikes can fell a tree. It roars and beats the ground before every fight.,canon pass
 species:goldeen,Horned Fish,"It swims the rivers of Naboo, its tail fin waving like a gown. Its horn is sharp enough to pierce a Gungan bongo hull.",
 species:seaking,Horned Fish,In autumn it swims upstream to lay eggs. Its body turns a bright color and it fights off rivals with its horn.,
 species:magikarp,Fish,It is weak and only splashes about. Colo claw fry are found in every waterway of Naboo. Nobody knows how it survives.,
@@ -108,8 +108,8 @@ species:grimer,Sludge,A sludge creature from Coruscant's lowest levels. It forme
 species:muk,Sludge,A toxic heap of living industrial waste. Plants stop growing where it crawls. A drop of its body can poison a pool.,
 species:koffing,Gas Bag,"A floating gas-bag calf from Bespin. Its body is full of tibanna gas. It floats along the cloud layers, puffing.",
 species:weezing,Gas Bag,A giant Bespin gas-bag that breathes tibanna. Two beldons drift together and share gas. Cloud City mines what they leave.,
-species:spoink,Bounce,A spring-legged hog of Sullust. It bounces on its tail to keep its heart beating. It keeps a pearl on its head.,
-species:grumpig,Manipulate,A boar that channels the Force through the pearls on its head. It dances strange steps to control foes.,
+species:spoink,Bounce,A puffer pig that bounces on its spring-like tail. Its heart beats with every bounce. It sniffs out gems and ore in the tunnels.,canon pass
+species:grumpig,Manipulate,A grown puffer pig. It wears the gems it found on its head. It puffs up and dances to bend the will of its foes.,canon pass
 species:sandshrew,Lizard,A dewback hatchling. It rolls up into a ball in the sand to protect itself from predators and the twin suns.,
 species:sandslash,Lizard,"A spiny desert dewback. Sandtroopers ride them on patrol. It curls up to defend itself, its spines facing out.",
 species:spinda,Spot Panda,A dizzy spotted cub that never walks straight. No two have the same spots. Its wobble confuses its foes.,
@@ -256,8 +256,8 @@ species:rapidash,Racer,A racing fathier of Cantonica. It runs so fast that its h
 species:slowpoke,Dopey,"A Dagobah swamp slug, slow and strangely wise. It dangles its tail in the water to fish. It is very forgetful.",
 species:slowbro,Hermit Crab,A swamp slug wearing a shellfish on its tail. The shellfish feeds on its leftovers. Neither notices the other.,
 species:farfetchd,Wild Duck,A swamp turkey of Naboo that carries a reed stick. It uses the stick to build nests. It will fight to protect it.,
-species:seel,Sea Lion,An ice seal pup of Hoth. It loves to swim in freezing water. A horn on its head breaks through the ice.,
-species:dewgong,Sea Lion,A sleek white ice seal of Hoth. It sleeps on the ice floes and swims in the freezing sea. Its body stores heat.,held: sentient people / named character; see NOTES (decision pending)
+species:seel,Sea Lion,A thala-siren pup of Ahch-To. It loves to swim in freezing water. A horn on its head breaks through the ice.,canon pass
+species:dewgong,Sea Lion,A thala-siren of Ahch-To. It lounges on the rocks and swims gracefully in icy seas. Its green milk is said to be very good for you.,canon pass
 species:shellder,Bivalve,A spiny clam of Kamino. It swims backward by opening and closing its shell. It sticks out its tongue to tease.,
 species:cloyster,Bivalve,A fortress-shelled clam of Kamino. Its shell is harder than durasteel. It fires spikes from its shell to fight back.,held: sentient people / named character; see NOTES (decision pending)
 species:gastly,Gas,A wisp of dark-side gas from Moraband. It can poison an animal with its gas in moments. It floats in old tombs.,
@@ -337,11 +337,11 @@ species:aipom,Long Tail,A Felucian monkey with a hand on its tail. Its tail is s
 species:sunkern,Seed,A seed that drinks the light of Tatooine's twin suns. It falls from the sky in the morning. It barely moves.,
 species:sunflora,Sun,A flower that follows both suns. It turns its face to the suns and stores their energy. It is lively all day.,
 species:yanma,Clear Wing,A big-eyed swamp dragonfly of Dagobah. It can see in every direction. It hovers in place over the water.,
-species:wooper,Water Fish,A mud amphibian of Naboo. On cold mornings it leaves the water and wanders the shore. It is coated in slime.,
-species:quagsire,Water Fish,A lazy mud amphibian. It never thinks too hard. It opens its mouth and waits for food to swim in.,
+species:wooper,Water Fish,An oggdo tadpole of Bogano. On cold mornings it leaves the water and wanders the shore. It is coated in slime that keeps it from drying out.,canon pass
+species:quagsire,Water Fish,"An oggdo, the giant frog of Bogano's marshes. It never thinks too hard. It sits with its mouth open and lets prey swim right in.",canon pass
 species:espeon,Sun,A tooka that turned to the light side. It evolves by day. Its fur can sense the slightest shift in the air.,
 species:umbreon,Moonlight,"A tooka that turned to the dark side. It evolves by night. When angered, the rings on its fur glow red.",
-species:murkrow,Darkness,An omen crow of Moraband. Seeing one at night is said to bring bad luck. It hoards shiny things.,
+species:murkrow,Darkness,A rawka of Dathomir. Seeing one at night is said to bring bad luck. It flocks around the Nightsisters' old ruins and hoards shiny things.,canon pass
 species:slowking,Royal,"A crowned swamp slug, a sage of Dagobah. The shellfish on its head gives it great wisdom. It ponders all day.",
 species:misdreavus,Screech,A screeching wisp of Moraband. It loves to frighten people. It feeds on their fear and grows stronger.,
 species:unown,Symbol,Living Aurebesh glyphs. Each form is a letter. They line up to spell out messages that no one has yet read.,
@@ -367,7 +367,7 @@ species:mantine,Kite,A manta that glides on stellar winds. It swims through nebu
 species:houndour,Dark,A dark-cave hound of Lothal. It hunts in packs and cannot stand light. Its howl warns its pack of danger.,
 species:houndoom,Dark,A fyrnock pack alpha. The leader of the pack has the darkest hide. Its fiery breath scorches its foes.,
 species:porygon2,Virtual,A TC-series protocol droid. It can translate any language in the galaxy. It was upgraded to work in space.,
-species:stantler,Big Horn,An antlered stag of Endor. Its curved antlers make the air shimmer. Staring at them makes the mind go blank.,
+species:stantler,Big Horn,An ikopi of Naboo's grass plains. Its curved horns make the air shimmer. Staring at them makes the mind go blank.,canon pass
 species:smeargle,Painter,A painter creature of Tatooine. It copies any move it sees with its tail. Its marks can be found on canyon walls.,
 species:tyrogue,Scuffle,A training droid from Kamino's labs. It fights anyone to grow stronger. Its program decides which fighter it becomes.,beast swap (sentient species replaced)
 species:hitmontop,Handstand,A combat droid that spins on its head. It fights by spinning and kicking like a top. Its spin can carve the ground.,beast swap (sentient species replaced)
