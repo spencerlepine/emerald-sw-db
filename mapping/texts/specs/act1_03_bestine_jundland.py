@@ -83,7 +83,7 @@ FIX = {
 "RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe": [("Our PRESIDENT would like to have\na word with you.", "SENATOR ORGANA would like to have\na word with you.")],
 "RustboroCity_DevonCorp_3F_Text_RareRocksDisplay": [("assembled by the PRESIDENT.", "assembled by the SENATOR.")],
 "RustboroCity_Flat1_1F_Text_PokemonStrange": r"CREATURES are such strange beings.$",
-"RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper": [("BOXES in the PC\lCREATURE Storage System.", "BOXES in the HoloNet\lCREATURE Storage System.")],
+"RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper": [("BOXES in the TERMINAL\lCREATURE Storage System.", "BOXES in the HoloNet\lCREATURE Storage System.")],
 "RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones": r"SENATOR ORGANA likes to collect\nrare stones.$",
 "RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones": r"I think the SENATOR's daughter also\ncollects rare crystals.$",
 # Bestine arena

@@ -410,6 +410,20 @@ GANLON\nBERRY,GANLO\nFRUIT,item
 GANLON\nBERRYS,GANLO\nFRUIT,item
 GARDEVOIR,YODAMASTER,species
 GASTLY,SITHWISP,species
+GBA Game Link cable,COMLINK cable,glossary
+GBA Game Link cables,COMLINK cables,glossary
+GBA Game Link\lcable,COMLINK\lcable,glossary
+GBA Game Link\lcables,COMLINK\lcables,glossary
+GBA Game Link\ncable,COMLINK\ncable,glossary
+GBA Game Link\ncables,COMLINK\ncables,glossary
+GBA Game\lLink cable,COMLINK\lcable,glossary
+GBA Game\lLink cables,COMLINK\lcables,glossary
+GBA Game\nLink cable,COMLINK\ncable,glossary
+GBA Game\nLink cables,COMLINK\ncables,glossary
+GBA\lGame Link cable,COMLINK\lcable,glossary
+GBA\lGame Link cables,COMLINK\lcables,glossary
+GBA\nGame Link cable,COMLINK\ncable,glossary
+GBA\nGame Link cables,COMLINK\ncables,glossary
 GENGAR,SITHSPECTR,species
 GEODUDE,ROCKWART,species
 GHOST,SPIRIT,game_type
@@ -472,6 +486,27 @@ GYM\lLEADER,ARENA\lLEADER,glossary
 GYM\lLEADERS,ARENA\lLEADERS,glossary
 GYM\nLEADER,ARENA\nLEADER,glossary
 GYM\nLEADERS,ARENA\nLEADERS,glossary
+Game Boy Advance Game Link cable,COMLINK cable,glossary
+Game Boy Advance Game Link\lcable,COMLINK\lcable,glossary
+Game Boy Advance Game Link\ncable,COMLINK\ncable,glossary
+Game Boy Advance Game\lLink cable,COMLINK\lcable,glossary
+Game Boy Advance Game\nLink cable,COMLINK\ncable,glossary
+Game Boy Advance\lGame Link cable,COMLINK\lcable,glossary
+Game Boy Advance\nGame Link cable,COMLINK\ncable,glossary
+Game Boy\lAdvance Game Link cable,COMLINK\lcable,glossary
+Game Boy\nAdvance Game Link cable,COMLINK\ncable,glossary
+Game Link cable,COMLINK cable,glossary
+Game Link cables,COMLINK cables,glossary
+Game Link\lcable,COMLINK\lcable,glossary
+Game Link\lcables,COMLINK\lcables,glossary
+Game Link\ncable,COMLINK\ncable,glossary
+Game Link\ncables,COMLINK\ncables,glossary
+Game\lBoy Advance Game Link cable,COMLINK\lcable,glossary
+Game\lLink cable,COMLINK\lcable,glossary
+Game\lLink cables,COMLINK\lcables,glossary
+Game\nBoy Advance Game Link cable,COMLINK\ncable,glossary
+Game\nLink cable,COMLINK\ncable,glossary
+Game\nLink cables,COMLINK\ncables,glossary
 HARIYAMA,TRANDOSHAN,species
 HAUNTER,SITHSHADE,species
 HEAT BADGE,MAGMA SHARD,badge
@@ -926,6 +961,7 @@ PAUL:,PAZ:,trainer pair
 PAY DAY,CREDIT TOSS,move
 PAY\lDAY,CREDIT\lTOSS,move
 PAY\nDAY,CREDIT\nTOSS,move
+PC,TERMINAL,glossary
 PECHA BERRY,PALLIE FRUIT,item
 PECHA BERRYS,PALLIE FRUIT,item
 PECHA\lBERRY,PALLIE\lFRUIT,item
@@ -1441,6 +1477,7 @@ TRAPINCH,KRAYTHATCH,species
 TREECKO,WOOKLET,species
 TROPIUS,THRANTA,species
 TUCKER,DENGAR,character
+TV,HOLONET,glossary
 TWISTEDSPOON,FORCE CHARM,item
 TWISTEDSPOONS,FORCE CHARMS,item
 TY,BEED,character
@@ -1529,6 +1566,20 @@ WOBBUFFET,YSALAMIRI,species
 WOOPER,MUDPUP,species
 WURMPLE,SANDGRUB,species
 WYNAUT,YSALAKIT,species
+Wireless Adapter,wireless COMLINK,glossary
+Wireless Adapters,wireless COMLINKS,glossary
+Wireless Communication,the COMLINK Network,glossary
+Wireless Communication System,COMLINK Network,glossary
+Wireless Communication\lSystem,COMLINK\lNetwork,glossary
+Wireless Communication\nSystem,COMLINK\nNetwork,glossary
+Wireless\lAdapter,wireless\lCOMLINK,glossary
+Wireless\lAdapters,wireless\lCOMLINKS,glossary
+Wireless\lCommunication,the\lCOMLINK Network,glossary
+Wireless\lCommunication System,COMLINK\lNetwork,glossary
+Wireless\nAdapter,wireless\nCOMLINK,glossary
+Wireless\nAdapters,wireless\nCOMLINKS,glossary
+Wireless\nCommunication,the\nCOMLINK Network,glossary
+Wireless\nCommunication System,COMLINK\nNetwork,glossary
 XATU,CONVOR,species
 YANMA,GNATWING,species
 YELLOW SHARD,YELLOW CRYSTAL,item
@@ -1553,6 +1604,15 @@ a\lGYM,an\lARENA,glossary
 a\lPOKéMON GYM,an\lARENA,glossary
 a\nGYM,an\nARENA,glossary
 a\nPOKéMON GYM,an\nARENA,glossary
+on TV,on the HOLONET,glossary
+on live TV,live on the HOLONET,glossary
+on live\lTV,live on the\lHOLONET,glossary
+on live\nTV,live on the\nHOLONET,glossary
+on\lTV,on the\lHOLONET,glossary
+on\llive TV,live\lon the HOLONET,glossary
+on\nTV,on the\nHOLONET,glossary
+on\nlive TV,live\non the HOLONET,glossary
+television,the HOLONET,glossary
 {AQUA} HIDEOUT,HUTT HIDEOUT,location
 {AQUA}\lHIDEOUT,HUTT\lHIDEOUT,location
 {AQUA}\nHIDEOUT,HUTT\nHIDEOUT,location

@@ -24,7 +24,7 @@ FC+"Text_EveryoneHealthyAndLively": [("The CITY consists of homes built on\ntree
 FC+"Text_PokemonThatEvolveWhenTraded": pl("There are CREATURE that evolve"),
 FC+"Text_CitySign": r"BRIGHT TREE VILLAGE\n“The treetop home of the EWOKS.”$",
 FC+"Text_GymSign": r"BRIGHT TREE ARENA\nLEADER: CHIRPA\p“The EWOK chief who rides the\nforest winds.”$",
-FC+"DecorationShop_Text_MerchandiseSentToPC": [("your own PC.", "your own terminal.")],
+FC+"DecorationShop_Text_MerchandiseSentToPC": [("your own TERMINAL.", "your own terminal.")],
 FC+"House1_Text_TradingMemoriesWithOthers": pl("Trading CREATURE with others…"),
 FC+"House2_Text_HiddenPowersArousedByNature": r"People… CREATURES…\pTheir hidden powers are awoken by\nliving close to the Force…$",
 FC+"House2_Text_CoinInWhichHand": [("I hold a coin in my hand.", "I hold a credit chip in my hand.")],

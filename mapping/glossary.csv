@@ -85,3 +85,17 @@ FRONTIER MANIAC,ARENA MANIAC,text,
 BATTLE\nFRONTIER,GRAND\nARENA,text,
 BATTLE\lFRONTIER,GRAND\lARENA,text,
 {PKMN},CREATURE,text,the PKMN glyph token becomes the plain word
+on live TV,live on the HOLONET,text,TV is the HOLONET
+on TV,on the HOLONET,text,
+TV,HOLONET,text,
+television,the HOLONET,text,
+GBA Game Link cables,COMLINK cables,text,link hardware is the COMLINK
+GBA Game Link cable,COMLINK cable,text,
+Game Boy Advance Game Link cable,COMLINK cable,text,
+Game Link cables,COMLINK cables,text,
+Game Link cable,COMLINK cable,text,
+Wireless Adapters,wireless COMLINKS,text,
+Wireless Adapter,wireless COMLINK,text,
+Wireless Communication System,COMLINK Network,text,
+Wireless Communication,the COMLINK Network,text,
+PC,TERMINAL,text,the PC is a TERMINAL

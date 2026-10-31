@@ -31,6 +31,7 @@ MauvilleCity_House2_Text_BuyHarborMailAtSlateport,"If I had a BIKE, it'd be easy
 MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats,There are items that temporarily\nelevate the stats of CREATURES.\pThe ones I know you use in battle\nare X ATTACK and X DEFEND…\pI do believe that there are others\nlike them.$,
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner,"When I accessed the RECORD CORNER,\nthe data for what's hot in KACHIRHO\lgot updated.\pNow that bit of data is the same\nas my friend's!$",
 NewMauville_Inside_Text_GeneratorRadiatingHeat,The ESPA GENERATOR is radiating heat\nthat can be felt even at a distance.\pIt looks like it should be turned off\nas soon as possible.$,
+MauvilleCity_BikeShop_Text_OhYourBikeIsInPC,"Oh? What happened to that BIKE\nI gave you?\pOh, I get it, you stored it using\nyour TERMINAL.\pWell, take it out of TERMINAL storage,\nand I'll be happy to exchange it!\pMay the wind always be at your back\non your adventure!$",
 MauvilleCity_Text_WallyWantToChallengeGym,"LUKE: Aww, UNCLE, please?\pI want to challenge this ARENA and see\nhow much better I've become.\pPlease? May I, please?$",reviewed AUTO draft
 MauvilleCity_Text_WallyWeCanBeatAnyone,"LUKE: I'm not pushing it.\pIf I combine forces with YODLING,\nwe can beat anyone!$",reviewed AUTO draft
 MauvilleCity_Text_WallyWillYouBattleMe,"LUKE: Oh! Hi, {PLAYER}!\pI've gotten a lot stronger since\nwe met.\p{PLAYER}, I want you and my UNCLE to\nunderstand that.\p{PLAYER}, please, will you have\na battle with me?$",reviewed AUTO draft
@@ -59,7 +60,6 @@ MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes,"WALD: If you get the urge to s
 MauvilleCity_BikeShop_Text_WantToSwitchBikes,WALD: Oh? Were you thinking about\nswitching BIKES?$,reviewed AUTO draft
 MauvilleCity_BikeShop_Text_IllSwitchBikes,"WALD: Okay, no problem!\nI'll switch BIKES for you!$",reviewed AUTO draft
 MauvilleCity_BikeShop_Text_HappyYouLikeIt,"WALD: Good, good!\nI'm happy that you like it!$",reviewed AUTO draft
-MauvilleCity_BikeShop_Text_OhYourBikeIsInPC,"Oh? What happened to that BIKE\nI gave you?\pOh, I get it, you stored it using your PC.\pWell, take it out of PC storage,\nand I'll be happy to exchange it!\pMay the wind always be at your back\non your adventure!$","reviewed, no change needed"
 MauvilleCity_BikeShop_Text_HandbooksAreInBack,"I'm learning about BIKES while\nI work here.\pIf you need advice on how to ride your\nBIKE, there're a couple handbooks in\lthe back.$","reviewed, no change needed"
 MauvilleCity_BikeShop_Text_MachHandbookWhichPage,It's a handbook on the SWOOP BIKE.\pWhich page do you want to read?$,reviewed AUTO draft
 MauvilleCity_BikeShop_Text_HowToTurnMachBike,"A SWOOP BIKE is speedy, but it can't\nstop very quickly.\pIt gets a little tricky to get around\na corner.\pRelease the + Control Pad a little\nbefore the corner and slow down.\pWant to read a different page?$",reviewed AUTO draft
@@ -75,7 +75,7 @@ MauvilleCity_GameCorner_Text_DontNeedCoinsThen,"Oh… You don't need CHIPS, then
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes,Welcome.\pYou can exchange your CHIPS for\nprizes here.$,reviewed AUTO draft
 MauvilleCity_GameCorner_Text_WhichPrize,Which prize would you like?$,"reviewed, no change needed"
 MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX,So your choice is\nthe {STR_VAR_1} {STR_VAR_2}?$,"reviewed, no change needed"
-MauvilleCity_GameCorner_Text_SendToYourHomePC,Thank you!\nWe'll send it to your PC at home.$,"reviewed, no change needed"
+MauvilleCity_GameCorner_Text_SendToYourHomePC,Thank you!\nWe'll send it to your TERMINAL at home.$,reviewed AUTO draft
 MauvilleCity_GameCorner_Text_NotEnoughCoins,You don't have enough CHIPS.$,reviewed AUTO draft
 MauvilleCity_GameCorner_Text_NoRoomForPlacingDecor,There isn't any room available for\nplacing {STR_VAR_1}.$,"reviewed, no change needed"
 MauvilleCity_GameCorner_Text_OhIsThatSo,"Oh, is that so? \nYou need to save some CHIPS before\lcoming back here.$",reviewed AUTO draft

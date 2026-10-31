@@ -23,7 +23,7 @@ R1+"WinstrateFamilysHouse_Text_GrandsonStrongShort": r"My grandson must be takin
 "Route114_Text_ExplainRoar": [("sends CREATURE scurrying.", "sends CREATURES scurrying.")],
 "Route114_Text_Poochyena": r"Grrrarf! Rrarf!$",
 "Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils": [("reviving CREATURE from\lFOSSILS…", "reviving CREATURES from\lFOSSILS…")],
-"Route114_LanettesHouse_Text_ResearchNotesPage1": [("Design BOXES to hold 30 CREATURE each.", "BOXES should hold 30 CREATURES each."), ("420 CREATURE on the PC system.", "420 CREATURES on the system.")],
+"Route114_LanettesHouse_Text_ResearchNotesPage1": [("Design BOXES to hold 30 CREATURE each.", "BOXES should hold 30 CREATURES each."), ("420 CREATURE on the TERMINAL system.", "420 CREATURES on the system.")],
 "Route114_LanettesHouse_Text_ResearchNotesPage2": [("make CREATURE easier to organize.", "make CREATURES easier to organize."), ("please\lthe stored CREATURE.", "please\lthe stored CREATURES.")],
 "Route114_LanettesHouse_Text_EmailFromBill": r"There's a message from someone on\nthe terminal.\p“… … … … … … …\p“Your Storage System offers more\nconvenience than mine.\p“It has a lot of user-friendly features\nthat make it fun and useful, too.\p“It makes me proud that I played\na part in its development.\p“Here's hoping that you'll continue\nresearch in Storage Systems.\p“From LOBOT, CLOUD CITY\n… … … … … … … …”$",
 "Route117_Text_DayCareSign": [("“Let us raise your CREATURE.”", "“Let us raise your CREATURES.”")],
@@ -48,3 +48,4 @@ V+"WandasHouse_Text_WallyWasInEverGrande": r"LUKE was on ILUM?\pOWEN and BERU wo
 }
 NOTES = {R1+"Text_ShouldBeMirageTowerAroundHere": "Mirage Tower = a JAWA SANDCRAWLER that appears and vanishes",
          "Route114_LanettesHouse_Text_EmailFromBill": "BILL (Kanto) -> LOBOT of Cloud City"}
+FIX["Route113_GlassWorkshop_Text_NoRoomInPC"] = [("You've no room in your TERMINAL, huff-puff?", "You've no room in your TERMINAL,\nhuff-puff?")]

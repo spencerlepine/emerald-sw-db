@@ -20,13 +20,13 @@ B+"OutsideWest_Text_PleaseBoardFerry": r"Please board the starliner and wait\nfo
 B+"OutsideWest_Text_GotSeasickOnWayHere": [("I got seasick…", "I got space-sick…")],
 B+"OutsideEast_Text_ConquerLeagueAndFrontier": [("the GRAND ARENA and the ILUM\lTEMPLE.", "the GRAND ARENA and the TRIALS\lof ILUM.")],
 # --- terminals (was PC) ---
-B+"BattleDomeLobby_Text_LastWinnerWasTough": [("the monitor beside the PC.", "the monitor beside the terminal.")],
+B+"BattleDomeLobby_Text_LastWinnerWasTough": [("the monitor beside the TERMINAL.", "the monitor beside the terminal.")],
 B+"ExchangeServiceCorner_Text_WellSendItToPC": r"Thank you!\nWe'll send it to your home terminal.$",
 B+"ExchangeServiceCorner_Text_PCIsFull": r"I'm so sorry…\nYour terminal storage appears to\lbe full…$",
 B+"PokemonCenter_1F_Text_NextStopBattleArena": r"Okay! Next stop, the BATTLE ARENA!\nI'd better get the right CREATURES from\lthe storage terminal.$",
 # --- link play (GBA cable) ---
-B+"BattleTowerLobby_Text_ExplainLinkMultisChallenge": [("Wireless Adapters or a Game Boy\lAdvance Game Link cable.", "a COMLINK.")],
-B+"BattleTowerLobby_Text_ExplainMultiLinkRules": [("Wireless Adapters or a GBA Game Link\lcable.", "a COMLINK."), ("These CREATURE must", "These CREATURES must")],
+B+"BattleTowerLobby_Text_ExplainLinkMultisChallenge": [],
+B+"BattleTowerLobby_Text_ExplainMultiLinkRules": [("These CREATURE must", "These CREATURES must")],
 # --- plurals ---
 B+"BattleDomeLobby_Text_ExplainMatchupRules": pl("toughness of CREATURE\l"),
 B+"BattleFactoryLobby_Text_ReturnMonsSaveResults": [("I will return your CREATURE in exchange\nfor our rental CREATURE.", "I will return your CREATURES in exchange\nfor our rental CREATURES.")],

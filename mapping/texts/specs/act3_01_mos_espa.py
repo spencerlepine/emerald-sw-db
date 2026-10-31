@@ -37,3 +37,4 @@ M+"PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner": [],
 "NewMauville_Inside_Text_GeneratorRadiatingHeat": [("The generator is radiating heat that\ncan be felt even at a distance.", "The ESPA GENERATOR is radiating heat\nthat can be felt even at a distance.")],
 }
 NOTES = {M+"Gym_Text_WattsonIntro": "Watto lost Anakin (and Shmi) on the Boonta Eve bet; canon nod"}
+FIX["MauvilleCity_BikeShop_Text_OhYourBikeIsInPC"] = [("Oh, I get it, you stored it using your TERMINAL.", "Oh, I get it, you stored it using\nyour TERMINAL.")]

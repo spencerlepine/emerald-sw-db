@@ -22,7 +22,7 @@ F+"CozmosHouse_Text_MeteoriteWillNeverBeMineNow": [("conned into telling THE EMP
 F+"CozmosHouse_Text_IsThatMeteoriteMayIHaveIt": [("the METEORITE that THE EMPIRE\ntook", "the METEORITE that the EMPIRE\ntook")],
 F+"CozmosHouse_Text_CozmoWentToMeteorFalls": [("some people from\lTHE EMPIRE.", "some people from\lthe EMPIRE.")],
 F+"MoveRelearnersHouse_Text_ImTheMoveTutor": [("I know all the moves that CREATURE\nlearn", "I know all the moves that CREATURES\nlearn"), ("and I can\lteach CREATURE those moves.", "and I can\lteach CREATURES those moves.")],
-F+"PokemonCenter_1F_Text_LanetteGreeting": [("access something on this PC.", "access something on this terminal.")],
+F+"PokemonCenter_1F_Text_LanetteGreeting": [("access something on this TERMINAL.", "access something on this terminal.")],
 F+"PokemonCenter_1F_Text_FossilManiacEdgeOfTown": [("I wonder what CREATURE looked like", "I wonder what CREATURES looked like")],
 F+"Text_RegionKnownForMeteors": [("They say STARFALL CAVERN was gouged out\nby a falling meteorite long ago.", "They say STARFALL CAVERN was carved\nout by a falling meteorite long ago.")],
 LG+"ExplainHeatBadgeTakeThis": [("If you have a MAGMA SHARD, all CREATURES\nup to Level 50,", "With a MAGMA SHARD, all CREATURES\nup to Level 50,"), ("And, it lets CREATURE use the HM move", "And, it lets CREATURES use the HM move")],

@@ -68,7 +68,7 @@ Route110_TrickHouseEnd_Text_AllNightToInstallDoors,It took me all night to insta
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows,It took me all night setting up arrows…\pYou're my equal in greatness!$,"reviewed, no change needed"
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors,It took me all night polishing floors…\pYou're above me in greatness!\nPossibly…$,"reviewed, no change needed"
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent,"I hate to admit defeat, but you have\nbested me!\pStill, you must have been reeled in by\nmy charisma for you to visit me again\land again. Yes, you must have!\pBut that has nothing to do with my\nlosing!\pIn recognition of the friendship\nbetween you, the driven, and the genius\lthat is myself, I demand that you take\lthis keepsake!\pActually there are two--\na RED TENT and a BLUE TENT.\lWhich do you prefer?$","reviewed, no change needed"
-Route110_TrickHouseEnd_Text_NoRoomInPC,"What? No room in your PC?\nWhat am I to make of that?\pI wish I could say that, but I am much\ntoo kind and caring, so come back later!$","reviewed, no change needed"
+Route110_TrickHouseEnd_Text_NoRoomInPC,"What? No room in your TERMINAL?\nWhat am I to make of that?\pI wish I could say that, but I am much\ntoo kind and caring, so come back later!$",reviewed AUTO draft
 Route110_TrickHouseEnd_Text_LeavingOnJourney,"… … … … … …\pI am leaving on a journey of discovery.\nA quest in search of new tricks.\pI wish that you will one day visit and\nentertain me again.\pAnd now, farewell!$","reviewed, no change needed"
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward,Fine!\nYou have earned this reward!$,"reviewed, no change needed"
 Route110_TrickHouseEnd_Text_NoRoomForThis,"What? Have you no room for this?\nWhat manner of items do you carry?\pBut fine, since you've reached me,\nyour reward will be with me till later.$","reviewed, no change needed"
@@ -92,7 +92,7 @@ Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges,"Hah? What?!\nOh
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward,"Ah, it's you! You're here to accept the\nreward from before, isn't that right?\lYes, right I am!\pHere!\nI'll give it to you now!$","reviewed, no change needed"
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward,Hah?\nDid you not come to claim your reward?$,"reviewed, no change needed"
 Route110_TrickHouseEntrance_Text_ThenFarewell,THEN FAREWELL.$,"reviewed, no change needed"
-Route110_TrickHouseEntrance_Text_PCFullAgain,"YOUR PC STATUS: FULL AGAIN.\nMEAN, YOU ARE.$","reviewed, no change needed"
+Route110_TrickHouseEntrance_Text_PCFullAgain,"YOUR TERMINAL STATUS: FULL AGAIN.\nMEAN, YOU ARE.$",reviewed AUTO draft
 Route110_TrickHousePuzzle_Text_FoundAScroll,{PLAYER} found a scroll.$,"reviewed, no change needed"
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode,{PLAYER} memorized the secret code\nwritten on the scroll.$,"reviewed, no change needed"
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt,A secret code is written on it.$,"reviewed, no change needed"

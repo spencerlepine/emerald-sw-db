@@ -198,8 +198,8 @@ LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture,"Today, my mom is goin
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill,I'm buying something for my BLOOPHARE\nas a reward for winning a SHOWCASE.$,reviewed AUTO draft
 LilycoveCity_DepartmentStore_1F_Text_Azumarill,BLOOPHARE: Maririroo!$,reviewed AUTO draft
 LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign,1F: SERVICE COUNTER\n    LOTTERY CORNER\p2F: TRAINER'S ZONE\p3F: BATTLE COLLECTION\p4F: TM CORNER\p5F: CREATURE DOLL FLOOR\pROOFTOP: ROOFTOP PLAZA$,reviewed AUTO draft
-LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun,"Wireless Communication is a\nlot of fun, isn't it?\pI think it lets you do things that\nweren't possible before.\pFor instance, you can now trade\nwith people you couldn't before.\pI think it's going to be exciting!$","reviewed, no change needed"
-LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm,I want to spread the word about how\nfun Wireless Communication can be.$,"reviewed, no change needed"
+LilycoveCity_DepartmentStore_1F_Text_WirelessCommIsFun,"the COMLINK Network is a\nlot of fun, isn't it?\pI think it lets you do things that\nweren't possible before.\pFor instance, you can now trade\nwith people you couldn't before.\pI think it's going to be exciting!$",reviewed AUTO draft
+LilycoveCity_DepartmentStore_1F_Text_SpreadWordAboutWirelessComm,I want to spread the word about how\nfun the COMLINK Network can be.$,reviewed AUTO draft
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly,"Learn to use items properly.\nThat's basic, really.$","reviewed, no change needed"
 LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband,My husband is waiting at home.\nWhat would make a good gift for him?$,"reviewed, no change needed"
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems,I'm leaving on a long journey soon.\nI need to stock up on items.$,"reviewed, no change needed"

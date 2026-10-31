@@ -34,7 +34,7 @@ FIX = {
 "DewfordTown_Gym_Text_BrawlyPostRematch": r"TARFFUL: Battling is vast and deep.\nYou can't see the bottom.\lIt's just like the forests of KASHYYYK!$",
 "DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons": r"TARFFUL: A wroshyr tree may bend, but\nit always stands up again.\pA mighty talent like you…\nI knew you would return!\pOh? You only have one CREATURE\nthat can battle.\pI'm sorry, but I'd like you to come back\nwith at least two CREATURES.$",
 # Kachirho hall and houses
-"DewfordTown_Hall_Text_TVShowAboutTrend": [("Isn't there a TV show on it?", "Isn't there a HoloNet show on it?")],
+"DewfordTown_Hall_Text_TVShowAboutTrend": [("Isn't there a HOLONET show on it?", "Isn't there a HoloNet show on it?")],
 "DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea": [("Across the sea…", "On other worlds…")],
 "DewfordTown_Hall_Text_BooksAboutTrend": [("\lCREATURE…", "\lCREATURES…"), ("It's neatly jammed with books about", "It's neatly jammed with datacards on")],
 "DewfordTown_Hall_Text_OrganizeTrendParty": [("party\lon the island.", "party\lin the village.")],
