@@ -66,6 +66,14 @@ def main():
               f"| UNCHANGED (no Emerald names in it; may still need a lore rewrite) | {tc['UNCHANGED']} | {pct(tc['UNCHANGED'], len(texts))} |",
               f"| lines that may overflow the text box after the swap | {over} | |"]
 
+    csv.field_size_limit(1 << 30)
+    species = [e for e in read("entities.csv") if e["id"].startswith("species:") and e.get("swap_kind") == "HOTSWAP"]
+    dp = sum(1 for e in species if e.get("datapad_text"))
+    lines += ["", "## Datapad entries", "",
+              "| Metric | Count | % |", "|---|---:|---:|",
+              f"| species with a Star Wars datapad entry and category | {dp} | {pct(dp, len(species))} |",
+              f"| species held (sentient people or named characters, decision pending) | {len(species) - dp} | |"]
+
     art = read("pending_art.csv")
     ac = Counter(r["art_status"] for r in art)
     named = sum(1 for r in art if r["suggested_path"])

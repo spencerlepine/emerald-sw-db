@@ -450,6 +450,41 @@ def draft_texts(terms: dict[str, str]):
 
 # --------------------------------------------------------------------------- art
 
+# Datapad (Pokedex) entries: the Emerald entry is up to 4 lines of at most 224 px; categories are at most 11
+# characters. mapping/datapad.csv holds the text unwrapped; the build wraps it greedily.
+DEX_LINE_PX, DEX_LINES, DEX_CATEGORY_LEN = 224, 4, 11
+
+
+def wrap_datapad(text: str) -> list[str]:
+    lines, cur = [], ""
+    for word in text.split(" "):
+        t = f"{cur} {word}" if cur else word
+        if line_px(t) > DEX_LINE_PX and cur:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = t
+    lines.append(cur)
+    return lines
+
+
+def load_datapad() -> dict[str, dict]:
+    path = MAPPING / "datapad.csv"
+    out = {}
+    if not path.exists():
+        return out
+    for r in read(path):
+        if not r["sw_datapad_text"]:
+            continue
+        lines = wrap_datapad(r["sw_datapad_text"])
+        if len(lines) > DEX_LINES:
+            warn(f"datapad text for {r['emerald_id']} wraps to {len(lines)} lines (max {DEX_LINES})")
+        if len(r["sw_category"]) > DEX_CATEGORY_LEN or line_px(r["sw_category"]) > 66:
+            warn(f"datapad category for {r['emerald_id']} is too long: {r['sw_category']!r}")
+        out[r["emerald_id"]] = {"category": r["sw_category"], "text": "\\n".join(lines)}
+    return out
+
+
 def pending_art(rows):
     assets = {a["asset_id"]: a for a in read(EMERALD / "art_assets.csv")}
     used_by = defaultdict(list)
@@ -517,9 +552,14 @@ def main() -> None:
 
     # entities: Emerald columns + Star Wars overlay
     ent_out = []
+    datapad = load_datapad()
     for e in entities:
         r = rows[e["id"]]
         o = dict(e)
+        if e["id"] in datapad:  # species: Star Wars datapad category and entry; Emerald's stay alongside
+            o["emerald_dex_category"] = e.get("dex_category", "")
+            o["dex_category"] = datapad[e["id"]]["category"]
+            o["datapad_text"] = datapad[e["id"]]["text"]
         o["emerald_title"] = e.get("title", "")
         o["emerald_description"] = e.get("description", "")
         if r["sw_title"]:
@@ -539,7 +579,7 @@ def main() -> None:
     lead = ["id", "entity_type", "category", "collection", "title", "description", "history", "swap_kind",
             "map_status", "art_status", "game_status", "sw_name", "sw_constant", "planet", "sw_basis",
             "emerald_title", "emerald_description", "source_constant", "source_file", "image_path", "image_status"]
-    cols = lead + [c for c in (ent_out[0].keys()) if c not in lead]
+    cols = lead + [c for c in (ent_out[0].keys()) if c not in lead] + ["emerald_dex_category", "datapad_text"]
     write("entities.csv", ent_out, cols)
 
     terms, sources, ambiguous = build_terms(rows, by_id, char_terms)

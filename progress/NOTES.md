@@ -24,7 +24,7 @@
 - Mr. Stone as Bail Organa running Incom is a stretch; alternatives: an original Incom president, or make Devon "House Organa".
 - Gym 7: Quinlan Vos & Aayla Secura (Order 66 survivors) vs. another duo.
 - Arena leader 1 (Kitster) and 4 (Nien Nunb) are the weakest fits.
-- Sentient species as creatures: ZIGZAGOON is mapped to JAWA (a people, not a beast). Under the "characters stay people" rule, a scrap-hunting beast (e.g. a WOMP RAT variant) may fit better. Same check applies to any other sentient species in `species.csv`.
+- **Asked on 2026-10-31 (decision card), recommended: swap for beasts.** Sentient species as creatures: ZIGZAGOON is mapped to JAWA (a people, not a beast). Under the "characters stay people" rule, a scrap-hunting beast (e.g. a WOMP RAT variant) may fit better. Same check applies to any other sentient species in `species.csv`.
 - Many national-dex creatures are `original` names; happy to swap any for canon creatures you prefer.
 
 ## Text drafting: control codes
@@ -99,3 +99,9 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 - Captain Han (Briney) handles the event-pass voyages from Cloud City.
 - UI strings in fixed-size windows (menus, party, Datapad headers) are 6–48 px wider than the original in 68 cases (CREATURE is wider than {PKMN}; TERMINAL is wider than PC). The 208 px dialogue check does not catch these: they need a per-window check in C5 or a window resize in Step 5.
 - `tools/curate_texts.py` REFLOW re-wraps overflowing dialogue paragraphs only; UI specs leave it off, because UI windows do not scroll.
+
+## Datapad entries (C4)
+
+- `mapping/datapad.csv`: one row per species with `sw_category` (max 11 characters) and `sw_datapad_text` (written unwrapped; the build wraps it to at most 4 lines of 224 px into `entities.datapad_text`, keeping Emerald's category in `emerald_dex_category`).
+- Entries keep each creature's Emerald behaviour (moves, abilities, evolution hints) so the text matches what the creature does in battle. Height and weight are unchanged.
+- 48 species are held with no entry: they are sentient peoples or named characters, so they wait on the owner's decision about swapping them for beasts. Held: the Wookiee, Tusken and Gungan starter lines, Jawas, Ewoks, Hutts, Dathomirians, Geonosians, Trandoshans, Ugnaughts, Jedi younglings/Padawan, clone troopers, Talz, Mustafarians, Gamorrean, Clawdite, Felucian, Pa'lowick, Yoda's species, the Father and Daughter of Mortis, and the Bendu.
