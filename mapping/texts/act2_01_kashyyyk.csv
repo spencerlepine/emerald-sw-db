@@ -18,7 +18,7 @@ Route109_Text_BrineyDewfordItIs,"HAN: KASHYYYK it is, then!\pPunch it, CHEWIE!$"
 Route109_Text_BrineyDeliverDevonGoods,HAN: Then you go on and deliver\nthe INCOM PARTS. I'll be on the FALCON.$,
 Route109_Text_BrineyWhereAreWeBound,"HAN: Hey, kid!\nFor you, the FALCON flies anytime!\pSo, where are we headed?$",
 Route109_Text_BrineyTellMeWhenYouNeedToSail,HAN: Just tell me whenever you're\nready to fly again!$,
-DewfordTown_Gym_Text_GymGuideAdvice,"Hey, how's it going, ILUM-\nbound {PLAYER}?\pKACHIRHO's LEADER TARFFUL commands\nFIGHTING-type CREATURES.\pGoing against him with NORMAL-type\nCREATURES is asking for trouble.\pFIGHTING CREATURES will lay a serious\nsmack down on NORMAL ones,\lso be careful!\pWhat's worse, the ARENA is as dark as\nthe SHADOWLANDS.\pBut it will get brighter after defeating\nthe TRAINERS in your way.\pHey, okay, go for it!$",
+DewfordTown_Gym_Text_GymGuideAdvice,"Hey, how's it going, ILUM-\nbound {PLAYER}?\pKACHIRHO's ARENA LEADER TARFFUL commands\nFIGHTING-type CREATURES.\pGoing against him with NORMAL-type\nCREATURES is asking for trouble.\pFIGHTING CREATURES will lay a serious\nsmack down on NORMAL ones,\lso be careful!\pWhat's worse, the ARENA is as dark as\nthe SHADOWLANDS.\pBut it will get brighter after defeating\nthe TRAINERS in your way.\pHey, okay, go for it!$",
 DewfordTown_Gym_Text_JocelynPostBattle,"I'm not going to waste this loss.\nI'll use it to motivate me to train!\pOne day I'll become an ARENA LEADER…\pNo, I'll pass the TRIALS\nOF ILUM!$",
 DewfordTown_Gym_Text_BrendenIntro,I'll show you the gumption of\na spacer!$,
 DewfordTown_Gym_Text_BrendenPostBattle,Fine! You're worthy of seeing\nour ARENA LEADER.$,

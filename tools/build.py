@@ -343,7 +343,13 @@ PLACEHOLDER_PX = {"PLAYER": 42, "RIVAL": 42, "KUN": 0, "STR_VAR_1": 60, "STR_VAR
 
 
 # "rare CREATURE" is plural unless an article or determiner comes first ("a rare CREATURE").
-PLURAL_ADJ = re.compile(r"\b(rare|strong|cute|cool|tough|weak|wild|different|powerful|new)((?:\\[nl]| ))CREATURE\b(?!'s)")
+# "rare CREATURE", "BIRD CREATURE", "GRASS-type CREATURE", "with CREATURE": plural unless a determiner comes
+# first ("a rare CREATURE") or CREATURE is used as an adjective ("CREATURE battle", "BIRD CREATURE feathers")
+PLURAL_ADJ = re.compile(r"(?:(?<=\\[nlp])|\b)(rare|strong|cute|cool|tough|weak|wild|different|powerful|new|BIRD|BUG|[A-Z]+-type|"
+                        r"with|of|and|about|love|like|adore)((?:\\[nl]| ))CREATURE\b(?!'s)"
+                        r"(?!(?:\\[nl]| )(?:battles?|battling|training|trainers?|TRAINERS?|feathers|team|NURSERY|CENTER|"
+                        r"Storage|STORAGE|HERB|fans?|moves?|types?|kinds?|species|world|sound|cry|DATAPAD|lovers?|"
+                        r"RANGERS?|LEAGUE|SHOWCASES?|BREEDERS?|FAN|CLUB|EGG|data)\b)")
 SINGULAR_BEFORE = re.compile(r"(?:(?<=\\[nlp])|\b)(?:a|an|one|this|that|the|any|each|every|your|my|his|her|its|their|our|no|which|what|same)"
                              r"(?: [a-z]+)?(?:\\[nl]| )$")
 

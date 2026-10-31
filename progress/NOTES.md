@@ -77,3 +77,9 @@ garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
 - Mt. Chimney's hot springs are "lava springs" on the peak; Lavaridge keeps hot springs (Sullust).
 - Leia's Meteor Falls line: Emerald's source says SOOTOPOLIS SPACE CENTER (a typo in the original); written as the YAVIN 4 LAUNCH TOWER.
 - Pair trainers ("JOHN & JAY") were hand-renamed, and `build.py` now swaps each member's speaker label ("JOHN:" → "JARO:") in dialogue.
+
+## Endor (C3d)
+
+- Chief Chirpa (Winona) is male. Bossk (Shelly) hisses and hunts trophies. Leia is female everywhere (some Emerald lines say "he" for Steven).
+- Routes that lead off-world end at shuttle pads: Route 118 west sign reads HANGAR TO TATOOINE; Route 121's pier is the SHUTTLE PAD to JEDHA TEMPLE; the Safari Zone gate is the FELUCIA RESERVE SHUTTLE. Step 4 keeps the maps; only signs and dialogue change (the hangar rows in `net_new.csv` are the real gating).
+- Plural rule round 3 in `build.py` (`PLURAL_ADJ`): type words and bare prepositions before CREATURE pluralize it.

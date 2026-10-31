@@ -2,7 +2,7 @@ text_id,sw_text_raw,notes
 Route110_Text_MayLetsBattle,"MIRA: Hi, {PLAYER}{KUN}, long time no see!\pWhile I was searching for other\nCREATURES, my CREATURES grew stronger.\pSo…\nHow about a little battle?$",
 Route110_Text_RideBikeAtFullSpeed,Wouldn't it be great to race a\nBIKE down the PODRACE TRACK?$,
 Route110_Text_YouGotBikeFromRydel,"Oh, hey, you got that BIKE from WALD!\pOh, it's glaringly obvious.\nIt says right on your bike…\pWALD, WALD, WALD, WALD, WALD,\nWALD, WALD, WALD, WALD, WALD,\pWALD, WALD, WALD, WALD, WALD,\nWALD, WALD, WALD, WALD, WALD,\pWALD, WALD, WALD, WALD, WALD,\nWALD, WALD, WALD, WALD, WALD,\pWALD, WALD, WALD, WALD, WALD,\nWALD, WALD, WALD, WALD, WALD,\pWALD, WALD, WALD, WALD, WALD…\nThat name's everywhere.\pYou should ride it around all over\nthe place--it's good advertising!$",
-Route110_Text_TwoRoads,"The two roads, one above, one below…\pA road each for racers and CREATURES.\nPerhaps that is right and fair.$",
+Route110_Text_TwoRoads,"The two roads, one above, one below…\pA road each for people and CREATURES.\nPerhaps that is right and fair.$",
 Route110_Text_WhichShouldIChoose,"Which should I choose?\pMake a beeline for MOS ESPA on\nPODRACE TRACK, or take the low road\land look for CREATURES?$",
 Route110_Text_ChallengeReactionBest,Bravo! Splendid showing!\pYour love of racing comes from deep\nwithin your heart.\lYou've shaken me to my very soul!$,
 Route110_Text_ChallengeReactionOk,"I would consider you a work in\nprogress.\pStill, I hope you don't forget the\nsheer pleasure of racing.$",
