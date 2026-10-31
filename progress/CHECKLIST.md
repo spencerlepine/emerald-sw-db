@@ -31,7 +31,7 @@ can be `[x]` with its rows still DRAFT.
 - [~] **C3 Curated dialogue**, one file per area in `mapping/texts/`, starting with story-critical scripts (cutscenes, leaders, villains, professor), then every NPC. Keep tips-and-tricks NPCs' advice.
   - [x] C3a Tatooine Act 1 (Mos Pelgo → Bestine, Beggar's Canyon). Done: intro speech, Mos Pelgo, Route 101 (`act1_01_mos_pelgo.csv`); Tosche Station, Routes 102–103, Mos Entha town + arena + Lars house (`act1_02_tosche_mos_entha.csv`). Route 104 + Han's pad, Jundland Wastes, Bestine (town, Incom, arena, academy, flats), Route 116, Beggar's Canyon (`act1_03_bestine_jundland.csv`). Next: C3b, Kashyyyk (Dewford, Granite Cave = Shadowlands, Routes 105–109) and Mos Eisley (Slateport, Route 109–110).
   - [x] C3b Kashyyyk + Mos Eisley (Act 2): `act2_01_kashyyyk.csv`, `act2_02_mos_eisley.csv` (Spacer Museum re-themed to spacefaring, spaceport + STAR TIDAL starliner, BONGO EXPLORER sub, Jabba's swamp motive), `act2_03_route110.csv` (podrace track, Garindan's Trick House, QUIZ DROIDS).
-  - [ ] C3c Mos Espa, Sullust, Mustafar, Mos Entha (Act 3)
+  - [x] C3c Mos Espa, Sullust, Mustafar (Act 3): `act3_01_mos_espa.csv` (Watto's arena, Wald's bikes, Sabacc Den), `act3_02_anchorhead_routes.csv` (Anchorhead, Routes 111–117, Sandcrawler), `act3_03_sullust_mustafar.csv` (Inyusu Tor, Starfall Cavern, Mustafar Peak, Ashen Pass, Pirin arena). Mos Entha was done in C3a.
   - [ ] C3d Endor (Act 4)
   - [ ] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5)
   - [ ] C3f Dagobah, Kamino, Asteroid Field (Act 6)
@@ -65,3 +65,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3a done · see git log · 218 more curated texts (Bestine, Jundland Wastes, Route 104/116, Beggar's Canyon). Build: a/an article fix, more plural rules, item plurals (-ES). `tools/curate_texts.py` now rebuilds first and supports KEEP_REST_MAPS. Specs that produced each texts CSV are in `mapping/texts/specs/` (re-run them after glossary changes; MISS lines show pairs to update).
 - 2026-10-31 · C3b (part 1) · see git log · Kashyyyk dialogue (138 texts). `KEEP_REST_MAPS` now also marks UNCHANGED texts as reviewed. Money: `¥` written as "credits" in curated text; the glyph itself is an art item for Step 5.
 - 2026-10-31 · C3b done · see git log · Mos Eisley + Route 110 (417 texts). Decision: generic BIKE stays BIKE (hover-bike); MECHADOLL → QUIZ DROID. Total curated 1,091 (9%).
+- 2026-10-31 · C3c done · see git log · Mos Espa, Anchorhead, desert routes, Sullust and Mustafar (530 texts). Vader intro and defeat rewritten; Nien Nunb male; pair trainers hand-named with speaker labels swapped by the build. Total curated 1,621 (14%). Next: C3d Endor (Fortree, Routes 119–120).

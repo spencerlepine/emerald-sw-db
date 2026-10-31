@@ -305,6 +305,10 @@ def build_terms(rows, by_id, char_terms):
             w = t.split(" ")
             if len(w) == 2 and w[1] in ("TOWN", "CITY"):
                 add(w[0], r["sw_name"], "location")
+        elif et == "trainer" and " & " in r["emerald_name"] and " & " in r["sw_name"]:
+            # pair trainers speak as "JOHN: ..." in dialogue; swap the speaker label of each member
+            for a, b in zip(r["emerald_name"].split(" & "), r["sw_name"].split(" & ")):
+                add(a.upper() + ":", b + ":", "trainer pair")
     # ambiguous terms (one Emerald word, several Star Wars meanings) are not auto-replaced
     final, ambiguous = {}, {}
     for old, news in terms.items():

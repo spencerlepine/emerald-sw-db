@@ -24,6 +24,7 @@
 - Mr. Stone as Bail Organa running Incom is a stretch; alternatives: an original Incom president, or make Devon "House Organa".
 - Gym 7: Quinlan Vos & Aayla Secura (Order 66 survivors) vs. another duo.
 - Arena leader 1 (Kitster) and 4 (Nien Nunb) are the weakest fits.
+- Sentient species as creatures: ZIGZAGOON is mapped to JAWA (a people, not a beast). Under the "characters stay people" rule, a scrap-hunting beast (e.g. a WOMP RAT variant) may fit better. Same check applies to any other sentient species in `species.csv`.
 - Many national-dex creatures are `original` names; happy to swap any for canon creatures you prefer.
 
 ## Text drafting: control codes
@@ -68,3 +69,11 @@ Not decided; needs the owner.
 Jabba (Archie) wants to drown the dry worlds into swamps "fit for a HUTT" (SANDO = sea titan).
 Vader (Maxie) should mirror it with land: an Imperial plan to dry out worlds for industry and
 garrisons (GREATKRAYT = land titan). Use this when curating the Empire's lines.
+
+## Sullust and Mustafar (C3c)
+
+- Nien Nunb (PIRIN ARENA, Lavaridge) is male; Flannery's grandfather becomes his uncle, a former keeper of the TRIALS OF ILUM.
+- Vader's lines use his canon voice: "Impressive… Most impressive." on defeat; he withdraws saying the Force is strong with the player and names the RED KYBER as the next goal.
+- Mt. Chimney's hot springs are "lava springs" on the peak; Lavaridge keeps hot springs (Sullust).
+- Leia's Meteor Falls line: Emerald's source says SOOTOPOLIS SPACE CENTER (a typo in the original); written as the YAVIN 4 LAUNCH TOWER.
+- Pair trainers ("JOHN & JAY") were hand-renamed, and `build.py` now swaps each member's speaker label ("JOHN:" → "JARO:") in dialogue.
