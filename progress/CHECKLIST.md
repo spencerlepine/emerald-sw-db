@@ -35,7 +35,7 @@ can be `[x]` with its rows still DRAFT.
   - [x] C3d Endor (Act 4): `act4_01_endor.csv` (Bright Tree Village, Chief Chirpa's arena, Endor Station raided by Bossk, Routes 118–121 and 123; Route 121 pier and Safari gate are shuttle pads to Jedha and Felucia).
   - [x] C3e Bespin, Jedha, Yavin 4, Hoth (Act 5): `act5_01_jedha_fortress.csv` (Jedha Temple, Fortress Vader), `act5_02_cloud_city.csv` (Cloud City, Hutt Hideout, Boba Fett), `act5_03_yavin4_hoth.csv` (Yavin 4 base, Launch Tower raid, Massassi Temple arena of Vos & Aayla, Leia's house, Routes 124–125, Hoth's Wampa Cave).
   - [x] C3f Dagobah, Kamino, Asteroid Field (Act 6): `act6_01_dagobah.csv` (Dagobah, Yoda's arena, Cave of Evil, Drowned Cavern, Routes 126–130), `act6_02_kamino_spire.csv` (Tipoca City, Routes 131–134, Sealed Vault, Asteroid Spire).
-  - [ ] C3g Ilum (Act 7)
+  - [x] C3g Ilum (Act 7): `act7_01_ilum.csv` (Crystal Caves, Luke's last battle, the Four Trials as Force visions: Maul, Qui-Gon, Ki-Adi, Anakin; Obi-Wan as Champion; Hall of Fame).
   - [ ] C3h Post-game (Grand Arena, islands)
   - [ ] C3i C-side strings (battle messages, menus, datapad UI, match call)
 - [ ] **C4 Datapad entries.** Per creature: category (replaces "Wood Gecko") and a two-line datapad text.
@@ -72,3 +72,4 @@ Append one line per working session: date · chunk(s) · commit · notes.
 - 2026-10-31 · C3e done · see git log · Yavin 4 and Hoth (195 texts). Vos & Aayla speak as master and Padawan; Leia ORGANA leaves the R1 UNIT; Shoal Cave tides are Hoth meltwater. Next: C3f Dagobah (Sootopolis, Cave of Origin, Seafloor Cavern, Routes 126–130), Kamino (Pacifidlog, 131–134), Asteroid Spire.
 - 2026-10-31 · C3f (part 1) · see git log · Dagobah (214 texts): Yoda speaks in his inverted style, Vader commands rather than begs, Jabba drowns the worlds. Glossary: EVER GRANDE, split POKéMON\nLEAGUE.
 - 2026-10-31 · C3f done · see git log · Kamino and the Asteroid Spire. `tools/curate_texts.py`: trainer battle lines (`data/text/trainers.inc`, no map_id) now count toward KEEP_REST_MAPS by text-id prefix; all area specs re-run, 15 trainer-line overflows fixed. Shared systems (TV, match call, day care, contests) stay for C3i. Total curated 3,835 (34%). Next: C3g Ilum (Ever Grande, Victory Road, the Four Trials).
+- 2026-10-31 · C3g done · see git log · Ilum (90 texts). Each Trial names its lesson (fear, loss, betrayal, the fallen hero). Next: C3h post-game (Grand Arena = Battle Frontier, islands), then C3i shared systems.
